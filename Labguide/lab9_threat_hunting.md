@@ -1,4 +1,4 @@
-## Lab 10 - Threat Hunting using Notebooks with Microsoft Sentinel
+## Lab 09 - Threat Hunting using Notebooks with Microsoft Sentinel
 
 ## Lab scenario
 
