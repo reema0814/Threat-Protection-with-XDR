@@ -7,11 +7,11 @@ You're a Security Operations Analyst working at a company that implemented Micro
 ## Lab objectives
  In this lab, you will perform the following in M365 Defender portal:
 - Task 1: Create a Group
-- Task 2: Manage Incidents
-- Task 3: Investigate Alerts
-- Task 4: Apply Microsoft Defender for Office 365 preset security policies
-- Task 5: Connect the Microsoft Defender for Cloud connector
-- Task 6: Activate a Microsoft Security Rule
+- Task 2: Apply Microsoft Defender for Office 365 preset security policies
+- Task 3: Connect the Microsoft Defender for Cloud connector
+- Task 4: Activate a Microsoft Security Rule
+- Task 5: Manage Incidents
+- Task 6: Investigate Alerts
 
 ## Architecture Diagram
 
@@ -46,92 +46,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 1. Select **Create** and click on **Yes**. 
 
-  
-### Task 2: Manage Incidents
-
-In this task, you will manage the incidents in M365 Defender portal.
-
-1. If you are not already at the Microsoft 365 Defender portal in your Microsoft Edge browser, go to (https://security.microsoft.com). 
-
-1. In the **Sign in** dialog box, copy and paste * Email/Username: <inject key="AzureAdUserEmail"></inject> and then select Next.
-
-1. In the **Enter password** dialog box, copy and paste * Password: <inject key="AzureAdUserPassword"></inject> and then select **Sign in**.
-
-1. From the sidebar menu, under **Incidents and Alerts**, select **Incidents**. Click on the incident **Multi-stage incident involving Execution & Discovery on one endpoint**.
-
-1. To manage an incident, click on **Manage Incident** to edit the details of this incident.
-
-   ![Lab overview.](./media/lab10-task1-manage.png)
-
-1. Here, you can edit the name of the incident, add tags, assign to an existing group or an user, change the status, classify the incident as required and even add comments.
-
-   ![Lab overview.](./media/lab10-task1-manage01.png)
-
-1. In the incident, the **Attack Story** tab provides a summary of the alerts and the incident graph on how these alerts are mapped.
-
-   ![Lab overview.](./media/lab10-task1-attackstory.png)
-
-1. You can further investigate these alerts by navigating to the **Alerts** tab.
-
-   ![Lab overview.](./media/lab10-task1-alerts.png)
-
-1. You can also see the devices and users affected by this incident in the **Assests** tab. You can verify that the affected device is **svm-xxxx** and the user is **demouser**.
-
-   ![Lab overview.](./media/lab10-task1-assests.png)
-
-1. The **Evidences & Responses** tab shpws the initial evidences investigated by Microsoft Defender which includes the processes, IP addresses and registry values.
-
-   ![Lab overview.](./media/lab10-task1-evidences.png)
-
-1. The **Summary** tab gives us a summarized report of the incident including acitve alerts & their category, incident information, scope and much more.
-
-   ![Lab overview.](./media/lab10-task1-summary.png)
-
-### Task 3: Investigate Alerts
-
-In this task you will investigate and mitigate the alerts through recommendations by Microsoft Defender.
-
-1. In the Microsoft Defender portal, navigate to **Alerts** tab from the sidebar menu.
-
-   ![Lab overview.](./media/lab10-task2-alerts.png)
-
-1. You can click on any of these alerts to view the full details. Click on the alert named **Suspicious System Network Configuration Discovery**.
-
-1. Click on **Maximize** to view the full alert details.
-
-   ![Lab overview.](./media/lab10-task2-alerts-max.png)
-
-1. Click on the dropdowm for the first suspicious behaviour to fully investigate the root cause for this activity.
-
-   ![Lab overview.](./media/lab10-task2-alerts-max01.png)
-
-1. You can see that this suspicious behaviour was reported when the user ran a certain command. 
-
-   ![Lab overview.](./media/lab10-task2-alerts-max02.png)
-
-1. Click on the ellipses and then select **Go Hunt**. This will redirect you to a new tab of **Advanced Hunting** where you can run the query and get the results.
-
-   ![Lab overview.](./media/lab10-task2-alerts-hunt.png)
-
-   ![Lab overview.](./media/lab10-task2-alerts-hunt01.png)
-
-1. You can also investigate the alert further by navigating back the alerts and clicking on **Deep analysis**.
-
-   ![Lab overview.](./media/lab10-task2-alerts-deep-analysis.png)
-
-1. You will be redirected to a new tab. Click on **Submit** to get the detailed analayzed file.
-
-   ![Lab overview.](./media/lab10-task2-alerts-deep-analysis01.png)
-
-1. This process will take sometime, after which you can see the deep analysis of the alert and further investigate it.
-
-   ![Lab overview.](./media/lab10-task2-alerts-deep-analysis02.png)
-
-1. Microsoft Defender also provides recommendations to mitigate the alerts. On the alert details page, click on **Recommendations** tab to view all the recommendations.
-
-   ![Lab overview.](./media/lab10-task2-alerts-recommendations.png)
-
-### Task 4: Apply Microsoft Defender for Office 365 preset security policies
+### Task 2: Apply Microsoft Defender for Office 365 preset security policies
 
 1. From the navigation menu, under Email & Collaboration area, select **Policies & rules**(1) and select **Threat policies**(2).
 
@@ -187,7 +102,7 @@ In this task you will investigate and mitigate the alerts through recommendation
 
    ![Lab overview.](./media/lab10-task3-strict-policies04.png)
 
-### Task 5: Connect the Microsoft Defender for Cloud connector.
+### Task 3: Connect the Microsoft Defender for Cloud connector.
 
  In this task, you will connect the Microsoft Defender for Cloud connector.
 
@@ -201,7 +116,7 @@ In this task you will investigate and mitigate the alerts through recommendation
 
 1. Scroll down and under the "Create incidents - Recommended!" area, select **Enable**. This option creates an Analytics rule automatically for this service. You can manually add it later if not enabled here or change its configuration within the *Analytics* blade.
 
-### Task 6: Activate a Microsoft Security Rule
+### Task 4: Activate a Microsoft Security Rule
 
 In this task, you will activate a Microsoft Security rule.
 
@@ -223,11 +138,95 @@ In this task, you will activate a Microsoft Security rule.
 
 1. Review the changes made and select the **Save** button. The Analytics rule will be saved.
 
+### Task 5: Manage Incidents
+
+In this task, you will manage the incidents in M365 Defender portal.
+
+1. If you are not already at the Microsoft 365 Defender portal in your Microsoft Edge browser, go to (https://security.microsoft.com). 
+
+1. In the **Sign in** dialog box, copy and paste * Email/Username: <inject key="AzureAdUserEmail"></inject> and then select Next.
+
+1. In the **Enter password** dialog box, copy and paste * Password: <inject key="AzureAdUserPassword"></inject> and then select **Sign in**.
+
+1. From the sidebar menu, under **Incidents and Alerts**, select **Incidents**. Click on the incident **Multi-stage incident involving Execution & Discovery on one endpoint**.
+
+1. To manage an incident, click on **Manage Incident** to edit the details of this incident.
+
+   ![Lab overview.](./media/lab10-task1-manage.png)
+
+1. Here, you can edit the name of the incident, add tags, assign to an existing group or an user, change the status, classify the incident as required and even add comments.
+
+   ![Lab overview.](./media/lab10-task1-manage01.png)
+
+1. In the incident, the **Attack Story** tab provides a summary of the alerts and the incident graph on how these alerts are mapped.
+
+   ![Lab overview.](./media/lab10-task1-attackstory.png)
+
+1. You can further investigate these alerts by navigating to the **Alerts** tab.
+
+   ![Lab overview.](./media/lab10-task1-alerts.png)
+
+1. You can also see the devices and users affected by this incident in the **Assests** tab. You can verify that the affected device is **svm-xxxx** and the user is **demouser**.
+
+   ![Lab overview.](./media/lab10-task1-assests.png)
+
+1. The **Evidences & Responses** tab shpws the initial evidences investigated by Microsoft Defender which includes the processes, IP addresses and registry values.
+
+   ![Lab overview.](./media/lab10-task1-evidences.png)
+
+1. The **Summary** tab gives us a summarized report of the incident including acitve alerts & their category, incident information, scope and much more.
+
+   ![Lab overview.](./media/lab10-task1-summary.png)
+
+### Task 6: Investigate Alerts
+
+In this task you will investigate and mitigate the alerts through recommendations by Microsoft Defender.
+
+1. In the Microsoft Defender portal, navigate to **Alerts** tab from the sidebar menu.
+
+   ![Lab overview.](./media/lab10-task2-alerts.png)
+
+1. You can click on any of these alerts to view the full details. Click on the alert named **Suspicious System Network Configuration Discovery**.
+
+1. Click on **Maximize** to view the full alert details.
+
+   ![Lab overview.](./media/lab10-task2-alerts-max.png)
+
+1. Click on the dropdowm for the first suspicious behaviour to fully investigate the root cause for this activity.
+
+   ![Lab overview.](./media/lab10-task2-alerts-max01.png)
+
+1. You can see that this suspicious behaviour was reported when the user ran a certain command. 
+
+   ![Lab overview.](./media/lab10-task2-alerts-max02.png)
+
+1. Click on the ellipses and then select **Go Hunt**. This will redirect you to a new tab of **Advanced Hunting** where you can run the query and get the results.
+
+   ![Lab overview.](./media/lab10-task2-alerts-hunt.png)
+
+   ![Lab overview.](./media/lab10-task2-alerts-hunt01.png)
+
+1. You can also investigate the alert further by navigating back the alerts and clicking on **Deep analysis**.
+
+   ![Lab overview.](./media/lab10-task2-alerts-deep-analysis.png)
+
+1. You will be redirected to a new tab. Click on **Submit** to get the detailed analayzed file.
+
+   ![Lab overview.](./media/lab10-task2-alerts-deep-analysis01.png)
+
+1. This process will take sometime, after which you can see the deep analysis of the alert and further investigate it.
+
+   ![Lab overview.](./media/lab10-task2-alerts-deep-analysis02.png)
+
+1. Microsoft Defender also provides recommendations to mitigate the alerts. On the alert details page, click on **Recommendations** tab to view all the recommendations.
+
+   ![Lab overview.](./media/lab10-task2-alerts-recommendations.png)
+
 ## Review
 In this lab, you have completed the following:
 - Create a Group
-- Manage Incidents
-- Investigate Alerts
 - Apply Microsoft Defender for Office 365 preset security policies
 - Connect the Microsoft Defender for Cloud connector
 - Activate a Microsoft Security Rule
+- Manage Incidents
+- Investigate Alerts
