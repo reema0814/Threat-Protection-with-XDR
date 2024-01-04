@@ -25,9 +25,9 @@ Using this environment, You'll be able to explore complete features and offering
 
 #### **Virtual Machines**: 
 
-- 2 *Windows Server 2019 Datacenter* Virtual machines, virtual machine related resources like Virtual networks, Network security groups, managed disks, Network interface cards, and IP addresses are deployed as part of the automation.
+- 2 *Windows Server 2019 Datacenter* Virtual machines, virtual machine-related resources like Virtual networks, Network security groups, managed disks, Network interface cards, and IP addresses are deployed as part of the automation.
 
-  You are recommended to use the same virtual machine throughout the lab for the best experience throughout the lab.
+  These virtual machines are tailored and configured to the sandbox's specifications. Files, applications, packages, and OS configurations are all pre-configured. It is recommended that you use the same virtual machine throughout the lab for the best experience.
 
 #### **License and subscription**: 
 
@@ -47,9 +47,10 @@ Using this environment, You'll be able to explore complete features and offering
 
 #### **Duration and Deletion of sandbox**:  
 
-- The sandbox environment will be active for 30 days/730 hours from the time of registration.
-
-  when 100% of Azure credits are spent, the sandbox environment will get automatically deleted without any prior notification. In order to retain the environment for a longer period of time and to get the most out of the environment, please follow the best practices mentioned below.
+- The sandbox environment will be active for **30 days/730** hours from the time of registration. 
+- The maximum allowed virtual machine uptime is only **40 hours**. It is recommended to deallocate the virtual machine when not in use.
+- The virtual machine is set up with a custom feature called Idle start/stop. This custom package will check the virtual machine's idleness every **2 hours/120 minutes**. If the virtual machine is left idle for over 2 hours, a pop-up window will appear, prompting you to respond. If you do not take action within 10 minutes, the virtual machine will shut down automatically. This feature is enabled in virtual machines to optimize Azure costs.
+- when 100% of Azure credits are spent, the sandbox environment will get automatically deleted without any prior notification. To retain the environment for a longer period and to get the most out of the environment, please follow the best practices mentioned below.
 
 #### **Best practices**: 
 
@@ -61,7 +62,9 @@ Using this environment, You'll be able to explore complete features and offering
 
 ## Lab guide Content:
 
-You will have access to a lab guide which is a reference material to assist you in getting started with the exploration. You are encouraged to explore Microsoft Purview further based on your interests and preferences.
+You will have access to a lab guide which is a reference material to assist you in getting started with the exploration.
+
+Based on your interests, you can use this lab guide as a reference to learn and test any XDR feature. You are also encouraged to explore additional features of XDR based on your interests and preferences.
 
 - Lab 01 - Review and explore sentinel workspace
 - Lab 02 - Create queries for Microsoft Sentinel using Kusto Query Language (KQL)
