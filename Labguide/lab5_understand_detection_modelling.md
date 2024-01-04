@@ -98,7 +98,18 @@ Detection modeling in XDR involves the creation and refinement of rules, algorit
 
 You can detect the threats or incidents using various tools in Azure Sentinel. For example, by configuring various Data Connectors in Azure Sentinel, you will get the incidents/alerts through the connected providers; run queries in the Log Analytics workspace to detect these potential alerts which you will learn in the upcoming labs.
 
-Using Microsoft Sentinel Analytics, you can analyze historical data collected from your workstations, servers, networking devices, firewalls, intrusion prevention, sensors, and so on. Microsoft Sentinel Analytics analyzes data from various sources to identify correlations and anomalies.
+![Lab overview.](./media/lab05-data-connectors.png)
+
+Using Microsoft Sentinel Analytics, you can analyze historical data collected from your workstations, servers, networking devices, firewalls, intrusion prevention, sensors, and so on. Microsoft Sentinel Analytics analyzes data from various sources to identify correlations and anomalies. Common security analytics use cases include:
+* Identification of compromised accounts
+* User behavior analysis to detect potentially suspicious patterns
+* Network traffic analysis to locate trends indicating potential attacks
+* Detection of data exfiltration by attackers
+* Detection of insider threats
+* Investigation of incidents
+* Threat hunting
+
+![Lab overview.](./media/lab05-analytics.png)
 
 ## Review
 In this lab
