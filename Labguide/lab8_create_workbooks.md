@@ -50,6 +50,7 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 1. Scroll down to the *Caller activities over time* area, look at the color of the *Activities* column since we are going to format those columns. Select the **Edit** button below the grid and select the ellipsis (...) Select the Add query run the **SecurityEvent**.
 
    ![Picture 1](./media/lab08-task1-ellipsis.png)
+   
 
    ![Picture 1](./media/lab08-task1-runquery.png) 
 
