@@ -89,6 +89,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
     cd \
     mkdir temp
     cd temp
+    notepad startup.bat
     ```
 
 1. Copy and run this command to simulate program persistence:
