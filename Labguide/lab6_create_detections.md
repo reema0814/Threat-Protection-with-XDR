@@ -38,26 +38,6 @@ In this task, you will create a playbook for next task.
 
 1. Click on Next:Connections, Review + Create  and Click on Create and continue to designer.
 
-> After creating the Playbook with incident trigger, create another playbook with an Alert trigger.
-
-1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
-
-1. Select the Microsoft Sentinel Workspace you created earlier.
-
-1. Select the **Automation** form the *Configuration* section.
-
-1. Click on create and select **Playbook with alert trigger**.
-
-   ![Lab overview.](./media/lab06-task1-alerttrigger.png)
-
-1. Select the resource group and give  playbook name **PostMessageTeams-OnAlert**
-
-   ![Lab overview.](./media/lab06-task1-onalert.png)
-
-1. Select Enable diagnostics logs in Log Analytics and select your workspace.
-
-1. Click on Next:Connections, Review + Create  and Click on Create and continue to designer.
-
 ### Task 2: Persistence Attack Detection
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
