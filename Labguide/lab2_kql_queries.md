@@ -32,7 +32,7 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 1. Once you receive the notification of successful installation go back to the Data connector page and click on refresh.
 
-1. You can see **Security events Via Legacy agent** and **windows security events via AMA**
+1. You can see **Security events Via Legacy agent** and **windows security event via AMA**
 
 1. Select **Security events Via Legacy agent** and click on **open connector page**
 
