@@ -174,7 +174,7 @@ In this task, you will manage the incidents in M365 Defender portal.
 
    ![Lab overview.](./media/lab10-task1-assests.png)
 
-1. The **Evidences & Responses** tab shpws the initial evidences investigated by Microsoft Defender which includes the processes, IP addresses and registry values.
+1. The **Evidences & Responses** tab shows the initial evidences investigated by Microsoft Defender which includes the processes, IP addresses and registry values.
 
    ![Lab overview.](./media/lab10-task1-evidences.png)
 
