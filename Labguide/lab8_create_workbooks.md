@@ -51,9 +51,7 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
    ![Picture 1](./media/lab08-task1-ellipsis.png)
 
-   ![Picture 1](./media/lab08-task1-runquery.png)
-
-   ![Picture 1](./media/editcaller.png)
+   ![Picture 1](./media/lab08-task1-runquery.png) 
 
 1. Select the **Column Settings** button, it is located to the right of the *Run Query* command bar. **Hint:** This button only appears if there is data from the KQL query.
 
