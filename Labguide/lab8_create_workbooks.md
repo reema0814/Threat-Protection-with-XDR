@@ -8,14 +8,43 @@ Microsoft Sentinel allows you to create custom workbooks across your data and al
 
 ## Lab objectives
  In this lab, you will Understand following:
- - Task 1: Save and modify a workbook template
+ - Task 1: Connect the Azure Activity data connector
+ - Task 2: Save and modify a workbook template
  - Task 2: Create a Workbook
 
 ## Architecture Diagram
 
  ![Lab overview.](./media/part1lab04.png)
 
-### Task 1: Save and modify a workbook template
+### Task 1: Connect the Azure Activity data connector
+
+1. In the Microsoft Sentinel left menus, scroll down to the *Content management* section and select **Content Hub**.
+
+1. In the *Content hub*, search for the **Azure Activity** solution and select it from the list.
+
+1. On the *Microsoft Defender for Cloud* solution page select **Install**.
+
+1. When the installation completes select **Manage**
+
+    >**Note:** The *Azure Activity* solution installs the *Azure Activity* Data connector, 12 Analytic rules, 14 Hunting queries and 1 Workbook.
+
+1. Select the *Azure Activity* Data connector and select **Open connector page**.
+
+1. In the *Configuration* area under the *Instructions* tab, scroll down to "2. Connect your subscriptions...", and select **Launch Azure Policy Assignment Wizard>**.
+
+1. In the **Basics** tab, select the ellipsis button (...) under **Scope** and select your "Azure Pass - Sponsorship" subscription from the drop-down list and click **Select**.
+
+1. Select the **Parameters** tab, choose your *uniquenameDefender* workspace from the **Primary Log Analytics workspace** drop-down list. This action will apply the subscription configuration to send the information to the Log Analytics workspace.
+
+1. Select the **Remediation** tab and select the **Create a remediation task** checkbox. This action will apply the policy to existing Azure resources.
+
+1. Select the **Review + Create** button to review the configuration.
+
+1. Select **Create** to finish.
+
+1. It might take few minutes for the **Connected** status to appear.
+
+### Task 2: Save and modify a workbook template
 
 In this task, you will save the Microsoft Sentinel workbook templates.
 
@@ -63,7 +92,7 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
 1. Close the workbook by selecting the **X** in the top-right corner.
 
-### Task 2: Create a Workbook
+### Task 3: Create a Workbook
 
 In this task, you will create a new workbook with advanced visualizations.
 
@@ -150,5 +179,6 @@ overview of the workbook.
 
 ## Review
  In this lab, you will Understand following:
+ - Connect the Azure Activity data connector
  - Save and modify a workbook template
  - Create a Workbook
