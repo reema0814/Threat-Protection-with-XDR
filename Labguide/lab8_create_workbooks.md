@@ -58,7 +58,9 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
    ![Picture 1](./media/image_10.png)
 
-1. Search for and select the **Azure Activity** template workbook. In the right pane, scroll down and select the **View template** button.
+1. Search and select the **Azure Activity** by navigating to templates. In the right pane, scroll down and click on the **View template** button.
+
+ >Hint: If you don't find Azure Activity, refresh and try again. Also, if the Azure Activity status bar is not visible, click on **>>** on right corner.    
 
 1. Review the contents of the workbook. It shows insights of your Azure subscription operations by collecting and analyzing the data from the Activity Log.
 
@@ -74,9 +76,15 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
 1. Select **Edit** in the command bar to enable changes in the workbook.
 
-1. Scroll down to the *Caller activities over time* area, look at the color of the *Activities* column since we are going to format those columns. Select the **Edit** button below the grid and select the ellipsis (...) Select the Add query run the **SecurityEvent**.
+1. Scroll down to the *Caller activities over time* area, look at the color of the *Activities* column since we are going to format those columns. Select the **Edit** button below the grid.  
 
-   ![Picture 1](./media/editcaller.png)
+   ![Picture 1](./media/lab08-task1-edit.png)
+   
+1. Select the ellipsis (...) and select the Add query, run the **SecurityEvent**.
+   
+   ![Picture 1](./media/lab08-task1-ellipsis.png)
+
+   ![Picture 1](./media/lab08-task1-runquery.png) 
 
 1. Select the **Column Settings** button, it is located to the right of the *Run Query* command bar. **Hint:** This button only appears if there is data from the KQL query.
 
@@ -85,6 +93,8 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 1. Change the value for *Column renderer* to **Heatmap**. For *Colour palette*, scroll down to select **32-color categorical**.
 
 1. Select **Save and Close**. Notice the change in the *Activities* column.
+
+   ![Picture 1](./media/lab08-task1-activities.png) 
 
 1. Select **Done Editing** at the bottom of the query (not the top menu).
 

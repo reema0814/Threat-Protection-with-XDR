@@ -26,9 +26,9 @@ In this task, you will create a playbook for next task.
 
 1. Select the **Automation** form the *Configuration* section.
 
-   ![Lab overview.](./media/image_27.png)
-
 1. Click on create and select **Playbook with incident trigger**.
+
+   ![Lab overview.](./media/image_27.png)
 
 1. Select the resource group and give  playbook name **PostMessageTeams-OnIncident**
 

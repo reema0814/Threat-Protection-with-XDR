@@ -29,8 +29,6 @@ In this task, you will investigate an incident.
 1. Select one of the **Startup RegKey** incidents.
    >**Note:** If its not show the page click on the << icon appear on the right side.
 
-   ![Lab overview.](./media/active.png)
-
 1. Review the incident details on the right blade that opened. Scroll down and select the **View full details** button.
 
 1. If the "New incident experience" pop-up appears, follow the prompts by reading the information by selecting the **Next** button.
