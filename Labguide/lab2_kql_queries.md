@@ -14,7 +14,7 @@ You are a Security Operations Analyst working at a company that is implementing 
 - Task 6: Analyze Results in KQL with the Summarize Operator
 - Task 7: Create visualizations in KQL with the Render Operator
 - Task 8: Build multi-table statements in KQL
-- Task 9: Work with string data in KQL
+- Task 9: Work with string data in KQL 
 
 ## Architecture Diagram
 
@@ -104,7 +104,7 @@ In this task, you will manually install the required agent on the Windows Server
 
 1. Select **Next** until the wizard page for **Agent Setup Options** appears, Select **Connect the Agent to Azure Log Analytics (OMS)**, then select **Next**.
 
-1. Copy and paste the **Workspace ID** and **Primary Key** values in the **Workspace Key** text box from the Azure portal into the wizard page fields as appropriate and select **Next**.
+1. In the wizard page fields copy and paste **Workspace ID** , **Primary Key** and **Workspace Key** seen in the text box from the Azure portal log analytics section, then click **Next**. 
 
 1. Continue with the Install. Select **Finish** when complete.
 
@@ -136,7 +136,7 @@ In this task, you will access a Log Analytics environment where you can practice
 
 In this task, you will build basic KQL statements.
 
->**Important:**  For each query, clear the previous statement from the Query Window or open a new Query Windows by selecting **+** after the last opened tab (up to 25).
+>**Important:**  Every time before you start a new query, clear the previous statement from the Query Window or open a new Query Window by selecting **+** after the last opened tab (up to 25).  
 
 1. Change the **Time range** to **Last hour** in the Query Window.
 
