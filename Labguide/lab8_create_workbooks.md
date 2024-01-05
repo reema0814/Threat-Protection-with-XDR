@@ -29,7 +29,9 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
    ![Picture 1](./media/image_10.png)
 
-1. Search for and select the **Azure Activity** template workbook. In the right pane, scroll down and select the **View template** button.
+1. Search and select the **Azure Activity** by navigating to templates. In the right pane, scroll down and click on the **View template** button.
+
+ >Hint: If you don't find Azure Activity, refresh and try again. Also, if the Azure Activity status bar is not visible, click on **>>** on right corner.    
 
 1. Review the contents of the workbook. It shows insights of your Azure subscription operations by collecting and analyzing the data from the Activity Log.
 
