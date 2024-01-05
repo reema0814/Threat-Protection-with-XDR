@@ -108,6 +108,8 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
  In this task, you will connect the Microsoft Defender for Cloud connector.
 
+ 1. Navigate to Microsoft Sentinel, then on the left blade choose Configuration and select Data Connectors.  
+
  1. From the Data Connectors tab, search for the **Microsoft Defender for Cloud** connector and select it from the list.
 
  1. Select the **Open connector page** on the connector information blade.
