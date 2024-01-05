@@ -236,7 +236,7 @@ In this task, you will create a detection for the second attack of the previous 
    |Setting|Value|
    |:----|:----|
    |Automation rule name|SecurityEvent Local Administrators User Add|
-   |Trigger|When Alert is created|
+   |Trigger|When incident is created|
    |Actions |Run playbook|
    |playbook |PostMessageTeams-OnAlert|
 
