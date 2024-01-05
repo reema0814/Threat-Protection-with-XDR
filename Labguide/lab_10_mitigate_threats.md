@@ -132,7 +132,13 @@ In this task, you will activate a Microsoft Security rule.
 
 1. Select the **Create incidents based on Microsoft Defender for Cloud**.
 
-1. On the right blade, select the **Edit** button.
+   ![Lab overview.](./media/lab10-task4-analytics.png) 
+
+>**Note**: You can choose the existing **active rule** to edit or **create** new **active rule** and then edit them by selecting the respective rule in the active rules list.
+
+1. After creating the active rule, select it for editing. On the right blade, click the **Edit** button. 
+
+   ![Lab overview.](./media/lab10-task4-edit.png) 
 
 1. Scroll down the page and under "Analytics rule logic - Filter by Severity", select the *Custom* drop-down list.
 
@@ -156,7 +162,7 @@ In this task, you will manage the incidents in M365 Defender portal.
 
 1. To manage an incident, click on **Manage Incident** to edit the details of this incident.
 
-   ![Lab overview.](./media/lab10-task1-manage.png)
+   ![Lab overview.](./media/lab10-task1-manage.png) 
 
 1. Here, you can edit the name of the incident, add tags, assign to an existing group or an user, change the status, classify the incident as required and even add comments.
 
