@@ -52,10 +52,10 @@ In this task, you will save the Microsoft Sentinel workbook templates.
    ![Picture 1](./media/lab08-task1-edit.png)
    
 1. select the ellipsis (...)
-   
-   ![Picture 1](./media/lab08-task1-ellipsis.png)
 
 1. Select the Add query run the **SecurityEvent**.
+   
+   ![Picture 1](./media/lab08-task1-ellipsis.png)
 
    ![Picture 1](./media/lab08-task1-runquery.png) 
 
