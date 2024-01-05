@@ -38,7 +38,7 @@ In this task, you will create a playbook for next task.
 
 1. Click on Next:Connections, Review + Create  and Click on Create and continue to designer.
 
->**Important:** Follow similar steps to create another playbook with an Alert trigger.
+> After creating the Playbook with incident trigger, create another playbook with an Alert trigger.
 
 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
 
