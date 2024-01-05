@@ -136,9 +136,9 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 In this task, instead of using a LiveStream, you will create a NRT analytics query rule. NRT rules run every minute and look back one minute. The benefit of NRT rules is they can use the alert and incident creation logic.
 
-1. Select the **Analytics** page under *Configuration* in Microsoft Sentinel. 
+1. In Microsoft Sentinel, on the left menu bar under the Configuration section, select **Analytics**, and then choose **Create NRT Query Rule (Preview)**.
 
-1. Select the **Create** tab, then **NRT query rule (Preview)**.
+   ![Picture 1](./media/lab09-task2-analytics.png)   
 
 1. This starts the "Analytics rule wizard". For the *General* tab type:
 
