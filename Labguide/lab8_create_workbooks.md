@@ -49,6 +49,10 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
 1. Scroll down to the *Caller activities over time* area, look at the color of the *Activities* column since we are going to format those columns. Select the **Edit** button below the grid and select the ellipsis (...) Select the Add query run the **SecurityEvent**.
 
+   ![Picture 1](./media/lab08-task1-ellipsis.png)
+
+   ![Picture 1](./media/lab08-task1-runquery.png)
+
    ![Picture 1](./media/editcaller.png)
 
 1. Select the **Column Settings** button, it is located to the right of the *Run Query* command bar. **Hint:** This button only appears if there is data from the KQL query.
@@ -58,6 +62,8 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 1. Change the value for *Column renderer* to **Heatmap**. For *Colour palette*, scroll down to select **32-color categorical**.
 
 1. Select **Save and Close**. Notice the change in the *Activities* column.
+
+   ![Picture 1](./media/lab08-task1-activities.png) 
 
 1. Select **Done Editing** at the bottom of the query (not the top menu).
 
