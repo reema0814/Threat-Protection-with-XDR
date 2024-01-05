@@ -48,6 +48,8 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 ### Task 2: Apply Microsoft Defender for Office 365 preset security policies
 
+1. If you are not already at the Microsoft 365 Defender portal in your browser, start the Microsoft Edge browser go to (https://security.microsoft.com) and log in with the **Tenant Email** credentials.
+
 1. From the navigation menu, under Email & Collaboration area, select **Policies & rules**(1) and select **Threat policies**(2).
 
    ![Lab overview.](./media/lab10-task3-threat-policies.png)
