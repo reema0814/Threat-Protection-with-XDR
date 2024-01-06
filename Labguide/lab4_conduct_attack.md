@@ -6,8 +6,8 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 ## Lab objectives
  In this lab, you will perform the following:
-- Task 1:Simulated Attacks
-- Task 2:Investigate the Attacks
+- Task 1: Simulated Attacks
+- Task 2: Investigate the Attacks
 - Task 3: Persistence Attack with Registry Key Add
 - Task 4: Command and Control Attack with DNS
 - Task 5: Privilege Elevation Attack with User Add
