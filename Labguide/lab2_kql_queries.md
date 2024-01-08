@@ -28,19 +28,19 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 1. On the left menu under the Content management section select **Content hub**.
 
-1. On the content hub page search for **Windows security event** and select, Install
+1. On the content hub page search for **Windows security events** and select, Install.
 
-    ![Picture 1](./media/Lab02-task1-contenthub 1.png) 
+    ![Picture 1](./media/Lab02-task1-contenthub.png) 
 
 1. Once you receive the notification of successful installation go back to the Data connector page and click on refresh.
 
-1. You can see **Security events Via Legacy agent** and **windows security event via AMA**
+1. You can see **Security events Via Legacy agent** and **windows security event via AMA**.
 
-1. Select **Security events Via Legacy agent** and click on **open connector page**
+1. Select **Security events Via Legacy agent** and click on **open connector page**.
 
     ![Picture 1](./media/lab02-task01-events.png) 
 
-1. Under configuration choose **Install agent on Azure Windows Virtual Machine** and select **Download & install agent for Azure Windows Virtual machines**
+1. Under configuration choose **Install agent on Azure Windows Virtual Machine** and select **Download & install agent for Azure Windows Virtual machines**.
 
     ![Picture 1](./media/lab02-task01-installagent.png) 
 
@@ -48,11 +48,11 @@ You are a Security Operations Analyst working at a company that is implementing 
 
     ![Picture 1](./media/lab2-task1-svm.png) 
 
-1. Then come back to Configuration and scroll down a bit you can find **Select which events to stream** Click on **All Events**
+1. Then come back to Configuration and scroll down a bit you can find **Select which events to stream** Click on **All Events**.
 
     ![Picture 1](./media/lab2-task1-streamevents.png)  
 
-1. Click on apply changes now if you refresh the data connector page you can see the status connected for **Security events Via Legacy agent**
+1. Click on apply changes now if you refresh the data connector page you can see the status connected for **Security events Via Legacy agent**.
 
 ### Task 2: Enable Microsoft Defender for Cloud
 
@@ -62,7 +62,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
   ![Picture 1](./media/Lab-02-task2-search.png) 
 
-2. click the left menu and click on **Getting started**
+2. click the left menu and click on **Getting started**.
 
 1. On the **Getting Started** page, under the **Upgrade** tab, make sure your subscription is selected, and then select the **Upgrade** button at the bottom of the page. Wait for 2-5 minutes to complete it, as it takes time.
 
@@ -92,7 +92,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
     >**Note:** If the page is not being displayed, refresh your Edge browser and try again.  
 
-12. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
+12. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**.
 
   ![Picture 1](./media/Lab-02-task2-save.png) 
 
@@ -128,7 +128,7 @@ In this task, you will manually install the required agent on the Windows Server
 
 1. Select **Next** until the wizard page for **Agent Setup Options** appears, Select **Connect the Agent to Azure Log Analytics (OMS)**, then select **Next**.
 
-1. In the wizard page fields copy and paste **Workspace ID** , **Primary Key** and **Workspace Key** seen in the text box from the Azure portal log analytics section, then click **Next**. 
+1. In the wizard page fields copy and paste **Workspace ID** , **Primary Key** / **Workspace Key** seen in the text box from the Azure portal log analytics section, then click **Next**. 
 
     ![Picture 1](./media/lab02-task03-workspacekey.png) 
 
