@@ -47,7 +47,7 @@ You are a Security Operations Analyst working at a company that is implementing 
 1. Under configuration choose **Install agent on Azure Windows Virtual Machine** and select **Download & install agent for Azure Windows Virtual machines**.
 
     <p align="left">
-       <img width="700" height="434" img src="lab02-task01-installagent.png"/>  
+       <img width="700" height="434" img src="media/lab02-task01-installagent.png"/>  
         </p> 
 
 1. Select the **svm-xxxx** virtual machine and click on connect.
