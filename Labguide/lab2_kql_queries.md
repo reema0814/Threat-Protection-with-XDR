@@ -41,7 +41,7 @@ You are a Security Operations Analyst working at a company that is implementing 
 1. Select **Security events Via Legacy agent** and click on **open connector page**.
 
     <p align="left">
-       <img width="700" height="434" img src="media/lab02-task01-events.png"/>  
+       <img width="700" height="450" img src="media/lab02-task01-events.png"/>  
         </p> 
    
 1. Under configuration choose **Install agent on Azure Windows Virtual Machine** and select **Download & install agent for Azure Windows Virtual machines**.
@@ -53,7 +53,7 @@ You are a Security Operations Analyst working at a company that is implementing 
 1. Select the **svm-xxxx** virtual machine and click on connect.
 
     <p align="left">
-       <img width="700" height="434" img src="media/lab2-task1-svm.png"/>  
+       <img width="700" height="300" img src="media/lab2-task1-svm.png"/>  
         </p> 
         
 1. Then come back to Configuration and scroll down a bit you can find **Select which events to stream** Click on **All Events**.
@@ -71,7 +71,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 1. In the Search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
 
     <p align="left">
-       <img width="700" height="434" img src="media/Lab-02-task2-search.png"/>  
+       <img width="750" height="200" img src="media/Lab-02-task2-search.png"/>  
         </p>
 
 3. click the left menu and click on **Getting started**.
@@ -97,7 +97,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 8. Review the monitoring extensions. Confirm that **Log Analytics agent/Azure Monitor agent** is **Off**. Click Continue or Close the Settings & monitoring page by selecting the 'X' on the upper right of the page.
 
     <p align="left">
-       <img width="700" height="434" img src="media/Lab-02-task2-agentoff.png"/>  
+       <img width="700" height="350" img src="media/Lab-02-task2-agentoff.png"/>  
         </p>
 
 9. Close the settings page by selecting the 'X' on the upper right of the page to go back to the **Environment settings** and select the '>' to the left of your subscription.
@@ -115,7 +115,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 12. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**.
 
     <p align="left">
-       <img width="700" height="434" img src="media/Lab-02-task2-save.png"/>  
+       <img width="700" height="350" img src="media/Lab-02-task2-save.png"/>  
         </p>
 
 ### Task 3: Protect an On-Premises Server.
@@ -173,7 +173,7 @@ In this task, you will access a Log Analytics environment where you can practice
 1. On the left menu click on **logs** close if any tutorial window pops up click on 'X'.
 
     <p align="left">
-       <img width="700" height="434" img src="media/Lab-02-task4-query.png"/>  
+       <img width="750" height="300" img src="media/Lab-02-task4-query.png"/>  
         </p>
 
 1. Explore the available tables listed in the tab on the left side of the screen.
