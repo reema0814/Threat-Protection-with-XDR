@@ -22,27 +22,37 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 ### Task 1: Connect the Windows security event connector
 
-1. On the search bar type **Microsoft Sentinel** and select.
+1. On the search bar type **Microsoft Sentinel** and select. 
 
 1. select the created workspace log Analytics.
 
 1. On the left menu under the Content management section select **Content hub**.
 
-1. On the content hub page search for **Windows security event** and select, Install
+1. On the content hub page search for **Windows security events** and select, Install.
+
+    ![Picture 1](./media/Lab02-task1-contenthub.png) 
 
 1. Once you receive the notification of successful installation go back to the Data connector page and click on refresh.
 
-1. You can see **Security events Via Legacy agent** and **windows security event via AMA**
+1. You can see **Security events Via Legacy agent** and **windows security event via AMA**.
 
-1. Select **Security events Via Legacy agent** and click on **open connector page**
+1. Select **Security events Via Legacy agent** and click on **open connector page**.
 
-1. Under configuration choose **Install agent on Azure Windows Virtual Machine** and select **Download & install agent for Azure Windows Virtual machines** 
+    ![Picture 1](./media/lab02-task01-events.png) 
+
+1. Under configuration choose **Install agent on Azure Windows Virtual Machine** and select **Download & install agent for Azure Windows Virtual machines**.
+
+    ![Picture 1](./media/lab02-task01-installagent.png) 
 
 1. Select the **svm-xxxx** virtual machine and click on connect.
 
-1. Then come back to Configuration and scroll down a bit you can find **Select which events to stream** Click on **All Events**
+    ![Picture 1](./media/lab2-task1-svm.png) 
 
-1. Click on apply changes now if you refresh the data connector page you can see the status connected for **Security events Via Legacy agent**
+1. Then come back to Configuration and scroll down a bit you can find **Select which events to stream** Click on **All Events**.
+
+    ![Picture 1](./media/lab2-task1-streamevents.png)  
+
+1. Click on apply changes now if you refresh the data connector page you can see the status connected for **Security events Via Legacy agent**.
 
 ### Task 2: Enable Microsoft Defender for Cloud
 
@@ -50,11 +60,15 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. In the Search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
 
-1. click the left menu and click on **Getting started**
+  ![Picture 1](./media/Lab-02-task2-search.png) 
+
+2. click the left menu and click on **Getting started**.
 
 1. On the **Getting Started** page, under the **Upgrade** tab, make sure your subscription is selected, and then select the **Upgrade** button at the bottom of the page. Wait for 2-5 minutes to complete it, as it takes time.
 
-1. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
+  ![Picture 1](./media/Lab-02-task2-upgrade.png) 
+
+4. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
 
 1. Click on the subscription (or equivalent name in your Language). 
 
@@ -62,17 +76,25 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. Select the **Settings & monitoring** tab from the Settings area (next to Save).
 
-1. Review the monitoring extensions. Confirm that **Log Analytics agent/Azure Monitor agent** is **Off**. Close the Settings & monitoring page by selecting the 'X' on the upper right of the page.
+  ![Picture 1](./media/Lab-02-task2-reviewplans.png)  
 
-1. Close the settings page by selecting the 'X' on the upper right of the page to go back to the **Environment settings** and select the '>' to the left of your subscription.
+8. Review the monitoring extensions. Confirm that **Log Analytics agent/Azure Monitor agent** is **Off**. Click Continue or Close the Settings & monitoring page by selecting the 'X' on the upper right of the page.
+
+  ![Picture 1](./media/Lab-02-task2-agentoff.png) 
+
+9. Close the settings page by selecting the 'X' on the upper right of the page to go back to the **Environment settings** and select the '>' to the left of your subscription.
 
 1. Select the Log Analytics workspace *loganalyticworkspace* to review the available options and pricing.
 
-1. Select **Enable all** (to the right of Select Defender plan) and then select **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
+  ![Picture 1](./media/Lab-02-task2-subscription.png)  
 
-    >**Note:** If the page is not being displayed, refresh your Edge browser and try again.
+11. Select **Enable all** (to the right of Select Defender plan) and then select **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
 
-1. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
+    >**Note:** If the page is not being displayed, refresh your Edge browser and try again.  
+
+12. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**.
+
+  ![Picture 1](./media/Lab-02-task2-save.png) 
 
 ### Task 3: Protect an On-Premises Server.
 
@@ -85,6 +107,8 @@ In this task, you will manually install the required agent on the Windows Server
 1. Scroll down and select **Configure** under the *Add non-Azure servers* section.
 
       >**Note:** Non-Azure servers is use the Log Analytics agent to extend Microsoft Defender for Cloud capabilities to servers running outside of Azure, including resources running on-premises and in other clouds.
+
+    ![Picture 1](./media/lab02-task03-config.png) 
 
 1. Select **Upgrade** next to the workspace you created earlier.  This might take a few minutes, wait until you see the notification *"Defender plans for workspace were saved successfully"*.
 
@@ -104,7 +128,9 @@ In this task, you will manually install the required agent on the Windows Server
 
 1. Select **Next** until the wizard page for **Agent Setup Options** appears, Select **Connect the Agent to Azure Log Analytics (OMS)**, then select **Next**.
 
-1. In the wizard page fields copy and paste **Workspace ID** , **Primary Key** and **Workspace Key** seen in the text box from the Azure portal log analytics section, then click **Next**. 
+1. In the wizard page fields copy and paste **Workspace ID** , **Primary Key** / **Workspace Key** seen in the text box from the Azure portal log analytics section, then click **Next**. 
+
+    ![Picture 1](./media/lab02-task03-workspacekey.png) 
 
 1. Continue with the Install. Select **Finish** when complete.
 
@@ -120,6 +146,8 @@ In this task, you will access a Log Analytics environment where you can practice
 
 1. On the left menu click on **logs** close if any tutorial window pops up click on 'X'.
 
+    ![Picture 1](./media/Lab-02-task4-query.png) 
+
 1. Explore the available tables listed in the tab on the left side of the screen.
 
 1. In the query editor, enter the following query and select the **Run** button. You should see the query results in the bottom window.
@@ -130,7 +158,7 @@ In this task, you will access a Log Analytics environment where you can practice
 
 1. Next to the first record, select the **>** to expand the information for the row.
 
-    ![Picture 1](./media/SC-200-img-7.png)
+    ![Picture 1](./media/Lab-02-task4-run.png) 
 
 ### Task 5: Run Basic KQL Statements
 
