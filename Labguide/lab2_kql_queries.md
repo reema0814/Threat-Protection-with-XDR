@@ -208,7 +208,9 @@ In this task, you will build basic KQL statements.
 
     >**Note**: It will take some time to reflect, you can move to other command and check this later. *Hint*: If the above command is not getting output replace **"err"** to **"new"**.
 
-    ![Picture 1](./media/SC-200-img9.png)
+      <p align="left">
+       <img width="750" height="300" img src="media/Lab02-task05-searchnewquery.png"/>  
+        </p>
 
 1. The following statement demonstrates **search** across tables listed within the **in** clause. In the Query Window enter the following statement and select **Run**: 
 
