@@ -13,6 +13,7 @@ The integration of a Logic App with Threat Protection involves configuring trigg
 ## Estimated timing: 60 minutes
 
 ## Architecture Diagram
+ ![Lab overview.](./media/lab-02.png)
 
 ### Task 1: Create a Security Operations Center Team in Microsoft Teams.
 
