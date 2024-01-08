@@ -41,7 +41,7 @@ You are a Security Operations Analyst working at a company that is implementing 
 1. Select **Security events Via Legacy agent** and click on **open connector page**.
 
     <p align="left">
-       <img width="700" height="450" img src="media/lab02-task01-events.png"/>  
+       <img width="750" height="350" img src="media/lab02-task01-events.png"/>  
         </p> 
    
 1. Under configuration choose **Install agent on Azure Windows Virtual Machine** and select **Download & install agent for Azure Windows Virtual machines**.
@@ -59,7 +59,7 @@ You are a Security Operations Analyst working at a company that is implementing 
 1. Then come back to Configuration and scroll down a bit you can find **Select which events to stream** Click on **All Events**.
 
     <p align="left">
-       <img width="700" height="434" img src="media/lab2-task1-streamevents.png"/>  
+       <img width="750" height="350" img src="media/lab2-task1-streamevents.png"/>  
         </p>
 
 1. Click on apply changes now if you refresh the data connector page you can see the status connected for **Security events Via Legacy agent**.
@@ -79,7 +79,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 1. On the **Getting Started** page, under the **Upgrade** tab, make sure your subscription is selected, and then select the **Upgrade** button at the bottom of the page. Wait for 2-5 minutes to complete it, as it takes time.
 
     <p align="left">
-       <img width="700" height="434" img src="media/Lab-02-task2-upgrade.png"/>  
+       <img width="750" height="350" img src="media/Lab-02-task2-upgrade.png"/>  
         </p>
 
 4. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
@@ -91,13 +91,13 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 1. Select the **Settings & monitoring** tab from the Settings area (next to Save).
  
     <p align="left">
-       <img width="700" height="434" img src="media/Lab-02-task2-reviewplans.png"/>  
+       <img width="750" height="350" img src="media/Lab-02-task2-reviewplans.png"/>  
         </p>
 
 8. Review the monitoring extensions. Confirm that **Log Analytics agent/Azure Monitor agent** is **Off**. Click Continue or Close the Settings & monitoring page by selecting the 'X' on the upper right of the page.
 
     <p align="left">
-       <img width="700" height="350" img src="media/Lab-02-task2-agentoff.png"/>  
+       <img width="750" height="350" img src="media/Lab-02-task2-agentoff.png"/>  
         </p>
 
 9. Close the settings page by selecting the 'X' on the upper right of the page to go back to the **Environment settings** and select the '>' to the left of your subscription.
@@ -105,7 +105,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 1. Select the Log Analytics workspace *loganalyticworkspace* to review the available options and pricing.
 
     <p align="left">
-       <img width="700" height="434" img src="media/Lab-02-task2-subscription.png"/>  
+       <img width="750" height="350" img src="media/Lab-02-task2-subscription.png"/>  
         </p>
 
 11. Select **Enable all** (to the right of Select Defender plan) and then select **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
@@ -115,7 +115,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 12. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**.
 
     <p align="left">
-       <img width="700" height="350" img src="media/Lab-02-task2-save.png"/>  
+       <img width="750" height="300" img src="media/Lab-02-task2-save.png"/>  
         </p>
 
 ### Task 3: Protect an On-Premises Server.
