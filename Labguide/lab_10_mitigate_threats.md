@@ -15,6 +15,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 ## Architecture Diagram
 
+ ![Lab overview.](./media/lab-10.png)
 
 ### Task 1: Create a Group 
 
