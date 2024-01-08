@@ -22,7 +22,7 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 ### Task 1: Connect the Windows security event connector
 
-1. On the search bar type **Microsoft Sentinel** and select.
+1. On the search bar type **Microsoft Sentinel** and select. 
 
 1. select the created workspace log Analytics.
 
@@ -68,7 +68,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
   ![Picture 1](./media/Lab-02-task2-reviewplans.png)  
 
-8. Review the monitoring extensions. Confirm that **Log Analytics agent/Azure Monitor agent** is **Off**. Close the Settings & monitoring page by selecting the 'X' on the upper right of the page.
+8. Review the monitoring extensions. Confirm that **Log Analytics agent/Azure Monitor agent** is **Off**. Click Continue or Close the Settings & monitoring page by selecting the 'X' on the upper right of the page.
 
   ![Picture 1](./media/Lab-02-task2-agentoff.png) 
 
