@@ -50,9 +50,13 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. In the Search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
 
-1. click the left menu and click on **Getting started**
+  ![Picture 1](./media/Lab-02-task2-search.png) 
+
+2. click the left menu and click on **Getting started**
 
 1. On the **Getting Started** page, under the **Upgrade** tab, make sure your subscription is selected, and then select the **Upgrade** button at the bottom of the page. Wait for 2-5 minutes to complete it, as it takes time.
+
+  ![Picture 1](./media/Lab-02-task2-upgrade.png) 
 
 1. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
 
@@ -62,15 +66,23 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. Select the **Settings & monitoring** tab from the Settings area (next to Save).
 
+  ![Picture 1](./media/Lab-02-task2-reviewplans.png)  
+
 1. Review the monitoring extensions. Confirm that **Log Analytics agent/Azure Monitor agent** is **Off**. Close the Settings & monitoring page by selecting the 'X' on the upper right of the page.
+
+  ![Picture 1](./media/Lab-02-task2-agentoff.png) 
 
 1. Close the settings page by selecting the 'X' on the upper right of the page to go back to the **Environment settings** and select the '>' to the left of your subscription.
 
 1. Select the Log Analytics workspace *loganalyticworkspace* to review the available options and pricing.
 
+  ![Picture 1](./media/Lab-02-task2-subscription.png)  
+
 1. Select **Enable all** (to the right of Select Defender plan) and then select **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
 
     >**Note:** If the page is not being displayed, refresh your Edge browser and try again.
+
+  ![Picture 1](./media/Lab-02-task2-save.png)   
 
 1. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
 
