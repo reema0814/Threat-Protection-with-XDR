@@ -58,7 +58,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
   ![Picture 1](./media/Lab-02-task2-upgrade.png) 
 
-1. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
+4. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
 
 1. Click on the subscription (or equivalent name in your Language). 
 
@@ -68,23 +68,23 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
   ![Picture 1](./media/Lab-02-task2-reviewplans.png)  
 
-1. Review the monitoring extensions. Confirm that **Log Analytics agent/Azure Monitor agent** is **Off**. Close the Settings & monitoring page by selecting the 'X' on the upper right of the page.
+8. Review the monitoring extensions. Confirm that **Log Analytics agent/Azure Monitor agent** is **Off**. Close the Settings & monitoring page by selecting the 'X' on the upper right of the page.
 
   ![Picture 1](./media/Lab-02-task2-agentoff.png) 
 
-1. Close the settings page by selecting the 'X' on the upper right of the page to go back to the **Environment settings** and select the '>' to the left of your subscription.
+9. Close the settings page by selecting the 'X' on the upper right of the page to go back to the **Environment settings** and select the '>' to the left of your subscription.
 
 1. Select the Log Analytics workspace *loganalyticworkspace* to review the available options and pricing.
 
   ![Picture 1](./media/Lab-02-task2-subscription.png)  
 
-1. Select **Enable all** (to the right of Select Defender plan) and then select **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
+11. Select **Enable all** (to the right of Select Defender plan) and then select **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
 
     >**Note:** If the page is not being displayed, refresh your Edge browser and try again.
 
   ![Picture 1](./media/Lab-02-task2-save.png)   
 
-1. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
+12. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
 
 ### Task 3: Protect an On-Premises Server.
 
