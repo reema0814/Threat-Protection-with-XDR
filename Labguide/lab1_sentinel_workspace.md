@@ -25,13 +25,17 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
    
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-    ![](./media/login2.png)
+      <p align="left">
+    <img width="350" height="350" img src="media/login2.png"/> 
+    </p>
 
 1. Enter the following **Password** and click on **Sign in**. 
    
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-    ![](./media/Lab-01-task1-password.png)    
+    <p align="left">
+    <img width="350" height="300" img src="media/Lab-01-task1-password.png"/> 
+    </p>  
     
 1. First-time users are often prompted to Stay Signed In, if you see any such pop-up, click on No.
    
@@ -39,33 +43,45 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
 ### Task 2: Explore Sentinel workspace
 
-Sentinel workspace is a centralized platform by Microsoft Azure for managing, investigating, and responding to security threats across your organization's cloud services.
+ Sentinel workspace is a centralized platform by Microsoft Azure for managing, investigating, and responding to security threats across your organization's cloud services.
 
 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
 
-   ![](./media/09.png)
+   <p align="left">
+    <img width="450" height="250" img src="media/09.png"/> 
+    </p>
 
 1. Select the pre-created Sentinel workspace from the available list.
 
-   ![](./media/Lab01-task2-loganalyticworkspace.png)
+   <p align="left">
+    <img width="650" height="220" img src="media/Lab01-task2-loganalyticworkspace.png"/> 
+    </p>
 
 1. Explore the Overview page to get a summary of the workspace, including incidents, alerts, health, and other essential information.
 
-   ![](./media/lab01-task2-overview.png) 
+   <p align="left">
+    <img width="650" height="350" img src="media/lab01-task2-overview.png"/> 
+    </p>
 
 1. Navigate to "Data connectors" on the left sidebar and review existing connectors configured for collecting security-related data.
 
-   ![](./media/dataconnector.png)
+   <p align="left">
+    <img width="650" height="350" img src="media/dataconnector.png"/> 
+    </p>
 
 1. Under the **threat management** section select **Incidents** from the left panel to review detected security incidents and alerts.
 
 1. Select the status filter next to the search space and click on **Select all** checkbox to see all the new,active and closed incidents.
 
-   ![](./media/Lab01-task2-selectall.png)   
+      <p align="left">
+    <img width="650" height="350" img src="media/Lab01-task2-selectall.png"/> 
+    </p>   
 
 1. Select the **Informational** incident from the list to view details, and take necessary actions.
 
-   ![](./media/Lab01-task2-informational.png) 
+   <p align="left">
+    <img width="650" height="350" img src="media/Lab01-task2-informational.png"/> 
+    </p>  
 
 ### Task 3: Onboard a Device
 
@@ -75,7 +91,9 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. Select **Settings** from the left menu bar, then from the Settings page select **Endpoints**.
 
-   ![Picture 1](./media/lab01-task3-settings.png) 
+      <p align="left">
+    <img width="650" height="350" img src="media/lab01-task3-settings.png"/> 
+    </p>  
 
 1. Select **Onboarding** in the Device Management section.
 
@@ -83,19 +101,27 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. In the "1. Onboard a device" area make sure "Local Script (for up to 10 devices)" is displayed in the Deployment method drop-down and select the **Download onboarding package** button.
 
-   ![Picture 1](./media/lab01-task3-localscript.png)
+   <p align="left">
+    <img width="650" height="350" img src="media/lab01-task3-localscript.png"/> 
+    </p>  
 
 1. Under the *Downloads* pop-up, highlight the "WindowsDefenderATPOnboardingPackage.zip" file with your mouse and select the folder icon **Show in folder**. **Hint:** In case you don't see it, the file should be in the c:\users\admin\downloads directory.
 
-   ![Picture 1](./media/lab01-task3-downloadspopup.png)
+   <p align="left">
+    <img width="650" height="350" img src="media/lab01-task3-downloadspopup.png"/> 
+    </p>  
 
 1. Right-click the downloaded zip file and select **Extract All...**, make sure that **Show extracted files when complete** is checked and select **Extract**.
 
-   ![Picture 1](./media/lab01-task3-zipfile.png) 
+    <p align="left">
+    <img width="500" height="300" img src="media/lab01-task3-zipfile.png"/> 
+    </p>  
 
 1. Right-click on the extracted file "WindowsDefenderATPLocalOnboardingScript.cmd" and select **Properties**. Select the **Unblock** checkbox in the bottom right of the Properties windows and select **OK**.
 
-    ![Picture 1](./media/sc200-mod2-unblock.png)
+    <p align="left">
+    <img width="350" height="400" img src="media/sc200-mod2-unblock.png"/> 
+    </p>  
 
 1. Right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** again and choose **Run as Administrator**.  **Hint:** If you encounter the Windows SmartScreen window, select on **More info**, and choose **Run anyway**. 
     
@@ -103,11 +129,15 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. Press any key to continue. This will close the Command Prompt window.
 
-    ![Picture 1](./media/SC-200-img25.png)
+    <p align="left">
+    <img width="650" height="350" img src="media/SC-200-img25.png"/> 
+    </p> 
 
 1. Back in the Onboarding page from the Microsoft 365 Defender portal, under the section "2. Run a detection test", copy the detection test script by selecting the **Copy** button.
 
-    ![Picture 1](./media/lab01-task3-runscript.png)    
+     <p align="left">
+    <img width="650" height="350" img src="media/lab01-task3-runscript.png"/> 
+    </p>  
 
 1. In the windows search bar of the virtual machine, type **CMD** and choose **Run as Administrator** on the right pane for the Command Prompt app. 
 
@@ -117,7 +147,9 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. In the Microsoft 365 Defender portal, in the left-hand menu, under the **Assets** area, select **Devices**. If the device is not shown, complete the next task and come back to check it back later. It can take up to 60 minutes for the first device to be displayed in the portal.
 
-     ![Picture 1](./media/Onboard.png)
+    <p align="left">
+    <img width="650" height="300" img src="media/Onboard.png"/> 
+    </p>
 
     >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
 
