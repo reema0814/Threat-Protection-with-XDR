@@ -15,7 +15,7 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 ## Architecture Diagram
 
- ![Lab overview.](./media/lab-04.png)
+ ![Lab overview.](./media/lab-10.png)
 
 ### Task 1: Simulated Attacks
 
