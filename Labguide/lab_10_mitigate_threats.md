@@ -42,7 +42,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 1. Click on **no members selected** and select the **ODL_user** from the list and then click on **select**.
 
-   **Note**: Make sure you have selected **Group type** as Microsoft 365.
+   **Note**: Make sure you have selected **Group type** as **Microsoft 365**.
 
 1. Select **Create** and click on **Yes**. 
 
