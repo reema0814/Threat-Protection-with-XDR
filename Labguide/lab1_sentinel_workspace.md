@@ -31,7 +31,7 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
    
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-    ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-portalsignin-2.png?raw=true)
+    ![Picture 1](./media/Lab-01-task1-password.png)
     
 1. First-time users are often prompted to Stay Signed In, if you see any such pop-up, click on No.
    
@@ -43,15 +43,15 @@ Sentinel workspace is a centralized platform by Microsoft Azure for managing, in
 
 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
 
-    ![](./media/09.png)
+   ![](./media/09.png)
 
 1. Select the pre-created Sentinel workspace from the available list.
 
-    ![](./media/08.png)
+   ![](./media/Lab01-task2-loganalyticworkspace.png)
 
 1. Explore the Overview page to get a summary of the workspace, including incidents, alerts, health, and other essential information.
 
-   ![](./media/lab2.1.png)
+   ![](./media/lab01-task2-overview.png) 
 
 1. Navigate to "Data connectors" on the left sidebar and review existing connectors configured for collecting security-related data.
 
@@ -61,11 +61,11 @@ Sentinel workspace is a centralized platform by Microsoft Azure for managing, in
 
 1. Select the status filter next to the search space and click on **Select all** checkbox to see all the new,active and closed incidents.
 
-    ![](./media/lab2.2.png)
+   ![](./media/Lab01-task2-selectall.png)   
 
 1. Select the **Informational** incident from the list to view details, and take necessary actions.
 
-    ![](./media/lab2.3.png)
+   ![](./media/Lab01-task2-informational.png) 
 
 ### Task 3: Onboard a Device
 
@@ -74,6 +74,8 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 1. If you are not already at the Microsoft 365 Defender portal in your browser, start the Microsoft Edge browser go to (https://security.microsoft.com) and log in with the **Tenant Email** credentials.
 
 1. Select **Settings** from the left menu bar, then from the Settings page select **Endpoints**.
+
+   ![Picture 1](./media/lab01-task3-settings.png) 
 
 1. Select **Onboarding** in the Device Management section.
 
@@ -103,7 +105,9 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
     ![Picture 1](./media/SC-200-img25.png)
 
-1. Back in the Onboarding page from the Microsoft 365 Defender portal, under the section "2. Run a detection test", copy the detection test script by selecting the **Copy** button.  
+1. Back in the Onboarding page from the Microsoft 365 Defender portal, under the section "2. Run a detection test", copy the detection test script by selecting the **Copy** button.
+
+    ![Picture 1](./media/lab01-task3-runscript.png)    
 
 1. In the windows search bar of the virtual machine, type **CMD** and choose **Run as Administrator** on the right pane for the Command Prompt app. 
 
