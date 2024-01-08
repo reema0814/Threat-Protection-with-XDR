@@ -35,7 +35,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 <img width="700" height="350" img src="media/incident1.png"/>  
 </p>
 
-1. Select the **Tutorials** tab.
+5. Select the **Tutorials** tab.
 
 1. Under *Automated investigation (backdoor)* you will see a message describing the scenario. Below this paragraph, click **Read the walkthrough**. A new browser tab opens which includes instructions to perform the simulation.
 
@@ -43,7 +43,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 <img width="700" height="350" img src="media/incident2.png"/>  
 </p>
 
-1. In the new browser tab, locate the section named **Run the simulation** (page 5, starting at step 2) and follow the steps to run the attack. **Hint:** The simulation file *RS4_WinATP-Intro-Invoice.docm* can be found back in portal, just below the **Read the walkthrough** you selected in the previous step by selecting the **Get simulation file** button. 
+7. In the new browser tab, locate the section named **Run the simulation** (page 5, starting at step 2) and follow the steps to run the attack. **Hint:** The simulation file *RS4_WinATP-Intro-Invoice.docm* can be found back in portal, just below the **Read the walkthrough** you selected in the previous step by selecting the **Get simulation file** button. 
 
 1. After downloading the file,  open the file with **Microsoft Word** and enter the password as `WDATP!diy#`.
 
@@ -73,7 +73,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 <img width="700" height="350" img src="media/lab04-task02-manageincident.png"/>  
 </p>
 
-1. Under **Incident tags** type "Tutorial" and select **Tutorial (Create new)** to create a new tag. 
+4. Under **Incident tags** type "Tutorial" and select **Tutorial (Create new)** to create a new tag. 
 
 1. Select the toggle **Assign to**  and add your user account (Me) as the owner of the incident. 
 
@@ -87,7 +87,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 <img width="700" height="350" img src="media/lab04-task02-securitytesting.png"/>  
 </p>
 
-1. Review the contents of the Alerts, Devices, Users, Investigations, Evidence, Response, and Graph tabs. **Hint:** Some tabs might be hidden due to the size of your display. Select the ellipsis tab (...) to make them appear.
+9. Review the contents of the Alerts, Devices, Users, Investigations, Evidence, Response, and Graph tabs. **Hint:** Some tabs might be hidden due to the size of your display. Select the ellipsis tab (...) to make them appear.
 
 >**Warning:** The simulations and tutorials here are an excellent source of learning through practice.  Simulations and tutorials are being added and edited regularly in the portal.  However, some of these simulations & tutorials may interfere with the performance of the labs designed for this training course.  Only perform the simulations and tutorials recommended in the instructions provided for this lab when using the course provided Azure tenant.  You may perform the other simulations and tutorials *after* this training course is complete with this tenant.
 
