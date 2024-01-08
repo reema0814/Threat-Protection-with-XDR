@@ -142,7 +142,7 @@ In this task, you will manually install the required agent on the Windows Server
 
     ![Picture 1](./media/lab-2xdr.png)
 
-1. Select **Log Analytics agent instructions**
+1. Select **Log Analytics agent instructions**.
 
 1. Select **Download Windows Agent (64 bit)**.
 
@@ -198,7 +198,9 @@ In this task, you will build basic KQL statements.
 
 1. Change the **Time range** to **Last hour** in the Query Window.
 
-    ![Picture 1](./media/SC-200-img8.png)
+      <p align="left"> 
+       <img width="750" height="300" img src="media/SC-200-img8.png"/>  
+        </p>
 
 1. The following statement demonstrates the **search** operator, which searches all columns in the table for the value. In the Query Window enter the following statement and select **Run**: 
 
