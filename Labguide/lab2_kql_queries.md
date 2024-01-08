@@ -80,11 +80,11 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 11. Select **Enable all** (to the right of Select Defender plan) and then select **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
 
-    >**Note:** If the page is not being displayed, refresh your Edge browser and try again.
-
-  ![Picture 1](./media/Lab-02-task2-save.png)   
+    >**Note:** If the page is not being displayed, refresh your Edge browser and try again.  
 
 12. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
+
+  ![Picture 1](./media/Lab-02-task2-save.png) 
 
 ### Task 3: Protect an On-Premises Server.
 
