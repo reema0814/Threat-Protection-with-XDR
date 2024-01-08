@@ -31,7 +31,7 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
    
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-    ![Picture 1](./media/Lab-01-task1-password.png)
+    ![](./media/Lab-01-task1-password.png)    
     
 1. First-time users are often prompted to Stay Signed In, if you see any such pop-up, click on No.
    
