@@ -13,7 +13,11 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
  - Task 2: Explore Sentinel workspace
  - Task 3: Onboard a Device
 
-### Exercise 1: Exploring a Pre-Created Azure Sentinel Workspace
+## Architecture Diagram
+
+  ![Lab overview.](./media/lab-01.png)
+
+## Exercise 1: Exploring a Pre-Created Azure Sentinel Workspace
 
 ### Task 1: Log in to Azure Portal and verify the pre-deployed resources.
 
