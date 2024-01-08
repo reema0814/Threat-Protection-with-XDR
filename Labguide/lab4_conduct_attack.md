@@ -15,9 +15,7 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 ## Architecture Diagram
 
-   <p align="left">
-   <img width="700" height="350" img src="media/lab02part1.png"/>  
-   </p>
+   ![Lab overview.](./media/lab02part1.png)
 
 ### Task 1: Simulated Attacks
 
