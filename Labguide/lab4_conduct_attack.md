@@ -15,9 +15,9 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 ## Architecture Diagram
 
-<p align="left">
-<img width="700" height="300" img src="media/lab02part1.png"/>  
-</p>
+   <p align="left">
+   <img width="700" height="300" img src="media/lab02part1.png"/>  
+   </p>
 
 ### Task 1: Simulated Attacks
 
@@ -31,17 +31,17 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
 1. From the menu, under **Endpoints**, select **Evaluation & tutorials** and then select **Tutorials & simulations** from the left side.
 
-<p align="left">
-<img width="700" height="350" img src="media/incident1.png"/>  
-</p>
+   <p align="left">
+   <img width="700" height="350" img src="media/incident1.png"/>  
+   </p>
 
 5. Select the **Tutorials** tab.
 
 1. Under *Automated investigation (backdoor)* you will see a message describing the scenario. Below this paragraph, click **Read the walkthrough**. A new browser tab opens which includes instructions to perform the simulation.
 
-<p align="left">
-<img width="700" height="350" img src="media/incident2.png"/>  
-</p>
+   <p align="left">
+   <img width="700" height="350" img src="media/incident2.png"/>  
+   </p>
 
 7. In the new browser tab, locate the section named **Run the simulation** (page 5, starting at step 2) and follow the steps to run the attack. **Hint:** The simulation file *RS4_WinATP-Intro-Invoice.docm* can be found back in portal, just below the **Read the walkthrough** you selected in the previous step by selecting the **Get simulation file** button. 
 
@@ -69,9 +69,9 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
 1. Select the **Manage incident** button and a new window blade appears.
 
-<p align="left">
-<img width="700" height="350" img src="media/lab04-task02-manageincident.png"/>  
-</p>
+   <p align="left">
+   <img width="700" height="350" img src="media/lab04-task02-manageincident.png"/>  
+   </p>
 
 4. Under **Incident tags** type "Tutorial" and select **Tutorial (Create new)** to create a new tag. 
 
@@ -83,9 +83,9 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
 1. Add any comments if desired and click **Save** to finish.
 
-<p align="left">
-<img width="700" height="350" img src="media/lab04-task02-securitytesting.png"/>  
-</p>
+   <p align="left">
+   <img width="700" height="350" img src="media/lab04-task02-securitytesting.png"/>  
+   </p>
 
 9. Review the contents of the Alerts, Devices, Users, Investigations, Evidence, Response, and Graph tabs. **Hint:** Some tabs might be hidden due to the size of your display. Select the ellipsis tab (...) to make them appear.
 
