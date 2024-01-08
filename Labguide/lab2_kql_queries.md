@@ -30,17 +30,27 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 1. On the content hub page search for **Windows security event** and select, Install
 
+    ![Picture 1](./media/Lab02-task1-contenthub 1.png) 
+
 1. Once you receive the notification of successful installation go back to the Data connector page and click on refresh.
 
 1. You can see **Security events Via Legacy agent** and **windows security event via AMA**
 
 1. Select **Security events Via Legacy agent** and click on **open connector page**
 
-1. Under configuration choose **Install agent on Azure Windows Virtual Machine** and select **Download & install agent for Azure Windows Virtual machines** 
+    ![Picture 1](./media/lab02-task01-events.png) 
+
+1. Under configuration choose **Install agent on Azure Windows Virtual Machine** and select **Download & install agent for Azure Windows Virtual machines**
+
+    ![Picture 1](./media/lab02-task01-installagent.png) 
 
 1. Select the **svm-xxxx** virtual machine and click on connect.
 
+    ![Picture 1](./media/lab2-task1-svm.png) 
+
 1. Then come back to Configuration and scroll down a bit you can find **Select which events to stream** Click on **All Events**
+
+    ![Picture 1](./media/lab2-task1-streamevents.png)  
 
 1. Click on apply changes now if you refresh the data connector page you can see the status connected for **Security events Via Legacy agent**
 
@@ -98,6 +108,8 @@ In this task, you will manually install the required agent on the Windows Server
 
       >**Note:** Non-Azure servers is use the Log Analytics agent to extend Microsoft Defender for Cloud capabilities to servers running outside of Azure, including resources running on-premises and in other clouds.
 
+    ![Picture 1](./media/lab02-task03-config.png) 
+
 1. Select **Upgrade** next to the workspace you created earlier.  This might take a few minutes, wait until you see the notification *"Defender plans for workspace were saved successfully"*.
 
     ![Picture 1](./media/lab-3xdr.png)
@@ -118,6 +130,8 @@ In this task, you will manually install the required agent on the Windows Server
 
 1. In the wizard page fields copy and paste **Workspace ID** , **Primary Key** and **Workspace Key** seen in the text box from the Azure portal log analytics section, then click **Next**. 
 
+    ![Picture 1](./media/lab02-task03-workspacekey.png) 
+
 1. Continue with the Install. Select **Finish** when complete.
 
 1. Go to the "Microsoft Defender for Cloud" portal and select **Inventory** from the general section.
@@ -132,6 +146,8 @@ In this task, you will access a Log Analytics environment where you can practice
 
 1. On the left menu click on **logs** close if any tutorial window pops up click on 'X'.
 
+    ![Picture 1](./media/Lab-02-task4-query.png) 
+
 1. Explore the available tables listed in the tab on the left side of the screen.
 
 1. In the query editor, enter the following query and select the **Run** button. You should see the query results in the bottom window.
@@ -142,7 +158,7 @@ In this task, you will access a Log Analytics environment where you can practice
 
 1. Next to the first record, select the **>** to expand the information for the row.
 
-    ![Picture 1](./media/SC-200-img-7.png)
+    ![Picture 1](./media/Lab-02-task4-run.png) 
 
 ### Task 5: Run Basic KQL Statements
 
