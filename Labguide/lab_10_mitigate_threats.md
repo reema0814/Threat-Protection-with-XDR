@@ -111,8 +111,6 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 1. The "Status" should be now *Connected* and "Bi-directional sync" should be *Enabled*.
 
-1. Scroll down and under the "Create incidents - Recommended!" area, select **Enable**. This option creates an Analytics rule automatically for this service. You can manually add it later if not enabled here or change its configuration within the *Analytics* blade.
-
 ### Task 4: Activate a Microsoft Security Rule
 
 In this task, you will activate a Microsoft Security rule.
