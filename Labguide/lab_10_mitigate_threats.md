@@ -153,13 +153,17 @@ In this task, you will activate a Microsoft Security rule.
 
 1. Select the **Create incidents based on Microsoft Defender for Cloud**.
 
-   ![Lab overview.](./media/lab10-task4-analytics.png) 
+    <p align="left">
+     <img width="850" height="430" img src="media/lab10-task4-analytics.png"/>   
+       </p> 
 
  >**Note**: You can choose the existing **active rule** to edit or **create** new **active rule** and then edit them by selecting the respective rule in the active rules list.
 
 5. After creating the active rule, select it for editing. On the right blade, click the **Edit** button. 
 
-   ![Lab overview.](./media/lab10-task4-edit.png) 
+    <p align="left">
+     <img width="850" height="440" img src="media/lab10-task4-edit.png"/>   
+       </p> 
 
 1. Scroll down the page and under "Analytics rule logic - Filter by Severity", select the *Custom* drop-down list.
 
