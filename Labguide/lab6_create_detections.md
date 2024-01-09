@@ -28,15 +28,11 @@ In this task, you will create a playbook for next task.
 
 1. Click on create and select **Playbook with incident trigger**.
 
-    <p align="left">
-     <img width="700" height="550" img src="media/Lab06-task01-triggers.png"/>  
-       </p> 
+    ![Lab overview.](./media/Lab06-task01-triggers.png)
 
 1. Select the resource group and give  playbook name **PostMessageTeams-OnIncident**
 
-    <p align="left">
-     <img width="700" height="550" img src="media/Lab06-task01-createplaybook.png"/>  
-       </p> 
+    ![Lab overview.](./media/Lab06-task01-createplaybook.png)
 
 1. Select Enable diagnostics logs in Log Analytics and select your workspace.
 
@@ -59,9 +55,7 @@ In this task, you will create a detection for the first attack of the previous e
     ```KQL
     search "temp\\startup.bat"
     ```
-    <p align="left">
-     <img width="700" height="450" img src="media/Lab06-task02-query1.png"/>  
-       </p> 
+    ![Lab overview.](./media/Lab06-task02-query1.png)
     
     >**Note:** A result with the event might take up to 5 minutes to appear. Wait until it does. If it does not appear, make sure you have rebooted WINServer as instructed in the previous exercise and that you have completed Task #3 of the Learning Path 6 Lab, Exercise 2.
      
@@ -73,9 +67,7 @@ In this task, you will create a detection for the first attack of the previous e
     SecurityEvent 
     | where Activity startswith "4624" 
     ```
-    <p align="left">
-     <img width="700" height="450" img src="media/Lab06-task02-query2.png"/>  
-       </p> 
+    ![Lab overview.](./media/Lab06-task02-query2.png)
 
 1. It is important to help the Security Operations Center Analyst by providing as much context about the alert as you can. This includes projecting Entities for use in the investigation graph. **Run** the following query:
 
@@ -133,9 +125,7 @@ In this task, you will create a detection for the first attack of the previous e
 
     >**Note:** You have already assigned permissions to the playbook, so it will be available.
 
-    <p align="left">
-     <img width="750" height="450" img src="media/Lab06-task03-automationrule.png"/>  
-       </p> 
+    ![Lab overview.](./media/Lab06-task03-automationrule.png)
 
 1. Select **Apply**
 
