@@ -62,11 +62,13 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
  >Hint: If you don't find Azure Activity, refresh and try again. Also, if the Azure Activity status bar is not visible, click on **>>** on right corner.    
 
-1. Review the contents of the workbook. It shows insights of your Azure subscription operations by collecting and analyzing the data from the Activity Log.
+5. Review the contents of the workbook. It shows insights of your Azure subscription operations by collecting and analyzing the data from the Activity Log.
 
 1. You should be back in the Microsoft Sentinel - Workbooks - Templates tab. Scroll down again and select the **Save** button for the Azure Activity workbook.
 
-   ![Picture 1](./media/savedactivity.png)
+    <p align="left">
+     <img width="800" height="450" img src="media/lab08-task02-workbookssave.png"/>   
+       </p> 
 
 1. Leave **East US** as the default value for *Region* and select **Yes**.
 
