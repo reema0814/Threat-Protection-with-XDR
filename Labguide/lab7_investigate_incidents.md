@@ -36,13 +36,13 @@ In this task, you will investigate an incident.
 1. On the left blade of the incident, change the Status to **Active** and then select **Apply**.
 
     <p align="left">
-     <img width="700" height="350" img src="media/Lab07-task01-activestatus.png"/>   
+     <img width="700" height="450" img src="media/Lab07-task01-activestatus.png"/>   
        </p> 
 
 1. Scroll down to the *Tags* area, select **+ (1)** and type **RegKey (2)** and select **OK (3)**.
 
     <p align="left">
-     <img width="700" height="350" img src="media/Lab07-task01-tag.png"/>   
+     <img width="700" height="450" img src="media/Lab07-task01-tag.png"/>   
        </p> 
 
 1. Scroll down and in the *Write a comment...* box type: *I will research this* and select the **>** icon to submit the new comment.
