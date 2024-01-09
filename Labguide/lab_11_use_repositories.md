@@ -99,6 +99,10 @@ In this task, you will create an Azure DevOps repository.
 
 1. Select **Authorize**. Scroll down the permissions request and then select **Accept**.
 
+    <p align="left">
+     <img width="600" height="350" img src="media/lab11-task03-authorize.png"/>   
+       </p> 
+
 1. Select the Organization you created earlier (e.g., WWLx...).
 
 1. Select the Project you created earlier, *My Sentinel Content*.
@@ -113,9 +117,11 @@ In this task, you will create an Azure DevOps repository.
 
 1. Go back to Microsoft Sentinel workspace if needed
 
-1. Go to the *Repositories (Preview)* page, select **Refresh**. Wait until the last deployment status is *Failed*.  
+1. Go to the *Repositories (Preview)* page, select **Refresh**. Wait until the last deployment status* is *Failed*.  
 
-    ![Picture 1](./media/failed.png)
+    <p align="left">
+     <img width="650" height="450" img src="media/failed.png"/>   
+       </p> 
 
     >**Note:** The *Failed* status is due to limitations in the hosted lab environment. You would normally see *Succeeded*. Then you can see in the *Analytics* the imported rule *Rule from Azure DevOps*.
 
