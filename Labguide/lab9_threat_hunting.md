@@ -128,7 +128,9 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Select one of the incidents and then select **Add**. 
 
-   ![Picture 1](./media/addingbookmark.png)
+    <p align="left">
+     <img width="800" height="450" img src="media/addingbookmark.png"/>   
+       </p> 
 
 1. Scroll left to notice that the *Severity* column is now populated with the incident's data.
 
@@ -138,7 +140,9 @@ In this task, instead of using a LiveStream, you will create a NRT analytics que
 
 1. In Microsoft Sentinel, on the left menu bar under the Configuration section, select **Analytics**, and then choose **Create NRT Query Rule (Preview)**.
 
-   ![Picture 1](./media/lab09-task2-analytics.png)   
+    <p align="left">
+     <img width="750" height="350" img src="media/lab09-task2-analytics.png"/>   
+       </p>  
 
 1. This starts the "Analytics rule wizard". For the *General* tab type:
 
@@ -188,7 +192,9 @@ In this task, you will use a Search job to look for a C2.
 
 1. In Microsoft Sentinel, on the left menu under General, select the **Search page**. In the search box, enter **reg.exe**, and then click on **Start**.
 
-   ![Picture 1](./media/lab09-task3-search.png)
+    <p align="left">
+     <img width="750" height="350" img src="media/lab09-task3-search.png"/>   
+       </p> 
 
 1. A new window running the query opens. Select the ellipsis icon **(...)** from the top right and then toggle the **Search job mode**.
 
@@ -214,7 +220,9 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
 
 1. Next, you need to create an AzureML Workspace. Select **Configure Azure Machine Learning** and then select the **Create new Azure ML workspace** button in the command bar.
 
-     ![Picture 1](./media/ML.png)
+    <p align="left">
+     <img width="650" height="450" img src="media/lab09-task04-configure.png"/>   
+       </p> 
 
 1. In the Subscription box, select your subscription.
 
@@ -239,11 +247,15 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
 
 1. On the right pane, scroll down and select **Create from template** button. Review the default options and then select **Save**.
 
-   ![Picture 1](./media/createfromtemplate.png)
+    <p align="left">
+     <img width="750" height="400" img src="media/lab09-task04-template.png"/>   
+       </p> 
 
 1. Once the saving is done, select the **Launch notebook** button. This will take you to the Microsoft Azure Machine Learning Studio.
 
-    ![Picture 1](./media/launchnotebook.png)
+    <p align="left">
+     <img width="550" height="350" img src="media/lab09-task04-launch.png"/>   
+       </p> 
 
 1. Select **X** if an informational window appears in the Microsoft Azure Machine Learning Studio.
 

@@ -1,4 +1,4 @@
-# Lab 10 - Mitigate threats using Microsoft 365 Defender
+# Lab 10 - Mitigate threats using Microsoft 365 Defender 
 
 ## Lab scenario
 
@@ -19,14 +19,6 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 ### Task 1: Create a Group 
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
-
-1. In the **Sign in** dialog box, copy and paste in the **Username** provided in the environment details page (odl_user_DID@xxxxx.onmicrosoft.com) and then select Next.
-
-1. In the **Enter password** dialog box, copy and paste in the Password and then select **Sign in**.
-
-1. On the **Stay signed in?** dialog box, select the Don’t show this again check box and then select **No**.
-
 1. In the Search bar of the Azure portal, search and select **Azure Active Directory** or **Microsoft Entra ID**.
 
 1. Select **Groups** and then click on **New group**.
@@ -45,6 +37,10 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
    **Note**: Make sure you have selected **Group type** as **Microsoft 365**.
 
+    <p align="left">
+     <img width="700" height="550" img src="media/Lab10-task1-ms365.png"/>   
+       </p> 
+
 1. Select **Create** and click on **Yes**. 
 
 ### Task 2: Apply Microsoft Defender for Office 365 preset security policies
@@ -53,57 +49,83 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 1. From the navigation menu, under Email & Collaboration area, select **Policies & rules**(1) and select **Threat policies**(2).
 
-   ![Lab overview.](./media/lab10-task3-threat-policies.png)
+    <p align="left">
+     <img width="650" height="450" img src="media/lab10-task3-threat-policies.png"/>   
+       </p> 
 
 1. On the Threat policies dashboard, select **Preset Security Policies**.
 
-   ![Lab overview.](./media/lab10-task3-preset-policies.png)
+    <p align="left">
+     <img width="650" height="450" img src="media/lab10-task3-preset-policies.png"/>   
+       </p> 
 
 1. Under Standard protection, select **Manage protection settings**. Hint: If you see this option grayed out, refresh your browser using Ctrl+F5.
 
-   ![Lab overview.](./media/lab10-task3-std-policies.png)
+    <p align="left">
+     <img width="650" height="450" img src="media/lab10-task3-std-policies.png"/>   
+       </p> 
 
 1. In the Apply Exchange Online Protection section, select **Specific recipients** and under **Domains** start writing your tenant’s domain name, select it, and then select **Next**.
 
-   ![Lab overview.](./media/lab10-task3-std-policies01.png)
+    <p align="left">
+     <img width="650" height="450" img src="media/lab10-task3-std-policies01.png"/>   
+       </p> 
 
 1. In the Apply Defender for Office 365 protection section, apply the same configuration as the previous step and select Next. Notice that this configuration applies policies for anti-phishing, Safe Attachments, Safe Links.
 
-   ![Lab overview.](./media/lab10-task3-std-policies02.png)
+    <p align="left">
+     <img width="650" height="450" img src="media/lab10-task3-std-policies02.png"/>   
+       </p> 
 
 1. In the Impersonation protection section, select **Next** four times (4x) to continue.
 
-   ![Lab overview.](./media/lab10-task3-std-policies03.png)
+    <p align="left">
+     <img width="650" height="450" img src="media/lab10-task3-std-policies03.png"/>   
+       </p> 
 
 1. In the Policy mode section, make sure the **Turn on the policy when finished** radio button is selected, and then select **Next**.
 
-   ![Lab overview.](./media/lab10-task3-std-policies04.png)
+    <p align="left">
+     <img width="650" height="450" img src="media/lab10-task3-std-policies04.png"/>   
+       </p> 
 
 1. Read the content under Review and confirm your changes and select **Confirm** to apply the changes and then select **Done** to finish.
 
-   ![Lab overview.](./media/lab10-task3-std-policies05.png)
+    <p align="left">
+     <img width="800" height="450" img src="media/lab10-task3-std-policies05.png"/>   
+       </p> 
 
 1. Under Strict protection, select **Manage protection settings**. Hint: Strict protection is found under “Email & Collaboration - Policies & rules - Threat policies - Preset security policies”.
 
-   ![Lab overview.](./media/lab10-task3-strict-policies.png)
+    <p align="left">
+     <img width="800" height="450" img src="media/lab10-task3-strict-policies.png"/>   
+       </p> 
 
 1. In the Apply Exchange Online Protection, select **Specific recipients** and under **Groups**, select your group, and then select **Next**. Notice that this configuration applies policies for anti-spam, outbound spam filter, anti-malware, anti-phishing.
 
-   ![Lab overview.](./media/lab10-task3-strict-policies01.png)
+    <p align="left">
+     <img width="800" height="450" img src="media/lab10-task3-strict-policies01.png"/>   
+       </p> 
 
 1. In the Apply Defender for Office 365 protection section, apply the same configuration as the previous step and select Next. Notice that this configuration applies policies for anti-phishing, Safe Attachments, Safe Links.
 
-   ![Lab overview.](./media/lab10-task3-strict-policies02.png)
+     <p align="left">
+     <img width="800" height="450" img src="media/lab10-task3-strict-policies02.png"/>   
+       </p> 
 
 1. In the Impersonation protection section, select **Next** four times (4x) to continue.
 
 1. In the Policy mode section, make sure the **Turn on the policy when finished** radio button is selected, and then select **Next**.
 
-   ![Lab overview.](./media/lab10-task3-strict-policies03.png)
+    <p align="left">
+     <img width="650" height="450" img src="media/lab10-task3-strict-policies03.png"/>   
+       </p> 
 
 1. Read the content under Review and confirm your changes and select **Confirm** to apply the changes and then select **Done** to finish.
 
-   ![Lab overview.](./media/lab10-task3-strict-policies04.png)
+    <p align="left">
+     <img width="650" height="450" img src="media/lab10-task3-strict-policies04.png"/>   
+       </p> 
 
 ### Task 3: Connect the Microsoft Defender for Cloud connector.
 
@@ -115,11 +137,9 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
  1. Select the **Open connector page** on the connector information blade.
 
- 1. In the **Configuration** area, under Subscription, select the checkbox for the "Azure Pass - Sponsorship" subscription and slide the **Status** option to the right to indicate **Connected**.
+ 1. In the **Configuration** area, under Subscription, select the subscription and slide the **Status** option to the right to indicate **Connected**.
 
 1. The "Status" should be now *Connected* and "Bi-directional sync" should be *Enabled*.
-
-1. Scroll down and under the "Create incidents - Recommended!" area, select **Enable**. This option creates an Analytics rule automatically for this service. You can manually add it later if not enabled here or change its configuration within the *Analytics* blade.
 
 ### Task 4: Activate a Microsoft Security Rule
 
@@ -133,13 +153,17 @@ In this task, you will activate a Microsoft Security rule.
 
 1. Select the **Create incidents based on Microsoft Defender for Cloud**.
 
-   ![Lab overview.](./media/lab10-task4-analytics.png) 
+    <p align="left">
+     <img width="850" height="430" img src="media/lab10-task4-analytics.png"/>   
+       </p> 
 
  >**Note**: You can choose the existing **active rule** to edit or **create** new **active rule** and then edit them by selecting the respective rule in the active rules list.
 
 5. After creating the active rule, select it for editing. On the right blade, click the **Edit** button. 
 
-   ![Lab overview.](./media/lab10-task4-edit.png) 
+    <p align="left">
+     <img width="850" height="440" img src="media/lab10-task4-edit.png"/>   
+       </p> 
 
 1. Scroll down the page and under "Analytics rule logic - Filter by Severity", select the *Custom* drop-down list.
 

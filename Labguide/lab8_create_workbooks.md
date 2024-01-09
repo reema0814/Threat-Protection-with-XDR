@@ -24,11 +24,23 @@ Microsoft Sentinel allows you to create custom workbooks across your data and al
 
 1. On the *Microsoft Defender for Cloud* solution page select **Install**.
 
+    <p align="left">
+     <img width="800" height="450" img src="media/lab09-task01-installdefender.png"/>   
+       </p> 
+
 1. When the installation completes select **Manage**
 
     >**Note:** The *Azure Activity* solution installs the *Azure Activity* Data connector, 12 Analytic rules, 14 Hunting queries and 1 Workbook.
 
+     <p align="left">
+     <img width="650" height="450" img src="media/lab09-task01-manage.png"/>   
+       </p> 
+
 1. Select the *Azure Activity* Data connector and select **Open connector page**.
+
+    <p align="left">
+     <img width="800" height="450" img src="media/lab09-task01-azureactivity.png"/>   
+       </p> 
 
 1. In the *Configuration* area under the *Instructions* tab, scroll down to "2. Connect your subscriptions...", and select **Launch Azure Policy Assignment Wizard>**.
 
@@ -39,6 +51,10 @@ Microsoft Sentinel allows you to create custom workbooks across your data and al
 1. Select the **Remediation** tab and select the **Create a remediation task** checkbox. This action will apply the policy to existing Azure resources.
 
 1. Select the **Review + Create** button to review the configuration.
+
+    <p align="left">
+     <img width="800" height="450" img src="media/lab09-task01-reviewandcreate.png"/>   
+       </p> 
 
 1. Select **Create** to finish.
 
@@ -62,11 +78,13 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
  >Hint: If you don't find Azure Activity, refresh and try again. Also, if the Azure Activity status bar is not visible, click on **>>** on right corner.    
 
-1. Review the contents of the workbook. It shows insights of your Azure subscription operations by collecting and analyzing the data from the Activity Log.
+5. Review the contents of the workbook. It shows insights of your Azure subscription operations by collecting and analyzing the data from the Activity Log.
 
 1. You should be back in the Microsoft Sentinel - Workbooks - Templates tab. Scroll down again and select the **Save** button for the Azure Activity workbook.
 
-   ![Picture 1](./media/savedactivity.png)
+    <p align="left">
+     <img width="800" height="450" img src="media/lab08-task02-workbookssave.png"/>   
+       </p> 
 
 1. Leave **East US** as the default value for *Region* and select **Yes**.
 
@@ -78,13 +96,19 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
 1. Scroll down to the *Caller activities over time* area, look at the color of the *Activities* column since we are going to format those columns. Select the **Edit** button below the grid.  
 
-   ![Picture 1](./media/lab08-task1-edit.png)
+    <p align="left">
+     <img width="880" height="450" img src="media/lab08-task1-edit.png"/>   
+       </p> 
    
 1. Select the ellipsis (...) and select the Add query, run the **SecurityEvent**.
    
-   ![Picture 1](./media/lab08-task1-ellipsis.png)
-
-   ![Picture 1](./media/lab08-task1-runquery.png) 
+    <p align="left">
+     <img width="650" height="350" img src="media/lab08-task1-ellipsis.png"/>   
+       </p> 
+       
+    <p align="left">
+     <img width="650" height="350" img src="media/lab08-task1-runquery.png"/>   
+       </p> 
 
 1. Select the **Column Settings** button, it is located to the right of the *Run Query* command bar. **Hint:** This button only appears if there is data from the KQL query.
 
@@ -94,7 +118,9 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
 1. Select **Save and Close**. Notice the change in the *Activities* column.
 
-   ![Picture 1](./media/lab08-task1-activities.png) 
+    <p align="left">
+     <img width="700" height="450" img src="media/lab08-task1-activities.png"/>   
+       </p> 
 
 1. Select **Done Editing** at the bottom of the query (not the top menu).
 
@@ -112,10 +138,18 @@ In this task, you will create a new workbook with advanced visualizations.
 
     >**Note:** Although it is a new workbook, a startup template is used.
 
+    <p align="left">
+     <img width="800" height="450" img src="media/lab09-task03-addworkbook.png"/>   
+       </p> 
+
 1. To edit the workbook, select **Edit**.
 
 1. Select the **Edit** button below the new workbook
 overview of the workbook.
+
+    <p align="left">
+     <img width="850" height="450" img src="media/lab09-task03-editoverview.png"/>   
+       </p> 
 
 1. Type *# My workbook* in a new line on top of *## New workbook*.
 
@@ -128,6 +162,10 @@ overview of the workbook.
 1. Scroll down and select the **Done Editing** on the bottom menu, for the *Editing query item: query - 2*.
 
 1. Select the ellipsis **...** next to the *Edit* button of the bar chart graph, then select **+ Add**, then select **Add query**.
+
+    <p align="left">
+     <img width="950" height="450" img src="media/lab09-task03-newquery.png"/>   
+       </p> 
 
 1. Type **SecurityEvent** into the query box.
 

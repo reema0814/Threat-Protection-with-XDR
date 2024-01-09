@@ -31,7 +31,9 @@ In this task, you will enable Entity behavior analytics in Microsoft Sentinel.
 
 1. Select the **Export** from the toolbar. **Hint:** You might need to select the ellipsis icon **(...)** to see it.
 
-   ![Picture 1](./media/export.png)
+    <p align="left">
+     <img width="700" height="450" img src="media/lab11-task01-analytics.png"/>     
+       </p> 
 
 1. The rule is exported to a text file named *Azure_Sentinel_analytic_rule.json*.
 
@@ -87,8 +89,6 @@ In this task, you will create an Azure DevOps repository.
 
 ### Task 3: Connect Sentinel to Azure DevOps
 
-1. Select the *Azure Portal*/*Microsoft Sentinel* tab in your browser.
-
 1. In Microsoft Sentinel, select **Repositories (Preview)** in the *Content Management* section.
 
 1. Select **+ Add new** button from the toolbar.
@@ -98,6 +98,10 @@ In this task, you will create an Azure DevOps repository.
 1. For Source control, select **Azure DevOps**.
 
 1. Select **Authorize**. Scroll down the permissions request and then select **Accept**.
+
+    <p align="left">
+     <img width="600" height="350" img src="media/lab11-task03-authorize.png"/>   
+       </p> 
 
 1. Select the Organization you created earlier (e.g., WWLx...).
 
@@ -115,7 +119,9 @@ In this task, you will create an Azure DevOps repository.
 
 1. Go to the *Repositories (Preview)* page, select **Refresh**. Wait until the last deployment status* is *Failed*.  
 
-    ![Picture 1](./media/failed.png)
+    <p align="left">
+     <img width="650" height="450" img src="media/failed.png"/>   
+       </p> 
 
     >**Note:** The *Failed* status is due to limitations in the hosted lab environment. You would normally see *Succeeded*. Then you can see in the *Analytics* the imported rule *Rule from Azure DevOps*.
 
