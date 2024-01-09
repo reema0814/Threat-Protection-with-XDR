@@ -17,11 +17,11 @@ The integration of a Logic App with Threat Protection involves configuring trigg
 
 ### Task 1: Create a Security Operations Center Team in Microsoft Teams.
 
-In this task, you will create a Microsoft Teams team for use in the lab.  
+In this task, you will create a team in Microsoft Teams for use in the lab.  
 
-1. Select the the Microsoft Teams from the desktop and click to open.
+1. To access Microsoft Teams, click on the provided link (https://teams.microsoft.com/) within the Microsoft Edge browser. This will directly take you to the Teams platform.
 
-1. If not already selected, select **Teams** on the left menu, then at the bottom, select **Join or create a team**.
+1. select **Teams** on the left menu, then select **Join or create a team**.
 
     ![Lab overview.](./media/lab03-task01-teams.png) 
 
