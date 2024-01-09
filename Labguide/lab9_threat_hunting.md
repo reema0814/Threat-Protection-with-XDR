@@ -254,7 +254,7 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
 1. Once the saving is done, select the **Launch notebook** button. This will take you to the Microsoft Azure Machine Learning Studio.
 
     <p align="left">
-     <img width="650" height="350" img src="media/lab09-task04-launch.png"/>   
+     <img width="550" height="350" img src="media/lab09-task04-launch.png"/>   
        </p> 
 
 1. Select **X** if an informational window appears in the Microsoft Azure Machine Learning Studio.
