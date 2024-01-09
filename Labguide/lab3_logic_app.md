@@ -23,13 +23,29 @@ In this task, you will create a Microsoft Teams team for use in the lab.
 
 1. If not already selected, select **Teams** on the left menu, then at the bottom, select **Join or create a team**.
 
+    <p align="left">
+     <img width="750" height="400" img src="media/lab03-task01-teams.png"/>  
+       </p> 
+
 1. Select the **Create Team** button in the main window.
 
 1. Select the **From scratch** button.
 
+    <p align="left">
+     <img width="750" height="400" img src="media/lab03-task01-privatebutton.png"/>  
+       </p> 
+       
 1. Select the **Private** button.
 
+    <p align="left">
+     <img width="750" height="400" img src="media/lab03-task01-private2.png"/>  
+       </p> 
+
 1. Give the team the name: **SOC** and select the **Create** button.
+
+    <p align="left">
+     <img width="750" height="400" img src="media/lab03-task01-SOC.png"/>  
+       </p> 
 
 1. In the Add members to SOC screen, select the **Skip** button. 
 
