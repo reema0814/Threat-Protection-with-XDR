@@ -65,7 +65,11 @@ In this task, you'll create a Logic App that is used as a Playbook in Microsoft 
 
 1. Select the **Post-Message-Teams** folder.
 
-1. In the readme.md box, scroll down to the *Quick Deployment* section, **Deploy with incident trigger (recommended)** and select the **Deploy to Azure** button.  
+1. In the readme.md box, scroll down to the *Quick Deployment* section, **Deploy with incident trigger (recommended)** and select the **Deploy to Azure** button.
+
+    <p align="left">
+     <img width="650" height="350" img src="media/lab03-task02-githubplaybook.png"/>  
+       </p> 
 
 1. Make sure your Azure Subscription is selected.
 
@@ -91,6 +95,10 @@ In this task, you will update the new playbook you created with the proper conne
 1. Select the **Automation** from the Configuration area and then select the **Active Playbooks** tab.
 
 1. Select the **PostMessageTeams-OnIncident** playbook.
+
+    <p align="left">
+     <img width="650" height="350" img src="media/Lab03-task03-activeplaybook.png"/>   
+       </p> 
 
 1. On the Logic App page for *PostMessageTeams-OnIncident*, in the center menu, select **Edit**.
 
