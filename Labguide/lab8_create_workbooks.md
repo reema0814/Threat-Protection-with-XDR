@@ -97,7 +97,7 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 1. Scroll down to the *Caller activities over time* area, look at the color of the *Activities* column since we are going to format those columns. Select the **Edit** button below the grid.  
 
     <p align="left">
-     <img width="750" height="450" img src="media/lab08-task1-edit.png"/>   
+     <img width="880" height="450" img src="media/lab08-task1-edit.png"/>   
        </p> 
    
 1. Select the ellipsis (...) and select the Add query, run the **SecurityEvent**.
