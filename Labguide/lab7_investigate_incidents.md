@@ -35,15 +35,11 @@ In this task, you will investigate an incident.
 
 1. On the left blade of the incident, change the Status to **Active** and then select **Apply**.
 
-    <p align="left">
-     <img width="700" height="450" img src="media/Lab07-task01-activestatus.png"/>   
-       </p> 
+    ![Lab overview.](./media/Lab07-task01-activestatus.png)
 
 1. Scroll down to the *Tags* area, select **+ (1)** and type **RegKey (2)** and select **OK (3)**.
 
-    <p align="left">
-     <img width="700" height="450" img src="media/Lab07-task01-tag.png"/>   
-       </p> 
+     ![Lab overview.](./media/Lab07-task01-tag.png)
 
 1. Scroll down and in the *Write a comment...* box type: *I will research this* and select the **>** icon to submit the new comment.
 
@@ -53,9 +49,7 @@ In this task, you will investigate an incident.
 
 1. Review the **Incident timeline** window. For the *Startup RegKey* alert, select the ellipsis **(...) (1)** icon and then **Run playbook (2)**. You will see the *Alert playbooks*. This option helps you to run playbooks manually.
 
-    <p align="left">
-     <img width="700" height="450" img src="media/Lab07-task01-run.png"/>   
-       </p> 
+    ![Lab overview.](./media/Lab07-task01-run.png)
 
 1. Close the *Alert playbooks* blade by selecting the **x** icon in the top right.
 
@@ -77,21 +71,15 @@ In this task, you will investigate an incident.
 
 1. Select **Assign to me (2)** and then scroll down to select **Apply (3)** to save the changes.
 
-    <p align="left">
-     <img width="800" height="450" img src="media/assignedtome.png"/>   
-       </p> 
+    ![Lab overview.](./media/assignedtome.png)
 
 1. Expand the left blade by selecting the **>>** icon. and then select the **Investigate** button.
 
-    <p align="left">
-     <img width="800" height="450" img src="media/Lab07-task01-Investigate.png"/>   
-       </p> 
+    ![Lab overview.](./media/Lab07-task01-Investigate.png)
 
 1. **Hover** the svm-server entity icon and wait for new *exploration queries* to be shown. It looks like *Related Alerts* has more data on it. Select the name of the exploration query **Related Alerts** to bring them to the investigation graph or select **Events >** to investigate them with a KQL query.
 
-    <p align="left">
-     <img width="800" height="450" img src="media/Lab07-task01-investigationpicture.png"/>   
-       </p> 
+    ![Lab overview.](./media/Lab07-task01-investigationpicture.png)
 
    >**Hint:** If the icons are too small for your screen, select **(+)** to magnify them.   
 
