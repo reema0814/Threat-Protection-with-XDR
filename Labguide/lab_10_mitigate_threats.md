@@ -19,14 +19,6 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 ### Task 1: Create a Group 
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
-
-1. In the **Sign in** dialog box, copy and paste in the **Username** provided in the environment details page (odl_user_DID@xxxxx.onmicrosoft.com) and then select Next.
-
-1. In the **Enter password** dialog box, copy and paste in the Password and then select **Sign in**.
-
-1. On the **Stay signed in?** dialog box, select the Don’t show this again check box and then select **No**.
-
 1. In the Search bar of the Azure portal, search and select **Azure Active Directory** or **Microsoft Entra ID**.
 
 1. Select **Groups** and then click on **New group**.
@@ -145,11 +137,9 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
  1. Select the **Open connector page** on the connector information blade.
 
- 1. In the **Configuration** area, under Subscription, select the checkbox for the "Azure Pass - Sponsorship" subscription and slide the **Status** option to the right to indicate **Connected**.
+ 1. In the **Configuration** area, under Subscription, select the subscription and slide the **Status** option to the right to indicate **Connected**.
 
 1. The "Status" should be now *Connected* and "Bi-directional sync" should be *Enabled*.
-
-1. Scroll down and under the "Create incidents - Recommended!" area, select **Enable**. This option creates an Analytics rule automatically for this service. You can manually add it later if not enabled here or change its configuration within the *Analytics* blade.
 
 ### Task 4: Activate a Microsoft Security Rule
 
