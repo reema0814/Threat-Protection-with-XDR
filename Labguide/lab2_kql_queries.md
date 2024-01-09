@@ -30,29 +30,29 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 1. On the content hub page search for **Windows security events** and select, Install.
 
-  ![Picture 1](./media/Lab02-task1-contenthub.png)  
+    ![Picture 1](./media/Lab02-task1-contenthub.png)  
 
-1. Once you receive the notification of successful installation go back to the Data connector page and click on refresh.
+5. Once you receive the notification of successful installation go back to the Data connector page and click on refresh.
 
 1. You can see **Security events Via Legacy agent** and **windows security event via AMA**.
 
 1. Select **Security events Via Legacy agent** and click on **open connector page**.
 
-  ![Picture 1](./media/lab02-task01-events.png) 
+    ![Picture 1](./media/lab02-task01-events.png) 
    
-1. Under configuration choose **Install agent on Azure Windows Virtual Machine** and select **Download & install agent for Azure Windows Virtual machines**.
+8. Under configuration choose **Install agent on Azure Windows Virtual Machine** and select **Download & install agent for Azure Windows Virtual machines**.
 
-  ![Picture 1](./media/lab02-task01-installagent.png) 
+    ![Picture 1](./media/lab02-task01-installagent.png) 
 
-1. Select the **svm-xxxx** virtual machine and click on connect.
+9. Select the **svm-xxxx** virtual machine and click on connect.
 
-  ![Picture 1](./media/lab2-task1-svm.png) 
+    ![Picture 1](./media/lab2-task1-svm.png) 
         
-1. Then come back to Configuration and scroll down a bit you can find **Select which events to stream** Click on **All Events**.
+10. Then come back to Configuration and scroll down a bit you can find **Select which events to stream** Click on **All Events**.
 
-  ![Picture 1](./media/lab2-task1-streamevents.png) 
+    ![Picture 1](./media/lab2-task1-streamevents.png) 
 
-1. Click on apply changes now if you refresh the data connector page you can see the status connected for **Security events Via Legacy agent**.
+11. Click on apply changes now if you refresh the data connector page you can see the status connected for **Security events Via Legacy agent**.
 
 ### Task 2: Enable Microsoft Defender for Cloud
 
@@ -60,13 +60,13 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. In the Search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
 
-  ![Picture 1](./media/Lab-02-task2-search.png) 
+    ![Picture 1](./media/Lab-02-task2-search.png) 
 
-3. click the left menu and click on **Getting started**.
+2. click the left menu and click on **Getting started**.
 
 1. On the **Getting Started** page, under the **Upgrade** tab, make sure your subscription is selected, and then select the **Upgrade** button at the bottom of the page. Wait for 2-5 minutes to complete it, as it takes time.
 
-  ![Picture 1](./media/Lab-02-task2-upgrade.png) 
+    ![Picture 1](./media/Lab-02-task2-upgrade.png) 
 
 4. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
 
@@ -76,17 +76,17 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. Select the **Settings & monitoring** tab from the Settings area (next to Save).
  
-   ![Picture 1](./media/Lab-02-task2-reviewplans.png) 
+    ![Picture 1](./media/Lab-02-task2-reviewplans.png) 
 
 8. Review the monitoring extensions. Confirm that **Log Analytics agent/Azure Monitor agent** is **Off**. Click Continue or Close the Settings & monitoring page by selecting the 'X' on the upper right of the page.
 
-  ![Picture 1](./media/Lab-02-task2-agentoff.png) 
+    ![Picture 1](./media/Lab-02-task2-agentoff.png) 
 
 9. Close the settings page by selecting the 'X' on the upper right of the page to go back to the **Environment settings** and select the '>' to the left of your subscription.
 
 1. Select the Log Analytics workspace *loganalyticworkspace* to review the available options and pricing.
 
-  ![Picture 1](./media/Lab-02-task2-subscription.png) 
+    ![Picture 1](./media/Lab-02-task2-subscription.png) 
 
 11. Select **Enable all** (to the right of Select Defender plan) and then select **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
 
@@ -94,7 +94,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 12. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**.
 
-  ![Picture 1](./media/Lab-02-task2-save.png) 
+    ![Picture 1](./media/Lab-02-task2-save.png) 
 
 ### Task 3: Protect an On-Premises Server.
 
@@ -108,9 +108,9 @@ In this task, you will manually install the required agent on the Windows Server
 
       >**Note:** Non-Azure servers is use the Log Analytics agent to extend Microsoft Defender for Cloud capabilities to servers running outside of Azure, including resources running on-premises and in other clouds.
 
-  ![Picture 1](./media/lab02-task03-config.png) 
+    ![Picture 1](./media/lab02-task03-config.png) 
 
-1. Select **Upgrade** next to the workspace you created earlier.  This might take a few minutes, wait until you see the notification *"Defender plans for workspace were saved successfully"*.
+4. Select **Upgrade** next to the workspace you created earlier.  This might take a few minutes, wait until you see the notification *"Defender plans for workspace were saved successfully"*.
 
     ![Picture 1](./media/lab-3xdr.png)
 
@@ -126,13 +126,13 @@ In this task, you will manually install the required agent on the Windows Server
 
    >**Note** If it is already installed it asks for "Repair" or "remove" select **Repair** then click on next then click on **install**, it will take 2-3 minutes to install.
 
-1. Select **Next** until the wizard page for **Agent Setup Options** appears, Select **Connect the Agent to Azure Log Analytics (OMS)**, then select **Next**.
+9. Select **Next** until the wizard page for **Agent Setup Options** appears, Select **Connect the Agent to Azure Log Analytics (OMS)**, then select **Next**.
 
 1. In the wizard page fields copy and paste **Workspace ID** , **Primary Key** / **Workspace Key** seen in the text box from the Azure portal log analytics section, then click **Next**. 
 
-  ![Picture 1](./media/lab02-task03-workspacekey.png) 
+    ![Picture 1](./media/lab02-task03-workspacekey.png) 
 
-1. Continue with the Install. Select **Finish** when complete.
+11. Continue with the Install. Select **Finish** when complete.
 
 1. Go to the "Microsoft Defender for Cloud" portal and select **Inventory** from the general section.
 
@@ -146,9 +146,9 @@ In this task, you will access a Log Analytics environment where you can practice
 
 1. On the left menu click on **logs** close if any tutorial window pops up click on 'X'.
 
-  ![Picture 1](./media/Lab-02-task4-query.png) 
+    ![Picture 1](./media/Lab-02-task4-query.png) 
 
-1. Explore the available tables listed in the tab on the left side of the screen.
+3. Explore the available tables listed in the tab on the left side of the screen.
 
 1. In the query editor, enter the following query and select the **Run** button. You should see the query results in the bottom window.
 
@@ -158,7 +158,7 @@ In this task, you will access a Log Analytics environment where you can practice
 
 1. Next to the first record, select the **>** to expand the information for the row.
 
-  ![Picture 1](./media/Lab-02-task4-run.png) 
+    ![Picture 1](./media/Lab-02-task4-run.png) 
 
 ### Task 5: Run Basic KQL Statements
 
@@ -168,7 +168,7 @@ In this task, you will build basic KQL statements.
 
 1. Change the **Time range** to **Last hour** in the Query Window.
 
-  ![Picture 1](./media/SC-200-img8.png) 
+    ![Picture 1](./media/SC-200-img8.png) 
 
 1. The following statement demonstrates the **search** operator, which searches all columns in the table for the value. In the Query Window enter the following statement and select **Run**: 
 
@@ -178,7 +178,7 @@ In this task, you will build basic KQL statements.
 
     >**Note**: It will take some time to reflect, you can move to other command and check this later. *Hint*: If the above command is not getting output replace **"err"** to **"new"**.
 
-  ![Picture 1](./media/Lab02-task05-searchnewquery.png)
+    ![Picture 1](./media/Lab02-task05-searchnewquery.png)
 
 1. The following statement demonstrates **search** across tables listed within the **in** clause. In the Query Window enter the following statement and select **Run**: 
 
