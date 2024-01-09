@@ -113,7 +113,7 @@ In this task, you will create an Azure DevOps repository.
 
 1. Go back to Microsoft Sentinel workspace if needed
 
-1. Go to the *Repositories (Preview)* page, select **Refresh**. Wait until the last deployment status* is *Failed*.  
+1. Go to the *Repositories (Preview)* page, select **Refresh**. Wait until the last deployment status is *Failed*.  
 
     ![Picture 1](./media/failed.png)
 
