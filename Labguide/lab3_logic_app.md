@@ -23,29 +23,21 @@ In this task, you will create a Microsoft Teams team for use in the lab.
 
 1. If not already selected, select **Teams** on the left menu, then at the bottom, select **Join or create a team**.
 
-    <p align="left">
-     <img width="450" height="250" img src="media/lab03-task01-teams.png"/>  
-       </p> 
+    ![Lab overview.](./media/lab03-task01-teams.png) 
 
-1. Select the **Create Team** button in the main window.
+3. Select the **Create Team** button in the main window.
 
 1. Select the **From scratch** button.
 
-    <p align="left">
-     <img width="350" height="300" img src="media/lab03-task01-privatebutton.png"/>  
-       </p> 
+    ![Lab overview.](./media/lab03-task01-privatebutton.png)  
        
 1. Select the **Private** button.
 
-    <p align="left">
-     <img width="350" height="300" img src="media/lab03-task01-private2.png"/>  
-       </p> 
+    ![Lab overview.](./media/lab03-task01-private2.png) 
 
 1. Give the team the name: **SOC** and select the **Create** button.
 
-    <p align="left">
-     <img width="300" height="300" img src="media/lab03-task01-SOC.png"/>  
-       </p> 
+    ![Lab overview.](./media/lab03-task01-SOC.png)  
 
 1. In the Add members to SOC screen, select the **Skip** button. 
 
@@ -67,9 +59,7 @@ In this task, you'll create a Logic App that is used as a Playbook in Microsoft 
 
 1. In the readme.md box, scroll down to the *Quick Deployment* section, **Deploy with incident trigger (recommended)** and select the **Deploy to Azure** button.
 
-    <p align="left">
-     <img width="650" height="350" img src="media/lab03-task02-githubplaybook.png"/>  
-       </p> 
+    ![Lab overview.](./media/lab03-task02-githubplaybook.png) 
 
 1. Make sure your Azure Subscription is selected.
 
@@ -83,7 +73,6 @@ In this task, you'll create a Logic App that is used as a Playbook in Microsoft 
 
     **Note:** Wait for the deployment to finish before proceeding to the next task. It may take a couple minutes to deploy.
 
-
 ### Task 3: Update a Playbook in Microsoft Sentinel.
 
 In this task, you will update the new playbook you created with the proper connection information.
@@ -96,9 +85,7 @@ In this task, you will update the new playbook you created with the proper conne
 
 1. Select the **PostMessageTeams-OnIncident** playbook.
 
-    <p align="left">
-     <img width="650" height="350" img src="media/Lab03-task03-activeplaybook.png"/>   
-       </p> 
+    ![Lab overview.](./media/Lab03-task03-activeplaybook.png) 
 
 1. On the Logic App page for *PostMessageTeams-OnIncident*, in the center menu, select **Edit**.
 
@@ -116,9 +103,7 @@ In this task, you will update the new playbook you created with the proper conne
 
 1. Do the same for the Channel field, select the **X** at the end of the field to clear the contents. The field is changed to a drop-down with a listing of the Channels of the SOC Teams. Select **New Alerts**.
 
-    <p align="left">
-     <img width="400" height="350" img src="media/SC-200-img13.png"/>  
-       </p>
+    ![Lab overview.](./media/SC-200-img13.png)
 
 1. Select **Save** on the command bar. The Logic App will be used in a future lab.
 
