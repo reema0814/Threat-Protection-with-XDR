@@ -19,7 +19,7 @@ The integration of a Logic App with Threat Protection involves configuring trigg
 
 In this task, you will create a team in Microsoft Teams for use in the lab.  
 
-1. To access Microsoft Teams, click on the provided link (https://teams.microsoft.com/) within the Microsoft Edge browser. This will directly take you to the Teams platform.
+1. Select the the Microsoft Teams from the desktop and click to open.
 
 1. select **Teams** on the left menu, then select **Join or create a team**.
 
