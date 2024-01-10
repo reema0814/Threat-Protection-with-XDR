@@ -110,7 +110,7 @@ In this task, you will manually install the required agent on the Windows Server
 
     ![Picture 1](./media/lab02-task03-config.png) 
 
-4. Select **Upgrade** next to the workspace you created earlier.  This might take a few minutes, wait until you see the notification *"Defender plans for workspace were saved successfully"*.
+1. Select **Upgrade** next to the workspace you created earlier.  This might take a few minutes, wait until you see the notification *"Defender plans for workspace were saved successfully"*.
 
     ![Picture 1](./media/lab-3xdr.png)
 
@@ -126,13 +126,11 @@ In this task, you will manually install the required agent on the Windows Server
 
    >**Note** If it is already installed it asks for "Repair" or "remove" select **Repair** then click on next then click on **install**, it will take 2-3 minutes to install.
 
-9. Select **Next** until the wizard page for **Agent Setup Options** appears, Select **Connect the Agent to Azure Log Analytics (OMS)**, then select **Next**.
-
 1. In the wizard page fields copy and paste **Workspace ID** , **Primary Key** / **Workspace Key** seen in the text box from the Azure portal log analytics section, then click **Next**. 
 
     ![Picture 1](./media/lab02-task03-workspacekey.png) 
 
-11. Continue with the Install. Select **Finish** when complete.
+1. Continue with the Install. Select **Finish** when complete.
 
 1. Go to the "Microsoft Defender for Cloud" portal and select **Inventory** from the general section.
 
