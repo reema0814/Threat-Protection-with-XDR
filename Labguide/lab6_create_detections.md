@@ -47,6 +47,7 @@ Public IP and DNS name needs to be taken from **svm-xxxx** Virtual machine and n
 
    * Admin Username
    * Admin Password
+     
   Note:Virtual machine with the credentials same as  **svm-xxxx** shown on the credential page.
 
 ![Lab overview.](./media/Lab04-task5-001.png)
