@@ -42,6 +42,7 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
 1. In the Add members to SOC screen, select the **Skip** button. 
 
 1. Scroll down the Teams blade to locate the newly created SOC team, select the ellipsis **(...)** on the right side of the name and select **Add channel**.
+    ![Lab overview.](./media/tpl3.png) 
 
 1. Enter a channel name as *New Alerts* then select the **Add** button.
 
