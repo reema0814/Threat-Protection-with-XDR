@@ -47,7 +47,9 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
 1. To unblock the document, navigate to its location in File Explorer. In File Explorer, right-click the document, and select Properties. In the General tab, mark the Unblock option under Security.   
 
-1. Close the **Microsoft Word** and re-open from the File Explorer and enter the password as `WDATP!diy#` after re-opening click on **Enable Content** and click on **OK**. 
+1. Close the **Microsoft Word** and re-open from the File Explorer and enter the password as `WDATP!diy#` after re-opening click on **Enable Content** and click on **OK**.
+
+   ![Lab overview.](./media/Lab04-task1-001.png)  
 
 1. In the Command prompt pop-up press any key to close. 
       
