@@ -115,7 +115,7 @@ In this task, you will update the new playbook you created with the proper conne
 
 1. Select **Save** on the command bar. The Logic App will be used in a future lab.
    
-   ![Lab overview.](./media/Lab03-task1-005)
+   ![Lab overview.](./media/Lab03-task1-005.png)
    
 ## Review
  In this lab, you will perform the following:
