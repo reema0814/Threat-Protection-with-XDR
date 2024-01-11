@@ -176,10 +176,14 @@ Note: While running **notepad startup.bat** command In notepad Choose **Yes** to
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
 
-1. In Azure portal, search for Virtual Machines and login to **s2vm-xxxx** virtual machine with the below admin credentials:
+1. In Azure portal, search for Virtual Machines and login to **s2vm-xxxx** virtual machine with the credentials same as  **svm-xxxx** shown on the credential page.
+Public IP and DNS name needs to be taken from **svm-xxxx** Virtual machine and navigate to virtual machine in (Portal.azure.com). you should be already logged in **svm-xxxx** Virtual machine while performing preceeding labs.
 
-   * Admin Username:
-   * Admin Password:
+   * Admin Username
+   * Admin Password
+  Note:Virtual machine with the credentials same as  **svm-xxxx** shown on the credential page.
+
+![Lab overview.](./media/Lab04-task5-001.png)
 
 1. In the search of the taskbar of your **s2vm-xxxx** VM, enter *Command*. A Command Prompt will be displayed in the search results. Right-click on the Command Prompt and select **Run as Administrator**. Select **Yes** in the User Account Control window that appears to allow the app to run.
 
