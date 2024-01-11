@@ -22,7 +22,7 @@ In this task, you will create a playbook for next task.
 
 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
 
-1. Select the Microsoft Sentinel Workspace you created earlier.
+1. Select the Microsoft Sentinel Workspace **loganalyticworkspace** you created earlier.
 
 1. Select the **Automation** form the *Configuration* section.
 
