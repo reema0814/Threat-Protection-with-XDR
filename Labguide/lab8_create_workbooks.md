@@ -20,7 +20,7 @@ Microsoft Sentinel allows you to create custom workbooks across your data and al
 
 1. In the Microsoft Sentinel left menus, scroll down to the *Content management* section and select **Content Hub**.
 
-1. In the *Content hub*, search for the **Azure Activity** solution and select it from the list.
+1. In the *Content hub*, search for the **Azure Activity** solution and select it from the list and click on **Install**.
 
 1. On the *Microsoft Defender for Cloud* solution page select **Install**.
 
