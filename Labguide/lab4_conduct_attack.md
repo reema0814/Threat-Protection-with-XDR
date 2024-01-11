@@ -57,7 +57,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
 ### Task 2: Investigate the Attacks
 
-1. In the Microsoft 365 Defender portal select **Incidents & alerts** from the left menu bar, then select **Incidents**.
+1. In the Microsoft 365 Defender portal (https://security.microsoft.com). select **Incidents & alerts** from the left menu bar, then select **Incidents**.
 
 1. A new incident called "Multi-stage incident..." is in the right pane. Click the incident name to load its details.
 
