@@ -42,7 +42,7 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
 1. In the Add members to SOC screen, select the **Skip** button. 
 
 1. Scroll down the Teams blade to locate the newly created SOC team, select the ellipsis **(...)** on the right side of the name and select **Add channel**.
-    ![Lab overview.](./media/tpl3.png) 
+    ![Lab overview.](./media/Lab03-task1-003.png) 
 
 1. Enter a channel name as *New Alerts* then select the **Add** button.
 
@@ -89,16 +89,19 @@ In this task, you will update the new playbook you created with the proper conne
     ![Lab overview.](./media/Lab03-task03-activeplaybook.png) 
 
 1. On the Logic App page for *PostMessageTeams-OnIncident*, in the center menu, select **Edit**.
+    ![Lab overview.](./media/Lab03-task1-001.png) 
 
 1. Select the *first* block **Microsoft Sentinel Incident(Preview)**.
 
 1. Select the **Change connection** link.
+   ![Lab overview.](./media/Lab03-task1-002.png) 
 
 1. Select **Add new** and select **Sign in**. In the new window, select your Azure subscription admin credentials when prompted.The last line of the block should now read “Connected to your-admin-username”.
 
 1. Now select the *second block*, **Connections**.
 
 1. Select **Add new** and select your Azure admin credentials when prompted. The last line of the block should now read “Connected to your-admin-username”.
+    ![Lab overview.](./media/Lab03-task1-004.png) 
 
 1. The block has now been renamed to **Post a message (V3)**, at the end of the Team field, select the X to clear the contents. The field is changed to a drop-down with a listing of the available Teams from Microsoft Teams. Select **SOC**.
 
@@ -107,7 +110,8 @@ In this task, you will update the new playbook you created with the proper conne
     ![Lab overview.](./media/SC-200-img13.png)
 
 1. Select **Save** on the command bar. The Logic App will be used in a future lab.
-
+   ![Lab overview.](./media/Lab03-task1-005)
+   
 ## Review
  In this lab, you will perform the following:
  - Create a Security Operations Center Team in Microsoft Teams
