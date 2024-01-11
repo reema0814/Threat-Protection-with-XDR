@@ -80,11 +80,11 @@ In this task, you will update the new playbook you created with the proper conne
 
 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
 
-1. Select your Microsoft Sentinel Workspace.
+1. Select your Microsoft Sentinel Workspace **loganalyticworkspace**.
 
 1. Select the **Automation** from the Configuration area and then select the **Active Playbooks** tab.
 
-1. Select the **PostMessageTeams-OnIncident** playbook.
+1. Select the **PostMessageTeams-OnIncident** playbook and click on it to go to logic App page.
 
     ![Lab overview.](./media/Lab03-task03-activeplaybook.png) 
 
