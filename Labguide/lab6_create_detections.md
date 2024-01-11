@@ -42,6 +42,15 @@ In this task, you will create a playbook for next task.
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
 
+1. In Azure portal, search for Virtual Machines and login to **s2vm-xxxx** virtual machine with the credentials same as  **svm-xxxx** shown on the credential page.
+Public IP and DNS name needs to be taken from **svm-xxxx** Virtual machine and navigate to virtual machine in (Portal.azure.com). you should be already logged in **svm-xxxx** Virtual machine while performing preceeding labs.
+
+   * Admin Username
+   * Admin Password
+  Note:Virtual machine with the credentials same as  **svm-xxxx** shown on the credential page.
+
+![Lab overview.](./media/Lab04-task5-001.png)
+
 In this task, you will create a detection for the first attack of the previous exercise.
 
 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
