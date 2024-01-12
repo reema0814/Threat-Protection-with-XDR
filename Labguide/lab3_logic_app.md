@@ -65,7 +65,7 @@ In this task, you'll create a Logic App that is used as a Playbook in Microsoft 
 
 1. Make sure your Azure Subscription is selected.
 
-1. For Resource Group, select **Create New**, enter *threat-xdr* and select **OK**.
+1. For Resource Group, select **threat-xdr** and select **OK**.
 
 1. Leave **(US) East US** as the default value for *Region*.
 
