@@ -47,7 +47,9 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
 1. To unblock the document, navigate to its location in File Explorer. In File Explorer, right-click the document, and select Properties. In the General tab, mark the Unblock option under Security.   
 
-1. Close the **Microsoft Word** and re-open from the File Explorer and enter the password as `WDATP!diy#` after re-opening click on **Enable Content** and click on **OK**. 
+1. Close the **Microsoft Word** and re-open from the File Explorer and enter the password as `WDATP!diy#` after re-opening click on **Enable Content** and click on **OK**.
+
+   ![Lab overview.](./media/Lab04-task1-001.png)  
 
 1. In the Command prompt pop-up press any key to close. 
       
@@ -57,7 +59,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
 ### Task 2: Investigate the Attacks
 
-1. In the Microsoft 365 Defender portal select **Incidents & alerts** from the left menu bar, then select **Incidents**.
+1. In the Microsoft 365 Defender portal (https://security.microsoft.com). select **Incidents & alerts** from the left menu bar, then select **Incidents**.
 
 1. A new incident called "Multi-stage incident..." is in the right pane. Click the incident name to load its details.
 
@@ -95,7 +97,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
     cd temp
     notepad startup.bat
     ```
-
+Note: While running **notepad startup.bat** command In notepad Choose **Yes** to create startup.bat file in folder.
 1. Copy and run this command to simulate program persistence:
 
     ```CommandPrompt
@@ -176,10 +178,15 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
 
-1. In Azure portal, search for Virtual Machines and login to **s2vm-xxxx** virtual machine with the below admin credentials:
+1. In Azure portal, search for Virtual Machines and login to **s2vm-xxxx** virtual machine with the credentials same as  **svm-xxxx** shown on the credential page.
+Public IP and DNS name needs to be taken from **svm-xxxx** Virtual machine and navigate to virtual machine in (Portal.azure.com). you should be already logged in **svm-xxxx** Virtual machine while performing preceeding labs.
 
-   * Admin Username:
-   * Admin Password:
+   * Admin Username: <inject key="AzureAdUserEmail"></inject>
+   * Admin Password: <inject key="AzureAdUserPassword"></inject>
+   
+ Note:Virtual machine with the credentials same as  **svm-xxxx** shown on the credential page.
+
+![Lab overview.](./media/Lab04-task5-001.png)
 
 1. In the search of the taskbar of your **s2vm-xxxx** VM, enter *Command*. A Command Prompt will be displayed in the search results. Right-click on the Command Prompt and select **Run as Administrator**. Select **Yes** in the User Account Control window that appears to allow the app to run.
 
@@ -215,6 +222,7 @@ In this task, you will login to the M365 Defender portal and view the attacks wh
 
    * Username: <inject key="AzureAdUserEmail"></inject>
    * Password: <inject key="AzureAdUserPassword"></inject>
+
 
 1. Once you have logged into M365 Defender portal, navigate to **Incidents**(1) from the sidebar menu and view the newly created incident named **Multi-stage incident involving Execution & Discovery on one endpoint**(2).
 

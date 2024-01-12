@@ -4,10 +4,10 @@
 
 You are a Security Operations Analyst working at a company that implemented Microsoft Sentinel. You are going to work with Log Analytics KQL queries and from there, you will create custom analytics rules to help discover threats and anomalous behaviors in your environment.
 
-Analytics rules search for specific events or sets of events across your environment, alert you when certain event thresholds or conditions are reached, generate incidents for your SOC to triage and investigate, and respond to threats with automated tracking and reMediation processes.
+Analytics rules search for specific events or sets of events across your environment, alert you when certain event thresholds or conditions are reached, generate incidents for your SOC to triage and investigate, and respond to threats with automated tracking and remediation processes.
 
 ## Lab objectives (Duration: 30 minutes)
- In this lab, you will Understand following:
+ In this lab, you will understand following:
 
 - Task 1: Playbook creation.
 - Task 2: Persistence Attack Detection
@@ -22,7 +22,7 @@ In this task, you will create a playbook for next task.
 
 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
 
-1. Select the Microsoft Sentinel Workspace you created earlier.
+1. Select the Microsoft Sentinel Workspace **loganalyticworkspace** you created earlier.
 
 1. Select the **Automation** form the *Configuration* section.
 
@@ -41,6 +41,16 @@ In this task, you will create a playbook for next task.
 ### Task 2: Persistence Attack Detection
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
+
+1. In Azure portal, search for Virtual Machines and login to **s2vm-xxxx** virtual machine with the credentials same as  **svm-xxxx** shown on the credential page.
+Public IP and DNS name needs to be taken from **svm-xxxx** Virtual machine and navigate to virtual machine in (Portal.azure.com). you should be already logged in **svm-xxxx** Virtual machine while performing preceeding labs.
+
+   * Admin Username
+   * Admin Password
+     
+  Note:Virtual machine with the credentials same as  **svm-xxxx** shown on the credential page.
+
+![Lab overview.](./media/Lab04-task5-001.png)
 
 In this task, you will create a detection for the first attack of the previous exercise.
 
@@ -76,7 +86,8 @@ In this task, you will create a detection for the first attack of the previous e
     | extend timestamp = TimeGenerated, HostCustomEntity = Computer, AccountCustomEntity = SubjectUserName
     ```
 
-1. Now that you have a good detection rule, in the Logs window, select the **+ New alert rule** in the command bar and then select **Create Microsoft Sentinel alert**. This will create a new Scheduled rule. **Hint:** You might need to select the ellipsis (...) button in the command bar.
+1. Now that you have a good detection rule, in the Logs window, select the **+ New alert rule** in the command bar and then select **Create Microsoft Sentinel alert**. This will create a new Scheduled rule.
+**Hint:** You might need to select the ellipsis (...) button in the command bar.
 
 1. This starts the "Analytics rule wizard". For the *General* tab type:
 
