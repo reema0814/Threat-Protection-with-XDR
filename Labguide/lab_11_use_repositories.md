@@ -49,7 +49,7 @@ In this task, you will create an Azure DevOps repository.
 
 1. On the *We need a few more details* page, select **Continue**.
 
-1. On the *Get started with Azure DevOps* page, select **Create new organization** and enter the organization name as **Contoso** and then select **Continue**.
+1. On the *Get started with Azure DevOps* page, select **Create new organization** and enter the organization name as **odluser<inject key="DeploymentID" enableCopy="false"></inject>** and then select **Continue**.
 
 1. On the *Almost done...* page, enter a name for your DevOps organization that you would not want to use in the future, like for example, your tenant prefix. **Hint:** It can be found in the Resources tab of your lab.
 
