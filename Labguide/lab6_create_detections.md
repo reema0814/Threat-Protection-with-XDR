@@ -57,7 +57,6 @@ In this task, you will create a detection for the first attack of the previous e
     ```
     ![Lab overview.](./media/Lab06-task02-query1.png)
     
-    >**Note:** A result with the event might take up to 5 minutes to appear. Wait until it does. If it does not appear, make sure you have rebooted WINServer as instructed in the previous exercise and that you have completed Task #3 of the Learning Path 6 Lab, Exercise 2.
      
 1. The table *SecurityEvent* looks to have the data already normalized and is easy for us to query. Expand the row to see all the columns related to the record.
 
