@@ -178,11 +178,11 @@ Note: While running **notepad startup.bat** command In notepad Choose **Yes** to
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
 
-1. In Azure portal, search for Virtual Machines and login to **s2vm-xxxx** virtual machine with the credentials same as  **s2vm-xxxx** shown on the credential page.
+1. In Azure portal, search for Virtual Machines and login to **s2vm-xxxx** virtual machine with the credentials same as  **svm-xxxx** shown on the credential page.
 Public IP and DNS name needs to be taken from **svm-xxxx** Virtual machine and navigate to virtual machine in (Portal.azure.com). you should be already logged in **svm-xxxx** Virtual machine while performing preceeding labs.
 
-   * Admin Username <inject key="AzureAdUserEmail"></inject>
-   * Admin Password <inject key="AzureAdUserPassword"></inject>
+   * Admin Username: <inject key="AzureAdUserEmail"></inject>
+   * Admin Password: <inject key="AzureAdUserPassword"></inject>
    
  Note:Virtual machine with the credentials same as  **svm-xxxx** shown on the credential page.
 
