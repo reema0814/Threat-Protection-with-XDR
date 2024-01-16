@@ -9,7 +9,7 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
 ## Lab objectives
  In this lab, you will perform the following:
- - Task 1: Log in to Azure Portal and verify the pre-deployed resources
+ - Task 1: Log in to Azure Portal
  - Task 2: Explore Sentinel workspace
  - Task 3: Onboard a Device
 
@@ -19,7 +19,7 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
 ## Exercise 1: Exploring a Pre-Created Azure Sentinel Workspace
 
-### Task 1: Log in to Azure Portal and verify the pre-deployed resources.
+### Task 1: Log in to Azure Portal
 
 1. In the virtual machine (VM) on the left, click on the Azure Portal as shown below.
 
@@ -127,6 +127,6 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 ## Review
 In this lab you have completed:
- - Log in to Azure Portal and verify the pre-deployed resources
+ - Log in to Azure Portal
  - Explore Sentinel workspace
  - Onboard a Device
