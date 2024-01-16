@@ -83,6 +83,5 @@ Based on your interests, you can use this lab guide as a reference to learn and 
 - Log Analytics Workspace
 - Microsoft Defender for Cloud
 - Microsoft Defender for Endpoint
-- Microsoft Entra ID
 - Microsoft Sentinel
 - Logic App
