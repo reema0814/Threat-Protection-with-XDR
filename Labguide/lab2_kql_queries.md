@@ -50,6 +50,8 @@ You are a Security Operations Analyst working at a company that is implementing 
         
 10. Select the **Virtual machine** link from top and on the virtual machine page select the **s2vm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on connect.
 
+    ![Picture 1](./media/lab2-task1-s2vm.png)
+
 11. Then come back to Configuration and scroll down a bit you can find **Select which events to stream** Click on **All Events**.
 
     ![Picture 1](./media/lab2-task1-streamevents.png) 
