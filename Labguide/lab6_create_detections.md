@@ -121,6 +121,8 @@ In this task, you will create a detection for the second attack of the previous 
     | summarize count() by $table
     ```
 
+    ![](./media/6-1.png)
+
 1. The result might show events from different tables, but in our case, we want to investigate the SecurityEvent table. The EventID and Event that we are looking is "4732 - A member was added to a security-enabled local group". With this, we will identify adding a member to a privileged group. **Run** the following KQL query to confirm:
 
     ```KQL
@@ -128,6 +130,8 @@ In this task, you will create a detection for the second attack of the previous 
     | where EventID == 4732
     | where TargetAccount == "Builtin\\Administrators"
     ```
+
+   ![](./media/6-2.png)
 
 1. Expand the row to see all the columns related to the record. The username of the account added as Administrator does not show. The issue is that instead of storing the username, we have the Security IDentifier (SID). **Run** the following KQL to match the SID to the username that was added to the Administrators group:
 
@@ -141,6 +145,8 @@ In this task, you will create a detection for the second attack of the previous 
         | summarize count() by TargetSid, SourceComputerId, TargetUserName 
         | project Acct1 = TargetSid, MachId1 = SourceComputerId, UserName1 = TargetUserName) on $left.MachId == $right.MachId1, $left.Acct == $right.Acct1
     ```
+
+    ![](./media/6-3.png)
 
 1. Extend the row to show the resulting columns, in the last one, we see the name of the added user under the *UserName1* column we *project* within the KQL query. It is important to help the Security Operations Analyst by providing as much context about the alert as you can. This includes projecting Entities for use in the investigation graph. **Run** the following query:
 
@@ -156,18 +162,22 @@ In this task, you will create a detection for the second attack of the previous 
     | extend timestamp = TimeGenerated, HostCustomEntity = Computer, AccountCustomEntity = UserName1
     ```
 
+   ![](./media/6-4.png)
+
 1. Now that you have a good detection rule, in the Logs window, select **+ New alert rule** in the command bar and then select **Create Microsoft Sentinel alert**. **Hint:** You might need to select the ellipsis (...) button in the command bar.
 
 1. This starts the "Analytics rule wizard". For the *General* tab type:
 
     |Setting|Value|
     |---|---|
-    |Name|**SecurityEvent Local Administrators User Add**|
-    |Description|**User added to Local Administrators group**|
-    |Tactics|**Privilege Escalation**|
-    |Severity|**High**|
+    |Name|**SecurityEvent Local Administrators User Add (1)**|
+    |Description|**User added to Local Administrators group (2)**|
+    |Tactics|**Privilege Escalation (3)**|
+    |Severity|**High (4)**|
 
-1. Select **Next: Set rule logic >** button. 
+1. Select **Next: Set rule logic > (5)** button. 
+
+   ![](./media/6-5.png)
 
 1. On the *Set rule logic* tab, the *Rule query* should be populated already with you KQL query, as well the entities under *Alert enrichment - Entity mapping*.
 
@@ -175,33 +185,35 @@ In this task, you will create a detection for the second attack of the previous 
 
     |Setting|Value|
     |---|---|
-    |Run Query every|5 minutes|
-    |Lookup data from the last|1 Days|
+    |Run Query every| **5 minutes (1)** |
+    |Lookup data from the last| **1 Days (2)**|
 
     >**Note:** We are purposely generating many incidents for the same data. This enables the Lab to use these alerts.
 
-1. Leave the rest of the options with the defaults. Select **Next: Incident settings>** button.
+1. Leave the rest of the options with the defaults. Select **Next: Incident settings> (3)** button.
+
+   ![](./media/6-6.png)
 
 1. For the *Incident settings* tab, leave the default values and select **Next: Automated response >** button.
 
-1. On the *Automated response* tab under *Automation rules*, select **Add new**.
-
-1. Use the settings in the table to configure the automation rule.
+1. On the *Automated response* tab under *Automation rules*, select **Add new (1)** and Use the settings in the table to configure the automation rule the Select **Apply (6)**.
 
    |Setting|Value|
    |:----|:----|
-   |Automation rule name|SecurityEvent Local Administrators User Add|
-   |Trigger|When incident is created|
-   |Actions |Run playbook|
-   |playbook |PostMessageTeams-OnIncident|
+   |Automation rule name|**SecurityEvent Local Administrators User Add (1)**|
+   |Trigger|**When incident is created (2)**|
+   |Actions |**Run playbook (3)**|
+   |playbook |**PostMessageTeams-OnIncident (4)**|
 
    >**Note:** You have already assigned permissions to the playbook, so it must be available if not click on manage permissions and select it manually and it will be available by now
 
-1. Select **Apply**
+   ![](./media/6-7.png)
 
 1. Select the **Next: Review and create >** button.
   
 1. On the *Review and create* tab, select the **Create** button to create the new Scheduled Analytics rule.
+
+   ![](./media/6-8.png)
 
 ## Review
 In this lab, you have completed the following:
