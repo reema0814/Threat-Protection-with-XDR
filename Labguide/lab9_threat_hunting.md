@@ -118,7 +118,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
    ![Picture 1](./media/lab9xdr8.png)
 
-1. Explore the Investigation graph. Notice the high number of *Related alerts* for *svm-xxxx*.
+1. Explore the Investigation graph. Notice the high number of *Related alerts* for *svm-<inject key="DeploymentID" enableCopy="false" />*.
 
 1. Close the *Investigation* graph window by selecting the **X** in the top-right of the window. 
 

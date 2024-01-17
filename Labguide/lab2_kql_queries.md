@@ -44,11 +44,11 @@ You are a Security Operations Analyst working at a company that is implementing 
 
     ![Picture 1](./media/lab02-task01-installagent.png) 
 
-9. Select the **svm-xxxx** virtual machine and click on connect.
+9. Select the **svm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on connect.
 
     ![Picture 1](./media/lab2-task1-svm.png) 
         
-10. Select the **Virtual machine** link from top and on the virtual machine page select the **s2vm-xxxx** virtual machine and click on connect.
+10. Select the **Virtual machine** link from top and on the virtual machine page select the **s2vm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on connect.
 
 11. Then come back to Configuration and scroll down a bit you can find **Select which events to stream** Click on **All Events**.
 

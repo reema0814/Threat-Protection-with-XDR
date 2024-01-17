@@ -201,7 +201,7 @@ Note: While running **notepad startup.bat** command In notepad Choose **Yes** to
 
    ![VMrdp](./media/vm8.png)
    
-1. In the Windows Security window, select More choices and then Use a different account. Enter Username: <inject key="Labvm Admin Username"></inject> and *Password:** <inject key="Labvm Admin Password"></inject> and then select OK.
+1. In the Windows Security window, select More choices and then Use a different account. Enter **Username:** <inject key="Labvm Admin Username"></inject> and **Password:** <inject key="Labvm Admin Password"></inject> and then select OK.
 
    ![VMrdp](./media/vm6.png)
 
