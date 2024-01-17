@@ -48,7 +48,11 @@ You are a Security Operations Analyst working at a company that is implementing 
 
     ![Picture 1](./media/lab2-task1-svm.png) 
         
-10. Select the **Virtual machine** link from top and on the virtual machine page select the **s2vm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on connect.
+10. On **Connected (1)** Select the **Virtual machine (2)** link from top.
+
+    ![Picture 1](./media/lab2-task1-svm1.png) 
+
+11. On the virtual machine page select the **s2vm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on connect. wait until get connected.
 
     ![Picture 1](./media/lab2-task1-s2vm.png)
 

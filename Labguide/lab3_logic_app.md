@@ -109,9 +109,11 @@ In this task, you will update the new playbook you created with the proper conne
 
 1. The block has now been renamed to **Post a message (V3)**, at the end of the Team field, select the X to clear the contents. The field is changed to a drop-down with a listing of the available Teams from Microsoft Teams. Select **SOC**.
 
-1. Do the same for the Channel field, select the **X** at the end of the field to clear the contents. The field is changed to a drop-down with a listing of the Channels of the SOC Teams. Select **New Alerts**.
+1. Do the same for the Channel field, select the **X** at the end of the field to clear the contents. The field is changed to a drop-down with a listing of the Channels of the SOC Teams. Select **New Alerts**. 
 
-    ![Lab overview.](./media/SC-200-img13.png)
+1. Under the **Message** section, type **Entities: (1)** and select **Entities (2)** dynamic content from the right panel.
+
+   ![Lab overview.](./media/enti.png)
 
 1. Select **Save** on the command bar. The Logic App will be used in a future lab.
    
