@@ -167,19 +167,19 @@ In this task, you will build basic KQL statements.
 1. The following statement demonstrates the **search** operator, which searches all columns in the table for the value. In the Query Window enter the following statement and select **Run**: 
 
     ```KQL
-    search "err"
+    search "new"
     ```
 
-    >**Note**: It will take some time to reflect, you can move to other command and check this later. *Hint*: If the above command is not getting output replace **"err"** to **"new"**.
+    >**Note**: It will take some time to reflect, you can move to other command and check this later. *Hint*: If the above command is not getting output replace **"new"** to **"err"**.
 
     ![Picture 1](./media/Lab02-task05-searchnewquery.png)
 
 1. The following statement demonstrates **search** across tables listed within the **in** clause. In the Query Window enter the following statement and select **Run**: 
 
     ```KQL
-    search in (SecurityEvent,SecurityAlert,A*) "err"
+    search in (SecurityEvent,SecurityAlert,A*) "new"
     ```
-    >**Note**: It will take some time to reflect, you can move to other command and check this later. *Hint*: If the above command is not getting output replace **"err"** to **"new"**
+    >**Note**: It will take some time to reflect, you can move to other command and check this later. *Hint*: If the above command is not getting output replace **"new"** to **"err"**
 
 1. Change back the **Time range** to **Last 24 hours** in the Query Window.
 
