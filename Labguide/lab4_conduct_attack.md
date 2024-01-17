@@ -177,17 +177,41 @@ Note: While running **notepad startup.bat** command In notepad Choose **Yes** to
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
 
-1. In Azure portal, search for Virtual Machines and login to **s2vm-xxxx** virtual machine with the credentials same as  **svm-xxxx** shown on the credential page.
-Public IP and DNS name needs to be taken from **svm-xxxx** Virtual machine and navigate to virtual machine in (Portal.azure.com). you should be already logged in **svm-xxxx** Virtual machine while performing preceeding labs.
+1. In Azure portal, Search for **Virtual machines (1)** and select **Virtual machines (2)**.
 
-   * Admin Username: <inject key="AzureAdUserEmail"></inject>
-   * Admin Password: <inject key="AzureAdUserPassword"></inject>
+   ![VMrdp](./media/vm.png)
+
+1. Select the virtual machine **s2vm-<inject key="DeploymentID" enableCopy="false" />**  from the list.
    
- Note:Virtual machine with the credentials same as  **svm-xxxx** shown on the credential page.
+   ![VMrdp](./media/vm1.png)
 
-![Lab overview.](./media/Lab04-task5-001.png)
+1. On the beginning of the virtual machine page, click on **Connect** and from the drop-down select **Connect**.
 
-1. In the search of the taskbar of your **s2vm-xxxx** VM, enter *Command*. A Command Prompt will be displayed in the search results. Right-click on the Command Prompt and select **Run as Administrator**. Select **Yes** in the User Account Control window that appears to allow the app to run.
+   ![VMrdp](./media/vm2.png)
+
+1. On the Connect to Virtual Machine page, select RDP, Choose the option to **Download RDP File.**
+
+   ![VMrdp](./media/vm3.png)
+
+1. Open the downloaded RDP file from the downloads.
+
+   ![VMrdp](./media/vm4.png)
+
+1. Select Connect when prompted. You will get a warning that the .rdp file is from an unknown publisher. This is expected. In the Remote Desktop Connection window, select Connect to continue.
+
+   ![VMrdp](./media/vm8.png)
+   
+1. In the Windows Security window, select More choices and then Use a different account. Enter Username: <inject key="Labvm Admin Username"></inject> and *Password:** <inject key="Labvm Admin Password"></inject> and then select OK.
+
+   ![VMrdp](./media/vm6.png)
+
+1. Select **Yes** to verify the identity of the virtual machine and finish logging on.
+
+    ![VMrdp](./media/vm7.png)
+
+1. You should now be connected to the virtual machine via Remote Desktop.
+
+1. In the search of the taskbar of your **s2vm-<inject key="DeploymentID" enableCopy="false" />** VM, enter *Command*. A Command Prompt will be displayed in the search results. Right-click on the Command Prompt and select **Run as Administrator**. Select **Yes** in the User Account Control window that appears to allow the app to run.
 
 1. In the Command Prompt, create a Temp folder in the root directory. Remember to press Enter after the last row:
 
