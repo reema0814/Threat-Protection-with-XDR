@@ -8,10 +8,9 @@ You're a Security Operations Analyst working at a company that implemented Micro
  In this lab, you will perform the following in M365 Defender portal:
 - Task 1: Create a Group
 - Task 2: Apply Microsoft Defender for Office 365 preset security policies
-- Task 3: Connect the Microsoft Defender for Cloud connector
-- Task 4: Activate a Microsoft Security Rule
-- Task 5: Manage Incidents
-- Task 6: Investigate Alerts
+- Task 3: Activate a Microsoft Security Rule
+- Task 4: Manage Incidents
+- Task 5: Investigate Alerts
 
 ## Architecture Diagram
 
@@ -99,21 +98,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
     ![](./media/lab10-task3-strict-policies04.png)
 
-### Task 3: Connect the Microsoft Defender for Cloud connector.
-
- In this task, you will connect the Microsoft Defender for Cloud connector.
-
- 1. Navigate to Microsoft Sentinel, then on the left blade choose Configuration and select Data Connectors.  
-
- 1. From the Data Connectors tab, search for the **Microsoft Defender for Cloud** connector and select it from the list.
-
- 1. Select the **Open connector page** on the connector information blade.
-
- 1. In the **Configuration** area, under Subscription, select the subscription and slide the **Status** option to the right to indicate **Connected**.
-
-1. The "Status" should be now *Connected* and "Bi-directional sync" should be *Enabled*.
-
-### Task 4: Activate a Microsoft Security Rule
+### Task 3: Activate a Microsoft Security Rule
 
 In this task, you will activate a Microsoft Security rule.
 
@@ -141,7 +126,7 @@ In this task, you will activate a Microsoft Security rule.
 
 1. Review the changes made and select the **Save** button. The Analytics rule will be saved.
 
-### Task 5: Manage Incidents
+### Task 4: Manage Incidents
 
 In this task, you will manage the incidents in M365 Defender portal.
 
@@ -181,7 +166,7 @@ In this task, you will manage the incidents in M365 Defender portal.
 
    ![Lab overview.](./media/lab10-task1-summary.png)
 
-### Task 6: Investigate Alerts
+### Task 5: Investigate Alerts
 
 In this task you will investigate and mitigate the alerts through recommendations by Microsoft Defender.
 
@@ -229,7 +214,6 @@ In this task you will investigate and mitigate the alerts through recommendation
 In this lab, you have completed the following:
 - Create a Group
 - Apply Microsoft Defender for Office 365 preset security policies
-- Connect the Microsoft Defender for Cloud connector
 - Activate a Microsoft Security Rule
 - Manage Incidents
 - Investigate Alerts
