@@ -9,36 +9,14 @@ Analytics rules search for specific events or sets of events across your environ
 ## Lab objectives (Duration: 30 minutes)
  In this lab, you will understand following:
 
-- Task 1: Playbook creation.
-- Task 2: Persistence Attack Detection
+- Task 1: Persistence Attack Detection
 - Task 3: Privilege Elevation Attack Detection
 
 ## Architecture Diagram
 
   ![Lab overview.](./media/lab02part2.png)
 
-### Task 1: Playbook Creation.
-In this task, you will create a playbook for next task.
-
-1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
-
-1. Select the Microsoft Sentinel Workspace **loganalyticworkspace** you created earlier.
-
-1. Select the **Automation** form the *Configuration* section.
-
-1. Click on create and select **Playbook with incident trigger**.
-
-    ![Lab overview.](./media/Lab06-task01-triggers.png)
-
-1. Select the resource group and give  playbook name **PostMessageTeams-OnIncident**
-
-    ![Lab overview.](./media/Lab06-task01-createplaybook.png)
-
-1. Select Enable diagnostics logs in Log Analytics and select your workspace.
-
-1. Click on Next:Connections, Review + Create  and Click on Create and continue to designer.
-
-### Task 2: Persistence Attack Detection
+### Task 1:Persistence Attack Detection
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
 
@@ -66,8 +44,7 @@ In this task, you will create a detection for the first attack of the previous e
     search "temp\\startup.bat"
     ```
     ![Lab overview.](./media/Lab06-task02-query1.png)
-    
-     
+         
 1. The table *SecurityEvent* looks to have the data already normalized and is easy for us to query. Expand the row to see all the columns related to the record.
 
 1. From the results, we now know that the Threat Actor is using reg.exe to add keys to the Registry key and the program is located in C:\temp. **Run** the following statement to replace the *search* operator with the *where* operator in our query:
