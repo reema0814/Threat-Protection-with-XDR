@@ -48,11 +48,13 @@ You are a Security Operations Analyst working at a company that is implementing 
 
     ![Picture 1](./media/lab2-task1-svm.png) 
         
-10. Then come back to Configuration and scroll down a bit you can find **Select which events to stream** Click on **All Events**.
+10. Select the **Virtual machine** link from top and on the virtual machine page select the **s2vm-xxxx** virtual machine and click on connect.
+
+11. Then come back to Configuration and scroll down a bit you can find **Select which events to stream** Click on **All Events**.
 
     ![Picture 1](./media/lab2-task1-streamevents.png) 
 
-11. Click on apply changes now if you refresh the data connector page you can see the status connected for **Security events Via Legacy agent**.
+12. Click on apply changes now if you refresh the data connector page you can see the status connected for **Security events Via Legacy agent**.
 
 ### Task 2: Enable Microsoft Defender for Cloud
 
