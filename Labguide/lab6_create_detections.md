@@ -18,8 +18,6 @@ Analytics rules search for specific events or sets of events across your environ
 
 ### Task 1: Persistence Attack Detection
 
->**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
-
 In this task, you will create a detection for the first attack of the previous exercise.
 
 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
