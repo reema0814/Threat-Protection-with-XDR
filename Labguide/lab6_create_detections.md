@@ -16,7 +16,7 @@ Analytics rules search for specific events or sets of events across your environ
 
   ![Lab overview.](./media/lab02part2.png)
 
-### Task 1:Persistence Attack Detection
+### Task 1: Persistence Attack Detection
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
 
