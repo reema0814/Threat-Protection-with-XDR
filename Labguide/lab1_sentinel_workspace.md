@@ -23,7 +23,7 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
 1. In the virtual machine (VM) on the left, click on the Azure Portal, as shown below.
 
-    ![](./media/login1.png)
+   ![](./media/login1.png)
     
 1. On the **Sign into Microsoft Azure** tab, you will see the login screen. Enter the following **Email/Username**, and then click on **Next**.
 
@@ -33,9 +33,9 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
 1. Enter the following **Password** and click on **Sign in**. 
    
-   * Password: <inject key="AzureAdUserPassword"></inject>
+    * Password: <inject key="AzureAdUserPassword"></inject>
 
-     ![](./media/Lab-01-task1-password.png) 
+      ![](./media/Lab-01-task1-password.png) 
     
 1. First-time users are often prompted to "Stay Signed In." If you see any such pop-up, click on "No".
    
