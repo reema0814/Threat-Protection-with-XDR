@@ -96,13 +96,20 @@ In this task, you will create a detection for the first attack of the previous e
     |Automation rule name|Startup RegKey|
     |Trigger|When incident is created|
     |Actions |Run playbook|
-    |playbook |PostMessageTeams-OnIncident|
+   
+1. A second drop-down menu appears with an *Information (i)* message regarding playbook permissions and a **Manage playbook permissions link**
 
-    >**Note:** You have already assigned permissions to the playbook, so it will be available.
+    >**Note:** The playbooks will appear grayed out in the drop-down list until permissions are configured.
 
-    ![Lab overview.](./media/Lab06-task03-automationrule.png)
+1. Select the **Manage playbook permissions link**
+
+1. On the *Manage Permissions* page, select the **threat-xdr** resource group, and select **Apply**.
+
+1. From the drop-down menu, select the playbook **PostMessageTeams-OnIncident**, if required refresh the page.
 
 1. Select **Apply**
+
+    ![Lab overview.](./media/Lab06-task03-automationrule.png)
 
 1. Select the **Next: Review >** button.
   
