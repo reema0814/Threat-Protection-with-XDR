@@ -8,7 +8,7 @@ You are a Security Operations Analyst working at a company that implemented Micr
 >**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/SC-200%20Lab%20Simulation%20-%20Use%20repositories%20in%20Microsoft%20Sentinel)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
 
 ## Lab objectives (Duration: 30 minutes)
- In this lab, you will Understand following:
+ In this lab, you will understand the following:
  - Task 1: Create and export an analytical rule
  - Task 2: Create our Azure DevOps environment
  - Task 3: Connect Sentinel to Azure DevOps.
@@ -21,7 +21,7 @@ You are a Security Operations Analyst working at a company that implemented Micr
 
 In this task, you will enable Entity behavior analytics in Microsoft Sentinel.
 
-1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
+1. In the Search bar of the Azure portal, type Sentinel, then select **Microsoft Sentinel**.
 
 1. Select your Microsoft Sentinel Workspace.
 
@@ -33,13 +33,13 @@ In this task, you will enable Entity behavior analytics in Microsoft Sentinel.
 
    ![](./media/lab11-task01-analytics.png)
 
-1. The rule is exported to a text file named *Azure_Sentinel_analytic_rule.json*.
+1. The rule is exported to a text file named Azure_Sentinel_analytic_rule.json.
 
 1. Select **Open file** below the name of the downloaded file and then select **More apps**.
 
 1. Select **Notepad** and then select **OK**.
 
-1. Review the Azure Resource Manager template and the close it when done.
+1. Review the Azure Resource Manager template and then close it when done.
 
 ### Task 2: Create our Azure DevOps environment
 
@@ -47,7 +47,7 @@ In this task, you will create an Azure DevOps repository.
 
 1. Open another tab in the browser and navigate to (https://aexprodcus1.vsaex.visualstudio.com/me?mkt=en-US).
 
-1. On the *We need a few more details* page, select **Continue**.
+1. On the We need a few more details page, select **Continue**.
 
 1. On the *Get started with Azure DevOps* page, select **Create new organization** and enter the organization name as **odluser<inject key="DeploymentID" enableCopy="false"></inject>** and then select **Continue**.
 
@@ -120,7 +120,7 @@ In this task, you will create an Azure DevOps repository.
     >**Note:** The *Failed* status is due to limitations in the hosted lab environment. You would normally see *Succeeded*. Then you can see in the *Analytics* the imported rule *Rule from Azure DevOps*.
 
 ## Review
- In this lab, you will Understand following:
+ In this lab, you will understand the following:
  - Create and export an analytical rule
  - Create our Azure DevOps environment
  - Connect Sentinel to Azure DevOps.
