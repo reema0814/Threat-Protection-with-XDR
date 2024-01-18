@@ -7,7 +7,7 @@ You are a Security Operations Analyst working at a company that implemented Micr
 Microsoft Sentinel allows you to create custom workbooks across your data and also comes with built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source.
 
 ## Lab objectives
- In this lab, you will Understand following:
+ In this lab, you will understand the following:
  - Task 1: Connect the Azure Activity data connector
  - Task 2: Save and modify a workbook template
  - Task 2: Create a Workbook
@@ -50,7 +50,7 @@ Microsoft Sentinel allows you to create custom workbooks across your data and al
 
 1. Select **Create** to finish.
 
-1. It might take few minutes for the **Connected** status to appear.
+1. It might take a few minutes for the **Connected** status to appear.
 
 ### Task 2: Save and modify a workbook template
 
@@ -68,9 +68,9 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
 1. Search and select the **Azure Activity** by navigating to templates. In the right pane, scroll down and click on the **View template** button.
 
- >Hint: If you don't find Azure Activity, refresh and try again. Also, if the Azure Activity status bar is not visible, click on **>>** on right corner.    
+ >Hint: If you don't find Azure Activity, refresh and try again. Also, if the Azure Activity status bar is not visible, click on **>>** in the right corner.    
 
-5. Review the contents of the workbook. It shows insights of your Azure subscription operations by collecting and analyzing the data from the Activity Log.
+5. Review the contents of the workbook. It shows insights into your Azure subscription operations by collecting and analyzing the data from the Activity Log.
 
 1. You should be back in the Microsoft Sentinel - Workbooks - Templates tab. Scroll down again and select the **Save** button for the Azure Activity workbook.
 
@@ -84,7 +84,7 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
 1. Select **Edit** in the command bar to enable changes in the workbook.
 
-1. Scroll down to the *Caller activities over time* area, look at the color of the *Activities* column since we are going to format those columns. Select the **Edit** button below the grid.  
+1. Scroll down to the *Caller activities over time* area, and look at the color of the *Activities* column since we are going to format those columns. Select the **Edit** button below the grid.  
 
     ![Picture 1](./media/lab08-task1-edit.png) 
    
@@ -131,7 +131,7 @@ overview of the workbook.
 
 1. Type *# My workbook* in a new line on top of *## New workbook*.
 
-1. Select **Done Editing** on the bottom of this section, *Editing text item: text - 2*. Notice that your header increased in size and name changed.
+1. Select **Done Editing** on the bottom of this section, *Editing text item: text - 2*. Notice that your header increased in size and your name changed.
 
 1. Select **Edit** below the only visible bar chart graph.
 
@@ -157,7 +157,7 @@ overview of the workbook.
 
     ![Picture 1](./media/image_22.png)
 
-1. Now select **Advanced Settings** tab from the query's command bar.
+1. Now select the **Advanced Settings** tab from the query's command bar.
 
 1. Select **Show refresh icon when not editing** box. 
 
@@ -202,7 +202,7 @@ overview of the workbook.
 1. On the right pane, select **View saved workbook** to review your workbook.
 
 ## Review
- In this lab, you will Understand following:
+ In this lab, you will Understand the following:
  - Connect the Azure Activity data connector
  - Save and modify a workbook template
  - Create a Workbook
