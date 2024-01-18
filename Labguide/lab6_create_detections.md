@@ -7,7 +7,7 @@ You are a Security Operations Analyst working at a company that implemented Micr
 Analytics rules search for specific events or sets of events across your environment, alert you when certain event thresholds or conditions are reached, generate incidents for your SOC to triage and investigate, and respond to threats with automated tracking and remediation processes.
 
 ## Lab objectives (Duration: 30 minutes)
- In this lab, you will understand following:
+ In this lab, you will understand the following:
 
 - Task 1: Persistence Attack Detection
 - Task 2: Privilege Elevation Attack Detection
@@ -65,7 +65,7 @@ In this task, you will create a detection for the first attack of the previous e
 
 1. Select **Next: Set rule logic >** button.
 
-1. On the *Set rule logic* tab, the *Rule query* should be populated already with you KQL query, as well as the entities under *Alert enrichment - Entity mapping*.
+1. On the *Set rule logic* tab, the *Rule query* should be populated already with your KQL query, as well as the entities under *Alert enrichment - Entity mapping*.
 
     |Entity|Identifier|Data Field|
     |:----|:----|:----|
@@ -130,7 +130,7 @@ In this task, you will create a detection for the second attack of the previous 
 
     ![](./media/6-1.png)
 
-1. The result might show events from different tables, but in our case, we want to investigate the SecurityEvent table. The EventID and Event that we are looking is "4732 - A member was added to a security-enabled local group". With this, we will identify adding a member to a privileged group. **Run** the following KQL query to confirm:
+1. The result might show events from different tables, but in our case, we want to investigate the SecurityEvent table. The EventID and Event that we are looking at is "4732 - A member was added to a security-enabled local group". With this, we will identify adding a member to a privileged group. **Run** the following KQL query to confirm:
 
     ```KQL
     SecurityEvent 
@@ -186,7 +186,7 @@ In this task, you will create a detection for the second attack of the previous 
 
    ![](./media/6-5.png)
 
-1. On the *Set rule logic* tab, the *Rule query* should be populated already with you KQL query, as well the entities under *Alert enrichment - Entity mapping*.
+1. On the *Set rule logic* tab, the *Rule query* should be populated already with your KQL query, as well as the entities under *Alert enrichment - Entity mapping*.
 
 1. For *Query scheduling* set the following:
 
@@ -203,7 +203,7 @@ In this task, you will create a detection for the second attack of the previous 
 
 1. For the *Incident settings* tab, leave the default values and select **Next: Automated response >** button.
 
-1. On the *Automated response* tab under *Automation rules*, select **Add new (1)** and Use the settings in the table to configure the automation rule the Select **Apply (6)**.
+1. On the *Automated response* tab under *Automation rules*, select **Add new (1)** and Use the settings in the table to configure the automation rule Select **Apply (6)**.
 
    |Setting|Value|
    |:----|:----|
