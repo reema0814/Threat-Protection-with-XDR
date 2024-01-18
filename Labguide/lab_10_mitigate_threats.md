@@ -2,10 +2,10 @@
 
 ## Lab scenario
 
-You're a Security Operations Analyst working at a company that implemented Microsoft Defender XDR solutions. You need to see the alerts in an incident to see the incident's full impact and do a root cause investigation and mitigate these alerts using M365 Defender tools.
+You're a Security Operations Analyst working at a company that implemented Microsoft Defender XDR solutions. You need to see the alerts in an incident to see the incident's full impact do a root cause investigation and mitigate these alerts using M365 Defender tools.
 
 ## Lab objectives
- In this lab, you will perform the following in M365 Defender portal:
+ In this lab, you will perform the following in the M365 Defender portal:
 - Task 1: Create a Group
 - Task 2: Apply Microsoft Defender for Office 365 preset security policies
 - Task 3: Activate a Microsoft Security Rule
@@ -22,7 +22,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 1. Select **Groups** and then click on **New group**.
 
-1. Enter the below details for New group page :
+1. Enter the below details for the New group page :
 
    |Setting|Value|
     |---|---|
@@ -56,11 +56,11 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
     ![](./media/lab10-task3-std-policies.png)  
         
-1. In the Apply Exchange Online Protection section, select **Specific recipients** and under **Domains** start writing your tenant’s domain name, select it, and then select **Next**.
+1. In the Apply Exchange Online Protection section, select **Specific recipients**, and under **Domains** start writing your tenant’s domain name, select it, and then select **Next**.
 
     ![](./media/lab10-task3-std-policies01.png)
 
-1. In the Apply Defender for Office 365 protection section, apply the same configuration as the previous step and select Next. Notice that this configuration applies policies for anti-phishing, Safe Attachments, Safe Links.
+1. In the Apply Defender for Office 365 protection section, apply the same configuration as the previous step and select Next. Notice that this configuration applies policies for anti-phishing, Safe Attachments, and Safe Links.
 
     ![](./media/lab10-task3-std-policies02.png)
 
@@ -72,7 +72,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
     ![](./media/lab10-task3-std-policies04.png)
     
-1. Read the content under Review and confirm your changes and select **Confirm** to apply the changes and then select **Done** to finish.
+1. Read the content under Review and confirm your changes select **Confirm** to apply the changes and then select **Done** to finish.
 
     ![](./media/lab10-task3-std-policies05.png)
 
@@ -80,11 +80,11 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
     ![](./media/lab10-task3-strict-policies.png)
 
-1. In the Apply Exchange Online Protection, select **Specific recipients** and under **Groups**, select your group, and then select **Next**. Notice that this configuration applies policies for anti-spam, outbound spam filter, anti-malware, anti-phishing.
+1. In the Apply Exchange Online Protection, select **Specific recipients** and under **Groups**, select your group, and then select **Next**. Notice that this configuration applies policies for anti-spam, outbound spam filters, anti-malware, and anti-phishing.
 
     ![](./media/lab10-task3-strict-policies01.png)
 
-1. In the Apply Defender for Office 365 protection section, apply the same configuration as the previous step and select Next. Notice that this configuration applies policies for anti-phishing, Safe Attachments, Safe Links.
+1. In the Apply Defender for Office 365 protection section, apply the same configuration as the previous step and select Next. Notice that this configuration applies policies for anti-phishing, Safe Attachments, and Safe Links.
 
      ![](./media/lab10-task3-strict-policies02.png) 
 
@@ -94,7 +94,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
     ![](./media/lab10-task3-strict-policies03.png)
    
-1. Read the content under Review and confirm your changes and select **Confirm** to apply the changes and then select **Done** to finish.
+1. Read the content under Review and confirm your changes select **Confirm** to apply the changes and then select **Done** to finish.
 
     ![](./media/lab10-task3-strict-policies04.png)
 
@@ -104,7 +104,7 @@ In this task, you will activate a Microsoft Security rule.
 
 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
 
-1. Select your Microsoft Sentinel Workspace you created in the previous labs.
+1. Select the Microsoft Sentinel Workspace you created in the previous labs.
 
 1. Select **Analytics** from the Configuration area. By default, you will see the *Active rules*.
 
@@ -128,7 +128,7 @@ In this task, you will activate a Microsoft Security rule.
 
 ### Task 4: Manage Incidents
 
-In this task, you will manage the incidents in M365 Defender portal.
+In this task, you will manage the incidents in the M365 Defender portal.
 
 1. If you are not already at the Microsoft 365 Defender portal in your Microsoft Edge browser, go to (https://security.microsoft.com). 
 
@@ -142,7 +142,7 @@ In this task, you will manage the incidents in M365 Defender portal.
 
    ![Lab overview.](./media/lab10-task1-manage.png) 
 
-1. Here, you can edit the name of the incident, add tags, assign to an existing group or an user, change the status, classify the incident as required and even add comments.
+1. Here, you can edit the name of the incident, add tags, assign it to an existing group or a user, change the status, classify the incident as required, and even add comments.
 
    ![Lab overview.](./media/lab10-task1-manage01.png)
 
@@ -154,23 +154,23 @@ In this task, you will manage the incidents in M365 Defender portal.
 
    ![Lab overview.](./media/lab10-task1-alerts.png)
 
-1. You can also see the devices and users affected by this incident in the **Assests** tab. You can verify that the affected device is **svm-xxxx** and the user is **demouser**.
+1. You can also see the devices and users affected by this incident in the **Assets** tab. You can verify that the affected device is **svm-xxxx** and the user is **demouser**.
 
    ![Lab overview.](./media/lab10-task1-assests.png)
 
-1. The **Evidences & Responses** tab shows the initial evidences investigated by Microsoft Defender which includes the processes, IP addresses and registry values.
+1. The **Evidence & Responses** tab shows the initial evidence investigated by Microsoft Defender which includes the processes, IP addresses, and registry values.
 
    ![Lab overview.](./media/lab10-task1-evidences.png)
 
-1. The **Summary** tab gives us a summarized report of the incident including acitve alerts & their category, incident information, scope and much more.
+1. The **Summary** tab gives us a summarized report of the incident including active alerts & their category, incident information, scope, and much more.
 
    ![Lab overview.](./media/lab10-task1-summary.png)
 
 ### Task 5: Investigate Alerts
 
-In this task you will investigate and mitigate the alerts through recommendations by Microsoft Defender.
+In this task, you will investigate and mitigate the alerts through recommendations by Microsoft Defender.
 
-1. In the Microsoft Defender portal, navigate to **Alerts** tab from the sidebar menu.
+1. In the Microsoft Defender portal, navigate to the **Alerts** tab from the sidebar menu.
 
    ![Lab overview.](./media/lab10-task2-alerts.png)
 
@@ -180,11 +180,11 @@ In this task you will investigate and mitigate the alerts through recommendation
 
    ![Lab overview.](./media/lab10-task2-alerts-max.png)
 
-1. Click on the dropdowm for the first suspicious behaviour to fully investigate the root cause for this activity.
+1. Click on the drop-down for the first suspicious behavior to fully investigate the root cause for this activity.
 
    ![Lab overview.](./media/lab10-task2-alerts-max01.png)
 
-1. You can see that this suspicious behaviour was reported when the user ran a certain command. 
+1. You can see that this suspicious behavior was reported when the user ran a certain command. 
 
    ![Lab overview.](./media/lab10-task2-alerts-max02.png)
 
@@ -194,19 +194,19 @@ In this task you will investigate and mitigate the alerts through recommendation
 
    ![Lab overview.](./media/lab10-task2-alerts-hunt01.png)
 
-1. You can also investigate the alert further by navigating back the alerts and clicking on **Deep analysis**.
+1. You can also investigate the alert further by navigating back to the alerts and clicking on **Deep analysis**.
 
    ![Lab overview.](./media/lab10-task2-alerts-deep-analysis.png)
 
-1. You will be redirected to a new tab. Click on **Submit** to get the detailed analayzed file.
+1. You will be redirected to a new tab. Click on **Submit** to get the detailed analyzed file.
 
    ![Lab overview.](./media/lab10-task2-alerts-deep-analysis01.png)
 
-1. This process will take sometime, after which you can see the deep analysis of the alert and further investigate it.
+1. This process will take some time, after which you can see the deep analysis of the alert and further investigate it.
 
    ![Lab overview.](./media/lab10-task2-alerts-deep-analysis02.png)
 
-1. Microsoft Defender also provides recommendations to mitigate the alerts. On the alert details page, click on **Recommendations** tab to view all the recommendations.
+1. Microsoft Defender also provides recommendations to mitigate the alerts. On the alert details page, click on the **Recommendations** tab to view all the recommendations.
 
    ![Lab overview.](./media/lab10-task2-alerts-recommendations.png)
 
