@@ -40,13 +40,13 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-    ![Enter Your Username](./media/sc900-image-1.png)
+     ![Enter Your Username](./media/sc900-image-1.png)
  
 3. Next, provide your password:
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-   ![Enter Your Password](./media/sc900-image-2.png)
+     ![Enter Your Password](./media/sc900-image-2.png)
  
 4. If prompted to stay signed in, you can click "No."
  
