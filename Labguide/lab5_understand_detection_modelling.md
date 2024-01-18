@@ -2,7 +2,7 @@
 
 ### Lab Scenario
 
-In this lab, you will understand the attacks and about Detection Modeling
+In this lab, you will understand the attacks and Detection Modeling
 
 ## Lab objectives
  In this lab, you will understand the following:
@@ -36,7 +36,7 @@ REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "SOC Test" /t RE
 
 #### Attack 2 - User Add and Elevate Privilege
 
-Attackers will add new users and elevate the new user to the Administrators group.  This enables the attacker to logon with a different account that is privileged.
+Attackers will add new users and elevate the new user to the Administrators group.  This enables the attacker to log on with a different account that is privileged.
 
 ```Command
 net user theusernametoadd /add
@@ -92,11 +92,11 @@ Until ($TimeNow -ge $RunEnd)
 
 ### Task 2: Understand Detection Modeling.
 
-Microsoft Sentinel Analytics provides an intelligent solution that you can use to detect potential threats and vulnerabilities in your organizations. You can detect previously uncovered threats and rapidly remediate threats with built-in orchestration and automation in Microsoft Sentinel.
+Microsoft Sentinel Analytics provides an intelligent solution that you can use to detect potential threats and vulnerabilities in your organization. You can detect previously uncovered threats and rapidly remediate threats with built-in orchestration and automation in Microsoft Sentinel.
 
 Detection modeling in XDR involves the creation and refinement of rules, algorithms, and analytical processes to identify and respond to security threats across various endpoints, networks, and cloud environments. XDR integrates data from multiple sources to provide a comprehensive and correlated view of potential security incidents.
 
-You can detect the threats or incidents using various tools in Azure Sentinel. For example, by configuring various Data Connectors in Azure Sentinel, you will get the incidents/alerts through the connected providers; run queries in the Log Analytics workspace to detect these potential alerts which you will learn in the upcoming labs.
+You can detect the threats or incidents using various tools in Azure Sentinel. For example, by configuring various Data Connectors in Azure Sentinel, you will get the incidents/alerts through the connected providers; and run queries in the Log Analytics workspace to detect these potential alerts which you will learn in the upcoming labs.
 
 ![Lab overview.](./media/lab05-data-connectors.png)
 
