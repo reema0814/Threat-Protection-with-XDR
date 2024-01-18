@@ -381,13 +381,13 @@ In this task, you will build KQL statements to aggregate data. **Summarize** gro
     SecurityEvent  
     | where TimeGenerated > ago(1h)
     | where EventID == '4624'  
-    | summarize make_set(Account) by Computerc
+    | summarize make_set(Account) by Computer
     ```
     ![](./media/2-19.png)
 
 ### Task 7: Create visualizations in KQL with the Render Operator
 
-In this task, you will use generate visualizations with KQL statements.
+In this task, you will generate visualizations with KQL statements.
 
 1. The following statement demonstrates the **render** operator (which renders results as a graphical output), using a **barchart** visualization. In the Query Window enter the following statement and select **Run**: 
 
@@ -399,7 +399,7 @@ In this task, you will use generate visualizations with KQL statements.
     ```
      ![](./media/2-20.png)
 
-1. The following statement demonstrates the **render** operator visualizing results with a time series. The **bin()** function rounds all values in a timeframe and groups them, used frequently in combination with **summarize**. If you have a scattered set of values, the values are grouped into a smaller set of specific values. Combining the generated results and pipe them to a **render** operator with a **timechart** provides a time series visualization. In the Query Window enter the following statement and select **Run**: 
+1. The following statement demonstrates the **render** operator visualizing results with a time series. The **bin()** function rounds all values in a timeframe and groups them, used frequently in combination with **summarize**. If you have a scattered set of values, the values are grouped into a smaller set of specific values. Combining the generated results and pipe them to a **render** operator with a **time chart** provides a time series visualization. In the Query Window enter the following statement and select **Run**: 
 
     ```KQL
     SecurityEvent  
@@ -442,7 +442,7 @@ In this task, you will build multi-table KQL statements.
         ```
        ![](./media/2-24.png)
 
-1. The following statement demonstrates the **union** operator support to union multiple tables with wildcards. In the Query Window enter the following statement and select **Run**: 
+1. The following statement demonstrates the **union** operator's support to union multiple tables with wildcards. In the Query Window enter the following statement and select **Run**: 
 
     ```KQL
     union Security*  
@@ -450,7 +450,7 @@ In this task, you will build multi-table KQL statements.
     ```
     ![](./media/2-25.png)
 
-1. The following statement demonstrates the **join** operator, which merges the rows of two tables to form a new table by matching values of the specified column(s) from each table. In the Query Window enter the following statement and select **Run**: 
+1. The following statement demonstrates the **join** operator, which merges the rows of two tables to form a new table by matching the values of the specified column(s) from each table. In the Query Window enter the following statement and select **Run**: 
 
     ```KQL
     SecurityEvent  
@@ -556,7 +556,7 @@ In this task, you will work with structured and unstructured string fields with 
     ( where Location.countryOrRegion == "ES")
     ```
 
-1. A **function** is a log query that can be used in other log queries with the saved name as a command. To create a **function**, after running your query, select the **Save** button and then select **Save As function** from the drop-down. Enter the name your want (for example: *PrivLogins*) in the **Function name** box and enter a **Legacy category** (for example: *General*) and select **Save**. The function will be available in KQL by using the function's alias:
+1. A **function** is a log query that can be used in other log queries with the saved name as a command. To create a **function**, after running your query, select the **Save** button and then select **Save As function** from the drop-down. Enter the name you want (for example: *PrivLogins*) in the **Function name** box and enter a **Legacy category** (for example: *General*) and select **Save**. The function will be available in KQL by using the function's alias:
 
     >**Note:** You will not be able to do this in the lab demo environment used for this lab since your account has only Reader permissions, but it is an important concept to make your queries more efficient and effective. 
 
