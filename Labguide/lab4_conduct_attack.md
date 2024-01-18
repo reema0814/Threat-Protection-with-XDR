@@ -11,7 +11,7 @@ You are going to simulate the attacks that you will later use to detect and inve
 - Task 3: Persistence Attack with Registry Key Add
 - Task 4: Command and Control Attack with DNS
 - Task 5: Privilege Elevation Attack with User Add
-- Task 6: Investigate the Incident in M365 Defender Portal
+- Task 6: Investigate the Incident in the M365 Defender Portal
 
 ## Architecture Diagram
 
