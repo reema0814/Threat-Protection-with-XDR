@@ -10,7 +10,7 @@ Microsoft Sentinel allows you to create custom workbooks across your data and al
  In this lab, you will understand the following:
  - Task 1: Connect the Azure Activity data connector
  - Task 2: Save and modify a workbook template
- - Task 2: Create a Workbook
+ - Task 3: Create a Workbook
 
 ## Architecture Diagram
 
@@ -51,6 +51,12 @@ Microsoft Sentinel allows you to create custom workbooks across your data and al
 1. Select **Create** to finish.
 
 1. It might take a few minutes for the **Connected** status to appear.
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 2: Save and modify a workbook template
 
