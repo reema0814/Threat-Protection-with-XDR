@@ -45,7 +45,7 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
  Sentinel Workspace is a centralized platform by Microsoft Azure designed for managing, investigating, and responding to security threats across your organization's cloud services.
 
-1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
+1. In the Search bar of the Azure portal, type *Microsft Sentinel*, then select **Microsoft Sentinel**.
 
     ![](./media/09.png)
 

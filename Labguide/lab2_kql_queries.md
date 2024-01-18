@@ -22,25 +22,27 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 ### Task 1: Connect the Windows security event connector
 
-1. On the search bar type **Microsoft Sentinel** and select. 
+1. In the Search bar of the Azure portal, type *Microsft Sentinel*, then select **Microsoft Sentinel**.
 
-1. select the created workspace log Analytics.
+    ![](./media/09.png) 
 
-1. On the left menu under the Content management section select **Content hub**.
+1. Select the pre-created Sentinel **loganalyticworkspace** from the available list.
 
-1. On the content hub page search for **Windows security events** and select, Install.
+    ![](./media/Lab01-task2-loganalyticworkspace.png) 
+
+1. Navigate to the left menu and go to the Content Management section; there, select **Content Hub (1)**. On the Content Hub page, locate **Windows Security Events (2)**, and then **select (3)** it. Finally, click on **Install (4)**.
 
     ![Picture 1](./media/Lab02-task1-contenthub.png)  
 
-5. Once you receive the notification of successful installation go back to the Data connector page and click on refresh.
+1. After receiving the notification of a successful installation, return to the Data Connector page and click on the refresh button to ensure that the changes take effect.
 
-1. You can see **Security events Via Legacy agent** and **windows security event via AMA**.
+1. You should observe two options: **Security Events Via Legacy Agent** and **Windows Security Event Via AMA**.
 
-1. Select **Security events Via Legacy agent** and click on **open connector page**.
+1. Choose **Security Events Via Legacy Agent**, and then click on **Open Connector Page**.
 
     ![Picture 1](./media/lab02-task01-events.png) 
    
-8. Under configuration choose **Install agent on Azure Windows Virtual Machine** and select **Download & install agent for Azure Windows Virtual machines**.
+8. In the configuration section, opt for **Install Agent on Azure Windows Virtual Machine (1)**, and then choose **Download & Install Agent for Azure Windows Virtual Machines (2)**.
 
     ![Picture 1](./media/lab02-task01-installagent.png) 
 
@@ -48,7 +50,7 @@ You are a Security Operations Analyst working at a company that is implementing 
 
     ![Picture 1](./media/lab2-task1-svm.png) 
         
-10. On **Connected (1)** Select the **Virtual machine (2)** link from top.
+10. Once **connected (1)**, select the **Virtual Machine (2)** link from the top.
 
     ![Picture 1](./media/lab2-task1-svm1.png) 
 
@@ -56,51 +58,51 @@ You are a Security Operations Analyst working at a company that is implementing 
 
     ![Picture 1](./media/lab2-task1-s2vm.png)
 
-11. Then come back to Configuration and scroll down a bit you can find **Select which events to stream** Click on **All Events**.
+11. Then, come back to the Configuration and scroll down a bit. You can find **Select which events to stream**. Click on **All Events**.
 
     ![Picture 1](./media/lab2-task1-streamevents.png) 
 
-12. Click on apply changes now if you refresh the data connector page you can see the status connected for **Security events Via Legacy agent**.
+12. Click on "Apply Changes" now. If you refresh the data connector page, you can see the status "Connected" for **Security Events Via Legacy Agent**.
 
 ### Task 2: Enable Microsoft Defender for Cloud
 
 In this task, you will enable and configure Microsoft Defender for Cloud.
 
-1. In the Search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
+1. In the search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
 
     ![Picture 1](./media/Lab-02-task2-search.png) 
 
-2. click the left menu and click on **Getting started**.
+1. Click the left menu, and then click on **Getting Started**.
 
-1. On the **Getting Started** page, under the **Upgrade** tab, make sure your subscription is selected, and then select the **Upgrade** button at the bottom of the page. Wait for 2-5 minutes to complete it, as it takes time.
+1. On the **Getting Started** page, under the **Upgrade** tab, ensure your subscription is selected, and then click the **Upgrade** button at the bottom of the page. Please wait for 2-5 minutes for the process to complete, as it may take some time.
 
     ![Picture 1](./media/Lab-02-task2-upgrade.png) 
 
 4. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
 
-1. Click on the subscription (or equivalent name in your Language). 
+1. Click on the subscription (or its equivalent name in your language). 
 
 1. Review the Azure resources that are now protected with the Defender for Cloud plans.
 
-1. Select the **Settings & monitoring** tab from the Settings area (next to Save).
+1. Select the **Settings & Monitoring** tab from the Settings area (next to Save).
  
     ![Picture 1](./media/Lab-02-task2-reviewplans.png) 
 
-8. Review the monitoring extensions. Confirm that **Log Analytics agent/Azure Monitor agent** is **Off**. Click Continue or Close the Settings & monitoring page by selecting the 'X' on the upper right of the page.
+1. Review the monitoring extensions and confirm that **Log Analytics agent/Azure Monitor agent** is **Off**. Click Continue or close the Settings & Monitoring page by selecting the 'X' on the upper right of the page.
 
     ![Picture 1](./media/Lab-02-task2-agentoff.png) 
 
-9. Close the settings page by selecting the 'X' on the upper right of the page to go back to the **Environment settings** and select the '>' to the left of your subscription.
+1. Close the settings page by selecting the 'X' on the upper right of the page to return to the **Environment settings**. Then, click on the '>' to the left of your subscription.
 
-1. Select the Log Analytics workspace *loganalyticworkspace* to review the available options and pricing.
+1. Select the Log Analytics workspace named **loganalyticworkspace** to review the available options and pricing.
 
     ![Picture 1](./media/Lab-02-task2-subscription.png) 
 
-11. Select **Enable all** (to the right of Select Defender plan) and then select **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
+1. Select **Enable all** (to the right of Select Defender plan), and then choose **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
 
     >**Note:** If the page is not being displayed, refresh your Edge browser and try again.  
 
-12. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**.
+1. Close the Defender plans page by selecting the 'X' in the upper right corner of the page to return to the **Environment settings**.
 
     ![Picture 1](./media/Lab-02-task2-save.png) 
 
@@ -108,17 +110,17 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 In this task, you will manually install the required agent on the Windows Server.
 
-1.  Go to **Microsoft Defender for Cloud** and select the **Getting Started** page.
+1. Navigate to **Microsoft Defender for Cloud** and choose the **Getting Started** page.
 
-1. Select the **Get Started** tab.
+1. Choose the **Get Started** tab.
 
-1. Scroll down and select **Configure** under the *Add non-Azure servers* section.
+1. Scroll down and click on **Configure** under the *Add non-Azure servers* section.
 
-      >**Note:** Non-Azure servers is use the Log Analytics agent to extend Microsoft Defender for Cloud capabilities to servers running outside of Azure, including resources running on-premises and in other clouds.
+      >**Note:** Non-Azure servers use the Log Analytics agent to extend Microsoft Defender for Cloud capabilities to servers running outside of Azure. This includes resources running on-premises and in other clouds.
 
     ![Picture 1](./media/lab02-task03-config.png) 
 
-1. Select **Upgrade** next to the workspace you created earlier.  This might take a few minutes, wait until you see the notification *"Defender plans for workspace were saved successfully"*.
+1. Choose **Upgrade** next to the workspace you created earlier. This process may take a few minutes, so please wait until you see the notification *"Defender plans for the workspace were saved successfully."*
 
     ![Picture 1](./media/lab-3xdr.png)
 
@@ -126,33 +128,33 @@ In this task, you will manually install the required agent on the Windows Server
 
     ![Picture 1](./media/lab-2xdr.png)
 
-1. Select **Log Analytics agent instructions**.
+1. Choose **Log Analytics agent instructions**.
 
-1. Select **Download Windows Agent (64 bit)**.
+1. Choose **Download Windows Agent (64-bit)**.
 
-1. Select **Open file** to run the downloaded *MMASetup-AMD64.exe* file.
+1. Choose **Open file** to execute the downloaded *MMASetup-AMD64.exe* file.
 
-   >**Note** If it is already installed it asks for "Repair" or "remove" select **Repair** then click on next then click on **install**, it will take 2-3 minutes to install.
+   >**Note** If it is already installed and prompts for "Repair" or "Remove," select **Repair**. Then, click on Next and proceed to click on **Install**. The installation process may take 2-3 minutes.
 
-1. Continue with the Install. Select **Finish** when complete.
+1. Continue with the installation process. Once the installation is complete, select **Finish**.
 
 1. Go to the "Microsoft Defender for Cloud" portal and select **Inventory** from the general section.
 
-1. The Server should appear in the list. You may have to select **Refresh** to see the update and it will take a few minutes.
+1. The server should appear in the list. You may need to select **Refresh** to see the update, and it might take a few minutes.
 
 ### Task 4: Access the KQL testing area
 
 In this task, you will access a Log Analytics environment where you can practice writing KQL statements.
 
-1. Go-to Microsoft Sentinel and select your **log analytics workspace**.
+1. Go to Microsoft Sentinel and choose your **Log Analytics workspace**.
 
-1. On the left menu click on **logs** close if any tutorial window pops up click on 'X'.
+1. On the left menu, click on **Logs**. Close any tutorial window that pops up by clicking on 'X'.
 
     ![Picture 1](./media/Lab-02-task4-query.png) 
 
-3. Explore the available tables listed in the tab on the left side of the screen.
+1. Explore the available tables listed in the tab on the left side of the screen.
 
-1. In the query editor, enter the following query and select the **Run** button. You should see the query results in the bottom window.
+1. In the query editor, enter the following query and click on the **Run** button. You should see the query results in the bottom window.
 
     ```KQL
     SecurityEvent
@@ -172,37 +174,44 @@ In this task, you will build basic KQL statements.
 
     ![Picture 1](./media/SC-200-img8.png) 
 
-1. The following statement demonstrates the **search** operator, which searches all columns in the table for the value. In the Query Window enter the following statement and select **Run**: 
+1. The following statement demonstrates the **search** operator, which searches all columns in the table for the value. In the Query Window, enter the following statement and click on **Run**:
 
     ```KQL
     search "new"
     ```
 
-    >**Note**: It will take some time to reflect, you can move to other command and check this later. *Hint*: If the above command is not getting output replace **"new"** to **"err"**.
+    >**Note**: It may take some time to reflect; you can proceed to other commands and check this later. *Hint*: If the above command does not produce output, replace **"new"** with **"err"** and try again.
 
     ![Picture 1](./media/Lab02-task05-searchnewquery.png)
 
-1. The following statement demonstrates **search** across tables listed within the **in** clause. In the Query Window enter the following statement and select **Run**: 
+1. The following statement demonstrates **search** across tables listed within the **in** clause. In the Query Window, enter the following statement and click on **Run**:
 
     ```KQL
     search in (SecurityEvent,SecurityAlert,A*) "new"
     ```
-    >**Note**: It will take some time to reflect, you can move to other command and check this later. *Hint*: If the above command is not getting output replace **"new"** to **"err"**
 
-1. Change back the **Time range** to **Last 24 hours** in the Query Window.
+    ![Picture 1](./media/2-1.png)
+
+    >**Note**: It may take some time to reflect; you can proceed to other commands and check this later. *Hint*: If the above command does not produce output, replace **"new"** with **"err"** and try again.
+
+1. Change the **Time range** back to **Last 24 hours** in the Query Window.
 
 1. The following statements demonstrate the **where** operator, which filters on a specific predicate. In the Query Window enter the following statements and run each query separately: 
+
     >**Note:** You should select **Run** after entering each query from the code blocks below.
 
     ```KQL
     SecurityEvent  
     | where TimeGenerated > ago(1h)
     ```
+    
+    ![Picture 1](./media/2-2.png)
 
     ```KQL
     SecurityEvent  
     | where TimeGenerated > ago(1h) and EventID == "4624"
     ```
+    ![Picture 1](./media/2-3.png)
 
     ```KQL
     SecurityEvent  
@@ -210,12 +219,13 @@ In this task, you will build basic KQL statements.
     | where EventID == 8002
     | where AccountType =~ "user"
     ```
+    ![Picture 1](./media/2-4.png)
 
     ```KQL
     SecurityEvent  
     | where TimeGenerated > ago(1h) and EventID in (8002, 4688)
- 
     ```
+    ![](./media/2-5.png)
 
 1. The following statement demonstrates the use of the **let** statement to declare *variables*. In the Query Window enter the following statement and select **Run**: 
 
@@ -226,6 +236,7 @@ In this task, you will build basic KQL statements.
     | where TimeGenerated > ago(timeOffset*2) and TimeGenerated < ago(timeOffset)
     | where EventID != discardEventId
     ```
+    ![](./media/2-6.png)
 
 1. The following statement demonstrates the use of the **let** statement to declare a *dynamic list*. In the Query Window enter the following statement and select **Run**: 
 
@@ -238,6 +249,7 @@ In this task, you will build basic KQL statements.
     | where TimeGenerated > ago(1h)
     | where Account in (suspiciousAccounts)
     ```
+    ![](./media/2-7.png)
 
     >**Tip:** You can re-format the query easily by selecting the ellipsis (...) in the Query window and selecting **Format query**.
 
@@ -250,6 +262,7 @@ In this task, you will build basic KQL statements.
         | where cnt < 1000;
     LowActivityAccounts
     ```
+    ![](./media/2-8.png)
 
 1. Change the **Time range** to **Last hour** in the Query Window. This will limit our results for the following statements.
 
@@ -262,6 +275,8 @@ In this task, you will build basic KQL statements.
     | extend StartDir =  substring(ProcessName,0, string_size(ProcessName)-string_size(Process))
     ```
 
+    ![](./media/2-9.png)
+
 1. The following statement demonstrates the **order by** operator, which sorts the rows of the input table by one or more columns in ascending or descending order. The **order by** operator is an alias to the **sort by** operator. In the Query Window enter the following statement and select **Run**: 
 
     ```KQL
@@ -271,6 +286,7 @@ In this task, you will build basic KQL statements.
     | extend StartDir =  substring(ProcessName,0, string_size(ProcessName)-string_size(Process))
     | order by StartDir desc, Process asc
     ```
+   ![](./media/2-10.png)
 
 1. The following statements demonstrate the **project** operator, which selects the columns to include in the order specified. In the Query Window enter the following statement and select **Run**: 
 
@@ -282,6 +298,7 @@ In this task, you will build basic KQL statements.
     | order by StartDir desc, Process asc
     | project Process, StartDir
     ```
+    ![](./media/2-11.png)
 
 1. The following statements demonstrate the **project-away** operator, which selects the columns to exclude from the output. In the Query Window enter the following statement and select **Run**: 
 
@@ -293,6 +310,7 @@ In this task, you will build basic KQL statements.
     | order by StartDir desc, Process asc
     | project-away ProcessName
     ```
+    ![](./media/2-12.png)
 
 ### Task 6: Analyze Results in KQL with the Summarize Operator
 
@@ -305,6 +323,7 @@ In this task, you will build KQL statements to aggregate data. **Summarize** gro
     | where TimeGenerated > ago(1h) and EventID == '4688'  
     | summarize count() by Process, Computer
     ```
+    ![](./media/2-13.png)
 
 1. The following statement demonstrates the **count()** function, but in this example, we name the column as *cnt*. In the Query Window enter the following statement and select **Run**: 
 
@@ -313,6 +332,7 @@ In this task, you will build KQL statements to aggregate data. **Summarize** gro
     | where TimeGenerated > ago(1h) and EventID == '4624'  
     | summarize cnt=count() by AccountType, Computer
     ```
+    ![](./media/2-14.png)
 
 1. The following statement demonstrates the **dcount()** function, which returns an approximate distinct count of the group elements. In the Query Window enter the following statement and select **Run**: 
 
@@ -321,6 +341,7 @@ In this task, you will build KQL statements to aggregate data. **Summarize** gro
     | where TimeGenerated > ago(1h)
     | summarize dcount(IpAddress)
     ```
+    ![](./media/2-15.png)
 
 1. The following statements demonstrate the importance of understanding results based on the order of the *pipe*. In the Query Window enter the following queries and run each query separately: 
 
@@ -331,6 +352,7 @@ In this task, you will build KQL statements to aggregate data. **Summarize** gro
         | summarize arg_max(TimeGenerated, *) by Account
         | where EventID == '4624'  
         ```
+        ![](./media/2-16.png)
 
     1. **Query 2** will have the most recent login for Accounts that have logged in. The SecurityEvent table will be filtered to only include EventID = 4624. Then these results will be summarized for the most current login row by Account.
 
@@ -339,6 +361,7 @@ In this task, you will build KQL statements to aggregate data. **Summarize** gro
         | where EventID == '4624'  
         | summarize arg_max(TimeGenerated, *) by Account
         ```
+        ![](./media/2-17.png)
 
     >**Note:**  You can also review the "Total CPU" and "Data used for processed query" by selecting the "Query details" link on the lower right and compare the data between both statements.
 
@@ -350,6 +373,7 @@ In this task, you will build KQL statements to aggregate data. **Summarize** gro
     | where EventID == '4624'  
     | summarize make_list(Account) by Computer
     ```
+    ![](./media/2-18.png)
 
 1. The following statement demonstrates the **make_set()** function, which returns a set of *distinct* values within the group. This KQL query will first filter the EventID with the where operator. Next, for each Computer, the results are a JSON array of unique Accounts. In the Query Window enter the following statement and select **Run**: 
 
@@ -357,8 +381,9 @@ In this task, you will build KQL statements to aggregate data. **Summarize** gro
     SecurityEvent  
     | where TimeGenerated > ago(1h)
     | where EventID == '4624'  
-    | summarize make_set(Account) by Computer
+    | summarize make_set(Account) by Computerc
     ```
+    ![](./media/2-19.png)
 
 ### Task 7: Create visualizations in KQL with the Render Operator
 
@@ -372,6 +397,7 @@ In this task, you will use generate visualizations with KQL statements.
     | summarize count() by Account
     | render barchart
     ```
+     ![](./media/2-20.png)
 
 1. The following statement demonstrates the **render** operator visualizing results with a time series. The **bin()** function rounds all values in a timeframe and groups them, used frequently in combination with **summarize**. If you have a scattered set of values, the values are grouped into a smaller set of specific values. Combining the generated results and pipe them to a **render** operator with a **timechart** provides a time series visualization. In the Query Window enter the following statement and select **Run**: 
 
@@ -381,6 +407,7 @@ In this task, you will use generate visualizations with KQL statements.
     | summarize count() by bin(TimeGenerated, 1m)
     | render timechart
     ```
+     ![](./media/2-21.png)
 
 ### Task 8: Build multi-table statements in KQL
 
@@ -396,6 +423,7 @@ In this task, you will build multi-table KQL statements.
         SecurityEvent  
         | union SigninLogs  
         ```
+       ![](./media/2-22.png)
 
     1. **Query 2** will return one row and column, which is the count of all rows of SigninLogs and all rows of SecurityEvent.
 
@@ -404,6 +432,7 @@ In this task, you will build multi-table KQL statements.
         | union SigninLogs  
         | summarize count() 
         ```
+       ![](./media/2-23.png)
 
     1. **Query 3** will return all rows of SecurityEvent and one (last) row for SigninLogs. The last row for SigninLogs will have the summarized count of the total number of rows.
 
@@ -411,6 +440,7 @@ In this task, you will build multi-table KQL statements.
         SecurityEvent  
         | union (SigninLogs | summarize count() | project count_)
         ```
+       ![](./media/2-24.png)
 
 1. The following statement demonstrates the **union** operator support to union multiple tables with wildcards. In the Query Window enter the following statement and select **Run**: 
 
@@ -418,6 +448,7 @@ In this task, you will build multi-table KQL statements.
     union Security*  
     | summarize count() by Type
     ```
+    ![](./media/2-25.png)
 
 1. The following statement demonstrates the **join** operator, which merges the rows of two tables to form a new table by matching values of the specified column(s) from each table. In the Query Window enter the following statement and select **Run**: 
 
@@ -433,6 +464,7 @@ In this task, you will build multi-table KQL statements.
     | project LogOffCount, Account
     ) on Account
     ```
+    ![](./media/2-26.png)
 
     >**Important:** The first table specified in the join is considered the Left table. The table after the **join** operator is the right table. When working with columns from the tables, the $left.Column name and $right.Column name is to distinguish which tables column are referenced. The **join** operator supports a full range of types: flouter, inner, innerunique, leftanti, leftantisemi, leftouter, leftsemi, rightanti, rightantisemi, rightouter, rightsemi.
 
@@ -446,6 +478,8 @@ In this task, you will work with structured and unstructured string fields with 
     ```KQL
     print extract("x=([0-9.]+)", 1, "hello x=45.6|wo") == "45.6"
     ```
+
+    ![](./media/2-27.png)
 
 1. The following statements use the **extract** function to pull out the Account Name from the Account field of the SecurityEvent table. In the Query Window enter the following statement and select **Run**: 
 
@@ -473,12 +507,14 @@ In this task, you will work with structured and unstructured string fields with 
     | parse EventText with * "resourceName=" resourceName ", totalSlices=" totalSlices:long * "sliceNumber=" sliceNumber:long * "lockTime=" lockTime ", releaseTime=" releaseTime:date "," * "previousLockTime=" previousLockTime:date ")" *  
     | project resourceName, totalSlices, sliceNumber, lockTime, releaseTime, previousLockTime
     ```
+    ![](./media/2-28.png)
 
 1. The following statement demonstrates working with **dynamic** fields, which are special since they can take on any value of other data types. In this example, The DeviceDetail field from the SigninLogs table is of type **dynamic**. In the Query Window enter the following statement and select **Run**: 
 
     ```KQL
     SigninLogs | extend OS = DeviceDetail.operatingSystem
     ```
+    ![](./media/2-29.png)
 
 1. The following example shows how to break out packed fields for SigninLogs. In the Query Window enter the following statement and select **Run**: 
 
@@ -492,6 +528,7 @@ In this task, you will work with structured and unstructured string fields with 
     | summarize count() by Date, Identity, UserDisplayName, UserPrincipalName, IPAddress, City, ResultType, ResultDescription, StatusCode, StatusDetails, CAPol0Name, CAPol0Result, CAPol1Name, CAPol1Result, CAPol2Name, CAPol2Result
     | sort by Date
     ```
+     ![](./media/2-30.png)
 
     >**Important:** Although the dynamic type appears JSON-like, it can hold values that the JSON model does not represent because they do not exist in JSON. Therefore, in serializing dynamic values into a JSON representation, values that JSON cannot represent are serialized into string values. 
 
@@ -509,6 +546,7 @@ In this task, you will work with structured and unstructured string fields with 
     ```KQL
     SigninLogs | mv-expand Location = todynamic(LocationDetails)
     ```
+    ![](./media/2-31.png)
 
 1. **[Read-Only]** The following statement demonstrates the **mv-apply** operator, which applies a subquery to each record and returns the union of the results of all subqueries.
 
