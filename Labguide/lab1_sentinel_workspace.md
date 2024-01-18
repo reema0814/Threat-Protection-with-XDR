@@ -29,13 +29,13 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-    ![](./media/login2.png)
+     ![](./media/login2.png)
 
 1. Enter the following **Password** and click on **Sign in**. 
    
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-    ![](./media/Lab-01-task1-password.png) 
+     ![](./media/Lab-01-task1-password.png) 
     
 1. First-time users are often prompted to "Stay Signed In." If you see any such pop-up, click on "No".
    
@@ -89,49 +89,49 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
      ![](./media/Lab-01-task1-password.png) 
 
-1. Select **Settings** from the left menu bar, then from the Settings page select **Endpoints**.
+1. Navigate to **Settings** in the left menu bar, and then, on the Settings page, choose **Endpoints**.
 
     ![](./media/lab01-task3-settings.png)
 
-1. Select **Onboarding** in the Device Management section.
+1. Navigate to the **Onboarding** option in the Device Management section.
 
-    >**Note:** You can also perform device onboarding from the **Assets** section of the left menu bar. Expand Assets and select Devices. On the Device Inventory page, with Computers & Mobile selected, scroll down to **Onboard devices.** This takes you to the **Settings > Endpoints** page.
+    >**Note:** Device onboarding can also be initiated from the **Assets** section on the left menu bar. Expand 'Assets' and choose 'Devices.' On the Device Inventory page, with 'Computers & Mobile' selected, scroll down to find the option for **Onboard devices.** Clicking on this option will direct you to the **Settings > Endpoints** page.
 
-1. In the "1. Onboard a device" area make sure "Local Script (for up to 10 devices)" is displayed in the Deployment method drop-down and select the **Download onboarding package** button.
+1. In the '1. Onboard a device' section, ensure that 'Local Script (for up to 10 devices)' is visible in the Deployment method drop-down, then click the **Download onboarding package** button.
 
     ![](./media/lab01-task3-localscript.png) 
 
-1. Under the *Downloads* pop-up, highlight the "WindowsDefenderATPOnboardingPackage.zip" file with your mouse and select the folder icon **Show in folder**. **Hint:** In case you don't see it, the file should be in the c:\users\admin\downloads directory.
+1. In the *Downloads* pop-up, use your mouse to select the 'WindowsDefenderATPOnboardingPackage.zip' file, and then click on the folder icon for **Show in folder**. **Hint:** If you can't locate it, the file should be in the 'c:\users\admin\downloads' directory.
 
     ![](./media/lab01-task3-downloadspopup.png)
 
-1. Right-click the downloaded zip file and select **Extract All...**, make sure that **Show extracted files when complete** is checked and select **Extract**.
+1. Right-click on the downloaded zip file, choose **Extract All...**, ensure that **Show extracted files when complete** is checked, and then click **Extract**.
 
     ![](./media/lab01-task3-zipfile.png) 
 
-1. Right-click on the extracted file "WindowsDefenderATPLocalOnboardingScript.cmd" and select **Properties**. Select the **Unblock** checkbox in the bottom right of the Properties windows and select **OK**.
+1. Right-click on the extracted file 'WindowsDefenderATPLocalOnboardingScript.cmd' and choose **Properties**. Tick the **Unblock** checkbox located in the bottom right of the Properties window, and then click **OK**.
 
     ![](./media/sc200-mod2-unblock.png) 
 
-1. Right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** again and choose **Run as Administrator**. **Hint:** If you encounter the Windows SmartScreen window, select on **More info**, and choose **Run anyway**. 
+1. Once again, right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** and opt for **Run as Administrator**. **Hint:** If the Windows SmartScreen window appears, click on **More info**, and then select **Run anyway**.
     
-1. When the "User Account Control" window is shown, select **Yes** to allow the script to run and answer **Y** to the question presented by the script and press **Enter**. When complete you should see a message in the command screen that says *Successfully onboarded machine to Microsoft Defender for Endpoint*.
+1. When the "User Account Control" window appears, select **Yes** to allow the script to run, answer **Y** to the question presented by the script, and press **Enter**. Once complete, you should see a message in the command screen that says *Successfully onboarded machine to Microsoft Defender for Endpoint*.
 
-1. Press any key to continue. This will close the Command Prompt window.
+1. Press any key to continue. This action will close the Command Prompt window.
 
     ![](./media/SC-200-img25.png)
 
-1. Back in the Onboarding page from the Microsoft 365 Defender portal, under the section "2. Run a detection test", copy the detection test script by selecting the **Copy** button.
+1. Back on the Onboarding page within the Microsoft 365 Defender portal, navigate to the "2. Run a detection test" section, and copy the detection test script by clicking the **Copy** button.
 
     ![](./media/lab01-task3-runscript.png) 
 
-1. In the windows search bar of the virtual machine, type **CMD** and choose **Run as Administrator** on the right pane for the Command Prompt app. 
+1. In the Windows search bar of the virtual machine, type **CMD**, and choose **Run as Administrator** from the right pane for the Command Prompt app.
 
-1. When the "User Account Control" window is shown, select **Yes** to allow the app to run. 
+1. When the "User Account Control" window appears, select **Yes** to allow the app to run. 
 
-1. Paste the script by right-clicking in the **Administrator: Command Prompt** windows and press **Enter** to run it. **Note:** The window closes automatically after running the script.
+1. Paste the script by right-clicking in the **Administrator: Command Prompt** window and press **Enter** to run it. **Note:** The window closes automatically after running the script.
 
-1. In the Microsoft 365 Defender portal, in the left-hand menu, under the **Assets** area, select **Devices**. If the device is not shown, complete the next task and come back to check it back later. It can take up to 60 minutes for the first device to be displayed in the portal.
+1. In the Microsoft 365 Defender portal, navigate to the left-hand menu, and under the **Assets** area, select **Devices**. If the device is not shown, proceed with the next task and return to check it later. It can take up to 60 minutes for the first device to be displayed in the portal.
 
     ![](./media/Onboard.png) 
 
