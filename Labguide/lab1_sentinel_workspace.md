@@ -21,12 +21,12 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
 ### Task 1: Log in to Azure Portal
 
-1. In the virtual machine (VM) on the left, click on the Azure Portal as shown below.
+1. In the virtual machine (VM) on the left, click on the Azure Portal, as shown below.
 
     ![](./media/login1.png)
     
-1. On the **Sign into Microsoft Azure** tab, you will see the login screen. Enter the following **Email/Username** and then click on **Next**. 
-   
+1. On the **Sign into Microsoft Azure** tab, you will see the login screen. Enter the following **Email/Username**, and then click on **Next**.
+
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
     ![](./media/login2.png)
@@ -37,37 +37,37 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
     ![](./media/Lab-01-task1-password.png) 
     
-1. First-time users are often prompted to Stay Signed In, if you see any such pop-up, click on No.
+1. First-time users are often prompted to "Stay Signed In." If you see any such pop-up, click on "No".
    
-1. If a **Welcome to Microsoft Azure** popup window appears, click Maybe Later to skip the tour.
+1. If a **Welcome to Microsoft Azure** popup window appears, click on "Maybe Later" to skip the tour.
 
 ### Task 2: Explore Sentinel workspace
 
- Sentinel workspace is a centralized platform by Microsoft Azure for managing, investigating, and responding to security threats across your organization's cloud services.
+ Sentinel Workspace is a centralized platform by Microsoft Azure designed for managing, investigating, and responding to security threats across your organization's cloud services.
 
 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
 
     ![](./media/09.png)
 
-1. Select the pre-created Sentinel workspace from the available list.
+1. Select the pre-created Sentinel **loganalyticworkspace** from the available list.
 
     ![](./media/Lab01-task2-loganalyticworkspace.png) 
 
-1. Explore the Overview page to get a summary of the workspace, including incidents, alerts, health, and other essential information.
+1. Explore the Overview page to obtain a summary of the workspace, including information on incidents, alerts, health, and other essential details.
 
     ![](./media/lab01-task2-overview.png)
 
-1. Navigate to "Data connectors" on the left sidebar and review existing connectors configured for collecting security-related data.
+1. Navigate to the 'Data connectors' section in the left sidebar and examine the currently configured connectors for collecting security-related data.
 
     ![](./media/dataconnector.png)
 
-1. Under the **threat management** section select **Incidents** from the left panel to review detected security incidents and alerts.
+1. In the **threat management** section, choose **Incidents** from the left panel to assess detected security incidents and alerts.
 
-1. Select the status filter next to the search space and click on **Select all** checkbox to see all the new,active and closed incidents.
+1. Click on the status filter beside the search space, and then select the **Select all** checkbox to view all new, active, and closed incidents.
 
     ![](./media/Lab01-task2-selectall.png)
 
-1. Select the **Informational** incident from the list to view details, and take necessary actions.
+1. Select the **Informational** incident from the list to view details and take necessary actions.
 
     ![](./media/Lab01-task2-informational.png) 
 
@@ -75,7 +75,19 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
 In this task, you will onboard a device to Microsoft Defender for Endpoint using an onboarding script.
 
-1. If you are not already at the Microsoft 365 Defender portal in your browser, start the Microsoft Edge browser go to (https://security.microsoft.com) and log in with the **Tenant Email** credentials.
+1. If you are not already at the Microsoft 365 Defender portal in your browser, start the Microsoft Edge browser go to (https://security.microsoft.com).
+
+1. On the **Sign into Microsoft Azure** tab, you will see the login screen. Enter the following **Email/Username**, and then click on **Next**.
+
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+     ![](./media/login2.png)
+
+1. Enter the following **Password** and click on **Sign in**. 
+   
+   * Password: <inject key="AzureAdUserPassword"></inject>
+
+     ![](./media/Lab-01-task1-password.png) 
 
 1. Select **Settings** from the left menu bar, then from the Settings page select **Endpoints**.
 
@@ -101,7 +113,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
     ![](./media/sc200-mod2-unblock.png) 
 
-1. Right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** again and choose **Run as Administrator**.  **Hint:** If you encounter the Windows SmartScreen window, select on **More info**, and choose **Run anyway**. 
+1. Right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** again and choose **Run as Administrator**. **Hint:** If you encounter the Windows SmartScreen window, select on **More info**, and choose **Run anyway**. 
     
 1. When the "User Account Control" window is shown, select **Yes** to allow the script to run and answer **Y** to the question presented by the script and press **Enter**. When complete you should see a message in the command screen that says *Successfully onboarded machine to Microsoft Defender for Endpoint*.
 

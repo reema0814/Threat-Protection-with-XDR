@@ -10,7 +10,7 @@ Analytics rules search for specific events or sets of events across your environ
  In this lab, you will understand following:
 
 - Task 1: Persistence Attack Detection
-- Task 3: Privilege Elevation Attack Detection
+- Task 2: Privilege Elevation Attack Detection
 
 ## Architecture Diagram
 
