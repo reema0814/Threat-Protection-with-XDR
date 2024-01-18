@@ -19,7 +19,7 @@ The integration of a Logic App with Threat Protection involves configuring trigg
 
 In this task, you will create a team in Microsoft Teams for use in the lab.  
 
-1. Select the the Microsoft Teams from the desktop and click to open.
+1. Select the Microsoft Teams from the desktop and click to open.
 
 1. select **Teams** on the left menu, then select **Join or create a team**.
 
@@ -49,7 +49,7 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
 
 ### Task 2: Create a Playbook in Microsoft Sentinel.
 
-In this task, you'll create a Logic App that is used as a Playbook in Microsoft Sentinel.
+In this task, you will create a Logic App that is used as a Playbook in Microsoft Sentinel.
 
 1. In the Microsoft Edge browser, navigate to [Microsoft Sentinel](https://github.com/Azure/Azure-Sentinel) on GitHub.
 
@@ -73,7 +73,7 @@ In this task, you'll create a Logic App that is used as a Playbook in Microsoft 
 
 1. Now select **Create**.
 
-    **Note:** Wait for the deployment to finish before proceeding to the next task. It may take a couple minutes to deploy.
+    **Note:** Wait for the deployment to finish before proceeding to the next task. It may take a couple of minutes to deploy.
 
 ### Task 3: Update a Playbook in Microsoft Sentinel.
 
@@ -85,7 +85,7 @@ In this task, you will update the new playbook you created with the proper conne
 
 1. Select the **Automation** from the Configuration area and then select the **Active Playbooks** tab.
 
-1. Select the **PostMessageTeams-OnIncident** playbook and click on it to go to logic App page.
+1. Select the **PostMessageTeams-OnIncident** playbook and click on it to go to the logic App page.
 
     ![Lab overview.](./media/Lab03-task03-activeplaybook.png) 
 
@@ -99,7 +99,7 @@ In this task, you will update the new playbook you created with the proper conne
    
    ![Lab overview.](./media/Lab03-task1-002.png) 
 
-1. Select **Add new** and select **Sign in**. In the new window, select your Azure subscription admin credentials when prompted.The last line of the block should now read “Connected to your-admin-username”.
+1. Select **Add new** and select **Sign in**. In the new window, select your Azure subscription admin credentials when prompted. The last line of the block should now read “Connected to your-admin-username”.
 
 1. Now select the *second block*, **Connections**.
 

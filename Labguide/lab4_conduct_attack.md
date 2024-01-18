@@ -39,13 +39,13 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
 7. In the new browser tab, locate the section named **Run the simulation** (page 5, starting at step 2) and follow the steps to run the attack. **Hint:** The simulation file *RS4_WinATP-Intro-Invoice.docm* can be found back in portal, just below the **Read the walkthrough** you selected in the previous step by selecting the **Get simulation file** button. 
 
-1. After downloading the file,  open the file with **Microsoft Word** and enter the password as `WDATP!diy#`.
+1. After downloading the file, open the file with **Microsoft Word** and enter the password as `WDATP!diy#`.
 
-1. In the Sign in dialog box, click on **Sign in** copy and paste in the Username and password provided in the environment details page, and select next.    
+1. In the Sign in dialog box, click on **Sign in** copy and paste in the Username and password provided in the environment details page, and select next.   
 
-1. Click **Enable Editing** if the document opens inProtectedView. If you see a subsequent security warning about macros being disabled.    
+1. Click **Enable Editing** if the document opens inProtectedView. If you see a subsequent security warning about macros being disabled.   
 
-1. To unblock the document, navigate to its location in File Explorer. In File Explorer, right-click the document, and select Properties. In the General tab, mark the Unblock option under Security.   
+1. To unblock the document, navigate to its location in File Explorer. In File Explorer, right-click the document, and select Properties. In the General tab, mark the Unblock option under Security. 
 
 1. Close the **Microsoft Word** and re-open from the File Explorer and enter the password as `WDATP!diy#` after re-opening click on **Enable Content** and click on **OK**.
 
@@ -53,7 +53,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
 1. In the Command prompt pop-up press any key to close. 
       
->**Note:** **Congrats – you’re done running the attack!** The attack simulation ends here. A real attacker, if successful, would likely continue to scan for information, send collected reconnaissance information to a command-and-control (C&C) server, and use this information to move laterally and pursue other attractive targets. Next, let’s review and investigate the Defender for Endpoint alerts that surfaced in the simulated attack.
+>**Note:** **Congrats – you’re done running the attack!** The attack simulation ends here. A real attacker, if successful, would continue to scan for information, send collected reconnaissance information to a command-and-control (C&C) server, and use this information to move laterally and pursue other attractive targets. Next, let us review and investigate the Defender for Endpoint alerts that surfaced in the simulated attack.
 
 >**Note:** Alerts should start to appear 15-30 minutes after the simulated backdoor is launched.
 
@@ -67,9 +67,10 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
     ![Lab overview.](./media/lab04-task02-manageincident.png)  
 
-4. Under **Incident tags** type "Tutorial" and select **Tutorial (Create new)** to create a new tag. 
+1. Under **Incident tags** type "Tutorial" and select **Tutorial (Create new)** to create a new tag. 
 
-1. Select the toggle **Assign to**  and add your user account (Me) as the owner of the incident. 
+
+1. Select the toggle **Assign to** and add your user account (Me) as the owner of the incident. 
 
 1. Under **Classification**, expand the drop-down menu. 
 
@@ -79,15 +80,15 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
     ![Lab overview.](./media/lab04-task02-securitytesting.png) 
 
-9. Review the contents of the Alerts, Devices, Users, Investigations, Evidence, Response, and Graph tabs. **Hint:** Some tabs might be hidden due to the size of your display. Select the ellipsis tab (...) to make them appear.
+1. Review the contents of the Alerts, Devices, Users, Investigations, Evidence, Response, and Graph tabs. **Hint:** Some tabs might be hidden due to the size of your display. Select the ellipsis tab (...) to make them appear.
 
->**Warning:** The simulations and tutorials here are an excellent source of learning through practice.  Simulations and tutorials are being added and edited regularly in the portal.  However, some of these simulations & tutorials may interfere with the performance of the labs designed for this training course.  Only perform the simulations and tutorials recommended in the instructions provided for this lab when using the course provided Azure tenant.  You may perform the other simulations and tutorials *after* this training course is complete with this tenant.
+>**Warning:** The simulations and tutorials here are an excellent source of learning through practice.  Simulations and tutorials are being added and edited regularly in the portal. However, some of these simulations and tutorials may interfere with the performance of the labs designed for this training course. Only perform the simulations and tutorials recommended in the instructions provided for this lab when using the course provided Azure tenant. You may perform the other simulations and tutorials *after* this training course is complete with this tenant.
 
 ### Task 3: Persistence Attack with Registry Key Add 
 
 >**Note:** Perform this task in your LAB-VM.
 
-1. In the search of the task bar, enter *Command*. Command Prompt will be displayed in the search results. Right-click on the Command Prompt and select **Run as Administrator**. Select **Yes** in the User Account Control window that appears to allow the app to run.
+1. In the search of the taskbar, enter *Command*. A Command Prompt will be displayed in the search results. Right-click on the Command Prompt and select **Run as Administrator**. Select **Yes** in the User Account Control window that allows the app to run.
 
 1. In the Command Prompt, create a Temp folder in the root directory. Remember to press Enter after the last row:
 
@@ -96,7 +97,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
     mkdir temp
     cd temp
     ```
-Note: While running **notepad startup.bat** command In notepad Choose **Yes** to create startup.bat file in folder.
+Note: While running **notepad startup.bat** command in Notepad Choose **Yes** to create a startup.bat file in the folder.
 1. Copy and run this command to simulate program persistence:
 
     ```CommandPrompt
@@ -181,11 +182,11 @@ Note: While running **notepad startup.bat** command In notepad Choose **Yes** to
 
    ![VMrdp](./media/vm.png)
 
-1. Select the virtual machine **s2vm-<inject key="DeploymentID" enableCopy="false" />**  from the list.
+1. Select the virtual machine **s2vm-<inject key="DeploymentID" enableCopy="false" />** from the list.
    
    ![VMrdp](./media/vm1.png)
 
-1. On the beginning of the virtual machine page, click on **Connect** and from the drop-down select **Connect**.
+1. At the beginning of the virtual machine page, click on **Connect**, and from the drop-down select **Connect**.
 
    ![VMrdp](./media/vm2.png)
 
@@ -201,7 +202,7 @@ Note: While running **notepad startup.bat** command In notepad Choose **Yes** to
 
    ![VMrdp](./media/vm8.png)
    
-1. In the Windows Security window, select More choices and then Use a different account. Enter **Username:** <inject key="Labvm Admin Username"></inject> and **Password:** <inject key="Labvm Admin Password"></inject> and then select OK.
+1. In the Windows Security window, select More Choices and then Use a different account. Enter **Username:** <inject key="Labvm Admin Username"></inject> and **Password:** <inject key="Labvm Admin Password"></inject> and then select OK.
 
    ![VMrdp](./media/vm6.png)
 
@@ -211,7 +212,7 @@ Note: While running **notepad startup.bat** command In notepad Choose **Yes** to
 
 1. You should now be connected to the virtual machine via Remote Desktop.
 
-1. In the search of the taskbar of your **s2vm-<inject key="DeploymentID" enableCopy="false" />** VM, enter *Command*. A Command Prompt will be displayed in the search results. Right-click on the Command Prompt and select **Run as Administrator**. Select **Yes** in the User Account Control window that appears to allow the app to run.
+1. In the search of the taskbar of your **s2vm-<inject key="DeploymentID" enableCopy="false" />** VM, enter *Command*. A Command Prompt will be displayed in the search results. Right-click on the Command Prompt and select **Run as Administrator**. Select **Yes** in the User Account Control window that allows the app to run.
 
 1. In the Command Prompt, create a Temp folder in the root directory. Remember to press Enter after the last row:
 
@@ -237,17 +238,16 @@ Note: While running **notepad startup.bat** command In notepad Choose **Yes** to
     net localgroup administrators theusernametoadd /add
     ```
 
-### Task 6: Investigate the Incident in M365 Defender Portal
+### Task 6: Investigate the Incident in the M365 Defender Portal
 
-In this task, you will login to the M365 Defender portal and view the attacks which were conducted in the previous task.
+In this task, you will log in to the M365 Defender portal and view the attacks that were conducted in the previous task.
 
-1. Login to the Microsoft M365 Defender portal (https://security.microsoft.com/) using your Azure username and password.
+1. log in to the Microsoft M365 Defender portal (https://security.microsoft.com/) using your Azure username and password.
 
    * Username: <inject key="AzureAdUserEmail"></inject>
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-
-1. Once you have logged into M365 Defender portal, navigate to **Incidents**(1) from the sidebar menu and view the newly created incident named **Multi-stage incident involving Execution & Discovery on one endpoint**(2).
+1. Once you have logged into the M365 Defender portal, navigate to **Incidents (1)** from the sidebar menu and view the newly created incident named **Multi-stage incident involving Execution & Discovery on one endpoint (2)**.
 
    ![Lab overview.](./media/lab04-task3-incident.png)
 
@@ -274,4 +274,4 @@ In this lab, you have completed the following:
 - Persistence Attack with Registry Key Add
 - Command and Control Attack with DNS
 - Privilege Elevation Attack with User Add
-- Investigate the Incident in M365 Defender Portal
+- Investigate the Incident in the M365 Defender Portal
