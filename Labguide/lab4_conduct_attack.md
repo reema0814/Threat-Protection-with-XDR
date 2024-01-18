@@ -251,7 +251,7 @@ In this task, you will log in to the M365 Defender portal and view the attacks t
 
    ![Lab overview.](./media/lab04-task3-incident.png)
 
-1. Click on the incident to investigate on the further details.
+1. Click on the incident to investigate on further details.
 
    ![Lab overview.](./media/lab04-task3-incident01.png)
 
@@ -263,7 +263,7 @@ In this task, you will log in to the M365 Defender portal and view the attacks t
 
    ![Lab overview.](./media/lab04-task3-incident03.png)
 
-1. Similarly, you can also further investigate the other alerts by navigating to **Alerts** tab.
+1. Similarly, you can also further investigate the other alerts by navigating to the **Alerts** tab.
 
    ![Lab overview.](./media/lab04-task3-alerts.png)
 
