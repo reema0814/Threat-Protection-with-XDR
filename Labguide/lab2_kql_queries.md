@@ -14,7 +14,9 @@ You are a Security Operations Analyst working at a company that is implementing 
 - Task 6: Analyze Results in KQL with the Summarize Operator
 - Task 7: Create visualizations in KQL with the Render Operator
 - Task 8: Build multi-table statements in KQL
-- Task 9: Work with string data in KQL 
+- Task 9: Work with string data in KQL
+
+## Estimated timing: 60 minutes
 
 ## Architecture Diagram
 

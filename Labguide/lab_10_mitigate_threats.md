@@ -12,6 +12,8 @@ You're a Security Operations Analyst working at a company that implemented Micro
 - Task 4: Manage Incidents
 - Task 5: Investigate Alerts
 
+## Estimated timing: 60 minutes
+
 ## Architecture Diagram
 
  ![Lab overview.](./media/lab-04.png)

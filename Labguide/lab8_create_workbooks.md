@@ -12,6 +12,8 @@ Microsoft Sentinel allows you to create custom workbooks across your data and al
  - Task 2: Save and modify a workbook template
  - Task 3: Create a Workbook
 
+## Estimated timing: 20 minutes
+
 ## Architecture Diagram
 
  ![Lab overview.](./media/part1lab04.png)

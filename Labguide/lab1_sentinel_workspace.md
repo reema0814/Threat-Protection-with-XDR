@@ -13,6 +13,8 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
  - Task 2: Explore Sentinel workspace
  - Task 3: Onboard a Device
 
+## Estimated timing: 30 minutes
+
 ## Architecture Diagram
 
   ![Lab overview.](./media/lab-01.png)

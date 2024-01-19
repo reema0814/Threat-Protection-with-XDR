@@ -4,6 +4,8 @@
 
 You are going to simulate the attacks that you will later use to detect and investigate in Microsoft Defender.
 
+## Estimated timing: 30 minutes
+
 ## Lab objectives
  In this lab, you will perform the following:
 - Task 1: Simulated Attacks
@@ -16,6 +18,8 @@ You are going to simulate the attacks that you will later use to detect and inve
 ## Architecture Diagram
 
   ![Lab overview.](./media/lab02part1.png)
+
+## Estimated timing: 10 minutes
 
 ### Task 1: Simulated Attacks
 

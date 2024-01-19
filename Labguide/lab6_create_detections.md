@@ -12,6 +12,8 @@ Analytics rules search for specific events or sets of events across your environ
 - Task 1: Persistence Attack Detection
 - Task 2: Privilege Elevation Attack Detection
 
+## Estimated timing: 30 minutes
+
 ## Architecture Diagram
 
   ![Lab overview.](./media/lab02part2.png)
