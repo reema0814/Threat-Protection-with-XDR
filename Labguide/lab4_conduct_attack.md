@@ -4,8 +4,6 @@
 
 You are going to simulate the attacks that you will later use to detect and investigate in Microsoft Defender.
 
-## Estimated timing: 30 minutes
-
 ## Lab objectives
  In this lab, you will perform the following:
 - Task 1: Simulated Attacks
@@ -14,6 +12,8 @@ You are going to simulate the attacks that you will later use to detect and inve
 - Task 4: Command and Control Attack with DNS
 - Task 5: Privilege Elevation Attack with User Add
 - Task 6: Investigate the Incident in the M365 Defender Portal
+
+## Estimated timing: 30 minutes
 
 ## Architecture Diagram
 
