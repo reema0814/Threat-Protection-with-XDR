@@ -6,7 +6,7 @@ You are a Security Operations Analyst working at a company that implemented Micr
 
 Analytics rules search for specific events or sets of events across your environment, alert you when certain event thresholds or conditions are reached, generate incidents for your SOC to triage and investigate, and respond to threats with automated tracking and remediation processes.
 
-## Lab objectives (Duration: 30 minutes)
+## Lab objectives
  In this lab, you will understand the following:
 
 - Task 1: Persistence Attack Detection
