@@ -206,40 +206,40 @@ In this task, you will build basic KQL statements.
 
 1. The following statements demonstrate the **where** operator, which filters on a specific predicate. In the Query Window enter the following statements and run each query separately: 
 
-+ Query 1:
+   - Query 1:
 
-    ```KQL
-    SecurityEvent  
-    | where TimeGenerated > ago(1h)
-    ```
+        ```KQL
+        SecurityEvent  
+        | where TimeGenerated > ago(1h)
+        ```
     
-    ![Picture 1](./media/2-2.png)
+     ![Picture 1](./media/2-2.png)
 
- + Query 2:
+    - Query 2:
 
-    ```KQL
-    SecurityEvent  
-    | where TimeGenerated > ago(1h) and EventID == "4624"
-    ```
-    ![Picture 1](./media/2-3.png)
+        ```KQL
+        SecurityEvent  
+        | where TimeGenerated > ago(1h) and EventID == "4624"
+        ```
+        ![Picture 1](./media/2-3.png)
 
-+ Query 3:
+    - Query 3:
 
-    ```KQL
-    SecurityEvent  
-    | where TimeGenerated > ago(1h)
-    | where EventID == 8002
-    | where AccountType =~ "user"
-    ```
-    ![Picture 1](./media/2-4.png)
+        ```KQL
+        SecurityEvent  
+        | where TimeGenerated > ago(1h)
+        | where EventID == 8002
+        | where AccountType =~ "user"
+        ```
+        ![Picture 1](./media/2-4.png)
 
-+ Query 4:
+    - Query 4:
 
-    ```KQL
-    SecurityEvent  
-    | where TimeGenerated > ago(1h) and EventID in (8002, 4688)
-    ```
-    ![](./media/2-5.png)
+        ```KQL
+        SecurityEvent  
+        | where TimeGenerated > ago(1h) and EventID in (8002, 4688)
+        ```
+        ![](./media/2-5.png)
 
 1. The following statement demonstrates the use of the **let** statement to declare *variables*. In the Query Window enter the following statement and select **Run**: 
 
