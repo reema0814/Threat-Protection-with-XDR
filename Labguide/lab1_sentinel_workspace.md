@@ -39,9 +39,9 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
       ![](./media/Lab-01-task1-password.png) 
     
-1. First-time users are often prompted to "Stay Signed In." If you see any such pop-up, click on "No".
+1. First-time users are often prompted to Stay Signed In. If you see any such pop-up, click on No.
    
-1. If a **Welcome to Microsoft Azure** popup window appears, click on "Maybe Later" to skip the tour.
+1. If a **Welcome to Microsoft Azure** popup window appears, click on Maybe Later to skip the tour.
 
 ### Task 2: Explore Sentinel workspace
 
@@ -152,7 +152,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 ## Review
-In this lab you have completed the following :
+In this lab you have completed the following tasks:
  - Log in to Azure Portal
  - Explore Sentinel workspace
  - Onboard a Device
