@@ -57,7 +57,7 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
 
 In this task, you will create a Logic App that is used as a Playbook in Microsoft Sentinel.
 
-1. In the Microsoft Edge browser, navigate to [Microsoft Sentinel](https://github.com/Azure/Azure-Sentinel) on GitHub.
+1. In the Microsoft Edge browser, open a new tab and paste https://github.com/Azure/Azure-Sentinel to nevigate to Microsoft Sentinel on GitHub.
 
 1. Scroll down and select the **Solutions** folder.
 
@@ -126,7 +126,7 @@ In this task, you will update the new playbook you created with the proper conne
    ![Lab overview.](./media/Lab03-task1-005.png)
    
 ## Review
- In this lab, you will perform the following:
+ In this lab, you have perform the following:
  - Create a Security Operations Center Team in Microsoft Teams
  - Create a Playbook in Microsoft Sentinel
  - Update a Playbook in Microsoft Sentinel

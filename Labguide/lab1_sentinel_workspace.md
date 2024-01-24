@@ -23,7 +23,7 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
 ### Task 1: Log in to Azure Portal
 
-1. In the virtual machine (VM) on the left, click on the Azure Portal, as shown below.
+1. If you are not login to the azure portal then in the virtual machine (VM) on the left, click on the Azure Portal, as shown below.
 
    ![](./media/login1.png)
     
@@ -152,7 +152,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
     
 ## Review
-In this lab you have completed:
+In this lab you have completed the following :
  - Log in to Azure Portal
  - Explore Sentinel workspace
  - Onboard a Device

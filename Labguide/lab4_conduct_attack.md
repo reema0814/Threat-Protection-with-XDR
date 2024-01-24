@@ -19,8 +19,6 @@ You are going to simulate the attacks that you will later use to detect and inve
 
   ![Lab overview.](./media/lab02part1.png)
 
-## Estimated timing: 10 minutes
-
 ### Task 1: Simulated Attacks
 
 In this task, you will run two simulated attacks to explore the capabilities of Microsoft Defender for Endpoint.
