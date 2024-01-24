@@ -206,7 +206,7 @@ In this task, you will build basic KQL statements.
 
 1. The following statements demonstrate the **where** operator, which filters on a specific predicate. In the Query Window enter the following statements and run each query separately: 
 
-    >**Note:** You should select **Run** after entering each query from the code blocks below.
++ Query 1:
 
     ```KQL
     SecurityEvent  
@@ -215,11 +215,15 @@ In this task, you will build basic KQL statements.
     
     ![Picture 1](./media/2-2.png)
 
+ + Query 2:
+
     ```KQL
     SecurityEvent  
     | where TimeGenerated > ago(1h) and EventID == "4624"
     ```
     ![Picture 1](./media/2-3.png)
+
++ Query 3:
 
     ```KQL
     SecurityEvent  
@@ -228,6 +232,8 @@ In this task, you will build basic KQL statements.
     | where AccountType =~ "user"
     ```
     ![Picture 1](./media/2-4.png)
+
++ Query 4:
 
     ```KQL
     SecurityEvent  

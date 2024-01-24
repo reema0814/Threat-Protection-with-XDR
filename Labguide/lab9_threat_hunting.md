@@ -274,7 +274,7 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Review
-In this lab, you have completed the following:
+In this lab, you have completed the following tasks:
 - We created a hunting query.
 - We created an NRT query rule.
 - We Created a Search.
