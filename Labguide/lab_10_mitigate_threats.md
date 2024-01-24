@@ -38,8 +38,6 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
    **Note**: Make sure you have selected **Group type** as **Microsoft 365**.
 
-    ![](./media/Lab10-task1-ms365.png) 
-
 1. Select **Create** and click on **Yes**. 
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
