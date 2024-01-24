@@ -1,4 +1,4 @@
-## Lab 06 - Create Detections
+# Lab 06 - Create Detections
 
 ## Lab scenario
 
@@ -225,6 +225,6 @@ In this task, you will create a detection for the second attack of the previous 
    ![](./media/6-8.png)
 
 ## Review
-In this lab, you have completed the following:
+In this lab you have completed the following tasks:
 - Persistence Attack Detection
 - Privilege Elevation Attack Detection

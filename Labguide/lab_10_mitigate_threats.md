@@ -24,7 +24,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 1. Select **Groups** and then click on **New group**.
 
-1. Enter the below details for the New group page :
+1. Enter the below details for the New group page:
 
    |Setting|Value|
     |---|---|
@@ -118,9 +118,9 @@ In this task, you will activate a Microsoft Security rule.
 
      ![](./media/lab10-task4-analytics.png)
 
- >**Note**: You can choose the existing **active rule** to edit or **create** new **active rule** and then edit them by selecting the respective rule in the active rules list.
+   >**Note**: You can choose the existing **active rule** to edit or **create** new **active rule** and then edit them by selecting the respective rule in the active rules list.
 
-5. After creating the active rule, select it for editing. On the right blade, click the **Edit** button. 
+1. After creating the active rule, select it for editing. On the right blade, click the **Edit** button. 
 
     ![](./media/lab10-task4-edit.png)
       
@@ -160,7 +160,7 @@ In this task, you will manage the incidents in the M365 Defender portal.
 
    ![Lab overview.](./media/lab10-task1-alerts.png)
 
-1. You can also see the devices and users affected by this incident in the **Assets** tab. You can verify that the affected device is **svm-xxxx** and the user is **demouser**.
+1. You can also see the devices and users affected by this incident in the **Assets** tab. You can verify that the affected device is **svm-<inject key="DeploymentID" enableCopy="false" />** and the user is **demouser**.
 
    ![Lab overview.](./media/lab10-task1-assests.png)
 

@@ -1,5 +1,5 @@
 
-#s Lab 11 - Use Repositories in Microsoft Sentinel
+# Lab 11 - Use Repositories in Microsoft Sentinel
 
 ## Lab scenario
 
@@ -51,17 +51,17 @@ In this task, you will create an Azure DevOps repository.
 
 1. On the We need a few more details page, select **Continue**.
 
-1. On the *Get started with Azure DevOps* page, select **Create new organization** and enter the organization name as **odluser<inject key="DeploymentID" enableCopy="false"></inject>** and then select **Continue**.
+1. On the Get started with Azure DevOps page, select **Create new organization** and enter the organization name as **odluser<inject key="DeploymentID" enableCopy="false"></inject>** and then select **Continue**.
 
-1. On the *Almost done...* page, enter a name for your DevOps organization that you would not want to use in the future, like for example, your tenant prefix. **Hint:** It can be found in the Resources tab of your lab.
+1. On the Almost done... page, enter a name for your DevOps organization that you would not want to use in the future, like for example, your tenant prefix. **Hint:** It can be found in the Resources tab of your lab.
 
-1. *Enter characters you see*, then **Continue**.
+1. Enter characters you see, then **Continue**.
 
-1. On the *Create a project to get started* page, enter **My Sentinel Content** and then select **Create project**.
+1. On the Create a project to get started page, enter **My Sentinel Content** and then select **Create project**.
 
 1. Navigate to **Repos** on the left pane.
 
-1. At the bottom of the page in the area *Initialize main branch with a README or gitignore*, select **Initialize**.
+1. At the bottom of the page in the area Initialize main branch with a README or gitignore, select **Initialize**.
 
      ![Picture 1](./media/initialize.png)
 
@@ -73,7 +73,7 @@ In this task, you will create an Azure DevOps repository.
 
     ![Picture 1](./media/uploadfilesinrepo.png)
 
-1. Select **Browse** and select the file **Azure_Sentinel_analytic_rule.json** from your *Downloads* directory.
+1. Select **Browse** and select the file **Azure_Sentinel_analytic_rule.json** from your Downloads directory.
 
 1. Select **Commit**.
 

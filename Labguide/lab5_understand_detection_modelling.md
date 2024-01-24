@@ -1,4 +1,4 @@
-## Lab 05 - Understand Detection Modeling
+# Lab 05 - Understand Detection Modeling
 
 ### Lab Scenario
 
@@ -24,7 +24,7 @@ In this lab, you will understand the attacks and Detection Modeling
 
 The attack patterns are based on an open-source project: https://github.com/redcanaryco/atomic-red-team
 
-   **Note:** Some settings are triggered in a smaller time frame just for our lab purpose.
+   >**Note:** Some settings are triggered in a smaller time frame just for our lab purpose.
 
 #### Attack 1 - Persistence with Registry Key Add.
 
@@ -117,7 +117,7 @@ Using Microsoft Sentinel Analytics, you can analyze historical data collected fr
   ![Lab overview.](./media/lab05-analytics.png)
 
 ## Review
-In this lab completed the following tasks:
+In this lab you have completed the following tasks:
 - You have understood attacks:
    - Attack 1 - Persistence with Registry Key Add.
    - Attack 2 - User Add and Elevate Privilege

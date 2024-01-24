@@ -64,7 +64,7 @@ You are a Security Operations Analyst working at a company that is implementing 
 
     ![Picture 1](./media/lab2-task1-streamevents.png) 
 
-12. Click on "Apply Changes" now. If you refresh the data connector page, you can see the status "Connected" for **Security Events Via Legacy Agent**.
+12. Click on Apply Changes now. If you refresh the data connector page, you can see the status Connected for **Security Events Via Legacy Agent**.
 
 ### Task 2: Enable Microsoft Defender for Cloud
 
@@ -579,7 +579,7 @@ In this task, you will work with structured and unstructured string fields with 
     ```
     
 ## Review
-In this lab, you have completed the following:
+In this lab you have completed the following tasks:
 - Connect the Windows security event connector
 - Enable Microsoft Defender for Cloud
 - Protect an On-Premises Server

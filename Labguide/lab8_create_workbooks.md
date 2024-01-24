@@ -1,4 +1,4 @@
-## Lab 08 - Create workbooks
+# Lab 08 - Create workbooks
 
 ## Lab scenario
 
@@ -38,11 +38,11 @@ Microsoft Sentinel allows you to create custom workbooks across your data and al
 
     ![Picture 1](./media/lab09-task01-azureactivity.png)
 
-1. In the *Configuration* area under the *Instructions* tab, scroll down to "2. Connect your subscriptions...", and select **Launch Azure Policy Assignment Wizard>**.
+1. In the Configuration area under the Instructions tab, scroll down to "2. Connect your subscriptions...", and select **Launch Azure Policy Assignment Wizard>**.
 
 1. In the **Basics** tab, select the ellipsis button (...) under **Scope** and select your "Azure Pass - Sponsorship" subscription from the drop-down list and click **Select**.
 
-1. Select the **Parameters** tab, choose your *uniquenameDefender* workspace from the **Primary Log Analytics workspace** drop-down list. This action will apply the subscription configuration to send the information to the Log Analytics workspace.
+1. Select the **Parameters** tab, choose your uniquenameDefender workspace from the **Primary Log Analytics workspace** drop-down list. This action will apply the subscription configuration to send the information to the Log Analytics workspace.
 
 1. Select the **Remediation** tab and select the **Create a remediation task** checkbox. This action will apply the policy to existing Azure resources.
 
@@ -64,7 +64,7 @@ Microsoft Sentinel allows you to create custom workbooks across your data and al
 
 In this task, you will save the Microsoft Sentinel workbook templates.
 
-1. In the Search bar of the Azure portal, type *Microsoft Sentinel*, then select **Microsoft Sentinel**.
+1. In the Search bar of the Azure portal, type Microsoft Sentinel, then select **Microsoft Sentinel**.
 
    ![Picture 1](./media/image_7.png)
 
@@ -76,7 +76,7 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
 1. Search and select the **Azure Activity** by navigating to templates. In the right pane, scroll down and click on the **View template** button.
 
- >Hint: If you don't find Azure Activity, refresh and try again. Also, if the Azure Activity status bar is not visible, click on **>>** in the right corner.    
+   >Hint: If you don't find Azure Activity, refresh and try again. Also, if the Azure Activity status bar is not visible, click on **>>** in the right corner.    
 
 5. Review the contents of the workbook. It shows insights into your Azure subscription operations by collecting and analyzing the data from the Activity Log.
 
@@ -84,7 +84,7 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
     ![Picture 1](./media/lab08-task02-workbookssave.png)
 
-1. Leave **East US** as the default value for *Region* and select **Yes**.
+1. Leave **East US** as the default value for Region and select **Yes**.
 
 1. Select the **View saved workbook** button.
 
@@ -108,7 +108,7 @@ In this task, you will save the Microsoft Sentinel workbook templates.
 
 1. Change the value for *Column renderer* to **Heatmap**. For *Colour palette*, scroll down to select **32-color categorical**.
 
-1. Select **Save and Close**. Notice the change in the *Activities* column.
+1. Select **Save and Close**. Notice the change in the Activities column.
 
     ![Picture 1](./media/lab08-task1-activities.png) 
 

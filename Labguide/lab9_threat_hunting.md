@@ -1,4 +1,4 @@
-## Lab 09 - Threat Hunting using Notebooks with Microsoft Sentinel
+# Lab 09 - Threat Hunting using Notebooks with Microsoft Sentinel
 
 ## Lab scenario
 
@@ -21,15 +21,15 @@ You are a Security Operations Analyst working at a company that implemented Micr
 
 In this task, you will create a hunting query, bookmark a result, and create a Livestream.
 
-1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
+1. In the Search bar of the Azure portal, type Sentinel, then select **Microsoft Sentinel**.
 
 1. Select your Microsoft Sentinel Workspace.
 
 1. Select **Logs** from the left menu.
 
-1. Enter the following KQL Statement in the *New Query 1* space:
+1. Enter the following KQL Statement in the New Query 1 space:
 
-   >**Important:** Please paste any KQL queries first in Notepad and then copy from there to the *New Query 1* Log window to avoid any errors.
+   >**Important:** Please paste any KQL queries first in Notepad and then copy from there to the New Query 1 Log window to avoid any errors.
 
     ```KQL
     let lookback = 2d; 
@@ -52,27 +52,27 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
    ![Picture 1](./media/lab9xdr2.png)
 
-1. Select **+ Add new entity** under *Entity mapping*.
+1. Select **+ Add new entity** under Entity mapping.
 
 1. For *Entity* select **Host**, then **Hostname** and **Computer** for the values.
 
-1. For *Tactics and Techniques*, select **Command and Control**.
+1. For Tactics and Techniques, select **Command and Control**.
 
-1. Go back to the *Add bookmark* blade, and the select **Create**. We will map this bookmark to an incident later.
+1. Go back to the Add bookmark blade, and the select **Create**. We will map this bookmark to an incident later.
 
    ![Picture 1](./media/lab9xdr3.png)
 
-1. Close the *Logs* window by selecting the **X** in the top-right of the window and select **OK** to discard the changes. 
+1. Close the Logs window by selecting the **X** in the top-right of the window and select **OK** to discard the changes. 
 
-1. Select your Microsoft Sentinel workspace again and select the **Hunting** page under the *Threat Management* area.
+1. Select your Microsoft Sentinel workspace again and select the **Hunting** page under the Threat Management area.
 
 1. Select the **Queries (1)** tab and then **+ New Query (2)** from the command bar.
 
    ![Picture 1](./media/lab9xdr4.png)
 
-1. In the *Create hunting query* window, for the *Name* enter **PowerShell Hunt**.
+1. In the Create hunting query window, for the *Name* enter **PowerShell Hunt**.
 
-1. For the *Custom query* enter the following KQL statement:
+1. For the Custom query enter the following KQL statement:
 
     ```KQL
     let lookback = 2d; 
@@ -96,7 +96,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
     ![Picture 1](./media/lab9xdr5.png)
 
-1. In the *"Microsoft Sentinel - Hunting"* blade, search for the query you just created in the list, *PowerShell Hunt*.
+1. In the Microsoft Sentinel - Hunting blade, search for the query you just created in the list, PowerShell Hunt.
 
 1. Select **PowerShell Hunt** from the list.
 
@@ -142,7 +142,7 @@ In this task, instead of using a LiveStream, you will create a NRT analytics que
 
     ![Picture 1](./media/lab09-task2-analytics.png) 
 
-1. This starts the "Analytics rule wizard". For the *General* tab type:
+1. This starts the Analytics rule wizard For the General tab type:
 
     |Setting|Value|
     |---|---|
@@ -167,22 +167,22 @@ In this task, instead of using a LiveStream, you will create a NRT analytics que
 
 1. Select **View query results >** to make sure your query does not have any errors.
 
-1. Close the *Logs* window by selecting the **X** in the top-right of the window and select **OK** to discard the changes. 
+1. Close the Logs window by selecting the **X** in the top-right of the window and select **OK** to discard the changes. 
 
-1. Under *Entity mapping* select:
+1. Under Entity mapping select:
      
-    - Select **+ Add new entity** under *Entity mapping*.
-    - For the *Entity type* drop-down list select **Host**.
-    - For the *Identifier* drop-down list select **HostName**.
-    - For the *Value* drop-down list select **Computer**.
+    - Select **+ Add new entity** under Entity mapping.
+    - For the Entity type drop-down list select **Host**.
+    - For the Identifier drop-down list select **HostName**.
+    - For the Value drop-down list select **Computer**.
 
 1. Scroll down and select **Next: Incident settings>** button.
 
 1. For the *Incident settings* tab, leave the default values and select **Next: Automated response>** button.
 
-1. For the *Automated response* tab, leave the default values and select **Next: Review and create >** button.
+1. For the Automated response tab, leave the default values and select **Next: Review and create >** button.
 
-1. On the *Review and Create* tab, select the **Save** button to create and save the new Scheduled Analytics rule.
+1. On the Review and Create tab, select the **Save** button to create and save the new Scheduled Analytics rule.
 
 ### Task 3: Create a Search job
 

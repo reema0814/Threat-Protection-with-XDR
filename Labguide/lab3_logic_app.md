@@ -79,7 +79,7 @@ In this task, you will create a Logic App that is used as a Playbook in Microsof
 
 1. Now select **Create**.
 
-    **Note:** Wait for the deployment to finish before proceeding to the next task. It may take a couple of minutes to deploy.
+    >**Note:** Wait for the deployment to finish before proceeding to the next task. It may take a couple of minutes to deploy.
 
 ### Task 3: Update a Playbook in Microsoft Sentinel.
 
@@ -126,7 +126,7 @@ In this task, you will update the new playbook you created with the proper conne
    ![Lab overview.](./media/Lab03-task1-005.png)
    
 ## Review
- In this lab, you have perform the following:
+ In this lab you have completed the following tasks:
  - Create a Security Operations Center Team in Microsoft Teams
  - Create a Playbook in Microsoft Sentinel
  - Update a Playbook in Microsoft Sentinel
