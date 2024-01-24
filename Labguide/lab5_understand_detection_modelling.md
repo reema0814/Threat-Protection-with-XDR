@@ -117,7 +117,7 @@ Using Microsoft Sentinel Analytics, you can analyze historical data collected fr
   ![Lab overview.](./media/lab05-analytics.png)
 
 ## Review
-In this lab
+In this lab completed the following tasks:
 - You have understood attacks:
    - Attack 1 - Persistence with Registry Key Add.
    - Attack 2 - User Add and Elevate Privilege

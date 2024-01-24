@@ -217,7 +217,7 @@ In this task, you will investigate and mitigate the alerts through recommendatio
    ![Lab overview.](./media/lab10-task2-alerts-recommendations.png)
 
 ## Review
-In this lab, you have completed the following:
+In this lab, you have completed the following tasks:
 - Create a Group
 - Apply Microsoft Defender for Office 365 preset security policies
 - Activate a Microsoft Security Rule

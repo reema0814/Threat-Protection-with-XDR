@@ -209,8 +209,14 @@ overview of the workbook.
 
 1. On the right pane, select **View saved workbook** to review your workbook.
 
+   ![Picture 1](./media/view.png)
+
+1. The page will look similar to this:
+
+   ![Picture 1](./media/myworkbook.png)
+
 ## Review
- In this lab, you will Understand the following:
+ In this lab, you have perform the following tasks:
  - Connect the Azure Activity data connector
  - Save and modify a workbook template
  - Create a Workbook

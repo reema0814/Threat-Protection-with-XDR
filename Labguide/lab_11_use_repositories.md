@@ -1,5 +1,5 @@
 
-## Lab 11 - Use Repositories in Microsoft Sentinel
+#s Lab 11 - Use Repositories in Microsoft Sentinel
 
 ## Lab scenario
 
@@ -128,7 +128,7 @@ In this task, you will create an Azure DevOps repository.
     >**Note:** The *Failed* status is due to limitations in the hosted lab environment. You would normally see *Succeeded*. Then you can see in the *Analytics* the imported rule *Rule from Azure DevOps*.
 
 ## Review
- In this lab, you will understand the following:
+ In this lab, you will understand the following tasks:
  - Create and export an analytical rule
  - Create our Azure DevOps environment
  - Connect Sentinel to Azure DevOps.

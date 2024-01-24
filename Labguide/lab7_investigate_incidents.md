@@ -109,5 +109,5 @@ In this task, you will investigate an incident.
    ![Lab overview.](./media/7-13.png)
 
 ## Review
-In this lab, you have completed the following:
+In this lab, you have completed the following tasks:
 - You have investigated an incident.

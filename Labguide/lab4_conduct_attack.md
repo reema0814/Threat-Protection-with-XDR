@@ -25,9 +25,9 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
 1. If you are not already at the Microsoft 365 Defender portal in your Microsoft Edge browser, go to (https://security.microsoft.com). 
 
-1. In the **Sign in** dialog box, copy and paste * Email/Username: <inject key="AzureAdUserEmail"></inject> and then select Next.
+1. In the **Sign in** dialog box, copy and paste  Email/Username: <inject key="AzureAdUserEmail"></inject> and then select Next.
 
-1. In the **Enter password** dialog box, copy and paste * Password: <inject key="AzureAdUserPassword"></inject> and then select **Sign in**.
+1. In the **Enter password** dialog box, copy and paste  Password: <inject key="AzureAdUserPassword"></inject> and then select **Sign in**.
 
 1. From the menu, under **Endpoints**, select **Evaluation & tutorials** and then select **Tutorials & simulations** from the left side.
 
@@ -71,7 +71,6 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
 1. Under **Incident tags** type "Tutorial" and select **Tutorial (Create new)** to create a new tag. 
 
-
 1. Select the toggle **Assign to** and add your user account (Me) as the owner of the incident. 
 
 1. Under **Classification**, expand the drop-down menu. 
@@ -88,7 +87,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
 ### Task 3: Persistence Attack with Registry Key Add 
 
->**Note:** Perform this task in your LAB-VM.
+>**Note:** Perform this task in your LAB-VM (svm).
 
 1. In the search of the taskbar, enter *Command*. A Command Prompt will be displayed in the search results. Right-click on the Command Prompt and select **Run as Administrator**. Select **Yes** in the User Account Control window that allows the app to run.
 
@@ -114,7 +113,7 @@ Note: While running **notepad startup.bat** command in Notepad Choose **Yes** to
 
 ### Task 4: Command and Control Attack with DNS
 
->**Note:** Perform this task in your LAB-VM.
+>**Note:** Perform this task in your LAB-VM (svm).
 
 1. Copy and run this command to create a script that will simulate a DNS query to a C2 server:
 
