@@ -19,7 +19,12 @@ The integration of a Logic App with Threat Protection involves configuring trigg
 
 In this task, you will create a team in Microsoft Teams for use in the lab.  
 
-1. Select the Microsoft Teams from the desktop and click to open.
+1. Access File Explorer and navigate to the directory **C:\LabFiles (1)**. Then, double-click on the named **MSTeams-86 (2)**. Allow a moment for the installation process to commence. Once installed, proceed to log in using the following credentials:
+
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+   ![Lab overview.](./media/lab2.1.png)
 
 1. select **Teams** on the left menu, then select **Join or create a team**.
 
