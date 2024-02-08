@@ -24,13 +24,13 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-   ![Lab overview.](./media/lab2.1.png)
+   ![Lab overview.](./media/lab2.10.png)
 
 1. select **Teams** on the left menu, then select **Join or create a team**.
 
     ![Lab overview.](./media/lab03-task01-teams.png) 
 
-3. Select the **Create Team** button in the main window.
+1. Select the **Create Team** button in the main window.
 
 1. Select the **From scratch** button.
 
