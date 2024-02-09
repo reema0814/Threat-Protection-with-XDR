@@ -50,7 +50,7 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
    
     ![Lab overview.](./media/Lab03-task1-003.png) 
 
-1. Enter a channel name as *New Alerts* then select the **Add** button.
+1. Enter a channel name as **New Alerts** then select the **Add** button.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
@@ -94,7 +94,7 @@ In this task, you will update the new playbook you created with the proper conne
 
 1. Select your Microsoft Sentinel Workspace **loganalyticworkspace**.
 
-1. Select the **Automation** from the Configuration area and then select the **Active Playbooks** tab.
+1. Select the **Automation** from the Configuration area and then select the **Active Playbooks** tab, If **PostMessageTeams-OnIncident** is not visiable refresh the page and check.
 
 1. Select the **PostMessageTeams-OnIncident** playbook and click on it to go to the logic App page.
 
