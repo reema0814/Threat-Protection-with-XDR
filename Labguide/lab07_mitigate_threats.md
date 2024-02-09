@@ -1,4 +1,4 @@
-# Lab 10 - Mitigate threats using Microsoft 365 Defender 
+# Lab 07 - Mitigate threats using Microsoft 365 Defender 
 
 ## Lab scenario
 
