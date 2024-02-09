@@ -1,4 +1,4 @@
-# Lab 07 - Investigate an Incident
+# Lab 05 - Investigate an Incident
 
 ## Lab scenario
 
