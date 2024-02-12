@@ -115,7 +115,7 @@ In this task, you will create a detection for the first attack of the previous e
 
 1. Select the **Next: Review >** button.
   
-1. On the *Review and create* tab, select the **Create** button to create the new Scheduled Analytics rule.
+1. On the *Review and create* tab, select the **Save** button to create the new Scheduled Analytics rule.
 
 ### Task 2: Privilege Elevation Attack Detection
 
@@ -188,7 +188,13 @@ In this task, you will create a detection for the second attack of the previous 
 
    ![](./media/6-5.png)
 
+
 1. On the *Set rule logic* tab, the *Rule query* should be populated already with your KQL query, as well as the entities under *Alert enrichment - Entity mapping*.
+
+    |Entity|Identifier|Data Field|
+    |:----|:----|:----|
+    |Account|FullName|AccountCustomEntity|
+    |Host|Hostname|HostCustomEntity|
 
 1. For *Query scheduling* set the following:
 
@@ -220,7 +226,7 @@ In this task, you will create a detection for the second attack of the previous 
 
 1. Select the **Next: Review and create >** button.
   
-1. On the *Review and create* tab, select the **Create** button to create the new Scheduled Analytics rule.
+1. On the *Review and create* tab, select the **Save** button to create the new Scheduled Analytics rule.
 
    ![](./media/6-8.png)
 
