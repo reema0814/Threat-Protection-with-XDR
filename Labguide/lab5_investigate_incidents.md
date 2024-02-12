@@ -58,7 +58,7 @@ In this task, you will investigate an incident.
 
    ![Lab overview.](./media/7-5.png)
 
-1. Select the **Tasks (Preview)** button from the command bar.
+1. Select the **Tasks** button from the command bar.
 
    ![Lab overview.](./media/7-6.png)
 
@@ -66,7 +66,7 @@ In this task, you will investigate an incident.
 
    ![Lab overview.](./media/7-7.png)
 
-1. Close the *Incident tasks (Preview)* blade by selecting the **x** icon in the top right.
+1. Close the *Incident tasks* blade by selecting the **x** icon in the top right.
 
    ![Lab overview.](./media/7-8.png)
 
