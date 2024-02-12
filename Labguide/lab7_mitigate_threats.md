@@ -30,7 +30,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
     |---|---|
     |Group Type| **Microsoft 365** |
     |Group Name| **Sg-IT** |
-    |Azure AD roles can be assigned to the group| **Yes** |
+    |Microsoft Entra roles can be assigned to the group| **Yes** |
 
 1. Click on **no owners selected** and select the **ODL_user** from the list and then click on **select**.
 
@@ -110,11 +110,11 @@ In this task, you will activate a Microsoft Security rule.
 
 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
 
-1. Select the Microsoft Sentinel Workspace you created in the previous labs.
+1. Select the Microsoft Sentinel Workspace.
 
 1. Select **Analytics** from the Configuration area. By default, you will see the *Active rules*.
 
-1. Select the **Create incidents based on Microsoft Defender for Cloud**.
+1. Select the **Microsoft incident creation rule** from the dropdown + Create.
 
      ![](./media/lab10-task4-analytics.png)
 
