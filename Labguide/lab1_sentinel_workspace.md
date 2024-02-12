@@ -97,11 +97,13 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
      ![](./media/Lab-01-task1-password.png) 
 
-    >**Note:** Take a moment to allow the option panel to fully load on the security portal."
+    >**Note:** Take a moment to allow the option panel to fully load on the security portal.
 
 1. Navigate to **Settings** in the left menu bar, and then, on the Settings page, choose **Endpoints**.
 
     ![](./media/lab01-task3-settings.png)
+
+   >**Note:** If you do not see the **Endpoints** option under Settings, log out by selecting the top-right circle with your account initials and select Sign out. Other options that you might want to try are to refresh the page with Ctrl+F5 wait for 30-45 minutes or open the page InPrivate. Login again with the Tenant Email credentials.
 
 1. Navigate to the **Onboarding** option in the Device Management section.
 
