@@ -98,7 +98,6 @@ In this task, you will run two simulated attacks to explore the capabilities of 
     mkdir temp
     cd temp
     ```
-   >Note: While running **notepad startup.bat** command in Notepad Choose **Yes** to create a startup.bat file in the folder.
    
 1. Copy and run this command to simulate program persistence:
 
