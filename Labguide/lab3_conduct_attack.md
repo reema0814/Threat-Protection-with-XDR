@@ -6,10 +6,9 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 ## Lab objectives
  In this lab, you will perform the following:
-- Task 1: Simulated Attacks
-- Task 2: Persistence Attack with Registry Key Add
-- Task 3: Command and Control Attack with DNS
-- Task 4: Privilege Elevation Attack with User Add
+- Task 1: Persistence Attack with Registry Key Add
+- Task 2: Command and Control Attack with DNS
+- Task 3: Privilege Elevation Attack with User Add
 
 ## Estimated timing: 30 minutes
 
@@ -17,45 +16,7 @@ You are going to simulate the attacks that you will later use to detect and inve
 
   ![Lab overview.](./media/lab02part1.1.png)
 
-### Task 1: Simulated Attacks
-
-In this task, you will run two simulated attacks to explore the capabilities of Microsoft Defender for Endpoint.
-
-1. If you are not already at the Microsoft 365 Defender portal in your Microsoft Edge browser, go to (https://security.microsoft.com). 
-
-1. In the **Sign in** dialog box, copy and paste  Email/Username: <inject key="AzureAdUserEmail"></inject> and then select Next.
-
-1. In the **Enter password** dialog box, copy and paste  Password: <inject key="AzureAdUserPassword"></inject> and then select **Sign in**.
-
-1. From the menu, under **Email & collaboration**, select **Attack simulation training** and then select **Tutorials & simulations** from the left side.
-
-    ![Lab overview.](./media/incident1.png)  
-
-5. Select the **Tutorials** tab.
-
-1. Under *Automated investigation (backdoor)* you will see a message describing the scenario. Below this paragraph, click **Read the walkthrough**. A new browser tab opens which includes instructions to perform the simulation.
-
-    ![Lab overview.](./media/incident2.png) 
-
-7. In the new browser tab, locate the section named **Run the simulation** (page 5, starting at step 2) and follow the steps to run the attack. **Hint:** The simulation file *RS4_WinATP-Intro-Invoice.docm* can be found back in portal, just below the **Read the walkthrough** you selected in the previous step by selecting the **Get simulation file** button. 
-
-1. After downloading the file, open the file with **Microsoft Word** and enter the password as `WDATP!diy#`.
-
-1. In the Sign in dialog box, click on **Sign in** copy and paste in the Username and password provided in the environment details page, and select next.   
-
-1. Click **Enable Editing** if the document opens inProtectedView. If you see a subsequent security warning about macros being disabled.   
-
-1. To unblock the document, navigate to its location in File Explorer. In File Explorer, right-click the document, and select Properties. In the General tab, mark the Unblock option under Security. 
-
-1. Close the **Microsoft Word** and re-open from the File Explorer and enter the password as `WDATP!diy#` after re-opening click on **Enable Content** and click on **OK**.
-
-   ![Lab overview.](./media/Lab04-task1-001.png)  
-
-1. In the Command prompt pop-up press any key to close.
-
-   >**Note:** Alerts should start to appear 15-30 minutes after the simulated backdoor is launched.
-
-### Task 2: Persistence Attack with Registry Key Add 
+### Task 1: Persistence Attack with Registry Key Add 
 
 >**Note:** Perform this task in your LAB-VM (svm).
 
@@ -81,7 +42,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Task 3: Command and Control Attack with DNS
+### Task 2: Command and Control Attack with DNS
 
 >**Note:** Perform this task in your LAB-VM (svm).
 
@@ -151,7 +112,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
     >**Important**: Do not close these windows. Let this PowerShell script run in the background. The command needs to generate log entries for some hours. You can proceed to the next task and next exercises while this script runs. The data created by this task will be used in the Threat Hunting lab later. This process will not create substantial amounts of data or processing.
 
-### Task 4: Privilege Elevation Attack with User Add
+### Task 3: Privilege Elevation Attack with User Add
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
 
@@ -217,7 +178,6 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
 ## Review
 In this lab you have completed the following tasks:
-- Simulated Attacks
 - Persistence Attack with Registry Key Add
 - Command and Control Attack with DNS
 - Privilege Elevation Attack with User Add
