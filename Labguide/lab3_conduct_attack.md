@@ -7,11 +7,9 @@ You are going to simulate the attacks that you will later use to detect and inve
 ## Lab objectives
  In this lab, you will perform the following:
 - Task 1: Simulated Attacks
-- Task 2: Investigate the Attacks
-- Task 3: Persistence Attack with Registry Key Add
-- Task 4: Command and Control Attack with DNS
-- Task 5: Privilege Elevation Attack with User Add
-- Task 6: Investigate the Incident in the M365 Defender Portal
+- Task 2: Persistence Attack with Registry Key Add
+- Task 3: Command and Control Attack with DNS
+- Task 4: Privilege Elevation Attack with User Add
 
 ## Estimated timing: 30 minutes
 
@@ -57,7 +55,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
    >**Note:** Alerts should start to appear 15-30 minutes after the simulated backdoor is launched.
 
-### Task 3: Persistence Attack with Registry Key Add 
+### Task 2: Persistence Attack with Registry Key Add 
 
 >**Note:** Perform this task in your LAB-VM (svm).
 
@@ -83,7 +81,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Task 4: Command and Control Attack with DNS
+### Task 3: Command and Control Attack with DNS
 
 >**Note:** Perform this task in your LAB-VM (svm).
 
@@ -153,7 +151,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
     >**Important**: Do not close these windows. Let this PowerShell script run in the background. The command needs to generate log entries for some hours. You can proceed to the next task and next exercises while this script runs. The data created by this task will be used in the Threat Hunting lab later. This process will not create substantial amounts of data or processing.
 
-### Task 5: Privilege Elevation Attack with User Add
+### Task 4: Privilege Elevation Attack with User Add
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
 
@@ -217,42 +215,9 @@ In this task, you will run two simulated attacks to explore the capabilities of 
     net localgroup administrators theusernametoadd /add
     ```
 
-### Task 6: Investigate the Incident in the M365 Defender Portal
-
-In this task, you will log in to the M365 Defender portal and view the attacks that were conducted in the previous task.
-
-1. log in to the Microsoft M365 Defender portal (https://security.microsoft.com/) using your Azure username and password.
-
-   * Username: <inject key="AzureAdUserEmail"></inject>
-   * Password: <inject key="AzureAdUserPassword"></inject>
-
-1. Once you have logged into the M365 Defender portal, navigate to **Incidents (1)** from the sidebar menu and view the newly created incident named **Multi-stage incident involving Execution & Discovery on one endpoint (2)**.
-
-   ![Lab overview.](./media/lab04-task3-incident.png)
-
-1. Click on the incident to investigate on further details.
-
-   ![Lab overview.](./media/lab04-task3-incident01.png)
-
-1. Now let us look at each of these incidents to investigate the attacks performed in the previous tasks. Click on the dropdown to view all the incidents.
-
-   ![Lab overview.](./media/lab04-task3-incident02.png)
-
-1. In the **Suspicious System Network Configuration Discovery** incident, you can see that this alert was created due to running the commands in previous tasks.
-
-   ![Lab overview.](./media/lab04-task3-incident03.png)
-
-1. Similarly, you can also further investigate the other alerts by navigating to the **Alerts** tab.
-
-   ![Lab overview.](./media/lab04-task3-alerts.png)
-
-   >**Note:** **Congrats – you’re done running the attack!** The attack simulation ends here. A real attacker, if successful, would continue to scan for information, send collected reconnaissance information to a command-and-control (C&C) server, and use this information to move laterally and pursue other attractive targets. Next, let us review and investigate the Defender for Endpoint alerts that surfaced in the simulated attack.
-
 ## Review
 In this lab you have completed the following tasks:
 - Simulated Attacks
-- Investigate the Attacks
 - Persistence Attack with Registry Key Add
 - Command and Control Attack with DNS
 - Privilege Elevation Attack with User Add
-- Investigate the Incident in the M365 Defender Portal
