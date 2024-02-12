@@ -17,7 +17,7 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 ## Architecture Diagram
 
-  ![Lab overview.](./media/lab02part1.png)
+  ![Lab overview.](./media/lab02part1.1.png)
 
 ### Task 1: Simulated Attacks
 
@@ -29,7 +29,7 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
 1. In the **Enter password** dialog box, copy and paste  Password: <inject key="AzureAdUserPassword"></inject> and then select **Sign in**.
 
-1. From the menu, under **Endpoints**, select **Evaluation & tutorials** and then select **Tutorials & simulations** from the left side.
+1. From the menu, under **Email & collaboration**, select **Attack simulation training** and then select **Tutorials & simulations** from the left side.
 
     ![Lab overview.](./media/incident1.png)  
 
@@ -53,37 +53,9 @@ In this task, you will run two simulated attacks to explore the capabilities of 
 
    ![Lab overview.](./media/Lab04-task1-001.png)  
 
-1. In the Command prompt pop-up press any key to close. 
-      
-   >**Note:** **Congrats – you’re done running the attack!** The attack simulation ends here. A real attacker, if successful, would continue to scan for information, send collected reconnaissance information to a command-and-control (C&C) server, and use this information to move laterally and pursue other attractive targets. Next, let us review and investigate the Defender for Endpoint alerts that surfaced in the simulated attack.
+1. In the Command prompt pop-up press any key to close.
 
    >**Note:** Alerts should start to appear 15-30 minutes after the simulated backdoor is launched.
-
-### Task 2: Investigate the Attacks
-
-1. In the Microsoft 365 Defender portal (https://security.microsoft.com). select **Incidents & alerts** from the left menu bar, then select **Incidents**.
-
-1. A new incident called "Multi-stage incident..." is in the right pane. Click the incident name to load its details.
-
-1. Select the **Manage incident** button and a new window blade appears.
-
-    ![Lab overview.](./media/lab04-task02-manageincident.png)  
-
-1. Under **Incident tags** type "Tutorial" and select **Tutorial (Create new)** to create a new tag. 
-
-1. Select the toggle **Assign to** and add your user account (Me) as the owner of the incident. 
-
-1. Under **Classification**, expand the drop-down menu. 
-
-1. Under **Informational, expected activity**, select **Security testing**. 
-
-1. Add any comments if desired and click **Save** to finish.
-
-    ![Lab overview.](./media/lab04-task02-securitytesting.png) 
-
-1. Review the contents of the Alerts, Devices, Users, Investigations, Evidence, Response, and Graph tabs. **Hint:** Some tabs might be hidden due to the size of your display. Select the ellipsis tab (...) to make them appear.
-
-   >**Warning:** The simulations and tutorials here are an excellent source of learning through practice.  Simulations and tutorials are being added and edited regularly in the portal. However, some of these simulations and tutorials may interfere with the performance of the labs designed for this training course. Only perform the simulations and tutorials recommended in the instructions provided for this lab when using the course provided Azure tenant. You may perform the other simulations and tutorials *after* this training course is complete with this tenant.
 
 ### Task 3: Persistence Attack with Registry Key Add 
 
@@ -273,6 +245,8 @@ In this task, you will log in to the M365 Defender portal and view the attacks t
 1. Similarly, you can also further investigate the other alerts by navigating to the **Alerts** tab.
 
    ![Lab overview.](./media/lab04-task3-alerts.png)
+
+   >**Note:** **Congrats – you’re done running the attack!** The attack simulation ends here. A real attacker, if successful, would continue to scan for information, send collected reconnaissance information to a command-and-control (C&C) server, and use this information to move laterally and pursue other attractive targets. Next, let us review and investigate the Defender for Endpoint alerts that surfaced in the simulated attack.
 
 ## Review
 In this lab you have completed the following tasks:
