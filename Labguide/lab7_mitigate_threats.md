@@ -20,7 +20,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 ### Task 1: Create a Group 
 
-1. In the Search bar of the Azure portal, search and select **Azure Active Directory** or **Microsoft Entra ID**.
+1. In the Search bar of the Azure portal, search and select **Microsoft Entra ID**.
 
 1. Select **Groups** and then click on **New group**.
 
