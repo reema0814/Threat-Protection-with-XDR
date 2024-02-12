@@ -61,7 +61,9 @@ You're a Security Operations Analyst working at a company that implemented Micro
 1. Under Standard protection, select **Manage protection settings**. Hint: If you see this option grayed out, refresh your browser using Ctrl+F5.
 
     ![](./media/lab10-task3-std-policies.png)  
-        
+
+   **Note:** If you encounter a pop-up prompting you to finalize the Organizational setup, wait for 5 minutes, refresh the page, and repeat the above steps again.
+
 1. In the Apply Exchange Online Protection section, select **Specific recipients**, and under **Domains** start writing your tenant’s domain name, select it, and then select **Next**.
 
     ![](./media/lab10-task3-std-policies01.png)
