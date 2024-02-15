@@ -15,7 +15,7 @@ The integration of a Logic App with Threat Protection involves configuring trigg
 ## Estimated timing: 60 minutes
 
 ## Architecture Diagram
- ![Lab overview.](./media/lab-02.png)
+ ![Lab overview.](./media/XDR-Lab-02.png)
 
 ### Task 1: Connect the Windows security event connector
 
