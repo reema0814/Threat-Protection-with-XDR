@@ -1,4 +1,4 @@
-# Lab 03 - Conduct attacks
+# Lab 01 - Conduct attacks
 
 ## Lab scenario
 
@@ -14,7 +14,7 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 ## Architecture Diagram
 
-  ![Lab overview.](./media/XDR-Lab03.png)
+  ![Lab overview.](../media/XDR-Lab03.png)
 
 ### Task 1: Persistence Attack with Registry Key Add 
 
@@ -106,7 +106,7 @@ You are going to simulate the attacks that you will later use to detect and inve
     Start PowerShell.exe -file c2.ps1
     ```
     
-    ![Lab overview.](./media/cmd.png)
+    ![Lab overview.](../media/cmd.png)
    
     >**Note:** You will see DNS resolve errors. This is expected.
 
@@ -118,15 +118,15 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 1. In Azure portal, Search for **Virtual machines (1)** and select **Virtual machines (2)**.
 
-   ![VMrdp](./media/vm.png)
+   ![VMrdp](../media/vm.png)
 
 1. Select the virtual machine **s2vm-<inject key="DeploymentID" enableCopy="false" />** from the list.
    
-   ![VMrdp](./media/vm1.png)
+   ![VMrdp](../media/vm1.png)
 
 1. At the beginning of the virtual machine page, click on **Connect**, and from the drop-down select **Connect**.
 
-   ![VMrdp](./media/vm2.png)
+   ![VMrdp](../media/vm2.png)
 
 1. On the Connect to Virtual Machine page, select RDP, Choose the option to **Download RDP File.**
 
@@ -134,19 +134,19 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 1. Open the downloaded RDP file from the downloads.
 
-   ![VMrdp](./media/vm4.png)
+   ![VMrdp](../media/vm4.png)
 
 1. Select Connect when prompted. You will get a warning that the .rdp file is from an unknown publisher. This is expected. In the Remote Desktop Connection window, select Connect to continue.
 
-   ![VMrdp](./media/vm8.png)
+   ![VMrdp](../media/vm8.png)
    
 1. In the Windows Security window, select More Choices and then Use a different account. Enter **Username:** <inject key="Labvm Admin Username"></inject> and **Password:** <inject key="Labvm Admin Password"></inject> and then select OK.
 
-   ![VMrdp](./media/vm6.png)
+   ![VMrdp](../media/vm6.png)
 
 1. Select **Yes** to verify the identity of the virtual machine and finish logging on.
 
-    ![VMrdp](./media/vm7.png)
+    ![VMrdp](../media/vm7.png)
 
 1. You should now be connected to the virtual machine via Remote Desktop.
 
