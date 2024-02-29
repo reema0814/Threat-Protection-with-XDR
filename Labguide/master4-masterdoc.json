@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "Threat Protection with XDR",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Threat-Protection-with-XDR/Guided-2024/Labguide/GettingStarted.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Threat-Protection-with-XDR/module-wise/Labguide/Module%204/Lab-01.md",
+        "Order": 2
+      }
+    ]
+  }
+]
