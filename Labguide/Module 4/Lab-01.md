@@ -16,7 +16,7 @@ You are a Security Operations Analyst working at a company that implemented Micr
  - Task 8: Create a Search
  - Task 9: Explore Notebooks
 
-## Estimated timing: 50 minutes
+## Estimated timing: 120 minutes
 
 ## Architecture Diagram
 
