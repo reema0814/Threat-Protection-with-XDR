@@ -1,4 +1,4 @@
-# Lab 06 - Threat Hunting using Notebooks with Microsoft Sentinel
+# Lab 01 - Threat Hunting using Notebooks with Microsoft Sentinel
 
 ## Lab scenario
 
@@ -15,7 +15,7 @@ You are a Security Operations Analyst working at a company that implemented Micr
 
 ## Architecture Diagram
 
- ![](./media/lab9-AD.png)
+ ![](../media/lab9-AD.png)
 
 ### Task 1: Create a hunting query
 
@@ -44,13 +44,13 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Review the different results. You have now identified PowerShell requests that are running in your environment.
 
-    ![Picture 1](./media/lab9xdr1.png)
+    ![Picture 1](../media/lab9xdr1.png)
 
 1. Select the checkbox of the results that shows the **demouser** SubjectUsername.
 
 1. In the middle command bar, select the **Add bookmark** button.
 
-   ![Picture 1](./media/lab9xdr2.png)
+   ![Picture 1](../media/lab9xdr2.png)
 
 1. Select **+ Add new entity** under Entity mapping.
 
@@ -60,7 +60,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Go back to the Add bookmark blade, and the select **Create**. We will map this bookmark to an incident later.
 
-   ![Picture 1](./media/lab9xdr3.png)
+   ![Picture 1](../media/lab9xdr3.png)
 
 1. Close the Logs window by selecting the **X** in the top-right of the window and select **OK** to discard the changes. 
 
@@ -68,7 +68,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Select the **Queries (1)** tab and then **+ New Query (2)** from the command bar.
 
-   ![Picture 1](./media/lab9xdr4.png)
+   ![Picture 1](../media/lab9xdr4.png)
 
 1. In the Create hunting query window, for the *Name* enter **PowerShell Hunt**.
 
@@ -94,7 +94,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Scroll down and under *Tactics & Techniques* select **Command and Control** and then select **Create** to create the hunting query.
 
-    ![Picture 1](./media/lab9xdr5.png)
+    ![Picture 1](../media/lab9xdr5.png)
 
 1. In the Microsoft Sentinel - Hunting blade, search for the query you just created in the list, PowerShell Hunt.
 
@@ -102,13 +102,13 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Select the **View Results** button from the right pane. The KQL query will automatically run.
 
-   ![Picture 1](./media/lab9xdr6.png)
+   ![Picture 1](../media/lab9xdr6.png)
 
 1. Close the *Logs* window by selecting the **X** in the top-right of the window and select **OK** to discard the changes. 
 
 1. Right-click the **PowerShell Hunt** query and select **Add to livestream**. **Hint:** This also can be done by sliding right and selecting the ellipsis **(...)** at the end of the row to open a context menu.
 
-   ![Picture 1](./media/lab9xdr7.png)
+   ![Picture 1](../media/lab9xdr7.png)
 
 1. Review that the *Status* is now *Running*. This will be running every 30 seconds in the background, and you will receive a notification in the Azure Portal (bell icon) when a new result is found. 
 
@@ -118,7 +118,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. On the right pane, scroll down and select the **Investigate** button. **Hint:** It might take a couple of minutes to show the investigation graph.
 
-   ![Picture 1](./media/lab9xdr8.png)
+   ![Picture 1](../media/lab9xdr8.png)
 
 1. Explore the Investigation graph. Notice the high number of *Related alerts* for *svm-<inject key="DeploymentID" enableCopy="false" />*.
 
@@ -130,7 +130,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Select one of the incidents and then select **Add**. 
 
-    ![Picture 1](./media/addingbookmark.png) 
+    ![Picture 1](../media/addingbookmark.png) 
 
 1. Scroll left to notice that the *Severity* column is now populated with the incident's data.
 
@@ -140,7 +140,7 @@ In this task, instead of using a LiveStream, you will create a NRT analytics que
 
 1. In Microsoft Sentinel, on the left menu bar under the Configuration section, select **Analytics**, and then click on + create to choose **NRT query rule** from dropdown.
 
-    ![Picture 1](./media/lab09-task2-analytics.png) 
+    ![Picture 1](../media/lab09-task2-analytics.png) 
 
 1. This starts the Analytics rule wizard For the General tab type:
 
@@ -190,7 +190,7 @@ In this task, you will use a Search job to look for a C2.
 
 1. In Microsoft Sentinel, on the left menu under General, select the **Search**. In the search box, enter **reg.exe**, and then click on **Start**.
 
-    ![Picture 1](./media/lab09-task3-search.png)
+    ![Picture 1](../media/lab09-task3-search.png)
 
 1. A new window running the query opens. Select the ellipsis icon **(...)** from the top right and then toggle the **Search job mode**.
 
@@ -216,7 +216,7 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
 
 1. Next, you need to create an AzureML Workspace. Select **Configure Azure Machine Learning** and then select the **Create new Azure ML workspace** button in the command bar.
 
-    ![Picture 1](./media/lab09-task04-configure.png) 
+    ![Picture 1](../media/lab09-task04-configure.png) 
 
 1. In the Subscription box, select your subscription.
 
@@ -241,11 +241,11 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
 
 1. On the right pane, scroll down and select **Create from template** button. Review the default options and then select **Save**.
 
-    ![Picture 1](./media/lab09-task04-template.png)
+    ![Picture 1](../media/lab09-task04-template.png)
 
 1. Once the saving is done, select the **Launch notebook** button. This will take you to the Microsoft Azure Machine Learning Studio.
 
-     ![Picture 1](./media/lab09-task04-launch.png)
+     ![Picture 1](../media/lab09-task04-launch.png)
    
 1. Select **X** if an informational window appears in the Microsoft Azure Machine Learning Studio.
 
