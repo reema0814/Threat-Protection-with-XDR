@@ -6,17 +6,109 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 ## Lab objectives
  In this lab, you will perform the following:
-- Task 1: Persistence Attack with Registry Key Add
-- Task 2: Command and Control Attack with DNS
-- Task 3: Privilege Elevation Attack with User Add
+- Task 1: Connect the Windows security event connector
+- Task 2: Enable Microsoft Defender for Cloud
+- Task 3: Persistence Attack with Registry Key Add
+- Task 4: Command and Control Attack with DNS
+- Task 5: Privilege Elevation Attack with User Add
 
-## Estimated timing: 30 minutes
+## Estimated timing: 90 minutes
 
 ## Architecture Diagram
 
   ![Lab overview.](../media/XDR-Lab03.png)
 
-### Task 1: Persistence Attack with Registry Key Add 
+### Task 1: Connect the Windows security event connector
+
+1. In the Search bar of the Azure portal, type *Microsft Sentinel*, then select **Microsoft Sentinel**.
+
+    ![](../media/09.png) 
+
+1. Select the pre-created Sentinel **loganalyticworkspace** from the available list.
+
+    ![](../media/Lab01-task2-loganalyticworkspace.png) 
+
+1. Navigate to the left menu and go to the Content Management section; there, select **Content Hub (1)**. On the Content Hub page, locate **Windows Security Events (2)**, and then **select (3)** it. Finally, click on **Install (4)**.
+
+    ![Picture 1](../media/Lab02-task1-contenthub.png)  
+
+1. After receiving the notification of a successful installation, return to the Data Connector page and click on the refresh button to ensure that the changes take effect.
+
+1. You should observe two options: **Security Events Via Legacy Agent** and **Windows Security Event Via AMA**.
+
+1. Choose **Security Events Via Legacy Agent**, and then click on **Open Connector Page**.
+
+    ![Picture 1](../media/lab02-task01-events.png) 
+   
+8. In the configuration section, opt for **Install Agent on Azure Windows Virtual Machine (1)**, and then choose **Download & Install Agent for Azure Windows Virtual Machines (2)**.
+
+    ![Picture 1](../media/lab02-task01-installagent.png) 
+
+9. Select the **svm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on connect.
+
+    ![Picture 1](../media/lab2-task1-svm.png) 
+        
+10. Once **connected (1)**, select the **Virtual Machine (2)** link from the top.
+
+    ![Picture 1](../media/lab2-task1-svm1.png) 
+
+11. On the virtual machine page select the **s2vm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on connect. wait until get connected.
+
+    ![Picture 1](../media/lab2-task1-s2vm.png)
+
+11. Then, come back to the Configuration and scroll down a bit. You can find **Select which events to stream**. Click on **All Events**.
+
+    ![Picture 1](../media/lab2-task1-streamevents.png) 
+
+12. Click on Apply Changes now. If you refresh the data connector page, you can see the status Connected for **Security Events Via Legacy Agent**.
+
+### Task 2: Enable Microsoft Defender for Cloud
+
+In this task, you will enable and configure Microsoft Defender for Cloud.
+
+1. In the search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
+
+    ![Picture 1](../media/Lab-02-task2-search.png) 
+
+1. Click the left menu, and then click on **Getting Started**.
+
+1. On the **Getting Started** page, under the **Upgrade** tab, ensure your subscription is selected, and then click the **Upgrade** button at the bottom of the page. Please wait for 2-5 minutes for the process to complete, as it may take some time.
+
+    ![Picture 1](../media/Lab-02-task2-upgrade.png) 
+
+4. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
+
+1. Click on the subscription (or its equivalent name in your language). 
+
+1. Review the Azure resources that are now protected with the Defender for Cloud plans.
+
+1. Select the **Settings & Monitoring** tab from the Settings area (next to Save).
+ 
+    ![Picture 1](../media/Lab-02-task2-reviewplans.png) 
+
+1. Review the monitoring extensions and confirm that **Log Analytics agent/Azure Monitor agent** is **On**. Click Continue or close the Settings & Monitoring page by selecting the 'X' on the upper right of the page.
+
+    ![Picture 1](../media/Log_Analytics_Enable_1_new.png) 
+
+1. Select the newly created Log Ananytics workspace which will gather all security events data of the machines to analyze. click on Apply and Continue. Click on Save for the changes to take affect.
+
+   ![Picture 1](../media/log1.png)
+
+1. Close the settings page by selecting the 'X' on the upper right of the page to return to the **Environment settings**. Then, click on the '>' to the left of your subscription.
+
+1. Select the Log Analytics workspace named **loganalyticworkspace** to review the available options and pricing.
+
+    ![Picture 1](../media/Lab-02-task2-subscription.png) 
+
+1. Select **Enable all** (to the right of Select Defender plan), and then choose **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
+
+    >**Note:** If the page is not being displayed, refresh your Edge browser and try again.  
+
+1. Close the Defender plans page by selecting the 'X' in the upper right corner of the page to return to the **Environment settings**.
+
+    ![Picture 1](../media/Lab-02-task2-save.png)
+
+### Task 3: Persistence Attack with Registry Key Add 
 
 >**Note:** Perform this task in your LAB-VM (svm).
 
@@ -42,7 +134,7 @@ You are going to simulate the attacks that you will later use to detect and inve
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Task 2: Command and Control Attack with DNS
+### Task 4: Command and Control Attack with DNS
 
 >**Note:** Perform this task in your LAB-VM (svm).
 
@@ -112,7 +204,7 @@ You are going to simulate the attacks that you will later use to detect and inve
 
     >**Important**: Do not close these windows. Let this PowerShell script run in the background. The command needs to generate log entries for some hours. You can proceed to the next task and next exercises while this script runs. The data created by this task will be used in the Threat Hunting lab later. This process will not create substantial amounts of data or processing.
 
-### Task 3: Privilege Elevation Attack with User Add
+### Task 5: Privilege Elevation Attack with User Add
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
 
@@ -178,6 +270,8 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 ## Review
 In this lab you have completed the following tasks:
+- Connect the Windows security event connector
+- Enable Microsoft Defender for Cloud
 - Persistence Attack with Registry Key Add
 - Command and Control Attack with DNS
 - Privilege Elevation Attack with User Add
