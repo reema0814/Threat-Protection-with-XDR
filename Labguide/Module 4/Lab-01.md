@@ -124,7 +124,11 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
     cd \
     mkdir temp
     cd temp
+    notepad startup.bat
     ```
+    
+1. Select **Yes** to create a new file and **save** the empty file.
+
    
 1. Copy and run this command to simulate program persistence:
 
