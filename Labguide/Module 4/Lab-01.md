@@ -124,11 +124,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
     cd \
     mkdir temp
     cd temp
-    notepad startup.bat
     ```
-    
-1. Select **Yes** to create a new file and **save** the empty file.
-
    
 1. Copy and run this command to simulate program persistence:
 
@@ -494,9 +490,11 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
 
 1. After *Your deployment is complete* message appears, return to the Microsoft Sentinel portal.
 
-1. Select **Notebooks** again and then select the **Templates** tab from the middle command bar. 
+1. Select **Notebooks** again and then select the **Templates** tab from the middle command bar.
 
-1. Select **A Getting Started Guide for Microsoft Sentinel** ML Notebooks. 
+1. Select **A Getting Started Guide for Microsoft Sentinel** ML Notebooks.
+
+   >**Note:** If you face any issues or did not see any popup after click on opening the **A Getting Started Guide for Microsoft Sentinel**. please select the **MyNotebooks** Tab besides the Notebook tab and click on the Notebook( the Azure ML Workspace you created earlier) this might be named as **Untitled** then start performing the lab from the lab guide step **13**.
 
 1. On the right pane, scroll down and select **Create from template** button. Review the default options and then select **Save**.
 
