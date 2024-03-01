@@ -123,8 +123,11 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
     notepad startup.bat
     ```
 
+>**Note:** If you face any issues in creating the temp folder please check temp folder is already present or not if present please delete temp folder and perform the above step again.
+
 Select **Yes** to create a new file and **Save** the empty file.
-   
+
+
 1. Copy and run this command to simulate program persistence:
 
     ```CommandPrompt
