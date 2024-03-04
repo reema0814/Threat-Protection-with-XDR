@@ -20,7 +20,7 @@ You are going to simulate the attacks that you will later use to detect and inve
 
 ### Task 1: Connect the Windows security event connector
 
-1. In the Search bar of the Azure portal, type *Microsft Sentinel*, then select **Microsoft Sentinel**.
+1. In the Search bar of the Azure portal, type *Microsft Sentinel (1)*, then select **Microsoft Sentinel (2)**.
 
     ![](../media/09.png) 
 
@@ -32,19 +32,19 @@ You are going to simulate the attacks that you will later use to detect and inve
 
     ![Picture 1](../media/Lab02-task1-contenthub.png)  
 
-1. After receiving the notification of a successful installation, return to the Data Connector page and click on the refresh button to ensure that the changes take effect.
+1. After receiving the notification of a successful installation, return to the **Data Connector** page and click on the **Refresh** button to ensure that the changes take effect.
 
 1. You should observe two options: **Security Events Via Legacy Agent** and **Windows Security Event Via AMA**.
 
-1. Choose **Security Events Via Legacy Agent**, and then click on **Open Connector Page**.
+1. Choose **Security Events Via Legacy Agent**, and then click on **Open connector page**.
 
     ![Picture 1](../media/lab02-task01-events.png) 
    
-8. In the configuration section, opt for **Install Agent on Azure Windows Virtual Machine (1)**, and then choose **Download & Install Agent for Azure Windows Virtual Machines (2)**.
+8. In the configuration section, opt for **Install agent on Azure Windows Virtual Machine (1)**, and then choose **Download & Install agent for Azure Windows Virtual machines > (2)**.
 
     ![Picture 1](../media/lab02-task01-installagent.png) 
 
-9. Select the **svm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on connect.
+9. Select the **svm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on **Connect**.
 
     ![Picture 1](../media/lab2-task1-svm.png) 
         
@@ -52,29 +52,30 @@ You are going to simulate the attacks that you will later use to detect and inve
 
     ![Picture 1](../media/lab2-task1-svm1.png) 
 
-11. On the virtual machine page select the **s2vm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on connect. wait until get connected.
+11. On the virtual machine page select the **s2vm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on **Connect**. wait until get connected.
 
     ![Picture 1](../media/lab2-task1-s2vm.png)
 
-11. Then, come back to the Configuration and scroll down a bit. You can find **Select which events to stream**. Click on **All Events**.
+11. Then, come back to the configuration and scroll down a bit. You can find **Select which events to stream**. Click on **All Events**. Click on **Apply changes** now. If you refresh the data connector page, you can see the status Connected for **Security Events Via Legacy Agent**.
 
     ![Picture 1](../media/lab2-task1-streamevents.png) 
 
-12. Click on Apply Changes now. If you refresh the data connector page, you can see the status Connected for **Security Events Via Legacy Agent**.
 
 ### Task 2: Enable Microsoft Defender for Cloud
 
 In this task, you will enable and configure Microsoft Defender for Cloud.
 
-1. In the search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
+1. In the search bar of the Azure portal, type *Microsoft Defender for cloud (1)*, then select **Microsoft Defender for Cloud (2)**.
 
     ![Picture 1](../media/Lab-02-task2-search.png) 
 
 1. Click the left menu, and then click on **Getting Started**.
 
-1. On the **Getting Started** page, under the **Upgrade** tab, ensure your subscription is selected, and then click the **Upgrade** button at the bottom of the page. Please wait for 2-5 minutes for the process to complete, as it may take some time.
+1. On the **Getting Started** page, under the **Upgrade** tab, ensure your subscription is selected, and then click the **Upgrade** button at the bottom of the page.
 
-    ![Picture 1](../media/Lab-02-task2-upgrade.png) 
+    ![Picture 1](../media/Lab-02-task2-upgrade.png)
+
+    >**Note:** Please wait for 2-5 minutes for the process to complete, as it may take some time.
 
 4. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
 
@@ -86,11 +87,11 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
  
     ![Picture 1](../media/Lab-02-task2-reviewplans.png) 
 
-1. Review the monitoring extensions and confirm that **Log Analytics agent/Azure Monitor agent** is **On**. Click Continue or close the Settings & Monitoring page by selecting the 'X' on the upper right of the page.
+1. Review the monitoring extensions and confirm that **Log Analytics agent/Azure Monitor agent** is **On**.
 
     ![Picture 1](../media/Log_Analytics_Enable_1_new.png) 
 
-1. Select the newly created Log Analytics workspace which will gather all security events data of the machines to analyze. Click on **Apply** and **Continue**. Click on **Save** for the changes to take effect.
+1. Select the newly created **Log Analytics workspace** which will gather all security events data of the machines to analyze. Click on **Apply** and **Continue**. Click on **Save** for the changes to take effect.
 
    ![Picture 1](../media/log1.png)
 
@@ -100,7 +101,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
     ![Picture 1](../media/Lab-02-task2-subscription.png) 
 
-1. Select **Enable all** (to the right of Select Defender plan), and then choose **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
+1. Select **Enable all plans** (to the right of Select Defender plan), and then choose **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
 
     >**Note:** If the page is not being displayed, refresh your Edge browser and try again.
 
@@ -225,11 +226,11 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
    ![VMrdp](../media/vm4.png)
 
-1. Select Connect when prompted. You will get a warning that the .rdp file is from an unknown publisher. This is expected. In the Remote Desktop Connection window, select Connect to continue.
+1. Select **Connect** when prompted. You will get a warning that the .rdp file is from an unknown publisher. This is expected. In the Remote Desktop Connection window, select Connect to continue.
 
    ![VMrdp](../media/vm8.png)
    
-1. In the Windows Security window, select More Choices and then Use a different account. Enter **Username:** <inject key="Labvm Admin Username"></inject> and **Password:** <inject key="Labvm Admin Password"></inject> and then select OK.
+1. In the Windows Security window, select More Choices and then Use a different account. Enter **Username:** <inject key="Labvm Admin Username"></inject> and **Password:** <inject key="Labvm Admin Password"></inject> and then select **OK**.
 
    ![VMrdp](../media/vm6.png)
 

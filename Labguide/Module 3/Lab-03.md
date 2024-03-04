@@ -22,7 +22,7 @@ In this task, you will investigate an incident.
 
 1. Select the Microsoft Sentinel Workspace you created earlier.
 
-1. Select the **Incidents** page under Threat management from the left side blade and Review the list of incidents.
+1. Select the **Incidents** page under **Threat management** from the left side blade and Review the list of incidents.
 
    ![](../media/7-1.png)
 
@@ -70,7 +70,7 @@ In this task, you will investigate an incident.
 
    ![Lab overview.](../media/7-8.png)
 
-1. Select the new **Activity Log** button from the command bar. Review the actions you have taken during this exercise. Close the *Incident activity log* blade by selecting the **x** icon in the top right.
+1. Select the new **Activity Log** button from the command bar. Review the actions you have taken during this exercise. Close the *Incident activity log* blade by selecting the **X** icon in the top right.
 
    ![Lab overview.](../media/7-9.png)
 

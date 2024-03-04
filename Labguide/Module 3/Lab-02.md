@@ -62,7 +62,7 @@ In this task, you will update the new playbook you created with the proper conne
 
     ![Lab overview.](../media/Lab03-task03-activeplaybook.png) 
 
-1. On the Logic App page for *PostMessageTeams-OnIncident*, in the center menu, select **Edit**.
+1. On the Logic App page for **PostMessageTeams-OnIncident**, in the center menu, select **Edit**.
    
     ![Lab overview.](../media/Lab03-task1-001.png) 
 
