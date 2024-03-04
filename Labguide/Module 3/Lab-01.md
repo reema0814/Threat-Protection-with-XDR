@@ -28,7 +28,7 @@ You are going to simulate the attacks that you will later use to detect and inve
 
     ![](../media/Lab01-task2-loganalyticworkspace.png) 
 
-1. Navigate to the left menu and go to the Content Management section; there, select **Content Hub (1)**. On the Content Hub page, locate **Windows Security Events (2)**, and then **select (3)** it. Finally, click on **Install (4)**.
+1. Navigate to the left menu and go to the Content Management section; there, select **Content Hub (1)**. On the Content Hub page, locate **Windows Security Events (2)**, and then **Select (3)** it. Finally, click on **Install (4)**.
 
     ![Picture 1](../media/Lab02-task1-contenthub.png)  
 
@@ -48,7 +48,7 @@ You are going to simulate the attacks that you will later use to detect and inve
 
     ![Picture 1](../media/lab2-task1-svm.png) 
         
-10. Once **connected (1)**, select the **Virtual Machine (2)** link from the top.
+10. Once **Connected (1)**, select the **Virtual Machine (2)** link from the top.
 
     ![Picture 1](../media/lab2-task1-svm1.png) 
 
@@ -90,7 +90,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
     ![Picture 1](../media/Log_Analytics_Enable_1_new.png) 
 
-1. Select the newly created Log Ananytics workspace which will gather all security events data of the machines to analyze. click on Apply and Continue. Click on Save for the changes to take affect.
+1. Select the newly created Log Analytics workspace which will gather all security events data of the machines to analyze. Click on **Apply** and **Continue**. Click on **Save** for the changes to take effect.
 
    ![Picture 1](../media/log1.png)
 
@@ -102,7 +102,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. Select **Enable all** (to the right of Select Defender plan), and then choose **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
 
-    >**Note:** If the page is not being displayed, refresh your Edge browser and try again.  
+    >**Note:** If the page is not being displayed, refresh your Edge browser and try again.
 
 1. Close the Defender plans page by selecting the 'X' in the upper right corner of the page to return to the **Environment settings**.
 
@@ -123,9 +123,9 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
     notepad startup.bat
     ```
 
->**Note:** If you face any issues in creating the temp folder please check temp folder is already present or not if present please delete temp folder and perform the above step again.
-
-Select **Yes** to create a new file and **Save** the empty file.
+   >**Note:** If you face any issues in creating the temp folder please check temp folder is already present or not if present please delete the temp folder and perform the above step again.
+   
+   Select **Yes** to create a new file and **Save** the empty file.
 
 
 1. Copy and run this command to simulate program persistence:
@@ -222,8 +222,6 @@ Select **Yes** to create a new file and **Save** the empty file.
 
 1. On the Connect to Virtual Machine page, select RDP, Choose the option to **Download RDP File.**
 
-   ![VMrdp](./media/vm3.png)
-
 1. Open the downloaded RDP file from the downloads.
 
    ![VMrdp](../media/vm4.png)
@@ -275,4 +273,3 @@ In this lab you have completed the following tasks:
 - Persistence Attack with Registry Key Add
 - Command and Control Attack with DNS
 - Privilege Elevation Attack with User Add
-
