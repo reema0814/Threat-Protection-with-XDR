@@ -22,7 +22,7 @@ In this task, you will investigate an incident.
 
 1. Select the Microsoft Sentinel Workspace you created earlier.
 
-1. Select the **Incidents** page under Threat management from left side blade and Review the list of incidents
+1. Select the **Incidents** page under Threat management from the left side blade and Review the list of incidents.
 
    ![](../media/7-1.png)
 
@@ -42,7 +42,7 @@ In this task, you will investigate an incident.
 
      ![Lab overview.](../media/7-3.png)
 
-1. Scroll down and in the *Write a comment...* box type: *I will research this* and select the **>** icon to submit the new comment.
+1. Scroll down and in the *Write a comment...* box type: **I will research this** and select the **>** icon to submit the new comment.
 
     ![Lab overview.](../media/comment.png)
 
@@ -52,7 +52,7 @@ In this task, you will investigate an incident.
 
     ![Lab overview.](../media/7-4.png)
 
-1. Close the *Alert playbooks* blade by selecting the **x** icon in the top right.
+1. Close the *Alert playbooks* blade by selecting the **X** icon in the top right.
 
 1. Review the **Entities** window. At least the *Host* entity that we mapped within the KQL query from the previous exercise should appear. **Hint:** If no entities are shown, refresh the page.
 
@@ -66,7 +66,7 @@ In this task, you will investigate an incident.
 
    ![Lab overview.](../media/7-7.png)
 
-1. Close the *Incident tasks* blade by selecting the **x** icon in the top right.
+1. Close the *Incident tasks* blade by selecting the **X** icon in the top right.
 
    ![Lab overview.](../media/7-8.png)
 
@@ -99,8 +99,6 @@ In this task, you will investigate an incident.
 1. Select **Timeline** button. Hover the incidents and see which things on the graph occurred at what point in time.
 
    ![Lab overview.](../media/7-12.png)
-   
-1. Select **Entities** button and review the *Entities* and *Alerts* related to *svm-server*.
 
 1. Close the investigation graph by selecting the **X** icon at the top right of the page.
 
