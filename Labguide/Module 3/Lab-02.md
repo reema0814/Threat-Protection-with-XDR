@@ -92,7 +92,6 @@ In this task, you will update the new playbook you created with the proper conne
    
    ![Lab overview.](../media/Lab03-task1-005.png)
 
-
 ### Task 3: Persistence Attack Detection
 
 In this task, you will create a detection for the first attack of the previous exercise.
@@ -138,8 +137,8 @@ In this task, you will create a detection for the first attack of the previous e
     |---|---|
     |Name|Startup RegKey|
     |Description|Startup RegKey in c:\temp|
-    |Tactics|Persistence|
     |Severity|High|
+    |Tactics|Persistence|
 
 1. Select **Next: Set rule logic >** button.
 
@@ -161,11 +160,11 @@ In this task, you will create a detection for the first attack of the previous e
 
     >**Note:** We are purposely generating many incidents for the same data. This enables the Lab to use these alerts.
 
-1. Leave the rest of the options with the defaults. Select **Next: Incident settings>** button.
+1. Leave the rest of the options with the defaults. Select **Next: Incident settings >** button.
 
 1. For the *Incident settings* tab, leave the default values and select **Next: Automated response >** button.
 
-1. On the *Automated response* tab under *Automation rules*, select **Add new**.
+1. On the *Automated response* tab under *Automation rules*, select **+ Add new**.
 
 1. Use the settings in the table to configure the automation rule.
 
@@ -189,7 +188,7 @@ In this task, you will create a detection for the first attack of the previous e
 
     ![Lab overview.](../media/Lab06-task03-automationrule.png)
 
-1. Select the **Next: Review >** button.
+1. Select the **Next: Review + create >** button.
   
 1. On the *Review and create* tab, select the **Save** button to create the new Scheduled Analytics rule.
 
@@ -286,7 +285,7 @@ In this task, you will create a detection for the second attack of the previous 
 
 1. For the *Incident settings* tab, leave the default values and select **Next: Automated response >** button.
 
-1. On the *Automated response* tab under *Automation rules*, select **Add new (1)** and Use the settings in the table to configure the automation rule Select **Apply (6)**.
+1. On the *Automated response* tab under *Automation rules*, select **+ Add new (1)** and Use the settings in the table to configure the automation rule Select **Apply (6)**.
 
    |Setting|Value|
    |:----|:----|
@@ -299,7 +298,7 @@ In this task, you will create a detection for the second attack of the previous 
 
    ![](../media/6-7.png)
 
-1. Select the **Next: Review and create >** button.
+1. Select the **Next: Review + create >** button.
   
 1. On the *Review and create* tab, select the **Save** button to create the new Scheduled Analytics rule.
 
