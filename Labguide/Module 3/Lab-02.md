@@ -24,7 +24,7 @@ Analytics rules search for specific events or sets of events across your environ
 
 In this task, you will create a Logic App that is used as a Playbook in Microsoft Sentinel.
 
-1. In the Microsoft Edge browser, open a new tab and paste https://github.com/Azure/Azure-Sentinel to nevigate to Microsoft Sentinel on GitHub.
+1. In the Microsoft Edge browser, open a new tab and paste https://github.com/Azure/Azure-Sentinel to navigate to Microsoft Sentinel on GitHub.
 
 1. Scroll down and select the **Solutions** folder.
 
@@ -56,7 +56,7 @@ In this task, you will update the new playbook you created with the proper conne
 
 1. Select your Microsoft Sentinel Workspace **loganalyticworkspace**.
 
-1. Select the **Automation** from the Configuration area and then select the **Active Playbooks** tab, If **PostMessageTeams-OnIncident** is not visiable refresh the page and check.
+1. Select the **Automation** from the Configuration area and then select the **Active Playbooks** tab, If **PostMessageTeams-OnIncident** is not visible refresh the page and check.
 
 1. Select the **PostMessageTeams-OnIncident** playbook and click on it to go to the logic App page.
 
@@ -176,7 +176,7 @@ In this task, you will create a detection for the first attack of the previous e
    
 1. A second drop-down menu appears with an *Information (i)* message regarding playbook permissions and a **Manage playbook permissions link**
 
-    >**Note:** The playbooks will appear grayed out in the drop-down list until permissions are configured.
+    >**Note:** The playbooks will appear greyed out in the drop-down list until permissions are configured.
 
 1. Select the **Manage playbook permissions link**
 
@@ -263,8 +263,7 @@ In this task, you will create a detection for the second attack of the previous 
 
    ![](../media/6-5.png)
 
-
-1. On the *Set rule logic* tab, the *Rule query* should be populated already with your KQL query, and add the details for entities under *Alert enrichment - Entity mapping*.
+1. On the *Set rule logic* tab, the *Rule query* should be populated already with your KQL query, and the details for entities under *Alert enrichment - Entity mapping*.
 
     |Entity|Identifier|Data Field|
     |:----|:----|:----|
@@ -274,7 +273,7 @@ In this task, you will create a detection for the second attack of the previous 
 1. For *Query scheduling* set the following:
 
     |Setting|Value|
-    |---|---|
+    |:---|:---|
     |Run Query every| **5 minutes (1)** |
     |Lookup data from the last| **1 Days (2)**|
 
