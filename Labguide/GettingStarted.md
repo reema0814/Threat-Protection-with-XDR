@@ -1,6 +1,6 @@
 # Getting Started with the Lab
  
-Welcome to your Threat protection with XDR workshop! We've prepared a seamless environment for you familiarize yourself with the Microsoft security operations analyst, you monitor, identify, investigate, and respond to threats in multicloud environments and related Microsoft services. Let's begin by making the most of this experience:
+Welcome to your Threat Protection with XDR workshop! We've prepared a seamless environment for you to familiarize yourself with the Microsoft security operations analyst, you monitor, identify, investigate, and respond to threats in multi-cloud environments and related Microsoft services. Let's begin by making the most of this experience:
  
 ## Accessing Your Lab Environment
  
@@ -48,7 +48,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
      ![Enter Your Password](./media/sc900-image-2.png)
  
-4. If prompted to stay signed in, you can click "No."
+4. If prompted to stay signed in, you can click "No".
  
 5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
  
