@@ -82,7 +82,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. Review the Azure resources that are now protected with the Defender for Cloud plans.
 
-1. Select the **Settings & Monitoring** tab from the Settings area (next to Save).
+1. Select the **Settings & monitoring** tab from the Settings area (next to Save).
  
     ![Picture 1](../media/Lab-02-task2-reviewplans.png) 
 
