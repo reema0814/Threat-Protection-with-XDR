@@ -129,7 +129,8 @@ In this task, you will create a detection for the first attack of the previous e
     ```
 
 1. Now that you have a good detection rule, in the Logs window, select the **+ New alert rule** in the command bar and then select **Create Microsoft Sentinel alert**. This will create a new Scheduled rule.
-**Hint:** You might need to select the ellipsis (...) button in the command bar.
+   
+   **Hint:** You might need to select the ellipsis (...) button in the command bar.
 
 1. This starts the "Analytics rule wizard". For the *General* tab type:
 
