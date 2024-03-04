@@ -60,7 +60,7 @@ In this task, you will investigate an incident.
 
 1. Select the **Tasks** button from the command bar.
 
-   ![Lab overview.](../media/7-6.png)
+   ![Lab overview.](../media/thread1.2.png)
 
 1. Select **+ Add task (1)**, type **Review who owns the machine (2)** in the Title box and select **Save (3)**.
 
