@@ -6,11 +6,9 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 ## Lab objectives
  In this lab, you will perform the following in the M365 Defender portal:
-- Task 1: Create a Group
-- Task 2: Apply Microsoft Defender for Office 365 preset security policies
-- Task 3: Activate a Microsoft Security Rule
-- Task 4: Manage Incidents
-- Task 5: Investigate Alerts
+- Task 1: Onboard a Device 
+- Task 2: Manage Incidents
+- Task 3: Investigate Alerts
 
 ## Estimated timing: 60 minutes
 
@@ -18,123 +16,77 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
  ![Lab overview.](../media/lab-04.png)
 
-### Task 1: Create a Group 
+### Task 1: Onboard a Device
 
-1. In the Search bar of the Azure portal, search and select **Microsoft Entra ID**.
+In this task, you will onboard a device to Microsoft Defender for Endpoint using an onboarding script.
 
-1. Select **Groups** and then click on **New group**.
+1. If you are not already at the Microsoft 365 Defender portal in your browser, start the Microsoft Edge browser go to (https://security.microsoft.com).
 
-1. Enter the below details for the New group page:
+1. On the **Sign into Microsoft Azure** tab, you will see the login screen. Enter the following **Email/Username**, and then click on **Next**.
 
-   |Setting|Value|
-    |---|---|
-    |Group Type| **Microsoft 365** |
-    |Group Name| **Sg-IT** |
-    |Microsoft Entra roles can be assigned to the group| **Yes** |
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-1. Click on **no owners selected** and select the **ODL_user** from the list and then click on **select**.
+     ![](../media/login2.png)
 
-1. Click on **no members selected** and select the **ODL_user** from the list and then click on **select**.
-
-   **Note**: Make sure you have selected **Group type** as **Microsoft 365**.
-
-1. Select **Create** and click on **Yes**. 
-
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-    
-### Task 2: Apply Microsoft Defender for Office 365 preset security policies
-
-1. If you are not already at the Microsoft 365 Defender portal in your browser, go to (https://security.microsoft.com) and log in with the **Tenant Email** credentials.
-
-1. From the navigation menu, under Email & Collaboration area, select **Policies & rules**(1) and select **Threat policies**(2).
-
-    ![](../media/lab10-task3-threat-policies.png)
-
-1. On the Threat policies dashboard, select **Preset Security Policies**.
-
-    ![](../media/lab10-task3-preset-policies.png)
-
-1. Under Standard protection, select **Manage protection settings**. Hint: If you see this option grayed out, refresh your browser using Ctrl+F5.
-
-    ![](../media/lab10-task3-std-policies.png)  
-
-   **Note:** If you encounter a pop-up prompting you to finalize the Organizational setup, wait for 5 minutes, refresh the page, and repeat the above steps again.
-
-1. In the Apply Exchange Online Protection section, select **Specific recipients**, and under **Domains** start writing your tenant’s domain name, select it, and then select **Next**.
-
-    ![](../media/lab10-task3-std-policies01.png)
-
-1. In the Apply Defender for Office 365 protection section, apply the same configuration as the previous step and select Next. Notice that this configuration applies policies for anti-phishing, Safe Attachments, and Safe Links.
-
-    ![](../media/lab10-task3-std-policies02.png)
-
-1. In the Impersonation protection section, select **Next** four times (4x) to continue.
-
-    ![](../media/lab10-task3-std-policies03.png)
-     
-1. In the Policy mode section, make sure the **Turn on the policy when finished** radio button is selected, and then select **Next**.
-
-    ![](../media/lab10-task3-std-policies04.png)
-    
-1. Read the content under Review and confirm your changes select **Confirm** to apply the changes and then select **Done** to finish.
-
-    ![](../media/lab10-task3-std-policies05.png)
-
-1. Under Strict protection, select **Manage protection settings**. Hint: Strict protection is found under “Email & Collaboration - Policies & rules - Threat policies - Preset security policies”.
-
-    ![](../media/lab10-task3-strict-policies.png)
-
-1. In the Apply Exchange Online Protection, select **Specific recipients** and under **Groups**, select your group, and then select **Next**. Notice that this configuration applies policies for anti-spam, outbound spam filters, anti-malware, and anti-phishing.
-
-    ![](../media/lab10-task3-strict-policies01.png)
-
-1. In the Apply Defender for Office 365 protection section, apply the same configuration as the previous step and select Next. Notice that this configuration applies policies for anti-phishing, Safe Attachments, and Safe Links.
-
-     ![](../media/lab10-task3-strict-policies02.png) 
-
-1. In the Impersonation protection section, select **Next** four times (4x) to continue.
-
-1. In the Policy mode section, make sure the **Turn on the policy when finished** radio button is selected, and then select **Next**.
-
-    ![](../media/lab10-task3-strict-policies03.png)
+1. Enter the following **Password** and click on **Sign in**. 
    
-1. Read the content under Review and confirm your changes select **Confirm** to apply the changes and then select **Done** to finish.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
-    ![](../media/lab10-task3-strict-policies04.png)
+     ![](../media/Lab-01-task1-password.png) 
 
-### Task 3: Activate a Microsoft Security Rule
+    >**Note:** Take a moment to allow the option panel to fully load on the security portal.
 
-In this task, you will activate a Microsoft Security rule.
+1. Navigate to **Settings** in the left menu bar, and then, on the Settings page, choose **Endpoints**.
 
-1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
+    ![](../media/lab01-task3-settings.png)
 
-1. Select the Microsoft Sentinel Workspace.
+   >**Note:** If you do not see the **Endpoints** option under Settings, log out by selecting the top-right circle with your account initials and select Sign out. Other options that you might want to try are to refresh the page with Ctrl+F5 wait for 30-45 minutes or open the page InPrivate. Login again with the Tenant Email credentials.
 
-1. Select **Analytics** from the Configuration area. By default, you will see the *Active rules*.
+1. Navigate to the **Onboarding** option in the Device Management section.
 
-1. Select the **Microsoft incident creation rule** from the dropdown + Create.
+    >**Note:** Device onboarding can also be initiated from the **Assets** section on the left menu bar. Expand 'Assets' and choose 'Devices.' On the Device Inventory page, with 'Computers & Mobile' selected, scroll down to find the option for **Onboard devices.** Clicking on this option will direct you to the **Settings > Endpoints** page.
 
-     ![](../media/lab10-task4-analytics.png)
+1. In the '1. Onboard a device' section, ensure that 'Local Script (for up to 10 devices)' is visible in the Deployment method drop-down, then click the **Download onboarding package** button.
 
-   >**Note**: You can choose the existing **active rule** to edit or **create** new **active rule** and then edit them by selecting the respective rule in the active rules list.
+    ![](../media/lab01-task3-localscript.png) 
 
-1. After creating the active rule, select it for editing. On the right blade, click the **Edit** button. 
+1. In the *Downloads* pop-up, use your mouse to select the 'WindowsDefenderATPOnboardingPackage.zip' file, and then click on the folder icon for **Show in folder**. **Hint:** If you can't locate it, the file should be in the 'c:\users\admin\downloads' directory.
 
-    ![](../media/lab10-task4-edit.png)
-      
-1. Scroll down the page and under "Analytics rule logic - Filter by Severity", select the *Custom* drop-down list.
+    ![](../media/lab01-task3-downloadspopup.png)
 
-1. Unselect **Low** for the severity level and go back to the rule.
+1. Right-click on the downloaded zip file, choose **Extract All...**, ensure that **Show extracted files when complete** is checked, and then click **Extract**.
 
-1. Select the **Next: Automated response** button and then select **Next: Review** button.
+    ![](../media/lab01-task3-zipfile.png) 
 
-1. Review the changes made and select the **Save** button. The Analytics rule will be saved.
+1. Right-click on the extracted file 'WindowsDefenderATPLocalOnboardingScript.cmd' and choose **Properties**. Tick the **Unblock** checkbox located in the bottom right of the Properties window, and then click **OK**.
 
-### Task 4: Manage Incidents
+    ![](../media/sc200-mod2-unblock.png) 
+
+1. Once again, right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** and opt for **Run as Administrator**. **Hint:** If the Windows SmartScreen window appears, click on **More info**, and then select **Run anyway**.
+    
+1. When the "User Account Control" window appears, select **Yes** to allow the script to run, answer **Y** to the question presented by the script, and press **Enter**. Once complete, you should see a message in the command screen that says *Successfully onboarded machine to Microsoft Defender for Endpoint*.
+
+1. Press any key to continue. This action will close the Command Prompt window.
+
+    ![](../media/SC-200-img25.png)
+
+1. Back on the Onboarding page within the Microsoft 365 Defender portal, navigate to the "2. Run a detection test" section, and copy the detection test script by clicking the **Copy** button.
+
+    ![](../media/lab01-task3-runscript.png) 
+
+1. In the Windows search bar of the virtual machine, type **CMD**, and choose **Run as Administrator** from the right pane for the Command Prompt app.
+
+1. When the "User Account Control" window appears, select **Yes** to allow the app to run. 
+
+1. Paste the script by right-clicking in the **Administrator: Command Prompt** window and press **Enter** to run it. **Note:** The window closes automatically after running the script.
+
+1. In the Microsoft 365 Defender portal, navigate to the left-hand menu, and under the **Assets** area, select **Devices**. If the device is not shown, proceed with the next task and return to check it later. It can take up to 60 minutes for the first device to be displayed in the portal.
+
+    ![](../media/Onboard.png) 
+
+    >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
+
+### Task 2: Manage Incidents
 
 In this task, you will manage the incidents in the M365 Defender portal.
 
@@ -174,7 +126,7 @@ In this task, you will manage the incidents in the M365 Defender portal.
 
    ![Lab overview.](../media/lab10-task1-summary.png)
 
-### Task 5: Investigate Alerts
+### Task 3: Investigate Alerts
 
 In this task, you will investigate and mitigate the alerts through recommendations by Microsoft Defender.
 
@@ -220,8 +172,6 @@ In this task, you will investigate and mitigate the alerts through recommendatio
 
 ## Review
 In this lab, you have completed the following tasks:
-- Create a Group
-- Apply Microsoft Defender for Office 365 preset security policies
-- Activate a Microsoft Security Rule
+- Onboard a Device
 - Manage Incidents
 - Investigate Alerts
