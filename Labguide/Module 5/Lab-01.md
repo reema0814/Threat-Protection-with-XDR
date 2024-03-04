@@ -96,7 +96,7 @@ In this task, you will manage the incidents in the M365 Defender portal.
 
 1. In the **Enter password** dialog box, copy and paste * Password: <inject key="AzureAdUserPassword"></inject> and then select **Sign in**.
 
-1. From the sidebar menu, under **Incidents and Alerts**, select **Incidents**. Click on the incident **Multi-stage incident involving Execution & Discovery on one endpoint**.
+1. From the sidebar menu, under **Incidents and Alerts**, select **Incidents**. Click on the incident **Execution incident on one endpoint**.
 
 1. To manage an incident, click on **Manage Incident** to edit the details of this incident.
 
@@ -134,7 +134,7 @@ In this task, you will investigate and mitigate the alerts through recommendatio
 
    ![Lab overview.](../media/lab10-task2-alerts.png)
 
-1. You can click on any of these alerts to view the full details. Click on the alert named **Suspicious System Network Configuration Discovery**.
+1. You can click on any of these alerts to view the full details. Click on the alert named **Suspicious PowerShell command line**.
 
 1. Click on **Maximize** to view the full alert details.
 
