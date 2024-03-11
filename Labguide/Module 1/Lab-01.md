@@ -69,6 +69,8 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
     ![](../media/Lab01-task2-selectall.png)
 
+   >**Note**: If the **Status filter** option isn't visible, simply click on **More** to access it.
+
 1. Select the **Informational** incident from the list to view details and take necessary actions.
 
     ![](../media/Lab01-task2-informational.png) 
