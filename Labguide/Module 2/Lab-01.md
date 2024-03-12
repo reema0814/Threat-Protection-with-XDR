@@ -19,7 +19,7 @@ The integration of a Logic App with Threat Protection involves configuring trigg
 
 ### Task 1: Connect the Windows security event connector
 
-1. In the Search bar of the Azure portal, type *Microsft Sentinel*, then select **Microsoft Sentinel**.
+1. In the Search bar of the Azure portal, type *Microsoft Sentinel*, then select **Microsoft Sentinel**.
 
     ![](../media/09.png) 
 
@@ -154,7 +154,7 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
 
 In this task, you will create a Logic App that is used as a Playbook in Microsoft Sentinel.
 
-1. In the Microsoft Edge browser, open a new tab and paste https://github.com/Azure/Azure-Sentinel to nevigate to Microsoft Sentinel on GitHub.
+1. In the Microsoft Edge browser, open a new tab and paste https://github.com/Azure/Azure-Sentinel to navigate to Microsoft Sentinel on GitHub.
 
 1. Scroll down and select the **Solutions** folder.
 
@@ -186,7 +186,7 @@ In this task, you will update the new playbook you created with the proper conne
 
 1. Select your Microsoft Sentinel Workspace **loganalyticworkspace**.
 
-1. Select the **Automation** from the Configuration area and then select the **Active Playbooks** tab, If **PostMessageTeams-OnIncident** is not visiable refresh the page and check.
+1. Select the **Automation** from the Configuration area and then select the **Active Playbooks** tab, If **PostMessageTeams-OnIncident** is not visible refresh the page and check.
 
 1. Select the **PostMessageTeams-OnIncident** playbook and click on it to go to the logic App page.
 
