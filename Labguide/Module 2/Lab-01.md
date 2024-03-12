@@ -85,13 +85,13 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
  
     ![Picture 1](../media/Lab-02-task2-reviewplans.png) 
 
-1. Review the monitoring extensions and confirm that **Log Analytics agent/Azure Monitor agent** is **On**. Click Continue or close the Settings & Monitoring page by selecting the 'X' on the upper right of the page.
+1. On **Settings & Monitoring** click on **On** the status of **Log Analytics agent/Azure Monitor agent** .
 
-    ![Picture 1](../media/Log_Analytics_Enable_1_new.png) 
+    ![Picture 1](../media/1111.png) 
 
-1. Select the newly created Log Ananytics workspace which will gather all security events data of the machines to analyze. click on Apply and Continue. Click on Save for the changes to take affect.
-
-   ![Picture 1](../media/log1.png)
+1. Choose the Custom workspace Log Analytics workspace labeled as **loganalyticworkspace(1)** for consolidating security events data from all machines for analysis. Once selected, proceed by clicking on **Apply(2)** and then **Continue (3)**. Finally, click on **Save** to ensure the modifications are implemented successfully.
+   
+    ![Picture 1](../media/1112.png)
 
 1. Close the settings page by selecting the 'X' on the upper right of the page to return to the **Environment settings**. Then, click on the '>' to the left of your subscription.
 
