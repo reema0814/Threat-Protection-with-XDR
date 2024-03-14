@@ -101,6 +101,8 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
     >**Note:** Take a moment to allow the option panel to fully load on the security portal.
 
+1. Navigate to **Assets** from left panel and click on **Devices** and, wait for few minutes to get loaded.
+
 1. Navigate to **Settings** in the left menu bar, and then, on the Settings page, choose **Endpoints**.
 
     ![](../media/lab01-task3-settings.png)
