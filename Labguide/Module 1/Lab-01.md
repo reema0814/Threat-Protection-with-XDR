@@ -107,7 +107,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
     ![](../media/lab01-task3-settings.png)
 
-   >**Note:** If you're unable to see the **Endpoints** option in the Settings menu, please allow 10-15 minutes for it to potentially appear. If it doesn't show up after this time, don not wait proceed with the next lab i.e **Lab 2**, and upon completion, we can return to this step. Please note that Endpoints may take a few hours to be fully reflected in the Settings menu.
+   >**Note:** If you're unable to see the **Endpoints** option in the Settings menu, please allow 10-15 minutes for it to potentially appear. If it doesn't show up after this time, do not wait proceed with the next lab i.e **Lab 2**, and upon completion, we can return to this step. Please note that Endpoints may take a few hours to be fully reflected in the Settings menu.
 
 1. Navigate to the **Onboarding** option in the Device Management section.
 
