@@ -11,7 +11,7 @@ The integration of a Logic App with Threat Protection involves configuring trigg
  - Task 3: Create a Security Operations Center Team in Microsoft Teams
  - Task 4: Create a Playbook in Microsoft Sentinel
  - Task 5: Update a Playbook in Microsoft Sentinel
- - Task 6 : 
+ - Task 6 : Onboard a Device
  
 ## Estimated timing: 120 minutes
 
