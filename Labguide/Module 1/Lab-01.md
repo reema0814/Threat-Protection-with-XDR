@@ -107,7 +107,7 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
     ![](../media/lab01-task3-settings.png)
 
-   >**Note:** If you do not see the **Endpoints** option under Settings, log out by selecting the top-right circle with your account initials and select Sign out. Other options that you might want to try are to refresh the page with Ctrl+F5 wait for 30-45 minutes or open the page InPrivate. Login again with the Tenant Email credentials.
+   >**Note:** If you're unable to see the **Endpoints** option in the Settings menu, please allow 10-15 minutes for it to potentially appear. If it doesn't show up after this time, don not wait proceed with the next lab i.e **Lab 2**, and upon completion, we can return to this step. Please note that Endpoints may take a few hours to be fully reflected in the Settings menu.
 
 1. Navigate to the **Onboarding** option in the Device Management section.
 
