@@ -10,6 +10,10 @@
       {
         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Threat-Protection-with-XDR/module-wise/Labguide/Module%201/Lab-01.md",
         "Order": 2
+      },
+      {
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Threat-Protection-with-XDR/module-wise/Labguide/Module%202/Lab-01.md",
+        "Order": 3
       }
     ]
   }
