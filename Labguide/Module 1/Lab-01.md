@@ -1,4 +1,4 @@
-# Lab 01 - Review and explore sentinel workspace
+# Lab 01 - Discovering Sentinel Workspace and Integrating Logic App with Threat Protection and XDR
 
 ## Lab scenario
 
