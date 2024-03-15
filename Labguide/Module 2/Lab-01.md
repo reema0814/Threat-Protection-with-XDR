@@ -11,8 +11,9 @@ The integration of a Logic App with Threat Protection involves configuring trigg
  - Task 3: Create a Security Operations Center Team in Microsoft Teams
  - Task 4: Create a Playbook in Microsoft Sentinel
  - Task 5: Update a Playbook in Microsoft Sentinel
+ - Task 6 : 
  
-## Estimated timing: 60 minutes
+## Estimated timing: 120 minutes
 
 ## Architecture Diagram
  ![Lab overview.](../media/XDR-Lab-02.png)
@@ -222,6 +223,84 @@ In this task, you will update the new playbook you created with the proper conne
    
    ![Lab overview.](../media/Lab03-task1-005.png)
    
+### Task 6: Onboard a Device
+
+In this task, you will onboard a device to Microsoft Defender for Endpoint using an onboarding script.
+
+1. If you are not already at the Microsoft 365 Defender portal in your browser, start the Microsoft Edge browser go to (https://security.microsoft.com).
+
+1. On the **Sign into Microsoft Azure** tab, you will see the login screen. Enter the following **Email/Username**, and then click on **Next**.
+
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+     ![](../media/login2.png)
+
+1. Enter the following **Password** and click on **Sign in**. 
+   
+   * Password: <inject key="AzureAdUserPassword"></inject>
+
+     ![](../media/Lab-01-task1-password.png) 
+
+    >**Note:** Take a moment to allow the option panel to fully load on the security portal.
+
+1. Navigate to **Assets** from left panel and click on **Devices** and, wait for few minutes to get loaded.
+
+1. Navigate to **Settings** in the left menu bar, and then, on the Settings page, choose **Endpoints**.
+
+    ![](../media/lab01-task3-settings.png)
+
+   >**Note:** If you do not see the Endpoints option under Settings, log out by selecting the top-right circle with your account initials and select Sign out. Other options that you might want to try are to refresh the page with Ctrl+F5 wait for 30-45 minutes or open the page InPrivate. Login again with the Tenant Email credentials.
+
+1. Navigate to the **Onboarding** option in the Device Management section.
+
+    >**Note:** Device onboarding can also be initiated from the **Assets** section on the left menu bar. Expand 'Assets' and choose 'Devices.' On the Device Inventory page, with 'Computers & Mobile' selected, scroll down to find the option for **Onboard devices.** Clicking on this option will direct you to the **Settings > Endpoints** page.
+
+1. In the '1. Onboard a device' section, ensure that 'Local Script (for up to 10 devices)' is visible in the Deployment method drop-down, then click the **Download onboarding package** button.
+
+    ![](../media/lab01-task3-localscript.png) 
+
+1. In the *Downloads* pop-up, use your mouse to select the 'WindowsDefenderATPOnboardingPackage.zip' file, and then click on the folder icon for **Show in folder**. **Hint:** If you can't locate it, the file should be in the 'c:\users\admin\downloads' directory.
+
+    ![](../media/lab01-task3-downloadspopup.png)
+
+1. Right-click on the downloaded zip file, choose **Extract All...**, ensure that **Show extracted files when complete** is checked, and then click **Extract**.
+
+    ![](../media/lab01-task3-zipfile.png) 
+
+1. Right-click on the extracted file 'WindowsDefenderATPLocalOnboardingScript.cmd' and choose **Properties**. Tick the **Unblock** checkbox located in the bottom right of the Properties window, and then click **OK**.
+
+    ![](../media/sc200-mod2-unblock.png) 
+
+1. Once again, right-click on the extracted file **WindowsDefenderATPLocalOnboardingScript.cmd** and opt for **Run as Administrator**. **Hint:** If the Windows SmartScreen window appears, click on **More info**, and then select **Run anyway**.
+    
+1. When the "User Account Control" window appears, select **Yes** to allow the script to run, answer **Y** to the question presented by the script, and press **Enter**. Once complete, you should see a message in the command screen that says *Successfully onboarded machine to Microsoft Defender for Endpoint*.
+
+1. Press any key to continue. This action will close the Command Prompt window.
+
+    ![](../media/SC-200-img25.png)
+
+1. Back on the Onboarding page within the Microsoft 365 Defender portal, navigate to the "2. Run a detection test" section, and copy the detection test script by clicking the **Copy** button.
+
+    ![](../media/lab01-task3-runscript.png) 
+
+1. In the Windows search bar of the virtual machine, type **CMD**, and choose **Run as Administrator** from the right pane for the Command Prompt app.
+
+1. When the "User Account Control" window appears, select **Yes** to allow the app to run. 
+
+1. Paste the script by right-clicking in the **Administrator: Command Prompt** window and press **Enter** to run it. **Note:** The window closes automatically after running the script.
+
+1. In the Microsoft 365 Defender portal, navigate to the left-hand menu, and under the **Assets** area, select **Devices**. If the device is not shown, proceed with the next task and return to check it later. It can take up to 60 minutes for the first device to be displayed in the portal.
+
+    ![](../media/Onboard.png) 
+
+    >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
+
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 ## Review
  In this lab you have completed the following tasks:
  - Connect the Windows security event connector
@@ -229,3 +308,6 @@ In this task, you will update the new playbook you created with the proper conne
  - Create a Security Operations Center Team in Microsoft Teams
  - Create a Playbook in Microsoft Sentinel
  - Update a Playbook in Microsoft Sentinel
+ - Onboard a Device
+
+# You have successfully completed the lab
