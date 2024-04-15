@@ -285,13 +285,13 @@ In this task, you will create a playbook for next task.
 
 1. Select the **Automation** form the *Configuration* section.
 
-   ![Lab overview.](Images/image_27.png)
+   ![Lab overview.](../media/image_27.png)
 
 1. Click on create and select **Playbook with incident trigger**.
 
 1. Select the resource group and give  playbook name **PostMessageTeams-OnIncident**
 
-   ![Lab overview.](Images/image_26.png)
+   ![Lab overview.](../media/image_26_new.png)
 
 1. Select Enable diagnostics logs in Log Analytics and select your workspace.
 
