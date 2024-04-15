@@ -275,6 +275,31 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
     net localgroup administrators theusernametoadd /add
     ```
 
+# Playbook Creation
+
+In this task, you will create a playbook for next task.
+
+1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
+
+1. Select the Microsoft Sentinel Workspace you created earlier.
+
+1. Select the **Automation** form the *Configuration* section.
+
+   ![Lab overview.](Images/image_27.png)
+
+1. Click on create and select **Playbook with incident trigger**.
+
+1. Select the resource group and give  playbook name **PostMessageTeams-OnIncident**
+
+   ![Lab overview.](Images/image_26.png)
+
+1. Select Enable diagnostics logs in Log Analytics and select your workspace.
+
+1. Click on Next: Connections, Review + Create  and Click on Create and continue to designer.
+
+   > **Note**: We dont have to perform any action on logic app designer, please go back to your sentinel workspace and follow the next labguide.
+
+
 ## Review
 In this lab you have completed the following tasks:
 - Connect the Windows security event connector
