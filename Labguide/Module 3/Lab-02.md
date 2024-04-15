@@ -34,6 +34,8 @@ In this task, you will create a detection for the first attack of the previous e
     search "temp\\startup.bat"
     ```
     ![Lab overview.](../media/Lab06-task02-query1.png)
+
+   > **Note**: If you dont see any output of the command, because sometime this query takes more time to get proper output. please follow the next step.
          
 1. The table *SecurityEvent* looks to have the data already normalized and is easy for us to query. Expand the row to see all the columns related to the record.
 
