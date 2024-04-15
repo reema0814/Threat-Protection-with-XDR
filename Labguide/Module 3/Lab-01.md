@@ -227,6 +227,8 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. On the Connect to Virtual Machine page, select RDP, Choose the option to **Download RDP File.**
 
+   > **Note**: If you see the popup on browser while downloading the file, please select the **keep** option to download the file. 
+
 1. Open the downloaded RDP file from the downloads.
 
    ![VMrdp](../media/vm4.png)
