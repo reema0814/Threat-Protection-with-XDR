@@ -35,7 +35,7 @@ In this task, you will create a detection for the first attack of the previous e
     ```
     ![Lab overview.](../media/Lab06-task02-query1.png)
 
-   > **Note**: If you dont see any output of the command, because sometime this query takes more time to get proper output. please follow the next step.
+   > **Note**: If you dont see any output of the command, please follow the next step. because sometime this query may take more time to get proper output.
          
 1. The table *SecurityEvent* looks to have the data already normalized and is easy for us to query. Expand the row to see all the columns related to the record.
 
