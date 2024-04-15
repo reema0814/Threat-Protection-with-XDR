@@ -52,6 +52,8 @@ In this task, you will investigate an incident.
 
     ![Lab overview.](../media/7-4.png)
 
+    > **Note**: If you don't see any playbook listed, that is the default behaviour of azure portal because if the playbook has not run or if it has child playbook to run only then it will appear on the run playbooks option, the playbooks which are not already ran.
+
 1. Close the *Alert playbooks* blade by selecting the **X** icon in the top right.
 
 1. Review the **Entities** window. At least the *Host* entity that we mapped within the KQL query from the previous exercise should appear. **Hint:** If no entities are shown, refresh the page.
