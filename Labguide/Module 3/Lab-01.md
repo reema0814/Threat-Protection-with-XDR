@@ -67,7 +67,7 @@ You are going to simulate the attacks that you will later use to detect and inve
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-  <validation step="5b4e3b82-5d93-486f-a17f-b62ff3a94dc4" />
+    <validation step="5b4e3b82-5d93-486f-a17f-b62ff3a94dc4" />
 
 ### Task 2: Enable Microsoft Defender for Cloud
 
