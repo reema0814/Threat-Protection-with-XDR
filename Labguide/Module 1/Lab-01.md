@@ -72,7 +72,9 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
 1. Select the **Informational** incident from the list to view details and take necessary actions.
 
-    ![](../media/Lab01-task2-informational.png) 
+    ![](../media/Lab01-task2-informational.png)
+
+    <validation step="08faf6a7-9700-4ffa-85a4-de53afb85777" />
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
@@ -80,7 +82,6 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-    <validation step="08faf6a7-9700-4ffa-85a4-de53afb85777" />
     
 ## Review
 In this lab you have completed the following tasks:
