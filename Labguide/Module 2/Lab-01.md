@@ -151,6 +151,8 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+    <validation step="eac9d53f-8dfe-4ef9-b84b-8dc199f7d4a7" />
+
 ### Task 4: Create a Playbook in Microsoft Sentinel.
 
 In this task, you will create a Logic App that is used as a Playbook in Microsoft Sentinel.
@@ -302,6 +304,8 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
     **Note :** Validation might take few minutes to get succeeded.
+
+    <validation step="957b6630-727f-486e-a817-404c40a49534" />
 
 ## Review
  In this lab you have completed the following tasks:
