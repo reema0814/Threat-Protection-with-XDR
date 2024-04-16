@@ -216,6 +216,8 @@ In this task, you will update the new playbook you created with the proper conne
 
 1. Under the **Message** section, type **Entities: (1)** and select **Entities (2)** dynamic content from the right panel.
 
+   ![Lab overview.](../media/image_new_ui.png)
+
    ![Lab overview.](../media/enti.png)
 
 1. Select **Save** on the command bar. The Logic App will be used in a future lab.
