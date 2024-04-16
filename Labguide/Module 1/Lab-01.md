@@ -79,6 +79,8 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
     > - Hit the Validate button for the corresponding task.
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+    <validation step="08faf6a7-9700-4ffa-85a4-de53afb85777" />
     
 ## Review
 In this lab you have completed the following tasks:
