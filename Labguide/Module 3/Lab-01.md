@@ -60,7 +60,7 @@ You are going to simulate the attacks that you will later use to detect and inve
 
     ![Picture 1](../media/lab2-task1-streamevents.png)
 
-     <validation step="5b4e3b82-5d93-486f-a17f-b62ff3a94dc4" />
+    <validation step="269f3cda-2c56-4a45-9fa3-947da8a7e1b0" />
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
