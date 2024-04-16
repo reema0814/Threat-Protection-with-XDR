@@ -74,7 +74,9 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. On the **Getting Started** page, under the **Upgrade** tab, ensure your subscription is selected, and then click the **Upgrade** button at the bottom of the page. Please wait for 2-5 minutes for the process to complete, as it may take some time.
 
-    ![Picture 1](../media/Lab-02-task2-upgrade.png) 
+    ![Picture 1](../media/Lab-02-task2-upgrade.png)
+
+   > **Note**: If you face some errors while upgrading the plan, please ignore and proceed with the next step.
 
 4. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
 
