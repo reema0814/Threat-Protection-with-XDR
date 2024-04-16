@@ -145,13 +145,14 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
 
 1. Enter a channel name as **New Alerts** then select the **Add** button.
 
+    <validation step="eac9d53f-8dfe-4ef9-b84b-8dc199f7d4a7" />
+
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
     > - Hit the Validate button for the corresponding task.
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-    <validation step="eac9d53f-8dfe-4ef9-b84b-8dc199f7d4a7" />
 
 ### Task 4: Create a Playbook in Microsoft Sentinel.
 
@@ -293,6 +294,8 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
 1. In the Microsoft 365 Defender portal, navigate to the left-hand menu, and under the **Assets** area, select **Devices**. If the device is not shown, proceed with the next task and return to check it later. It can take up to 60 minutes for the first device to be displayed in the portal.
 
+    <validation step="957b6630-727f-486e-a817-404c40a49534" />
+
     ![](../media/Onboard.png) 
 
     >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
@@ -305,7 +308,6 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
     **Note :** Validation might take few minutes to get succeeded.
 
-    <validation step="957b6630-727f-486e-a817-404c40a49534" />
 
 ## Review
  In this lab you have completed the following tasks:
