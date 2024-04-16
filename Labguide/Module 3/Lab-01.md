@@ -59,7 +59,6 @@ You are going to simulate the attacks that you will later use to detect and inve
 11. Then, come back to the configuration and scroll down a bit. You can find **Select which events to stream**. Click on **All Events**. Click on **Apply changes** now. If you refresh the data connector page, you can see the status Connected for **Security Events Via Legacy Agent**.
 
     ![Picture 1](../media/lab2-task1-streamevents.png) 
-
     <validation step="5b4e3b82-5d93-486f-a17f-b62ff3a94dc4" />
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
