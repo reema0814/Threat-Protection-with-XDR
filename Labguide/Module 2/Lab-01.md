@@ -114,28 +114,22 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 In this task, you will create a team in Microsoft Teams for use in the lab.  
 
-1. Access File Explorer and navigate to the directory **C:\LabFiles (1)**. Then, double-click on the named **MSTeams-86 (2)**. Allow a moment for the installation process to commence. Once installed, proceed to log in using the following credentials:
+1. Search to the teams Portal **https://teams.microsoft.com/v2/** on browser, proceed to log in using the following credentials:
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
    - **Password:** <inject key="AzureAdUserPassword"></inject>
-
-   ![Lab overview.](../media/lab2.10.png)
 
 1. select **Teams** on the left menu, then select **Join or create a team**.
 
     ![Lab overview.](../media/lab03-task01-teams.png) 
 
-1. Select the **Create Team** button in the main window.
+1. Select the **Create Team** button in the main window. Select the **more create team option**.
 
-1. Select the **From scratch** button.
+1. Select the **From scratch** button. give the team name: **SOC**, Select the **Private** Option button Twice. and select the **Create** button.
 
     ![Lab overview.](../media/lab03-task01-privatebutton.png)  
-       
-1. Select the **Private** button.
 
     ![Lab overview.](../media/lab03-task01-private2.png) 
-
-1. Give the team the name: **SOC** and select the **Create** button.
 
     ![Lab overview.](../media/lab03-task01-SOC.png)  
 
@@ -145,7 +139,7 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
    
     ![Lab overview.](../media/Lab03-task1-003.png) 
 
-1. Enter a channel name as **New Alerts** then select the **Add** button.
+1. Enter a channel name as **New Alerts** then select Choose a channel type to **Private** and click on **create** button.
 
     <validation step="eac9d53f-8dfe-4ef9-b84b-8dc199f7d4a7" />
 
