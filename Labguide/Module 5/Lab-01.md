@@ -84,6 +84,8 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
     ![](../media/Onboard.png) 
 
+    <validation step="783ccc18-5fdc-403c-9f98-9e657dff9caa" />
+
     >**Note:** If you have completed the onboarding process and don't see devices in the Devices list after an hour, it might indicate an onboarding or connectivity problem.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
