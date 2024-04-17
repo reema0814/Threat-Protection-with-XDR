@@ -508,7 +508,7 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
    
 1. Select **X** if an informational window appears in the Microsoft Azure Machine Learning Studio.
 
-1. In the command bar, to the right of the **Compute instance:**  selector, select the **+** symbol to create a new compute instance. **Hint:** It might be hidden inside the ellipsis icon **(...)**.
+1. In the command bar, to the right of the **Compute instance:**  selector, select the **+** symbol to create a new Azure ML Compute Instance. **Hint:** It might be hidden inside the ellipsis icon **(...)**.
 
      >**Note:** You can have more screen space by hiding the Azure ML Studio left blade by selecting the 3 lines on the top left, as well as the Notebooks Files by selecting the **<<** icon.
 
