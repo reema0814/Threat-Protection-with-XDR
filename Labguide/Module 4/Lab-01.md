@@ -224,7 +224,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. On the Connect to Virtual Machine page, select RDP, Choose the option to **Download RDP File.**
 
-   ![VMrdp](./media/vm3.png)
+   ![VMrdp](../media/vm3.png)
 
 1. Open the downloaded RDP file from the downloads.
 
@@ -405,6 +405,8 @@ In this task, instead of using a LiveStream, you will create a NRT analytics que
     |Description|**NRT PowerShell Hunt**|
     |Severity|**High**|
     |MITRE ATT&CK|**Command and Control**|
+
+1. Status **Enabled**
 
 1. Select **Next: Set rule logic >** button. 
 
