@@ -514,13 +514,11 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
 
 1. Type a unique name in the *Compute name* field. This will identify your compute instance.
 
-1. Scroll down and select the first option available. **Hint:** Workload type: Development on Notebooks and lightweight testing.
+1. Scroll down and select the first Compute Size option available.
 
 1. Select the **Create** button at the bottom of the screen. Close any feedback window that may appear. This will take a few minutes; you will see a notification (bell icon) when it is done and the *Compute instance* left icon turns from blue to green.
 
 1. Once the Compute has been created and running, verify that the kernel to use is *Python 3.8 - AzureML*. **Hint:** This is shown on the right of the command bar.
-
-1. Select the **Authenticate** button and wait for the authentication to complete.
 
 1. Clear all the results from the notebook by selecting the **Clear all outputs** from the command bar and following the *Getting Started* tutorial. **Hint:** This can be found by selecting the ellipsis (...) from the command bar.
 
