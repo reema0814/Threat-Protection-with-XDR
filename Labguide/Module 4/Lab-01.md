@@ -125,7 +125,9 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
     mkdir temp
     cd temp
     ```
-   
+    
+   >**Note:** If you face any issues in creating the temp folder please check temp folder is already present or not if present please delete the temp folder and perform the above step again.
+
 1. Copy and run this command to simulate program persistence:
 
     ```CommandPrompt
