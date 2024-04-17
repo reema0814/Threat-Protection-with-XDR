@@ -96,7 +96,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
     ![Picture 1](../media/Log_Analytics_Enable_1_new.png) 
 
-1. Select the newly created Log Ananytics workspace which will gather all security events data of the machines to analyze. click on Apply and Continue. Click on Save for the changes to take affect.
+1. Select the newly created Log Ananytics workspace which will gather all security events data of the machines to analyze. click on **Apply** and **Continue**. Click on **Save** for the changes to take affect.
 
    ![Picture 1](../media/log1.png)
 
