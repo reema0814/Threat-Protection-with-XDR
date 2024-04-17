@@ -104,7 +104,7 @@ In this task, you will manage the incidents in the M365 Defender portal.
 
 1. In the **Enter password** dialog box, copy and paste * Password: <inject key="AzureAdUserPassword"></inject> and then select **Sign in**.
 
-1. From the sidebar menu, under **Incidents and Alerts**, select **Incidents**. Click on the incident **Execution incident on one endpoint**.
+1. From the sidebar menu, under **Incidents and Alerts**, select **Incidents**. Click on the incident **Created**.
 
 1. To manage an incident, click on **Manage Incident** to edit the details of this incident.
 
