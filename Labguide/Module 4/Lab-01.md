@@ -451,7 +451,7 @@ In this task, you will use a Search job to look for a C2.
 
 1. A new window running the query opens. Select the ellipsis icon **(...)** from the top right and then toggle the **Search job mode**.
 
-1. Select **Search job** button from the command bar. 
+1. Select **Search job** button and **enable** from the command bar. 
 
 1. The search job creates a new table with your results as soon as they arrive. The results can be consulted from the *Saved Searches* tab.
 
