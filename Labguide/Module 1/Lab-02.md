@@ -141,7 +141,7 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
 
 1. Enter a channel name as **New Alerts** then select Choose a channel type to **Private** and click on **create** button.
 
-    <validation step="e89c097b-30b8-467a-a682-388f360e19a9" />
+    <validation step="26e090d3-6f07-4356-8b15-e42c6b478ea0" />
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
