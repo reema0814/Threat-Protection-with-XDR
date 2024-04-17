@@ -88,4 +88,4 @@ In this lab you have completed the following tasks:
  - Log in to Azure Portal
  - Explore Sentinel workspace
 
-# ### You've successfully completed this lab. Please proceed with the next lab.
+### You've successfully completed this lab. Please proceed with the next lab.
