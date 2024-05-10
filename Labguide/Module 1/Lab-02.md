@@ -149,7 +149,6 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-
 ### Task 4: Create a Playbook in Microsoft Sentinel.
 
 In this task, you will create a Logic App that is used as a Playbook in Microsoft Sentinel.
@@ -164,7 +163,7 @@ In this task, you will create a Logic App that is used as a Playbook in Microsof
 
 1. In the readme.md box, scroll down to the *Quick Deployment* section, **Deploy with incident trigger (recommended)** and select the **Deploy to Azure** button.
 
-    ![Lab overview.](../media/lab03-task02-githubplaybook.png) 
+   ![Lab overview.](../media/lab03-task02-githubplaybook.png) 
 
 1. Make sure your Azure Subscription is selected.
 
@@ -190,17 +189,17 @@ In this task, you will update the new playbook you created with the proper conne
 
 1. Select the **PostMessageTeams-OnIncident** playbook and click on it to go to the logic App page.
 
-    ![Lab overview.](../media/Lab03-task03-activeplaybook.png) 
+     ![Lab overview.](../media/Lab03-task03-activeplaybook.png) 
 
 1. On the Logic App page for *PostMessageTeams-OnIncident*, in the center menu, select **Edit**.
    
-    ![Lab overview.](../media/Lab03-task1-001.png) 
+     ![Lab overview.](../media/Lab03-task1-001.png) 
 
 1. Select the *first* block **Microsoft Sentinel Incident(Preview)**.
 
 1. Select the **Change connection** link.
    
-   ![Lab overview.](../media/Lab03-task1-002.png) 
+    ![Lab overview.](../media/Lab03-task1-002.png) 
 
 1. Select **Add new** and select **Sign in**. In the new window, select your Azure subscription admin credentials when prompted. The last line of the block should now read “Connected to your-admin-username”.
 
@@ -208,7 +207,7 @@ In this task, you will update the new playbook you created with the proper conne
 
 1. Select **Add new** and select your Azure admin credentials when prompted. The last line of the block should now read “Connected to your-admin-username”.
    
-    ![Lab overview.](../media/Lab03-task1-004.png) 
+     ![Lab overview.](../media/Lab03-task1-004.png) 
 
 1. The block has now been renamed to **Post a message (V3)**, at the end of the Team field, select the X to clear the contents. The field is changed to a drop-down with a listing of the available Teams from Microsoft Teams. Select **SOC**.
 
@@ -216,13 +215,13 @@ In this task, you will update the new playbook you created with the proper conne
 
 1. Under the **Message** section, type **Entities: (1)** and select **Entities (2)** dynamic content from the right panel.
 
-   ![Lab overview.](../media/image_new_ui.png)
+    ![Lab overview.](../media/image_new_ui.png)
 
-   ![Lab overview.](../media/enti.png)
+    ![Lab overview.](../media/enti.png)
 
 1. Select **Save** on the command bar. The Logic App will be used in a future lab.
    
-   ![Lab overview.](../media/Lab03-task1-005.png)
+    ![Lab overview.](../media/Lab03-task1-005.png)
    
 ### Task 6: Onboard a Device
 

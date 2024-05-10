@@ -64,10 +64,12 @@ In this task, you will create a detection for the first attack of the previous e
     |---|---|
     |Name|Startup RegKey|
     |Description|Startup RegKey in c:\temp|
-    |Tactics|Persistence|
     |Severity|High|
-
+    |MITRE ATT&CK|Persistence|
+    
 1. Select **Next: Set rule logic >** button.
+
+   ![Lab overview.](../media/2.png)
 
 1. On the *Set rule logic* tab, the *Rule query* should be populated already with your KQL query, as well as the entities under *Alert enrichment - Entity mapping*.
 
@@ -115,7 +117,7 @@ In this task, you will create a detection for the first attack of the previous e
 
     ![Lab overview.](../media/Lab06-task03-automationrule.png)
 
-1. Select the **Next: Review >** button.
+1. Select the **Next: Review + Create >** button.
   
 1. On the *Review and create* tab, select the **Save** button to create the new Scheduled Analytics rule.
 
@@ -181,12 +183,12 @@ In this task, you will create a detection for the second attack of the previous 
 
     |Setting|Value|
     |---|---|
-    |Name|**SecurityEvent Local Administrators User Add (1)**|
-    |Description|**User added to Local Administrators group (2)**|
-    |Tactics|**Privilege Escalation (3)**|
-    |Severity|**High (4)**|
-
-1. Select **Next: Set rule logic > (5)** button. 
+    |Name|**SecurityEvent Local Administrators User Add**|
+    |Description|**User added to Local Administrators group**|
+    |Severity|**High**|
+    |MITRE ATT&CK|**Privilege Escalation**|
+  
+1. Select **Next: Set rule logic >** button. 
 
    ![](../media/6-5.png)
 
@@ -229,8 +231,6 @@ In this task, you will create a detection for the second attack of the previous 
 1. Select the **Next: Review and create >** button.
   
 1. On the *Review and create* tab, select the **Save** button to create the new Scheduled Analytics rule.
-
-   ![](../media/6-8.png)
 
 ## Review
 In this lab you have completed the following tasks:

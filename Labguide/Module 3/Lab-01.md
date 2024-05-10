@@ -44,17 +44,15 @@ You are going to simulate the attacks that you will later use to detect and inve
 
     ![Picture 1](../media/lab02-task01-installagent.png) 
 
-9. Select the **svm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on **Connect**.
+9. Select the **svm-<inject key="DeploymentID" enableCopy="false" />** virtual machine.
 
     ![Picture 1](../media/lab2-task1-svm.png) 
         
-10. Once **Connected (1)**, select the **Virtual Machine (2)** link from the top.
+10. Click on **Connect**, once **Connected (1)**, select the **Virtual Machine (2)** link from the top.
 
-    ![Picture 1](../media/lab2-task1-svm1.png) 
+    ![Picture 1](../media/1.png) 
 
 11. On the virtual machine page select the **s2vm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on **Connect**. wait until get connected.
-
-    ![Picture 1](../media/lab2-task1-s2vm.png)
 
 11. Then, come back to the configuration and scroll down a bit. You can find **Select which events to stream**. Click on **All Events**. Click on **Apply changes** now. If you refresh the data connector page, you can see the status Connected for **Security Events Via Legacy Agent**.
 
