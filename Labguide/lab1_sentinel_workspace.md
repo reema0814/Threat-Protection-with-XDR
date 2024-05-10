@@ -79,6 +79,8 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
+    <validation step="6abe6e22-6ad3-4d76-beef-b57cf6bbc052" />
+
 ### Task 3: Onboard a Device
 
 In this task, you will onboard a device to Microsoft Defender for Endpoint using an onboarding script.
@@ -154,6 +156,8 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
     > - Hit the Validate button for the corresponding task.
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+    <validation step="ef4931d6-735d-470e-82f2-644f1b584678" />
     
 ## Review
 In this lab you have completed the following tasks:
