@@ -49,29 +49,29 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
 1. In the Search bar of the Azure portal, type *Microsft Sentinel*, then select **Microsoft Sentinel**.
 
-    ![](./media/09.png)
+   ![](./media/09.png)
 
 1. Select the pre-created Sentinel **loganalyticworkspace** from the available list.
 
-    ![](./media/Lab01-task2-loganalyticworkspace.png) 
+   ![](./media/Lab01-task2-loganalyticworkspace.png) 
 
 1. Explore the Overview page to obtain a summary of the workspace, including information on incidents, alerts, health, and other essential details.
 
-    ![](./media/lab01-task2-overview.png)
+   ![](./media/lab01-task2-overview.png)
 
 1. Navigate to the 'Data connectors' section in the left sidebar and examine the currently configured connectors for collecting security-related data.
 
-    ![](./media/dataconnector.png)
+   ![](./media/dataconnector.png)
 
 1. In the **threat management** section, choose **Incidents** from the left panel to assess detected security incidents and alerts.
 
 1. Click on the status filter beside the search space, and then select the **Select all** checkbox to view all new, active, and closed incidents.
 
-    ![](./media/Lab01-task2-selectall.png)
+   ![](./media/Lab01-task2-selectall.png)
 
 1. Select the **Informational** incident from the list to view details and take necessary actions.
 
-    ![](./media/Lab01-task2-informational.png) 
+   ![](./media/Lab01-task2-informational.png) 
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
