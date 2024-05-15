@@ -16,7 +16,7 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
 ## Architecture Diagram
 
-  ![Lab overview.](../media/lab-01.png)
+  ![Lab overview.](../media/01-1.png)
 
 ## Exercise 1: Exploring a Pre-Created Azure Sentinel Workspace
 

@@ -20,7 +20,7 @@ You are a Security Operations Analyst working at a company that implemented Micr
 
 ## Architecture Diagram
 
- ![](../media/lab9-AD.png)
+ ![](../media/01-2.png)
 
 ### Task 1: Connect the Windows security event connector
 

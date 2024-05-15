@@ -14,7 +14,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
 ## Architecture Diagram
 
- ![Lab overview.](../media/lab-04.png)
+ ![Lab overview.](../media/01-3.png)
 
 ### Task 1: Onboard a Device
 
