@@ -451,16 +451,8 @@ In this task, you will use a Search job to look for a C2.
 
 1. The search job creates a new table with your results as soon as they arrive. The results can be consulted from the *Saved Searches* tab.
 
-1. Close the *Logs* window by selecting the **X** in the top-right of the window and select **OK** to discard the changes. 
+1. Close the *Logs* window by selecting the **X** in the top-right of the window and select **OK** to discard the changes.
  
-1. Select the **Restoration** tab from the command bar and then the **Restore** button.
-
-1. Under *Select a table to restore*, search for and select **SecurityEvent**.
-
-1. Review the options available and then select the **Cancel** button.
-
-    >**Note:** If you were running the job, the restore would run for a couple of minutes and your data would be available in a new table.
-
 ### Task 9: Explore Notebooks
 
 In this task, you will explore using notebooks in Microsoft Sentinel.
