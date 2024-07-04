@@ -504,10 +504,9 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
 
    >**Hint:** This can be found by selecting the ellipsis (...) from the command bar.
 
-    <validation step="195e92c4-6f46-4c21-8f73-cf0655c9dfc4" /> 
+    <validation step="195e92c4-6f46-4c21-8f73-cf0655c9dfc4" />
 
-
-    >**Note:** If you cannot complete the steps above to access the Notebook, you can follow it on its GitHub viewer page instead. [Getting Started with Azure ML Notebooks and Microsoft Sentinel](https://nbviewer.org/github/Azure/Azure-Sentinel-Notebooks/blob/master/A%20Getting%20Started%20Guide%20For%20Azure%20Sentinel%20ML%20Notebooks.ipynb)
+   >**Note:** If you cannot complete the steps above to access the Notebook, you can follow it on its GitHub viewer page instead. [Getting Started with Azure ML Notebooks and Microsoft Sentinel](https://nbviewer.org/github/Azure/Azure-Sentinel-Notebooks/blob/master/A%20Getting%20Started%20Guide%20For%20Azure%20Sentinel%20ML%20Notebooks.ipynb)
 
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
