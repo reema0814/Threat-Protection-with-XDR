@@ -84,11 +84,11 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
  
     ![Picture 1](../media/Lab-02-task2-reviewplans.png) 
 
-1. Review the monitoring extensions and confirm that **Log Analytics agent/Azure Monitor agent** is **On**. Click Continue or close the Settings & Monitoring page by selecting the 'X' on the upper right of the page.
+1. Check that the **Log Analytics agent/Azure Monitor agent** is turned **On**. Then, click Continue or close the Settings & Monitoring page by selecting the 'X' in the upper right corner.
 
     ![Picture 1](../media/Log_Analytics_Enable_1_new.png) 
 
-1. Select the newly created Log Analytics workspace which will gather all security events data of the machines to analyze. click on **Apply** and **Continue**. Click on **Save** for the changes to take effect.
+1. Choose the newly created Log Analytics workspace to collect all security event data from the machines for analysis. Click **Apply** and then **Continue**. Finally, click **Save** to apply the changes. 
 
    ![Picture 1](../media/log1.png)
 
@@ -108,7 +108,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
     cd temp
     ```
     
-   >**Note:** If you face any issues in creating the temp folder please check temp folder is already present or not if present please delete the temp folder and perform the above step again.
+   >**Note:** If you face any issues in creating the temp folder please check whether the temp folder is already present or not if present please delete the temp folder and perform the above step again.
 
 1. Copy and run this command to simulate program persistence:
 
@@ -319,7 +319,6 @@ In this task, you will create a hunting query, bookmark a result, and create a L
     | summarize min(TimeGenerated), count() by Computer, SubjectUserName, PwshParam 
     | order by count_ desc nulls last 
     ```
-
 1. Scroll down and under *Entity mapping* select:
    
     - Select **+ Add new entity** under *Entity mapping*.
@@ -347,7 +346,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
    ![Picture 1](../media/lab9xdr7.png)
 
-1. Review that the *Status* is now *Running*. This will be running every 30 seconds in the background, and you will receive a notification in the Azure Portal (bell icon) when a new result is found. 
+1. Review that the *Status* is now *Running*. This will be running every 30 seconds in the background, and you will receive a notification in the Azure Portal (bell icon) when a new result is found.
 
 1. Select the **Bookmarks** tab in the middle pane.
 
@@ -365,7 +364,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Hide the right blade by selecting the **>>** icon and then scroll right until you see the ellipsis **(...)** icon.
 
-1. Select **Add to existing incident**. All the incidents appear in the right pane.
+1. Select **Add to existing incident**. This will display all the incidents in the right pane.
 
 1. Select one of the incidents and then select **Add**. 
 
@@ -405,7 +404,7 @@ In this task, instead of using a LiveStream, you will create a NRT analytics que
     | project TimeGenerated, Computer, SubjectUserName, PwshParam 
     | summarize min(TimeGenerated), count() by Computer, SubjectUserName, PwshParam
     ```
-
+    
 1. Select **View query results >** to make sure your query does not have any errors.
 
 1. Close the Logs window by selecting the **X** in the top-right of the window and select **OK** to discard the changes. 
@@ -453,7 +452,7 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
 
 1. In the Subscription box, select your subscription.
 
-1. Select **Create new** for the Resource group and enter *RG-MachineLearning* for the Name and select **OK**. 
+1. Select **Create new** for the Resource group and enter **RG-MachineLearning** for the Name and select **OK**. 
 
 1. In the Workspace details section do the following:
 
