@@ -24,7 +24,7 @@ You are a Security Operations Analyst working at a company that implemented Micr
 
 ### Task 1: Connect the Windows security event connector
 
-1. In the Search bar of the Azure portal, type *Microsft Sentinel*, then select **Microsoft Sentinel**.
+1. In the Search bar of the Azure portal, type **Microsft Sentinel (1)**, then select **Microsoft Sentinel (2)**.
 
     ![](../media/09.png) 
 
@@ -32,37 +32,37 @@ You are a Security Operations Analyst working at a company that implemented Micr
 
     ![](../media/Lab01-task2-loganalyticworkspace.png) 
 
-1. Navigate to the **Data connectors** tab under the Configuration tab. Choose **Security Events Via Legacy Agent**, and then click on **Open connector page**.
+1. Navigate to the **Data connectors (1)** tab under the Configuration tab. Choose **Security Events Via Legacy Agent (2)**, and then click on **Open connector page (3)**.
 
-    ![Picture 1](../media/lab02-task01-events.png) 
+    ![Picture 1](../media/04-07-2024.png) 
    
-8. In the configuration section, opt for **Install Agent on Azure Windows Virtual Machine (1)**, and then choose **Download & Install Agent for Azure Windows Virtual Machines (2)**.
+8. In the configuration section, opt for **Install agent on Azure Windows Virtual Machine (1)**, and then choose **Download & install agent for Azure Windows Virtual Machines (2)**.
 
     ![Picture 1](../media/lab02-task01-installagent.png) 
 
-9. Select the **svm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on connect.
+9. Select the **svm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on **Connect**.
 
     ![Picture 1](../media/lab2-task1-svm.png) 
         
-10. Once **connected (1)**, select the **Virtual Machine (2)** link from the top.
+10. Once **Connected (1)**, select the **Virtual Machine (2)** link from the top.
 
     ![Picture 1](../media/lab2-task1-svm1.png) 
 
-11. On the virtual machine page select the **s2vm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on connect. wait until get connected.
+11. On the virtual machine page select the **s2vm-<inject key="DeploymentID" enableCopy="false" />** virtual machine. Then, click on **Connect** and wait until the connection is Connected.
 
     ![Picture 1](../media/lab2-task1-s2vm.png)
 
-11. Then, come back to the Configuration and scroll down a bit. You can find **Select which events to stream**. Click on **All Events**.
+11. Then, come back to the Configuration and scroll down a bit. You can find **2. Select which events to stream**. Click on **All Events** and Click on **Apply changes**.
 
     ![Picture 1](../media/lab2-task1-streamevents.png) 
 
-12. Click on Apply Changes now. If you refresh the data connector page, you can see the status Connected for **Security Events Via Legacy Agent**.
+12. If you refresh the data connector page, you can see the status Connected for **Security Events Via Legacy Agent**.
 
 ### Task 2: Enable Microsoft Defender for Cloud
 
 In this task, you will enable and configure Microsoft Defender for Cloud.
 
-1. In the search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
+1. In the search bar of the Azure portal, type **Microsoft Defender for Cloud (1)**, then select **Microsoft Defender for Cloud (2)**.
 
     ![Picture 1](../media/Lab-02-task2-search.png) 
 
@@ -80,7 +80,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. Review the Azure resources that are now protected with the Defender for Cloud plans.
 
-1. Select the **Settings & Monitoring** tab from the Settings area (next to Save).
+1. Select the **Settings & monitoring** tab from the Settings area (next to Save).
  
     ![Picture 1](../media/Lab-02-task2-reviewplans.png) 
 
@@ -92,27 +92,15 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
    ![Picture 1](../media/log1.png)
 
-1. Close the settings page by selecting the 'X' on the upper right of the page to return to the **Environment settings**. Then, click on the '>' to the left of your subscription.
-
-1. Select the Log Analytics workspace named **loganalyticworkspace** to review the available options and pricing.
-
-    ![Picture 1](../media/Lab-02-task2-subscription.png) 
-
-1. Select **Enable all** (to the right of Select Defender plan), and then choose **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
-
-    >**Note:** If the page is not being displayed, refresh your Edge browser and try again.  
-
-1. Close the Defender plans page by selecting the 'X' in the upper right corner of the page to return to the **Environment settings**.
-
-    ![Picture 1](../media/Lab-02-task2-save.png)
+1. Close the settings page by selecting the 'X' on the upper right of the page.
 
 ### Task 3: Persistence Attack with Registry Key Add 
 
 >**Note:** Perform this task in your LAB-VM (svm).
 
-1. In the search of the taskbar, enter *Command*. A Command Prompt will be displayed in the search results. Right-click on the Command Prompt and select **Run as Administrator**. Select **Yes** in the User Account Control window that allows the app to run.
+1. In the taskbar search, type Command. Right-click on Command Prompt in the results and choose **Run as Administrator**. Click **Yes** in the User Account Control window.
 
-1. In the Command Prompt, create a Temp folder in the root directory. Remember to press Enter after the last row:
+1. In the Command Prompt, create a temp folder in the root directory by entering the following commands and pressing Enter after each line:
 
     ```CommandPrompt
     cd \
@@ -140,7 +128,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. Select **Yes** to create a new file and copy the following PowerShell script into *c2.ps1*.
 
-    >**Note:** Pasting into the virtual machine file might not show the full script length. Make sure the script matches the instructions within the *c2.ps1* file.
+    >**Note:** When pasting into the virtual machine file, the full script length might not be visible. Ensure that the script matches the instructions in the c2.ps1 file.
 
     ```PowerShell
     param(
@@ -196,7 +184,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
    
     >**Note:** You will see DNS resolve errors. This is expected.
 
-    >**Important**: Do not close these windows. Let this PowerShell script run in the background. The command needs to generate log entries for some hours. You can proceed to the next task and next exercises while this script runs. The data created by this task will be used in the Threat Hunting lab later. This process will not create substantial amounts of data or processing.
+    >**Important**: Keep these windows open and let the PowerShell script run in the background. It needs to generate log entries for several hours. You can proceed with the next task and exercises while the script runs. The data generated will be used later in the Threat Hunting lab. This process will not significantly impact data or processing.
 
 ### Task 5: Privilege Elevation Attack with User Add
 
@@ -222,11 +210,11 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
    ![VMrdp](../media/vm4.png)
 
-1. Select Connect when prompted. You will get a warning that the .rdp file is from an unknown publisher. This is expected. In the Remote Desktop Connection window, select Connect to continue.
+1. Select Connect when prompted. You will get a warning that the .rdp file is from an unknown publisher. This is expected. In the Remote Desktop Connection window, select **Connect** to continue.
 
    ![VMrdp](../media/vm8.png)
    
-1. In the Windows Security window, select More Choices and then Use a different account. Enter **Username:** <inject key="Labvm Admin Username"></inject> and **Password:** <inject key="Labvm Admin Password"></inject> and then select OK.
+1. In the Windows Security window, select More Choices and then Use a different account. Enter **Username:** <inject key="Labvm Admin Username"></inject> and **Password:** <inject key="Labvm Admin Password"></inject> and then select **OK**.
 
    ![VMrdp](../media/vm6.png)
 
@@ -236,7 +224,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. You should now be connected to the virtual machine via Remote Desktop.
 
-1. In the search of the taskbar of your **s2vm-<inject key="DeploymentID" enableCopy="false" />** VM, enter *Command*. A Command Prompt will be displayed in the search results. Right-click on the Command Prompt and select **Run as Administrator**. Select **Yes** in the User Account Control window that allows the app to run.
+1. In the taskbar search, type Command. Right-click on Command Prompt in the results and choose **Run as Administrator**. Click **Yes** in the User Account Control window.
 
 1. In the Command Prompt, create a Temp folder in the root directory. Remember to press Enter after the last row:
 
@@ -307,13 +295,13 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Go back to the Add bookmark blade, and select **Create**. We will map this bookmark to an incident later.
 
-   ![Picture 1](../media/lab9xdr3.png)
+   ![Picture 1](../media/04-07-2024(1).png)
 
 1. Close the Logs window by selecting the **X** in the top-right of the window and select **OK** to discard the changes. 
 
 1. Select your Microsoft Sentinel workspace again and select the **Hunting** page under the Threat Management area.
 
-1. Select the **Queries (1)** tab and then **+ New Query (2)** from the command bar.
+1. Select the **Queries (1)** tab and then **+ New query (2)** from the command bar.
 
    ![Picture 1](../media/lab9xdr4.png)
 
@@ -341,7 +329,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Scroll down and under *Tactics & Techniques* select **Command and Control** and then select **Create** to create the hunting query.
 
-    ![Picture 1](../media/lab9xdr5.png)
+    ![Picture 1](../media/04-07-2024(2).png)
 
 1. In the Microsoft Sentinel - Hunting blade, search for the query you just created in the list, PowerShell Hunt.
 
@@ -496,9 +484,11 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
    
 1. Select **X** if an informational window appears in the Microsoft Azure Machine Learning Studio.
 
-1. In the command bar, to the right of the **Compute instance:**  selector, select the **+** symbol to create a new Azure ML Compute Instance. **Hint:** It might be hidden inside the ellipsis icon **(...)**.
+1. In the command bar, to the right of the **Compute instance:**  selector, select the **+** symbol to create a new Azure ML Compute Instance. 
 
-     >**Note:** You can have more screen space by hiding the Azure ML Studio left blade by selecting the 3 lines on the top left, as well as the Notebooks Files by selecting the **<<** icon.
+    >**Hint:** It might be hidden inside the ellipsis icon **(...)**.
+
+    >**Note:** You can have more screen space by hiding the Azure ML Studio left blade by selecting the 3 lines on the top left, as well as the Notebooks Files by selecting the **<<** icon.
 
 1. Type a unique name in the *Compute name* field. This will identify your compute instance.
 
@@ -517,7 +507,7 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
     <validation step="195e92c4-6f46-4c21-8f73-cf0655c9dfc4" /> 
 
 
->**Note:** If you cannot complete the steps above to access the Notebook, you can follow it on its GitHub viewer page instead. [Getting Started with Azure ML Notebooks and Microsoft Sentinel](https://nbviewer.org/github/Azure/Azure-Sentinel-Notebooks/blob/master/A%20Getting%20Started%20Guide%20For%20Azure%20Sentinel%20ML%20Notebooks.ipynb)
+    >**Note:** If you cannot complete the steps above to access the Notebook, you can follow it on its GitHub viewer page instead. [Getting Started with Azure ML Notebooks and Microsoft Sentinel](https://nbviewer.org/github/Azure/Azure-Sentinel-Notebooks/blob/master/A%20Getting%20Started%20Guide%20For%20Azure%20Sentinel%20ML%20Notebooks.ipynb)
 
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
