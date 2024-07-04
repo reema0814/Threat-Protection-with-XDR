@@ -32,15 +32,7 @@ You are a Security Operations Analyst working at a company that implemented Micr
 
     ![](../media/Lab01-task2-loganalyticworkspace.png) 
 
-1. Navigate to the left menu and go to the Content Management section; there, select **Content Hub (1)**. On the Content Hub page, locate **Windows Security Events (2)**, and then **select (3)** it. Finally, click on **Install (4)**.
-
-    ![Picture 1](../media/Lab02-task1-contenthub.png)  
-
-1. After receiving the notification of a successful installation, return to the Data Connector page and click on the refresh button to ensure that the changes take effect.
-
-1. You should observe two options: **Security Events Via Legacy Agent** and **Windows Security Event Via AMA**.
-
-1. Choose **Security Events Via Legacy Agent**, and then click on **Open Connector Page**.
+1. Navigate to the **Data connectors** tab under the Configuration tab. Choose **Security Events Via Legacy Agent**, and then click on **Open connector page**.
 
     ![Picture 1](../media/lab02-task01-events.png) 
    
@@ -80,7 +72,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
     ![Picture 1](../media/Lab-02-task2-upgrade.png)
 
-   > **Note**: If you face some errors while upgrading the plan, please ignore and proceed with the next step.
+   > **Note**: If you face some errors while upgrading the plan, please ignore them and proceed with the next step.
 
 4. In the left menu for Microsoft Defender for Cloud, under Management, select **Environment settings**.
 
@@ -96,7 +88,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
     ![Picture 1](../media/Log_Analytics_Enable_1_new.png) 
 
-1. Select the newly created Log Ananytics workspace which will gather all security events data of the machines to analyze. click on **Apply** and **Continue**. Click on **Save** for the changes to take affect.
+1. Select the newly created Log Analytics workspace which will gather all security events data of the machines to analyze. click on **Apply** and **Continue**. Click on **Save** for the changes to take effect.
 
    ![Picture 1](../media/log1.png)
 
@@ -258,7 +250,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
     cd temp
     ```
 
-   >**Note:** If you face any issues in creating the temp folder please check temp folder is already present or not if present please delete the temp folder and perform the above step again.
+   >**Note:** If you face any issues in creating the temp folder please check whether the temp folder is already present or not if present please delete the temp folder and perform the above step again.
 
 1. Copy and run this command to simulate the creation of an Admin account. Remember to press Enter after the last row:
 
@@ -280,7 +272,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Select your Microsoft Sentinel Workspace.
 
-1. Select **Logs** from the left menu.
+1. Select **Logs** under the General section from the left menu.
 
 1. Enter the following KQL Statement in the New Query 1 space:
 
@@ -313,7 +305,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. For Tactics and Techniques, select **Command and Control**.
 
-1. Go back to the Add bookmark blade, and the select **Create**. We will map this bookmark to an incident later.
+1. Go back to the Add bookmark blade, and select **Create**. We will map this bookmark to an incident later.
 
    ![Picture 1](../media/lab9xdr3.png)
 
@@ -361,7 +353,9 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Close the *Logs* window by selecting the **X** in the top-right of the window and select **OK** to discard the changes. 
 
-1. Right-click the **PowerShell Hunt** query and select **Add to livestream**. **Hint:** This also can be done by sliding right and selecting the ellipsis **(...)** at the end of the row to open a context menu.
+1. Right-click the **PowerShell Hunt** query and select **Add to livestream**.
+
+   >**Hint:** This also can be done by sliding right and selecting the ellipsis **(...)** at the end of the row to open a context menu.
 
    ![Picture 1](../media/lab9xdr7.png)
 
@@ -371,7 +365,9 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Select the bookmark you just created from the results list.
 
-1. On the right pane, scroll down and select the **Investigate** button. **Hint:** It might take a couple of minutes to show the investigation graph.
+1. On the right pane, scroll down and select the **Investigate** button. 
+
+   >**Hint:** It might take a couple of minutes to show the investigation graph.
 
    ![Picture 1](../media/lab9xdr8.png)
 
@@ -393,7 +389,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 In this task, instead of using a LiveStream, you will create a NRT analytics query rule. NRT rules run every minute and look back one minute. The benefit of NRT rules is they can use the alert and incident creation logic.
 
-1. In Microsoft Sentinel, on the left menu bar under the Configuration section, select **Analytics**, and then click on + create to choose **NRT query rule** from dropdown.
+1. In Microsoft Sentinel, on the left menu bar under the Configuration section, select **Analytics**, and then click on **+ Create** to choose **NRT query rule** from the dropdown.
 
     ![Picture 1](../media/lab09-task2-analytics.png) 
 
@@ -490,13 +486,13 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
 
      >**Note:** It may take a few minutes to deploy the Machine Learning workspace.
 
-1. After *Your deployment is complete* message appears, return to the Microsoft Sentinel portal.
+1. After the *Your deployment is complete* message appears, return to the Microsoft Sentinel portal.
 
 1. Select **Notebooks** again and then select the **Templates** tab from the middle command bar.
 
 1. Select **A Getting Started Guide for Microsoft Sentinel** ML Notebooks.
 
-   >**Note:** If you face any issues or did not see any popup after click on opening the **A Getting Started Guide for Microsoft Sentinel**. please select the **MyNotebooks** Tab besides the Notebook tab and click on the Notebook( the Azure ML Workspace you created earlier) this might be named as **Untitled** then start performing the lab from the lab guide step **13**.
+   >**Note:** If you face any issues or do not see any popup after clicking on opening the **A Getting Started Guide for Microsoft Sentinel**. please select the **MyNotebooks** Tab beside the Notebook tab and click on the Notebook( the Azure ML Workspace you created earlier) this might be named as **Untitled** then start performing the lab from the lab guide step **13**.
 
 1. On the right pane, scroll down and select **Create from template** button. Review the default options and then select **Save**.
 
@@ -518,9 +514,13 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
 
 1. Select the **Create** button at the bottom of the screen. Close any feedback window that may appear. This will take a few minutes; you will see a notification (bell icon) when it is done and the *Compute instance* left icon turns from blue to green.
 
-1. Once the Compute has been created and running, verify that the kernel to use is *Python 3.8 - AzureML*. **Hint:** This is shown on the right of the command bar.
+1. Once the Compute has been created and running, verify that the kernel to use is *Python 3.8 - AzureML*. 
 
-1. Clear all the results from the notebook by selecting the **Clear all outputs** from the command bar and following the *Getting Started* tutorial. **Hint:** This can be found by selecting the ellipsis (...) from the command bar.
+   >**Hint:** This is shown on the right of the command bar.
+
+1. Clear all the results from the notebook by selecting the **Clear all outputs** from the command bar and following the *Getting Started* tutorial. 
+
+   >**Hint:** This can be found by selecting the ellipsis (...) from the command bar.
 
     <validation step="195e92c4-6f46-4c21-8f73-cf0655c9dfc4" /> 
 
