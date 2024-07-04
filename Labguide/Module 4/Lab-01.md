@@ -32,7 +32,7 @@ You are a Security Operations Analyst working at a company that implemented Micr
 
     ![](../media/Lab01-task2-loganalyticworkspace.png) 
 
-1. Navigate to the **Data connectors (1)** tab under the Configuration tab. Choose **Security Events Via Legacy Agent (2)**, and then click on **Open connector page (3)**.
+1. Navigate to the **Data connectors (1)** tab under the Configuration section. Choose **Security Events Via Legacy Agent (2)**, and then click on **Open connector page (3)**.
 
     ![Picture 1](../media/04-07-2024.png) 
    
