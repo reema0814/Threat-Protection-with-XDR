@@ -281,7 +281,7 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
     ![Picture 1](../media/lab9xdr1.png)
 
-1. Select the checkbox of the results that shows the **demouser** SubjectUsername.
+1. Select the checkbox of the results that shows the **demouser** SubjectUsername but in some cases the SubjectUsername is in the default form like **svm-xxxxxx$** then select that as it is based on labvm name.
 
 1. In the middle command bar, select the **Add bookmark** button.
 
