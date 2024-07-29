@@ -110,8 +110,6 @@ to access the endpoint resource
    
 1. Navigate to the **Onboarding** option in the Device Management section.
 
-    >**Note:** Device onboarding can also be initiated from the **Assets** section on the left menu bar. Expand 'Assets' and choose 'Devices.' On the Device Inventory page, with 'Computers & Mobile' selected, scroll down to find the option for **Onboard devices.** Clicking on this option will direct you to the **Settings > Endpoints** page.
-
 1. In the '1. Onboard a device' section, ensure that 'Local Script (for up to 10 devices)' is visible in the Deployment method drop-down, then click the **Download onboarding package** button.
 
     ![](./media/lab01-task3-localscript.png) 
