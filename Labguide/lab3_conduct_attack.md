@@ -29,6 +29,8 @@ You are going to simulate the attacks that you will later use to detect and inve
     mkdir temp
     cd temp
     ```
+
+    >**Note**: If there is any error on temp directory already exists, please perform the next steps.  
    
 1. Copy and run this command to simulate program persistence:
 
