@@ -58,11 +58,13 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
     ![](./media/lab10-task3-preset-policies.png)
 
+  >**Note**: If you see any popup please Close it by clicking on **X** or **Close** button.
+
 1. Under Standard protection, select **Manage protection settings**. Hint: If you see this option grayed out, refresh your browser using Ctrl+F5.
 
     ![](./media/lab10-task3-std-policies.png)  
 
-   **Note:** If you encounter a pop-up prompting you to finalize the Organizational setup, wait for 5 minutes, refresh the page, and repeat the above steps again.
+   **Note:** If you encounter a pop-up prompting you to Exchange Organizational setup, wait for 5 minutes, refresh the page, and repeat the above steps again.
 
 1. In the Apply Exchange Online Protection section, select **Specific recipients**, and under **Domains** start writing your tenant’s domain name, select it, and then select **Next**.
 
@@ -72,7 +74,7 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
     ![](./media/lab10-task3-std-policies02.png)
 
-1. In the Impersonation protection section, select **Next** four times (4x) to continue.
+1. In the Impersonation protection section, select **Next** until you reach to policy mode section.
 
     ![](./media/lab10-task3-std-policies03.png)
      
@@ -88,15 +90,11 @@ You're a Security Operations Analyst working at a company that implemented Micro
 
     ![](./media/lab10-task3-strict-policies.png)
 
-1. In the Apply Exchange Online Protection, select **Specific recipients** and under **Groups**, select your group, and then select **Next**. Notice that this configuration applies policies for anti-spam, outbound spam filters, anti-malware, and anti-phishing.
-
-    ![](./media/lab10-task3-strict-policies01.png)
+1. In the Apply Exchange Online Protection, select **Specific recipients** and under **Groups**, select your newly created group, and then select **Next**. Notice that this configuration applies policies for anti-spam, outbound spam filters, anti-malware, and anti-phishing.
 
 1. In the Apply Defender for Office 365 protection section, apply the same configuration as the previous step and select Next. Notice that this configuration applies policies for anti-phishing, Safe Attachments, and Safe Links.
 
-     ![](./media/lab10-task3-strict-policies02.png) 
-
-1. In the Impersonation protection section, select **Next** four times (4x) to continue.
+1. In the Impersonation protection section, select **Next** until you reach to policy mode section.
 
 1. In the Policy mode section, make sure the **Turn on the policy when finished** radio button is selected, and then select **Next**.
 
@@ -122,9 +120,11 @@ In this task, you will activate a Microsoft Security rule.
 
    >**Note**: You can choose the existing **active rule** to edit or **create** new **active rule** and then edit them by selecting the respective rule in the active rules list.
 
-1. After creating the active rule, select it for editing. On the right blade, click the **Edit** button. 
+1. Name Column provide name of your choice and in dropdown of **Microsoft security service** select the **Microsoft Defender for Cloud**.
 
-    ![](./media/lab10-task4-edit.png)
+1. Select the filter by severity button as **Custom** and select all the severity levels. Select the **Next: Automated response** button and then select **Next: Review + Create** button. and click on **Save**.
+
+1. After creating the active rule, select it for editing. right click on rule, click the **Edit** button. 
       
 1. Scroll down the page and under "Analytics rule logic - Filter by Severity", select the *Custom* drop-down list.
 
@@ -133,6 +133,12 @@ In this task, you will activate a Microsoft Security rule.
 1. Select the **Next: Automated response** button and then select **Next: Review** button.
 
 1. Review the changes made and select the **Save** button. The Analytics rule will be saved.
+
+1. Onboard the **s2vm-<inject key="DeploymentID" enableCopy="false"** using device onboard using the microsoft defender endpoint onboarding portal.
+
+   >**Note**: You can refer the **Lab01 > Task 3** to onboard the device to Microsoft Defender.
+
+1. Run the command **REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "SOC Test" /t REG_SZ /F /D "C:\temp\startup.bat"** and wait for sometime to generate the alert to defender portal.
 
 ### Task 4: Manage Incidents
 
@@ -144,11 +150,9 @@ In this task, you will manage the incidents in the M365 Defender portal.
 
 1. In the **Enter password** dialog box, copy and paste * Password: <inject key="AzureAdUserPassword"></inject> and then select **Sign in**.
 
-1. From the sidebar menu, under **Incidents and Alerts**, select **Incidents**. Click on the incident **Multi-stage incident involving Execution & Discovery on one endpoint**.
+1. From the sidebar menu, under **Incidents and Alerts**, select **Incidents**. Click on the incident **[Test Alert] Suspicious Powershell commandline on one endpoint**.
 
-1. To manage an incident, click on **Manage Incident** to edit the details of this incident.
-
-   ![Lab overview.](./media/lab10-task1-manage.png) 
+1. To manage an incident, click on back to incident details and click on **Manage Incident** to edit the details of this incident. don't make any change only review the details
 
 1. Here, you can edit the name of the incident, add tags, assign it to an existing group or a user, change the status, classify the incident as required, and even add comments.
 
@@ -156,23 +160,14 @@ In this task, you will manage the incidents in the M365 Defender portal.
 
 1. In the incident, the **Attack Story** tab provides a summary of the alerts and the incident graph on how these alerts are mapped.
 
-   ![Lab overview.](./media/lab10-task1-attackstory.png)
-
 1. You can further investigate these alerts by navigating to the **Alerts** tab.
 
-   ![Lab overview.](./media/lab10-task1-alerts.png)
+1. You can also see the devices and users affected by this incident in the **Assets** tab. You can verify that the affected device is **s2vm-<inject key="DeploymentID" enableCopy="false" />** and the user is **demouser**.
 
-1. You can also see the devices and users affected by this incident in the **Assets** tab. You can verify that the affected device is **svm-<inject key="DeploymentID" enableCopy="false" />** and the user is **demouser**.
-
-   ![Lab overview.](./media/lab10-task1-assests.png)
-
-1. The **Evidence & Responses** tab shows the initial evidence investigated by Microsoft Defender which includes the processes, IP addresses, and registry values.
-
-   ![Lab overview.](./media/lab10-task1-evidences.png)
+1. The **Evidence & Responses** tab shows the initial evidence investigated by Microsoft Defender which includes the processes, IP addresses.
 
 1. The **Summary** tab gives us a summarized report of the incident including active alerts & their category, incident information, scope, and much more.
 
-   ![Lab overview.](./media/lab10-task1-summary.png)
 
 ### Task 5: Investigate Alerts
 
@@ -180,13 +175,9 @@ In this task, you will investigate and mitigate the alerts through recommendatio
 
 1. In the Microsoft Defender portal, navigate to the **Alerts** tab from the sidebar menu.
 
-   ![Lab overview.](./media/lab10-task2-alerts.png)
-
-1. You can click on any of these alerts to view the full details. Click on the alert named **Suspicious System Network Configuration Discovery**.
+1. You can click on the alerts to view the full details. Click on the alert named **Suspicious System Network Configuration Discovery**.
 
 1. Click on **Maximize** to view the full alert details.
-
-   ![Lab overview.](./media/lab10-task2-alerts-max.png)
 
 1. Click on the drop-down for the first suspicious behavior to fully investigate the root cause for this activity.
 
@@ -194,9 +185,7 @@ In this task, you will investigate and mitigate the alerts through recommendatio
 
 1. You can see that this suspicious behavior was reported when the user ran a certain command. 
 
-   ![Lab overview.](./media/lab10-task2-alerts-max02.png)
-
-1. Click on the ellipses and then select **Go Hunt**. This will redirect you to a new tab of **Advanced Hunting** where you can run the query and get the results.
+1. Click on the ellipses of any of process in process tree and then select **Go Hunt**. This will redirect you to a new tab of **Advanced Hunting** where you can run the query and get the results.
 
    ![Lab overview.](./media/lab10-task2-alerts-hunt.png)
 
