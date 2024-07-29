@@ -82,7 +82,7 @@ In this task, you will investigate an incident.
 
     ![Lab overview.](./media/assignedtome.png)
 
-1. Expand the left blade by selecting the **>>** icon. and then select the **Investigate** button.
+1. Select the **Investigate** button.
 
     ![Lab overview.](./media/7-10.png)
 
@@ -101,8 +101,6 @@ In this task, you will investigate an incident.
 1. Select **Timeline** button. Hover the incidents and see which things on the graph occurred at what point in time.
 
    ![Lab overview.](./media/7-12.png)
-   
-1. Select **Entities** button and review the *Entities* and *Alerts* related to *svm-server*.
 
 1. Close the investigation graph by selecting the **X** icon at the top right of the page.
 
