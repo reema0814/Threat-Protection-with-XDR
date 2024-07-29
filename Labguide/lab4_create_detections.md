@@ -28,6 +28,8 @@ In this task, you will create a detection for the first attack of the previous e
 
 1. Select **Logs** from the *General* section.
 
+    >**Note:** You might see some popup after clicking on **Logs**. close all Popups by clicking on **X** Icon.
+
 1. **Run** the following KQL Statement again to recall the tables where we have this data:
 
     ```KQL
