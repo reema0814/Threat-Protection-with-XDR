@@ -105,8 +105,9 @@ In this task, you will onboard a device to Microsoft Defender for Endpoint using
 
     ![](./media/lab01-task3-settings.png)
 
-   >**Note:** If you do not see the **Endpoints** option under Settings, log out by selecting the top-right circle with your account initials and select Sign out. Other options that you might want to try are to refresh the page with Ctrl+F5 wait for 30-45 minutes or open the page InPrivate. Login again with the Tenant Email credentials.
-
+   >**Note:** If you face any issues while opening the Endpoint. follow the url: **https://security.microsoft.com/securitysettings/endpoints/onboarding**
+to access the endpoint resource
+   
 1. Navigate to the **Onboarding** option in the Device Management section.
 
     >**Note:** Device onboarding can also be initiated from the **Assets** section on the left menu bar. Expand 'Assets' and choose 'Devices.' On the Device Inventory page, with 'Computers & Mobile' selected, scroll down to find the option for **Onboard devices.** Clicking on this option will direct you to the **Settings > Endpoints** page.
