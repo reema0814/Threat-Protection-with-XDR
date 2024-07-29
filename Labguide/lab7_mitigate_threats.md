@@ -120,7 +120,7 @@ In this task, you will activate a Microsoft Security rule.
 
    >**Note**: You can choose the existing **active rule** to edit or **create** new **active rule** and then edit them by selecting the respective rule in the active rules list.
 
-1. Name Column provide name of your choice and in dropdown of **Microsoft security service** select the **Microsoft Defender for Cloud**.
+1. In the name column, provide name of your choice and in dropdown of **Microsoft security service** select the **Microsoft Defender for Cloud**.
 
 1. Select the filter by severity button as **Custom** and select all the severity levels. Select the **Next: Automated response** button and then select **Next: Review + Create** button. and click on **Save**.
 
@@ -137,8 +137,6 @@ In this task, you will activate a Microsoft Security rule.
 1. Onboard the **s2vm-<inject key="DeploymentID" enableCopy="false"** using device onboard using the microsoft defender endpoint onboarding portal.
 
    >**Note**: You can refer the **Lab01 > Task 3** to onboard the device to Microsoft Defender.
-
-1. Run the command **REG ADD "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "SOC Test" /t REG_SZ /F /D "C:\temp\startup.bat"** and wait for sometime to generate the alert to defender portal.
 
 ### Task 4: Manage Incidents
 
