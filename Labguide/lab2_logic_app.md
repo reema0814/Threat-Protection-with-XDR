@@ -199,7 +199,7 @@ In this task, you will update the new playbook you created with the proper conne
    
     ![Lab overview.](./media/Lab03-task1-001.png) 
 
-1. Select the *first* block **Microsoft Sentinel Incident(Preview)**.
+1. Select the *first* block **Microsoft Sentinel Incident**.
 
 1. Select the **Change connection** link.
    
@@ -220,6 +220,8 @@ In this task, you will update the new playbook you created with the proper conne
 1. Under the **Message** section, type **Entities: (1)** and select **Entities (2)** dynamic content from the right panel.
 
    ![Lab overview.](./media/enti.png)
+
+   >**Note:** Click in the **Thunder Icon** to check fir the entities field content.
 
 1. Select **Save** on the command bar. The Logic App will be used in a future lab.
    
