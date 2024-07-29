@@ -134,6 +134,8 @@ You are going to simulate the attacks that you will later use to detect and inve
 
    ![VMrdp](./media/vm3.png)
 
+    >**Note:** You might see the warning option while downloading the rdp file. please click on keep.
+
 1. Open the downloaded RDP file from the downloads.
 
    ![VMrdp](./media/vm4.png)
@@ -165,6 +167,7 @@ You are going to simulate the attacks that you will later use to detect and inve
     ```CommandPrompt
     cd temp
     ```
+    >**Note**: If there is any error on temp directory already exists, please perform the next steps.  
 
 1. Copy and run this command to simulate the creation of an Admin account. Remember to press Enter after the last row:
 
