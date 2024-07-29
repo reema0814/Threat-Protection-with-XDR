@@ -117,6 +117,8 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
 
     >**Note:** If you come up with the popup stay signed in to all your apps click on **No, sign in to this app only**.
 
+1. close any other popup opened and do not switch from classic teams, teams might automatically switch to new version after reopening the teams. please perform the below steps in the classic version as there might be steps vary in new version. 
+
 1. select **Teams** on the left menu, then select **Join or create a team**.
 
     ![Lab overview.](./media/lab03-task01-teams.png) 
