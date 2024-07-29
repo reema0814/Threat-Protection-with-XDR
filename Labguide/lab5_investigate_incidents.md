@@ -52,6 +52,8 @@ In this task, you will investigate an incident.
 
     ![Lab overview.](./media/7-4.png)
 
+    >**Note**: If you did not see any playbook no need to worry there might be the case where sentinel does not reflect the playbook, we can proceed with the next step
+
 1. Close the *Alert playbooks* blade by selecting the **x** icon in the top right.
 
 1. Review the **Entities** window. At least the *Host* entity that we mapped within the KQL query from the previous exercise should appear. **Hint:** If no entities are shown, refresh the page.
