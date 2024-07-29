@@ -115,6 +115,8 @@ In this task, you will create a team in Microsoft Teams for use in the lab.
 
    ![Lab overview.](./media/lab2.10.png)
 
+    >**Note:** If you come up with the popup stay signed in to all your apps click on **No, sign in to this app only.
+
 1. select **Teams** on the left menu, then select **Join or create a team**.
 
     ![Lab overview.](./media/lab03-task01-teams.png) 
