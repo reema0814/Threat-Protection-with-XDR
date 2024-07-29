@@ -103,17 +103,6 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. Close the settings page by selecting the 'X' on the upper right of the page to return to the **Environment settings**. Then, click on the '>' to the left of your subscription.
 
-1. Select the Log Analytics workspace named **loganalyticworkspace** to review the available options and pricing.
-
-    ![Picture 1](./media/Lab-02-task2-subscription.png) 
-
-1. Select **Enable all** (to the right of Select Defender plan), and then choose **Save**. Wait for the *"Microsoft Defender plan for workspace loganalyticworkspace was saved successfully!"* notification to appear.
-
-    >**Note:** If the page is not being displayed, refresh your Edge browser and try again.  
-
-1. Close the Defender plans page by selecting the 'X' in the upper right corner of the page to return to the **Environment settings**.
-
-    ![Picture 1](./media/Lab-02-task2-save.png) 
 
 ### Task 3: Create a Security Operations Center Team in Microsoft Teams.
 
