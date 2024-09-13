@@ -60,7 +60,7 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
     ![](../media/Lab01-task2-loganalyticworkspace.png) 
 
-1. Explore the Overview page to obtain a summary of the workspace, including information on incidents, alerts, health, and other essential details.
+1. Explore the **Overview** page to obtain a summary of the workspace, including information on incidents, alerts, health, and other essential details.
 
     ![](../media/lab01-task2-overview.png)
 
