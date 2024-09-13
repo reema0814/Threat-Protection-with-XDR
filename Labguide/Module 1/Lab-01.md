@@ -22,6 +22,8 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
 ### Task 1: Log in to Azure Portal
 
+  In this task , you login to Azure Portal and allows you to manage and configure your cloud resources through a web-based interface.
+
 1. If you are not login to the azure portal then in the virtual machine (VM) on the left, click on the Azure Portal, as shown below.
 
    ![](../media/login1.png)
@@ -48,7 +50,7 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
 ### Task 2: Explore Sentinel workspace
 
- Sentinel Workspace is a centralized platform by Microsoft Azure designed for managing, investigating, and responding to security threats across your organization's cloud services.
+ In this task, you will explore the Sentinel workspace to review and manage security data, alerts, and incident responses within Microsoft's Azure Sentinel.
 
 1. In the Search bar of the Azure portal, type *Microsft Sentinel*, then select **Microsoft Sentinel**.
 
