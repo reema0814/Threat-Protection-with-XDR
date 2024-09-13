@@ -62,7 +62,7 @@ You start by initializing the Defender for the Endpoint environment. Next, you o
 
     ![](../media/lab01-task2-overview.png)
 
-1. Navigate to the 'Data connectors' section in the left sidebar and examine the currently configured connectors for collecting security-related data.
+1. Navigate to the **Data connectors** under **configuration** section in the left sidebar and examine the currently configured connectors for collecting security-related data.
 
     ![](../media/dataconnector.png)
 
