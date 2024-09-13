@@ -28,7 +28,7 @@ The integration of a Logic App with Threat Protection involves configuring trigg
 
     ![](../media/Lab01-task2-loganalyticworkspace.png) 
 
-1. Navigate to the left menu and go to the Content Management section; there, select **Content Hub (1)**. On the Content Hub page, locate **Windows Security Events (2)**, and then **select (3)** it. Finally, click on **Install (4)**.
+1. Navigate to the left menu and go to the **Content Management** section; there, select **Content Hub (1)**. On the Content Hub page, locate **Windows Security Events (2)**, and then **select (3)** it. Finally, click on **Install (4)**.
 
     ![Picture 1](../media/Lab02-task1-contenthub.png)  
 
