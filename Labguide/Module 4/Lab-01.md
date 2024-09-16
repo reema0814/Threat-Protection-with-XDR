@@ -32,9 +32,17 @@ You are a Security Operations Analyst working at a company that implemented Micr
 
     ![](../media/Lab01-task2-loganalyticworkspace.png) 
 
-1. Navigate to the **Data connectors (1)** tab under the Configuration section. Choose **windows security events (2)**, and then click on **Go to content hub (3)**.
+1. Navigate to the **Data connectors (1)** tab under the Configuration section. Search for **windows security events (2)**, and then click on **Go to content hub (3)**.
 
-    ![Picture 1](../media/go_to_content.png) 
+    ![Picture 1](../media/go_to_content.png)
+
+1. In search bar **windows security events (1)** , Select **windows security events (2)**, Choose **Install**.
+
+    ![Picture 1](../media/windows_security.png)
+
+1. In the **Data connectors**, Scroll-down **Security events via legacy Agent** , choose **Open connector page**.
+
+    ![Picture 1](../media/data_connectors.png)
    
 8. In the configuration section, opt for **Install agent on Azure Windows Virtual Machine (1)**, and then choose **Download & install agent for Azure Windows Virtual Machines (2)**.
 
@@ -46,7 +54,7 @@ You are a Security Operations Analyst working at a company that implemented Micr
         
 10. Once **Connected (1)**, select the **Virtual Machine (2)** link from the top.
 
-    ![Picture 1](../media/lab2-task1-svm1.png) 
+    ![Picture 1](../media/svm_connect.png) 
 
 11. On the virtual machine page select the **s2vm-<inject key="DeploymentID" enableCopy="false" />** virtual machine. Then, click on **Connect** and wait until the connection is Connected.
 
@@ -288,6 +296,8 @@ In this task, you will create a hunting query, bookmark a result, and create a L
    ![Picture 1](../media/lab9xdr2.png)
 
 1. Select **+ Add new entity** under Entity mapping.
+
+   ![Picture 1](../media/add_new_entity.png)
 
 1. For *Entity* select **Host**, then **Hostname** and **Computer** for the values.
 
