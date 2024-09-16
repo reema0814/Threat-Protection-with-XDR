@@ -32,9 +32,9 @@ You are a Security Operations Analyst working at a company that implemented Micr
 
     ![](../media/Lab01-task2-loganalyticworkspace.png) 
 
-1. Navigate to the **Data connectors (1)** tab under the Configuration section. Choose **Security Events Via Legacy Agent (2)**, and then click on **Open connector page (3)**.
+1. Navigate to the **Data connectors (1)** tab under the Configuration section. Choose **windows security events (2)**, and then click on **Go to content hub (3)**.
 
-    ![Picture 1](../media/04-07-2024.png) 
+    ![Picture 1](../media/go_to_content.png) 
    
 8. In the configuration section, opt for **Install agent on Azure Windows Virtual Machine (1)**, and then choose **Download & install agent for Azure Windows Virtual Machines (2)**.
 
