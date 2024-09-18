@@ -374,6 +374,8 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Select **Add to existing incident**. This will display all the incidents in the right pane.
 
+   ![Picture 1](../media/add_exisitng.png) 
+
 1. Select one of the incidents and then select **Add**. 
 
     ![Picture 1](../media/addingbookmark.png) 
@@ -493,18 +495,23 @@ In this task, you will explore using notebooks in Microsoft Sentinel.
    
 1. Select **X** if an informational window appears in the Microsoft Azure Machine Learning Studio.
 
-1. In the command bar, to the right of the **Compute instance:**  selector, select the **+** symbol to create a new Azure ML Compute Instance. 
+1. In the command bar, to the right of the **Compute instance:**  selector, select the **+New** to create a new Azure ML Compute Instance.
 
-    >**Hint:** It might be hidden inside the ellipsis icon **(...)**.
+      ![Picture 1](../media/compute.png)
+
 
     >**Note:** You can have more screen space by hiding the Azure ML Studio left blade by selecting the 3 lines on the top left, as well as the Notebooks Files by selecting the **<<** icon.
 
 1. Type a unique name in the *Compute name* field. This will identify your compute instance.
 
-1. Scroll down and select the first Compute Size option available.
+1. Scroll down and select the first Compute Size option available from **D family**.
 
+    ![Picture 1](../media/demouser_cpu.png)
+   
 1. Select the **Create** button at the bottom of the screen. Close any feedback window that may appear. This will take a few minutes; you will see a notification (bell icon) when it is done and the *Compute instance* left icon turns from blue to green.
 
+    ![Picture 1](../media/create_1.png)
+   
 1. Once the Compute has been created and running, verify that the kernel to use is *Python 3.8 - AzureML*. 
 
    >**Hint:** This is shown on the right of the command bar.
