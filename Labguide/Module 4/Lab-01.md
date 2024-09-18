@@ -24,6 +24,8 @@ You are a Security Operations Analyst working at a company that implemented Micr
 
 ### Task 1: Connect the Windows security event connector
 
+In this task, you'll configure the connector to ensure seamless log transmission and enhance your security monitoring capabilities.
+
 1. In the Search bar of the Azure portal, type **Microsft Sentinel (1)**, then select **Microsoft Sentinel (2)**.
 
     ![](../media/09.png) 
@@ -104,6 +106,8 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 ### Task 3: Persistence Attack with Registry Key Add 
 
+ In this task, you'll analyze how attackers leverage registry keys to establish persistence and explore methods to detect and mitigate such threats.
+
 >**Note:** Perform this task in your LAB-VM (svm).
 
 1. In the taskbar search, type Command. Right-click on Command Prompt in the results and choose **Run as Administrator**. Click **Yes** in the User Account Control window.
@@ -125,6 +129,8 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
     ```
 
 ### Task 4: Command and Control Attack with DNS
+
+In this task, you'll investigate how attackers utilize DNS for C2 communications and learn to identify and mitigate these threats effectively.
 
 >**Note:** Perform this task in your LAB-VM (svm).
 
@@ -195,6 +201,8 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
     >**Important**: Keep these windows open and let the PowerShell script run in the background. It needs to generate log entries for several hours. You can proceed with the next task and exercises while the script runs. The data generated will be used later in the Threat Hunting lab. This process will not significantly impact data or processing.
 
 ### Task 5: Privilege Elevation Attack with User Add
+
+In this task, you'll examine the techniques used in such attacks and develop strategies to detect and prevent unauthorized user account creation.
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
 
