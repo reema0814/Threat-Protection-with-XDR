@@ -30,6 +30,10 @@ In this task, you'll set up the connector to ensure effective log transmission a
 
     ![](../media/Lab01-task2-loganalyticworkspace.png) 
 
+1. On the **Data connectors (1)**, In the search bar type **windows security events (2)**, **Go to content hub (3)**
+
+   ![](../media/go_to_content.png)
+   
 1. Navigate to the left menu and go to the **Content Management** section; there, select **Content Hub (1)**. On the Content Hub page, locate **Windows Security Events (2)**, and then **select (3)** it. Finally, click on **Install (4)**.
 
     ![Picture 1](../media/Lab02-task1-contenthub.png)  
