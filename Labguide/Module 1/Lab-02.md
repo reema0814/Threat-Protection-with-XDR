@@ -50,7 +50,7 @@ The integration of a Logic App with Threat Protection involves configuring trigg
         
 10. Once **connected (1)**, select the **Virtual Machine (2)** link from the top.
 
-    ![Picture 1](../media/lab2-task1-svm1.png) 
+    ![Picture 1](../media/svm_connect.png) 
 
 11. On the virtual machine page select the **s2vm-<inject key="DeploymentID" enableCopy="false" />** virtual machine and click on connect. wait until get connected.
 
