@@ -297,8 +297,6 @@ In this task, you will create a hunting query, bookmark a result, and create a L
 
 1. Select **+ Add new entity** under Entity mapping.
 
-   ![Picture 1](../media/add_new_entity.png)
-
 1. For *Entity* select **Host**, then **Hostname** and **Computer** for the values.
 
 1. For Tactics and Techniques, select **Command and Control**.
@@ -425,6 +423,8 @@ In this task, instead of using a LiveStream, you will create a NRT analytics que
     - For the Entity type drop-down list select **Host**.
     - For the Identifier drop-down list select **HostName**.
     - For the Value drop-down list select **Computer**.
+
+    ![Picture 1](../media/add_new_entity.png)
 
 1. Scroll down and select **Next: Incident settings>** button.
 
