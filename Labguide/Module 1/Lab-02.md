@@ -20,6 +20,8 @@ The integration of a Logic App with Threat Protection involves configuring trigg
 
 ### Task 1: Connect the Windows security event connector
 
+In this task, you'll set up the connector to ensure effective log transmission and enhance your security monitoring framework.
+
 1. In the Search bar of the Azure portal, type *Microsoft Sentinel*, then select **Microsoft Sentinel**.
 
     ![](../media/09.png) 
